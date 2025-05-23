@@ -1,0 +1,2 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+ot_man,ot_man_variant,"fighter3, fighter, usawi_bp, independent_of_carrier, no_drop",1,,0,1,CLAW,5000,500,0,6,FIGHTER,Fighter,2,100,,,,,,,,,,,,,

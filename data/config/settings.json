@@ -1,0 +1,7 @@
+{
+	"graphics":{		
+		"blueprint_packages":{
+			"ot_usa_package":"graphics/icons/cargo/ot_usa_bp.png",
+		},
+	},
+}
