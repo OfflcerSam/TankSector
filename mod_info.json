@@ -1,0 +1,28 @@
+{
+  "id": "officersam_tanks",
+  "name": "Tanks",
+  "author": "Officer_Sam",
+  "utility": false,
+  "version": { "major": '1', "minor": '0', "patch": '0' },
+  "description": "Adds in tanks.",
+  "gameVersion": "0.98a-RC8",
+  #"jars": [ "jars/Tanks.jar" ],
+  #"modPlugin": "officersam.tanks.TankModPlugin",
+  "dependencies": [
+   # {
+   #     "id": "lw_lazylib",
+   #     "name": "LazyLib", # Optional (recommended)
+   #     #"version": "2.7b" # Optional
+   # },
+   # {
+   #     "id": "MagicLib",
+   #     "name": "MagicLib",
+   #     #"version": "0.34"
+   # },
+   # {
+   #     "id": "shaderLib",
+   #     "name": "GraphicsLib",
+   #     #"version": "1.5.1"
+   # }
+  ],
+}

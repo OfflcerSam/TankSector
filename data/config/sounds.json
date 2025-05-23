@@ -1,0 +1,22 @@
+{
+	"ot_sound_30cal":[
+		{"file":"sounds/sfx_wpn_guns/30cal_fire_1.ogg","pitch":1.0,"volume":0.2},
+	],
+	"ot_sound_50cal":[
+		{"file":"sounds/sfx_wpn_guns/50cal_fire_1.ogg","pitch":1.0,"volume":0.5},
+	],     
+	"ot_sound_us37mm_fire":[
+		{"file":"sounds/sfx_wpn_guns/tank_fire_1.ogg","pitch":1.2,"volume":0.8},
+	],
+
+}
+
+
+
+
+
+
+
+
+
+
