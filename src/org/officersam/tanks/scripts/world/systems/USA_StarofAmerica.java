@@ -3,15 +3,21 @@ package org.officersam.tanks.scripts.world.systems;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.*;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
+import com.fs.starfarer.api.impl.campaign.DerelictShipEntityPlugin;
 import com.fs.starfarer.api.impl.campaign.ids.*;
 import com.fs.starfarer.api.impl.campaign.procgen.PlanetConditionGenerator;
 import com.fs.starfarer.api.impl.campaign.procgen.StarAge;
+import com.fs.starfarer.api.impl.campaign.procgen.themes.BaseThemeGenerator;
+import com.fs.starfarer.api.impl.campaign.procgen.themes.SalvageSpecialAssigner;
 import com.fs.starfarer.api.impl.campaign.terrain.AsteroidFieldTerrainPlugin;
+import com.fs.starfarer.api.impl.campaign.procgen.themes.DerelictThemeGenerator;
+import com.fs.starfarer.api.impl.campaign.rulecmd.salvage.special.ShipRecoverySpecial;
+import com.fs.starfarer.api.impl.campaign.procgen.DefenderDataOverride;
+import com.fs.starfarer.api.util.Misc;
 import org.lazywizard.lazylib.MathUtils;
 
 import java.awt.*;
 import java.util.Arrays;
-import java.util.concurrent.locks.Condition;
 
 import static org.officersam.tanks.scripts.world.systems.ot_addmarket.addMarketplace;
 
@@ -36,7 +42,7 @@ public class USA_StarofAmerica {
     public void generate(SectorAPI sector) {
 
         StarSystemAPI system = sector.createStarSystem("Star of America");
-        system.getLocation().set(-5500,-6000);
+        system.getLocation().set(-5500, -6000);
 
         system.setBackgroundTextureFilename("graphics/backgrounds/StarofAmerica_background.jpg");
 
@@ -75,15 +81,22 @@ public class USA_StarofAmerica {
         system.addEntity(jumpPoint_fringe);
 
         //autogenerate hyperspace points
-        system.autogenerateHyperspaceJumpPoints(true,false);
+        system.autogenerateHyperspaceJumpPoints(true, false);
 
         //asteroid field
         SectorEntityToken americaAF1 = system.addTerrain(Terrain.ASTEROID_FIELD,
-                new AsteroidFieldTerrainPlugin.AsteroidFieldParams(200f, 300f, 8, 16, 4f, 16f, "Asteroids Field"));
-        americaAF1.setCircularOrbit(americaStar, 150, asteroids1Dist, 200);
+                new AsteroidFieldTerrainPlugin.AsteroidFieldParams(250f, 350f, 10, 24, 4f, 16f, "Asteroids Field"));
+        americaAF1.setCircularOrbit(americaStar, 150, asteroids1Dist, 220);
 
         SectorEntityToken stableLoc1 = system.addCustomEntity("america_stableloc_1", "Stable Location", "stable_location", Factions.NEUTRAL);
         stableLoc1.setCircularOrbit(americaStar, MathUtils.getRandomNumberInRange(0f, 360f), stable1Dist, 520);
+
+        addDerelict(system, americaAF1, "wolf_d_pirates_Attack", ShipRecoverySpecial.ShipCondition.BATTERED, 270f, (Math.random() < 0.6));
+        addDerelict(system, americaAF1, "ot_M4Sherman_Hull_standard", ShipRecoverySpecial.ShipCondition.BATTERED, 200f, (Math.random() < 0.6));
+        addDerelict(system, americaAF1, "wolf_d_pirates_Attack", ShipRecoverySpecial.ShipCondition.BATTERED, 240f, (Math.random() < 0.6));
+        addDerelict(system, americaAF1, "ot_M2a2Light_Hull_standard", ShipRecoverySpecial.ShipCondition.BATTERED, 270f, (Math.random() < 0.6));
+        addDerelict(system, americaAF1, "ot_M2a2Light_Hull_standard", ShipRecoverySpecial.ShipCondition.WRECKED, 220f, (Math.random() < 0.6));
+        addDerelict(system, americaAF1, "lasher_PD", ShipRecoverySpecial.ShipCondition.BATTERED, 125f, (Math.random() < 0.6));
 
         //asteroid belt1 ring
         system.addAsteroidBelt(americaStar, 1000, asteroidBelt1Dist, 800, 250, 400, Terrain.ASTEROID_BELT, "Inner Band");
@@ -99,7 +112,7 @@ public class USA_StarofAmerica {
 
 
         // Marks Planet
-        PlanetAPI marks = system.addPlanet("marks",americaStar,"Marks","frozen",360 * (float) Math.random(),190f,marksDist,390f);
+        PlanetAPI marks = system.addPlanet("marks", americaStar, "Marks", "frozen", 360 * (float) Math.random(), 190f, marksDist, 390f);
         marks.setCustomDescriptionId("usa_starofamerica_marks"); //reference descriptions.csv
         marks.getMarket().addCondition(Conditions.RUINS_WIDESPREAD);
         marks.getMarket().addCondition(Conditions.VERY_COLD);
@@ -108,13 +121,24 @@ public class USA_StarofAmerica {
         marks.getMarket().addCondition(Conditions.ORE_ULTRARICH);
         marks.getMarket().addCondition(Conditions.RARE_ORE_MODERATE);
 
+        addDerelict(system, marks, "kite_pirates_Raider", ShipRecoverySpecial.ShipCondition.BATTERED, 280f, (Math.random() < 0.6));
+        addDerelict(system, marks, "ot_M2a2Light_Hull_standard", ShipRecoverySpecial.ShipCondition.BATTERED, 230f, (Math.random() < 0.6));
+        addDerelict(system, marks, "ot_M2a2Light_Hull_standard", ShipRecoverySpecial.ShipCondition.BATTERED, 200f, (Math.random() < 0.6));
+        addDerelict(system, marks, "kite_pirates_Raider", ShipRecoverySpecial.ShipCondition.WRECKED, 250f, (Math.random() < 0.6));
+
+        SectorEntityToken scrap1 = DerelictThemeGenerator.addSalvageEntity(system, Entities.SUPPLY_CACHE, Factions.DERELICT);
+        scrap1.setId("marks_scrap4");
+        scrap1.setCircularOrbit(marks, 105, 195, 150);
+        Misc.setDefenderOverride(scrap1, new DefenderDataOverride(Factions.DERELICT, 0, 0, 0));
+        scrap1.setDiscoverable(Boolean.TRUE);
+
         // Abadon
-        PlanetAPI abadon = system.addPlanet("abadon",americaStar,"Abadon","arid",360f * (float) Math.random(),320f,abadonDist,380f);
+        PlanetAPI abadon = system.addPlanet("abadon", americaStar, "Abadon", "arid", 360f * (float) Math.random(), 320f, abadonDist, 380f);
         abadon.setCustomDescriptionId("usa_starofamerica_abadon"); //reference descriptions.csv
         PlanetConditionGenerator.generateConditionsForPlanet(abadon, StarAge.AVERAGE);
 
         // Vengus
-        PlanetAPI vengus = system.addPlanet("vengus",americaStar,"Vengus","desert",360f * (float) Math.random(),120f,vengusDist,200f);
+        PlanetAPI vengus = system.addPlanet("vengus", americaStar, "Vengus", "desert", 360f * (float) Math.random(), 120f, vengusDist, 200f);
         vengus.setCustomDescriptionId("usa_starofamerica_vengus"); //reference descriptions.csv
         PlanetConditionGenerator.generateConditionsForPlanet(vengus, StarAge.AVERAGE);
 
@@ -276,5 +300,26 @@ public class USA_StarofAmerica {
         usnsf_market.getIndustry(Industries.BATTLESTATION_HIGH).setAICoreId(Commodities.ALPHA_CORE);
         usnsf_market.getIndustry(Industries.ORBITALWORKS).setAICoreId(Commodities.BETA_CORE);
 
+        addDerelict(system, USNSF, "ot_M2a2Light_Hull_standard", ShipRecoverySpecial.ShipCondition.WRECKED, 250f, (Math.random() < 0.6));
+        addDerelict(system, USNSF, "ot_M2a2Light_Hull_standard", ShipRecoverySpecial.ShipCondition.BATTERED, 250f, (Math.random() < 0.6));
+        addDerelict(system, USNSF, "ot_M2a2Light_Hull_standard", ShipRecoverySpecial.ShipCondition.BATTERED, 250f, (Math.random() < 0.6));
+
+
     }
+
+    private void addDerelict(StarSystemAPI system, SectorEntityToken focus, String variantId, ShipRecoverySpecial.ShipCondition condition, float orbitRadius, boolean recoverable) {
+
+        DerelictShipEntityPlugin.DerelictShipData params = new DerelictShipEntityPlugin.DerelictShipData(new ShipRecoverySpecial.PerShipData(variantId, condition), true);
+        SectorEntityToken ship = BaseThemeGenerator.addSalvageEntity(system, Entities.WRECK, Factions.NEUTRAL, params);
+        ship.setDiscoverable(true);
+
+        float orbitDays = 60f;
+        ship.setCircularOrbit(focus, (float) MathUtils.getRandomNumberInRange(-2, 2) + 90f, orbitRadius, orbitDays);
+
+        if (recoverable) {
+            SalvageSpecialAssigner.ShipRecoverySpecialCreator creator = new SalvageSpecialAssigner.ShipRecoverySpecialCreator(null, 0, 0, false, null, null);
+            Misc.setSalvageSpecial(ship, creator.createSpecial(ship, null));
+        }
+    }
+
 }

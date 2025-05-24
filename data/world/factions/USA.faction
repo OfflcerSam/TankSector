@@ -123,9 +123,9 @@
 		"ot_M2a2_50cal_turret":6,
 		"ot_M2a2_30cal_turret":7,
 		"ot_M2_37mm_turret":6,
-		"ot_dual_50cal_turret":5,
-		"ot_quad_50cal_turret":5,
-		"ot_M2_75mm_turret":6,
+		"ot_dual_50cal_turret":15,
+		"ot_quad_50cal_turret":15,
+		"ot_M4_75mm_turret":8,
 
 	},
 	"fighterSellFrequency":{
