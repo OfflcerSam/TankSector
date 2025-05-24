@@ -1,6 +1,6 @@
 {
   "variantId": "ot_man_30cal",
-  "hullId": "ot_man",
+  "hullId": "ot_man_30cal",
   "displayName": "man",
   "goalVariant": false,
   "fluxCapacitors": 5,

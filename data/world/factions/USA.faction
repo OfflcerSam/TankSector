@@ -63,7 +63,9 @@
 	"knownFighters":{
 		"tags":["usawi_bp"],
 		"fighters":[
-			"ot_man",
+			"ot_man_bar",
+			"ot_man_30cal",
+			"ot_man_garand",
 		],
 	},
 	"priorityFighters":{

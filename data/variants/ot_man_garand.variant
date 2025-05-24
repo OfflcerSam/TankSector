@@ -1,6 +1,6 @@
 {
   "variantId": "ot_man_garand",
-  "hullId": "ot_man",
+  "hullId": "ot_man_garand",
   "displayName": "man",
   "goalVariant": false,
   "fluxCapacitors": 5,
