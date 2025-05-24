@@ -213,28 +213,119 @@
 	"ranks":{
 		"ranks":{
 			"factionLeader":{"name":"High Secretary of the Council"},
-			"spaceCommander":{"name":"Lieutenant General"},
-			"spaceAdmiral":{"name":"Admiral"},
+
+			"spaceSailor":{"name":"Specialist"},
+			"spaceChief":{"name":"Sergeant"},
+			"spaceEnsign":{"name":"Ensign"},
+			"spaceLieutenant":{"name":"Captain"},
+			"spaceCommander":{"name":"Lieutenant Colonel"},
+			"spaceCaptain":{"name":"Colonel"},
+			"spaceAdmiral":{"name":"Lieutenant General"},
 			"spaceMarshal":{"name":"General"},
+		
+			"groundPrivate":{"name":"Private"},
+			"groundSergeant":{"name":"Sergeant"},
+			"groundLieutenant":{"name":"Lieutenant"},
+			"groundCaptain":{"name":"Captain"},
+			"groundMajor":{"name":"Major"},
+			"groundColonel":{"name":"Colonel"},
+			"groundGeneral":{"name":"General"},
+			
+			"chiefHighInspector":{"name":"Deputy Director of the Federal Buerau of Investigation"},
+			"deputyStarMarshal":{"name":"Deputy Marshal Inspector"},
+			"guardHighDeputyExecutor":{"name":"Attorney General"},
+		
+			"citizen":{"name":"American Citizen"},
+			"executive":{"name":"Corporate Deputy"},
+			"seniorExecutive":{"name":"Corporate Officer"},
+			"agent":{"name":"Federal Agent"},
+			"specialAgent":{"name":"CIA Operative"},
+			
+			"aristocrat":{name:"Chief Executive Officer"},
 
 		},
 		"posts":{
-			"patrolCommander":{"name":"Colonel"},
-			"fleetCommander":{"name":"Rear Admiral"},
-			"baseCommander":{"name":"Brigadier General"},
-			"militaryAdministrator":{"name":"Military Governor"},
+			"factionLeader":{"name":"High Secretary of the Council"},
+		
+			"patrolCommander":{"name":"Patrol Leader"},
+			"fleetCommander":{"name":"Fleet Commander"},
+			
+			"baseCommander":{"name":"Planetary Operations Director"},
+			"stationCommander":{"name":"Station Operations Director"},
+			"outpostCommander":{"name":"Outpost Operations Director"},
+			"portmaster":{"name":"Dockmaster"},
+			
+			"intelligenceDirector":{"name":"Director of the Central Intelligence Agency"},
+			"guardLeader":{"name":"Director of Homeland Security"},
+			
+			"supplyOfficer":{"name":"Quartermaster Officer"},
+			"supplyManager":{"name":"Logistics Officer"},
+			"medicalSupplier":{"name":"General Medical Officer"},
+			
+			"administrator":{"name":"Civilian Administrator"},
+			"militaryAdministrator":{"name":"Military Administrator"},
+			"freeAdmin":{"name":"Freelance Administrator"},
+			
+			"minorCriminal":{"name":"First-time Felon"},
+			"criminal":{"name":"Repeat-Offender"},
+			"spacer":{"name":"Drifter"},
+			
+			"genericMilitary":{"name":"Lieutenant Colonel"},
+			"marineSquadLeader":{"name":"Sergeant"},
+			
+			"trader":{"name":"Commercial Tradesman"},
+			"merchant":{"name":"Corporate Exchange Officer"},
+			
+			"shady":{"name":"Suspicious Character"},
+			"armsDealer":{"name":"Commercial Arms Dealer"},
+
+			"citizen":{"name":"American Citizen"},
+			
+			"mercenary":{"name":"Mercenary Officer"},
+			"officer":{"name":"Officer"},
+			"officer_for_hire":{"name":"Junior Officer (available for hire)"}, 
+			
+			"investigator":{"name":"Federal Investigator"},
+			"agent":{"name":"Federal Agent"},
+			"specialAgent":{"name":"CIA Operative"},
+			
+			
+			"securityChief":{name:"Security Director"},
+			"aristocrat":{name:"Corporate Executive Officer"},
 		},
 	},
 	"fleetTypeNames":{
-    "trade": "Commercial Trade Fleet",
-    "smallTrader": "Local Trade Fleet",
-    "tradeLiner": "Corporate Logistics Fleet",
+
+	"trade": "Commercial Trade Fleet",
+	"tradeLiner": "Corporate Spaceliner Fleet",
+	"tradeSmuggler":"'Free' Trader",
+	"smallTrader": "Local Trade Fleet",
+	
     "patrolSmall": "Naval Police Patrol",
     "patrolMedium": "Naval Strike Group",
     "patrolLarge": "Naval Support Detachment",
+
+	"supplyFleet":"Naval Logistics Fleet",
+	
+	"investigators":"Federal Investigators",
+	
     "inspectionFleet": "Federal Investigation Fleet",
     "taskForce": "Naval Strike Force",		
-    "foodReliefFleet":"Humanitarian Aid Convoy",		
+	
+	"scavengerSmall":"Local Recovery Group",
+	"scavengerMedium":"Commercial Recovery Fleet",
+	"scavengerLarge":"Corporate Recovery Fleet",
+	
+	"foodReliefFleet":"Humanitarian Aid Convoy",
+	
+	"mercScout":"PMC Scouting Party",
+	"mercBountyHunter":"Fugitive Recovery Agent",
+	"mercPrivateer":"PMC Group",
+	"mercPatrol":"PMC Patrol Group",
+	"mercArmada":"PMC Strike Fleet",
+	
+	"battlestation":"Star Fortress",
+		
 	},
 		
 },
