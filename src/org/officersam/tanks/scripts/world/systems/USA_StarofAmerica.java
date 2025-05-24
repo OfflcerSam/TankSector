@@ -36,7 +36,7 @@ public class USA_StarofAmerica {
     public void generate(SectorAPI sector) {
 
         StarSystemAPI system = sector.createStarSystem("Star of America");
-        system.getLocation().set(-5050,-5050);
+        system.getLocation().set(-5500,-6000);
 
         system.setBackgroundTextureFilename("graphics/backgrounds/StarofAmerica_background.jpg");
 
@@ -75,7 +75,7 @@ public class USA_StarofAmerica {
         system.addEntity(jumpPoint_fringe);
 
         //autogenerate hyperspace points
-        system.autogenerateHyperspaceJumpPoints(true,true);
+        system.autogenerateHyperspaceJumpPoints(true,false);
 
         //asteroid field
         SectorEntityToken americaAF1 = system.addTerrain(Terrain.ASTEROID_FIELD,
