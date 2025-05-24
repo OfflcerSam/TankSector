@@ -1,11 +1,14 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
-M2a2 50cal Turret,ot_M2a2_50cal_turret,0,,225,500,,40,,2,70,5,,,,KINETIC,3,,0,0.4,6,0.15,0,7,1,20,,800,,,15,,,PD,"pd6, kinetic4, SR, usawe_bp, USA",,USA,,Point Defense,,,,,,,,,,0.5
+M2a2 50cal Turret,ot_M2a2_50cal_turret,0,,225,500,,40,,2,65,5,,,,KINETIC,3,,0,0.3,4,0.1,0,7,1,20,,800,,,15,,,PD,"pd6, kinetic4, SR, usawe_bp, USA",,USA,,Point Defense,,,,,,,,,,0.5
+Dual 50cal Turret,ot_dual_50cal_turret,0,,250,500,,40,,2,50,6,,,,KINETIC,3,,0,0.15,8,0.1,0,8,1,20,,800,,,15,,,PD,"pd7, kinetic5, SR, usawe_bp, USA",,USA,,Point Defense,,,,,,,,,,0.5
+Quad 50cal Turret,ot_quad_50cal_turret,0,,300,600,,40,,2,60,6,,,,KINETIC,3,,0,0.05,10,0.1,0,8,1,20,,800,,,15,,,PD,"pd7, kinetic5, SR, usawe_bp, USA",,USA,,Point Defense,,,,,,,,,,0.5
+M2 Turret,ot_M2_37mm_turret,0,,500,750,,100,,5,20,5,,,,HIGH_EXPLOSIVE,60,,0,1.5,1,0.1,0,15,3,15,,900,,,40,,,,"he5, SR, usawe_bp, USA",,USA,,,,,,,,,,,,0.5
+M4 Turret,ot_M4_75mm_turret,0,,1000,900,,300,,20,20,5,,,,HIGH_EXPLOSIVE,120,,0,2.5,1,0.1,0,10,3,10,,1000,,,60,,,,"he6, SR, usawe_bp, USA",,USA,,,,,,,,,,,,0.5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 M2a2 30cal Turret,ot_M2a2_30cal_turret,0,,200,350,,20,,1,70,2,,,,KINETIC,1,,0,0.1,4,0.15,0,10,1,25,,650,,,10,,,PD,"pd6, kinetic3, SR, usawe_bp, USA",,USA,,Point Defense,,,,,,,,,,0.5
-M2 Turret,ot_M2_37mm_turret,0,,500,750,,100,,5,20,5,,,,KINETIC,60,,0,2.5,1,0.1,0,10,3,15,,900,,,40,,,,"kinetic6, SR, usawe_bp, USA",,USA,,,,,,,,,,,,0.5
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Garand,ot_garand,0,,100,350,,20,,1,80,2,,,,KINETIC,1,,0,2.5,8,0.5,0,10,1,30,,650,,,10,,,"PD, SYSTEM","pd6, kinetic3, SR",,USA,,Point Defense,,,,,,,,,,0.5
 BAR,ot_bar,0,,100,350,,20,,1,80,2,,,,KINETIC,1,,0,3,20,0.3,0,10,1,30,,650,,,10,,,"PD, SYSTEM","pd6, kinetic3, SR",,USA,,Point Defense,,,,,,,,,,0.5
 Hull 30cal,ot_h30cal,0,,200,350,,20,,1,80,2,,,,KINETIC,1,,0,0.1,4,0.15,0,10,1,25,,650,,,10,,,"PD, SYSTEM","pd6, kinetic3, SR",,USA,,Point Defense,,,,,,,,,,0.5

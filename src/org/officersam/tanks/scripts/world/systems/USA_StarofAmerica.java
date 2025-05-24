@@ -74,6 +74,9 @@ public class USA_StarofAmerica {
 
         system.addEntity(jumpPoint_fringe);
 
+        //autogenerate hyperspace points
+        system.autogenerateHyperspaceJumpPoints(true,true);
+
         //asteroid field
         SectorEntityToken americaAF1 = system.addTerrain(Terrain.ASTEROID_FIELD,
                 new AsteroidFieldTerrainPlugin.AsteroidFieldParams(200f, 300f, 8, 16, 4f, 16f, "Asteroids Field"));
