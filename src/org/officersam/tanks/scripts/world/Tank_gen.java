@@ -9,7 +9,6 @@ import com.fs.starfarer.api.impl.campaign.ids.Factions;
 import com.fs.starfarer.api.impl.campaign.shared.SharedData;
 import org.officersam.tanks.scripts.world.systems.USA_StarofAmerica;
 
-
 import java.io.IOException;
 import java.util.List;
 

@@ -13,8 +13,8 @@
 	"displayNameWithArticle":"the USMJ",
 	"displayNameLong":"United States Military Junta",
 	"displayNameLongWithArticle":"the United States Military Junta",
-	"logo":"graphics/USMJ/factions/USMJ_flag.png",
-	"crest":"graphics/USMJ/factions/USMJ_crest.png",
+	"logo":"graphics/factions/USMJ/USMJ_flag.png",
+	"crest":"graphics/factions/USMJ/USMJ_crest.png",
 	"shipNamePrefix":"USS",
 	"shipNameSources":{
 	"BRITISH_NAVY":10,
