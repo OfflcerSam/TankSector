@@ -2,12 +2,13 @@
 	# should be a copy of "combatSmall", minus standards that are annoying to fight in low numbers
 	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
 	"combatSmallForSmallFleet":{
-			"ot_M2a2Light_Hull_standard":1,
+			"ot_M2a2Light_Hull_standard":2,
 			"ot_M2Medium_Hull_standard":1,
 	},
 	"combatSmall":{
 			"ot_M2a2Light_Hull_standard":1,
 			"ot_M2Medium_Hull_standard":1,
+			"ot_M4Sherman_Hull_standard":1,
 	},
 	"combatMedium":{
 			

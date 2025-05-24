@@ -46,6 +46,7 @@
 		"hulls":[
 			"ot_M2a2Light_Hull",
 			"ot_M2Medium_Hull",
+			"ot_M4Sherman_Hull",
 			"ot_supply_truck",
 			"ot_fuel_truck",
 	],
@@ -56,6 +57,7 @@
     "hulls": [
 			"ot_M2a2Light_Hull",
 			"ot_M2Medium_Hull",
+			"ot_M4Sherman_Hull",
 			"ot_supply_truck",
 			"ot_fuel_truck",
       ],		
@@ -77,8 +79,11 @@
     "tags": ["usawe_bp"],
     "weapons": [
             "ot_M2a2_50cal_turret",
+			"ot_dual_50cal_turret",
+			"ot_quad_50cal_turret",
             "ot_M2a2_30cal_turret",
             "ot_M2_37mm_turret",
+			"ot_M2_75mm_turret",
         ],
   },
   "priorityWeapons": {
@@ -115,16 +120,20 @@
 		],
 	},
 	"weaponSellFrequency":{
-		"ot_M2a2_50cal_turret":10,
-		"ot_M2a2_30cal_turret":10,
-		"ot_M2_37mm_turret":5,
+		"ot_M2a2_50cal_turret":6,
+		"ot_M2a2_30cal_turret":7,
+		"ot_M2_37mm_turret":6,
+		"ot_dual_50cal_turret":5,
+		"ot_quad_50cal_turret":5,
+		"ot_M2_75mm_turret":6,
+
 	},
 	"fighterSellFrequency":{
 	},
 	"hullmodSellFrequency":{
-		"heavyarmor":10,
-		"ballistic_rangefinder":10,
-		"targetingunit":10,
+		"heavyarmor":8,
+		"ballistic_rangefinder":9,
+		"targetingunit":7,
 	},	
 	"factionDoctrine":{
 		"warships":5,

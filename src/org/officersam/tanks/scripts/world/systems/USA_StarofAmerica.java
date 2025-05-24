@@ -21,7 +21,7 @@ public class USA_StarofAmerica {
     final float asteroidBelt1Dist = 2050f;
     final float asteroidBelt2Dist = 9200f;
 
-    final float usnsfDist = 12500f;
+    final float usnsfDist = 9200f;
     final float vengusDist = 2900f;
     final float abadonDist = 4200f;
     final float amerierraDist = 6800f;
