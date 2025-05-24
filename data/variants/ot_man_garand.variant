@@ -1,0 +1,22 @@
+{
+  "variantId": "ot_man_garand",
+  "hullId": "ot_man",
+  "displayName": "man",
+  "goalVariant": false,
+  "fluxCapacitors": 5,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "Hand": "ot_garand"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

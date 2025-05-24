@@ -32,6 +32,7 @@ public class USA_StarofAmerica {
     final float jumpOuterDist = 8400f;
     final float jumpFringeDist = 16700f;
 
+
     public void generate(SectorAPI sector) {
 
         StarSystemAPI system = sector.createStarSystem("Star of America");
@@ -44,34 +45,34 @@ public class USA_StarofAmerica {
         system.setLightColor(new Color(255, 245, 225));
 
         //JumppointInner
-        JumpPointAPI jumpPoint3 = Global.getFactory().createJumpPoint(
+        JumpPointAPI jumpPoint_inner = Global.getFactory().createJumpPoint(
                 "inner_jump",
                 "Inner System Jump");
 
-        jumpPoint3.setCircularOrbit(system.getEntityById("Star of America"), 2, jumpInnerDist, 4000f);
-        jumpPoint3.setStandardWormholeToHyperspaceVisual();
+        jumpPoint_inner.setCircularOrbit(system.getEntityById("Star of America"), 2, jumpInnerDist, 4000f);
+        jumpPoint_inner.setStandardWormholeToHyperspaceVisual();
 
-        system.addEntity(jumpPoint3);
+        system.addEntity(jumpPoint_inner);
 
         //JumppointOuter
-        JumpPointAPI jumpPoint2 = Global.getFactory().createJumpPoint(
+        JumpPointAPI jumpPoint_outer = Global.getFactory().createJumpPoint(
                 "outer_jump",
                 "Outer System Jump");
 
-        jumpPoint2.setCircularOrbit(system.getEntityById("Star of America"), 2, jumpOuterDist, 2000f);
-        jumpPoint2.setStandardWormholeToHyperspaceVisual();
+        jumpPoint_outer.setCircularOrbit(system.getEntityById("Star of America"), 2, jumpOuterDist, 2000f);
+        jumpPoint_outer.setStandardWormholeToHyperspaceVisual();
 
-        system.addEntity(jumpPoint2);
+        system.addEntity(jumpPoint_outer);
 
         //JumppointFring
-        JumpPointAPI jumpPoint1 = Global.getFactory().createJumpPoint(
+        JumpPointAPI jumpPoint_fringe = Global.getFactory().createJumpPoint(
                 "fringe_jump",
                 "Fringe System Jump");
 
-        jumpPoint1.setCircularOrbit(system.getEntityById("Star of America"), 2, jumpFringeDist, 6000f);
-        jumpPoint1.setStandardWormholeToHyperspaceVisual();
+        jumpPoint_fringe.setCircularOrbit(system.getEntityById("Star of America"), 2, jumpFringeDist, 6000f);
+        jumpPoint_fringe.setStandardWormholeToHyperspaceVisual();
 
-        system.addEntity(jumpPoint1);
+        system.addEntity(jumpPoint_fringe);
 
         //asteroid field
         SectorEntityToken americaAF1 = system.addTerrain(Terrain.ASTEROID_FIELD,

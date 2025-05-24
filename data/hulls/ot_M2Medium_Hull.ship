@@ -24,7 +24,7 @@
     {
       "id": "TurretRing",
       "size": "MEDIUM",
-      "type": "HYBRID",
+      "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 360,
       "angle": 0,

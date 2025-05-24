@@ -21,7 +21,7 @@
     {
       "id": "30CalRing",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 220,
       "angle": -90,
@@ -30,7 +30,7 @@
     {
       "id": "50CalRing",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "COMPOSITE",
       "mount": "TURRET",
       "arc": 220,
       "angle": 90,
