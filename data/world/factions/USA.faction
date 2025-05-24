@@ -83,7 +83,7 @@
 			"ot_quad_50cal_turret",
             "ot_M2a2_30cal_turret",
             "ot_M2_37mm_turret",
-			"ot_M2_75mm_turret",
+			"ot_M4_75mm_turret",
         ],
   },
   "priorityWeapons": {

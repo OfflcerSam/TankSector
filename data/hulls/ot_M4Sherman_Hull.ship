@@ -25,8 +25,8 @@
       "size": "LARGE",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 0,
-      "angle": 180,
+      "arc": 360,
+      "angle": 0,
       "locations": [1.5, -0]
     },
     {
@@ -34,7 +34,7 @@
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "HIDDEN",
-      "arc": 0,
+      "arc": 360,
       "angle": 180,
       "locations": [-11.5, -0]
     },

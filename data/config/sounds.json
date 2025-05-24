@@ -8,6 +8,10 @@
 	"ot_sound_us37mm_fire":[
 		{"file":"sounds/sfx_wpn_guns/tank_fire_1.ogg","pitch":1.2,"volume":0.8},
 	],
+		"ot_sound_us75mm_fire":[
+		{"file":"sounds/sfx_wpn_guns/tank_fire_1.ogg","pitch":1,"volume":0.9},
+	],
+
 
 }
 
