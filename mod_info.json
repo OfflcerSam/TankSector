@@ -1,14 +1,20 @@
 {
-  "id": "officersam_tanks",
-  "name": "TankSector",
-  "author": "Officer_Sam",
-  "utility": false,
-  "version": { "major": '1', "minor": '0', "patch": '0' },
-  "description": "Adds in tanks to the sector.",
-  "gameVersion": "0.98a-RC8",
-  "jars": [ "jars/Tanks.jar" ],
-  "modPlugin": "data.scripts.TankmodPlugin",
-  "dependencies": [
+	"id": "officersam_tanks",
+	"name": "TankSector",
+	"author": "Officer_Sam",
+
+	"version": {"major":1, "minor":0, "patch":0},
+  
+	"description": "Adds in tanks to the sector.",
+	"gameVersion": "0.98a-RC8",
+  
+	"jars": [ "jars/Tanks.jar" ],
+	"modPlugin": "org.officersam.data.scripts.TankmodPlugin",
+  
+	"totalConversion": "false",
+	"utility": "false",
+ 
+	"dependencies": [
     {"id": "lw_lazylib", "name": "LazyLib"},
 	{"id": "MagicLib", "name": "MagicLib"},
 	{"id": "nexerelin", "name": "Nexerelin"},
