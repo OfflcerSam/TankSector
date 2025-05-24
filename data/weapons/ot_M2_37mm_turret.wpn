@@ -1,7 +1,7 @@
 {
   "id": "ot_M2_37mm_turret",
   "specClass": "projectile",
-  "projectileSpecId": "vulcan_shot",
+  "projectileSpecId": "lightdualac_shot",
   "type": "BALLISTIC",
   "size": "MEDIUM",
   "turretSprite": "graphics/weapons/M2_37mm_turret.png",
