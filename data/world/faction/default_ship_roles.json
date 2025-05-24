@@ -1,0 +1,95 @@
+{
+	# should be a copy of "combatSmall", minus standards that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+			"ot_M2a2Light_hull":1,
+			"ot_M2Medium_hull":1,
+			"ot_supply_truck":1,			
+
+	},
+	"combatSmall":{
+			"ot_M2a2Light_hull":1,
+			"ot_M2Medium_hull":1,
+			"ot_supply_truck":1,				
+	},
+	"combatMedium":{
+			
+	},
+	"combatLarge":{
+		
+			
+	},
+	"combatCapital":{
+	
+	},
+	
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+			"ot_supply_truck":1,
+			
+	},
+	"combatFreighterMedium":{
+
+	},
+	"combatFreighterLarge":{
+
+	},
+
+	# carriers
+	"carrierSmall":{
+			"ot_supply_truck":1,
+	},
+	"carrierMedium":{
+
+	},
+	"carrierLarge":{
+	
+	},
+
+	# phase ships
+	"phaseSmall":{
+	},
+	"personnelSmall":{	
+	},		
+	"personnelMedium":{
+	},
+	
+	# utility ships
+	"tug":{
+	},
+	"crig":{
+	},
+	"utility":{
+
+	},
+	
+	"civilianRandom":{
+		"ot_supply_truck":1,
+
+	},
+	
+	# freighters and such
+	"freighterSmall":{
+		"ot_supply_truck":1,	
+	},
+	"freighterMedium":{
+
+
+	},
+	"freighterLarge":{
+		
+	},
+	
+	"tankerSmall":{
+		"ot_supply_truck":1,
+	},
+	"tankerMedium":{
+
+	},
+	"tankerLarge":{
+		
+	},
+	
+	
+}

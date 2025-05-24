@@ -1,0 +1,28 @@
+{
+	"defaultChannels":[
+		"usmj_public",
+	],
+	"usmj_public":{
+		"name":"USNews Broadcast",
+		"logo":"graphics/icons/intel/ot_usa_bp.png",
+		"icon":"graphics/icons/intel/ot_usa_bp.png",
+		"image":"graphics/factions/kyeltziv.png",
+		"sound":"ui_channel_news",
+		"faction":"usa",
+		"type":"News Report",
+		"shortType":"News",
+	},
+	"usmj_internal":{
+		"name":"Central Intelligence Agency",
+		"logo":"graphics/icons/intel/ot_usa_bp.png",
+		"icon":"graphics/icons/intel/ot_usa_bp.png",
+		"image":"graphics/factions/USMJ_flag.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"usa",
+		"type":"Intelligence Report",
+		"shortType":"Intel",
+	},
+}
+
+
+

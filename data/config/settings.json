@@ -1,7 +1,13 @@
 {
-	"graphics":{		
+	"designTypeColors":{
+		"USA":[99,107,47,200],
+    	},
+	"graphics":{
+	},		
 		"blueprint_packages":{
-			"ot_usa_package":"graphics/icons/cargo/ot_usa_bp.png",
+			"usash_package":"graphics/icons/cargo/ot_usa_bp.png",
+			"usawi_package":"graphics/icons/cargo/ot_usa_bp.png",
+			"usawe_package":"graphics/icons/cargo/ot_usa_bp.png",
 		},
-	},
+	}
 }

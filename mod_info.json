@@ -1,6 +1,6 @@
 {
   "id": "officersam_tanks",
-  "name": "Tanks",
+  "name": "TankSector",
   "author": "Officer_Sam",
   "utility": false,
   "version": { "major": '1', "minor": '0', "patch": '0' },
