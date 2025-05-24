@@ -29,7 +29,7 @@ public class USA_StarofAmerica {
     final float marksDist = 9800f;
 
     final float jumpInnerDist = 3050f;
-    final float jumpOuterDist = 8400f;
+    final float jumpOuterDist = 9300;
     final float jumpFringeDist = 16700f;
 
 
