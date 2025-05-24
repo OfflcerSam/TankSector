@@ -27,15 +27,10 @@
 	
  # variantOverrides restricts hulls to listed variants and adjusts their probability
   "variantOverrides": {
-		"ot_supply_truck_standard":1
-		"ot_M2Medium_hull_standard":1
-		"ot_M2a2Light_hullstandard":1
-		"ot_fuel_truck_standard":1
   },
   # multiplier for how often hulls show up in the faction's fleets
   "hullFrequency": {
 		"tags":{
-            "USA":0,
     },
 		"hulls":{		
 	},
@@ -57,7 +52,7 @@
   },
   # listing ships here will make the faction mostly use them even if other hulls become available
   "priorityShips": {
-    "tags": ["usash_bp", USA],
+    "tags": ["usash_bp"],
     "hulls": [
 			"ot_M2a2Light_hull",
 			"ot_M2Medium_hull",
@@ -72,9 +67,8 @@
 		],
 	},
 	"priorityFighters":{
-		"tags":[usawi_bp],
+		"tags":[],
        "fighters":[
-			"ot_man"
 		],
   },
   "knownWeapons": {
@@ -86,15 +80,12 @@
         ],
   },
   "priorityWeapons": {
-    "tags": ["usawe_bp"],
+    "tags": [],
     "weapons": [
-            "ot_M2a2_50cal_turret",
-            "ot_M2a2_30cal_turret",
-            "ot_M2_37mm_turret",
         ],
 	},
 	"knownHullMods":{
-		"tags":["base_bp"],
+		"tags":["base_bp", "standard"],
 		"hullMods":[
       "converted_hangar",
       "turretgyros",
@@ -119,6 +110,18 @@
 	  "hardened_subsystems",
 		],
 	},
+	"weaponSellFrequency":{
+		"ot_M2a2_50cal_turret":10,
+		"ot_M2a2_30cal_turret":10,
+		"ot_M2_37mm_turret":5,
+	},
+	"fighterSellFrequency":{
+	},
+	"hullmodSellFrequency":{
+		"heavyarmor":10,
+		"ballistic_rangefinder":10,
+		"targetingunit":10,
+	},	
 	"factionDoctrine":{
 		"warships":5,
 		"carriers":2,
@@ -151,6 +154,7 @@
 	"illegalCommodities":[
 		"drugs",
 	],
+	"internalComms":"usa_internal",
 	"portraits":{
 		"standard_male":[
 			"graphics/portraits/USMJ.png",
@@ -174,7 +178,6 @@
 			"official":10,
 		},
 	},
-			
 	"custom":{
 		"offersCommissions":true,
 		"engagesInHostilities":true,
@@ -196,6 +199,7 @@
 	},
 	"ranks":{
 		"ranks":{
+			"factionLeader":{"name":"High Secretary of the Council"},
 			"spaceCommander":{"name":"Lieutenant General"},
 			"spaceAdmiral":{"name":"Admiral"},
 			"spaceMarshal":{"name":"General"},
@@ -205,6 +209,7 @@
 			"patrolCommander":{"name":"Colonel"},
 			"fleetCommander":{"name":"Rear Admiral"},
 			"baseCommander":{"name":"Brigadier General"},
+			"militaryAdministrator":{"name":"Military Governor"},
 		},
 	},
 	"fleetTypeNames":{
