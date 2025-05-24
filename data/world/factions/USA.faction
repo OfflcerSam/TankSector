@@ -44,8 +44,8 @@
   "knownShips": {
     "tags": ["usash_bp",],
 		"hulls":[
-			"ot_M2a2Light_hull",
-			"ot_M2Medium_hull",
+			"ot_M2a2Light_Hull",
+			"ot_M2Medium_Hull",
 			"ot_supply_truck",
 			"ot_fuel_truck",
 	],
@@ -54,8 +54,8 @@
   "priorityShips": {
     "tags": ["usash_bp"],
     "hulls": [
-			"ot_M2a2Light_hull",
-			"ot_M2Medium_hull",
+			"ot_M2a2Light_Hull",
+			"ot_M2Medium_Hull",
 			"ot_supply_truck",
 			"ot_fuel_truck",
       ],		

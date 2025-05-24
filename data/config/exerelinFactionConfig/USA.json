@@ -37,28 +37,28 @@
 
     "startShipsSolo":[["ot_M2Medium_Hull"]],
     "startShipsTradeSmall":[
-		["ot_supply_truck", "ot_supply_truck", "ot_supply_truck"],
-		["ot_supply_truck", "ot_supply_truck", "ot_supply_truck"]
+		["ot_supply_truck_standard", "ot_supply_truck_standard", "ot_supply_truck_standard"],
+		["ot_supply_truck_standard", "ot_supply_truck_standard", "ot_supply_truck_standard"]
 	],
     "startShipsTradeLarge":[
-		["ot_supply_truck", "ot_supply_truck", "ot_supply_truck"],
-		["ot_supply_truck", "ot_supply_truck", "ot_supply_truck"]
+		["ot_supply_truck_standard", "ot_supply_truck_standard", "ot_supply_truck_standard"],
+		["ot_supply_truck_standard", "ot_supply_truck_standard", "ot_supply_truck_standard"]
 	],
     "startShipsCombatSmall":[
-		["ot_M2a2Light_Hull", "ot_M2a2Light_Hull", "ot_M2a2Light_Hull"],
-		["ot_M2Medium_Hull", "ot_M2a2Light_Hull", "ot_M2a2Light_Hull"]
+		["ot_M2a2Light_Hull_standard", "ot_M2a2Light_Hull_standard", "ot_M2a2Light_Hull_standard"],
+		["ot_M2Medium_Hull_standard", "ot_M2a2Light_Hull_standard", "ot_M2a2Light_Hull_standard"]
 	],
     "startShipsCombatLarge":[
-		["ot_M2Medium_Hull", "ot_M2Medium_Hull", "ot_M2a2Light_Hull"],
-		["ot_M2Medium_Hull", "ot_M2Medium_Hull", "ot_M2a2Light_Hull"]
+		["ot_M2Medium_Hull_standard", "ot_M2Medium_Hull_standard", "ot_M2a2Light_Hull_standard"],
+		["ot_M2Medium_Hull_standard", "ot_M2Medium_Hull_standard", "ot_M2a2Light_Hull_standard"]
 	],
     "startShipsCarrierSmall":[
-		["ot_supply_truck", "ot_fuel_truck", "ot_M2a2Light_Hull"],
-		["ot_supply_truck", "ot_supply_truck", "ot_M2a2Light_Hull"]
+		["ot_supply_truck_standard", "ot_fuel_truck_standard", "ot_M2a2Light_Hull_standard"],
+		["ot_supply_truck_standard", "ot_supply_truck_standard", "ot_M2a2Light_Hull_standard"]
 	],
     "startShipsCarrierLarge":[		
-		["ot_fuel_truck", "ot_supply_truck", "ot_M2a2Light_Hull"],
-		["ot_fuel_truck", "ot_supply_truck", "ot_M2Medium_Hull"]
+		["ot_fuel_truck_standard", "ot_supply_truck_standard", "ot_M2a2Light_Hull_standard"],
+		["ot_fuel_truck_standard", "ot_supply_truck_standard", "ot_M2Medium_Hull_standard"]
 	],
 	
 	"startSpecialItems":[

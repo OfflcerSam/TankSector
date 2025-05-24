@@ -13,18 +13,21 @@ import org.lazywizard.lazylib.MathUtils;
 
 import java.awt.*;
 import java.util.Arrays;
+import java.util.concurrent.locks.Condition;
 
 import static org.officersam.tanks.scripts.world.systems.ot_addmarket.addMarketplace;
 
 public class USA_StarofAmerica {
     final float asteroids1Dist = 2750f;
-    final float marksDist = 1500f;
-    final float abadonDist = 900f;
+    final float marksDist = 2100f;
+    final float abadonDist = 4100f;
     final float stable1Dist = 4200f;
-    final float usnsfDist = 5000f;
+    final float usnsfDist = 6000f;
     final float asteroidBelt1Dist = 2000f;
-    final float vengusDist = 600f;
-    final float amerierraDist = 750f;
+    final float asteroidBelt2Dist = 4050f;
+    final float vengusDist = 1000f;
+    final float amerierraDist = 2500f;
+    final float martiniDist = 2300f;
 
     public void generate(SectorAPI sector) {
 
@@ -49,8 +52,13 @@ public class USA_StarofAmerica {
         system.addRingBand(americaStar, "misc", "rings_asteroids0", 256f, 3, Color.gray, 256f, asteroidBelt1Dist - 200, 250f);
         system.addRingBand(americaStar, "misc", "rings_asteroids0", 256f, 2, Color.gray, 256f, asteroidBelt1Dist + 200, 400f);
 
+        //asteroid belt2 ring
+        system.addAsteroidBelt(americaStar, 1000, asteroidBelt2Dist, 800, 250, 400, Terrain.ASTEROID_BELT, "Outer Band");
+        system.addRingBand(americaStar, "misc", "rings_asteroids0", 256f, 3, Color.gray, 256f, asteroidBelt2Dist - 200, 250f);
+        system.addRingBand(americaStar, "misc", "rings_asteroids0", 256f, 2, Color.gray, 256f, asteroidBelt2Dist + 200, 400f);
+
         // Marks Planet
-        PlanetAPI marks = system.addPlanet("marks",americaStar,"Marks","frozen",360 * (float) Math.random(),190f,marksDist,3421f);
+        PlanetAPI marks = system.addPlanet("marks",americaStar,"Marks","frozen",360 * (float) Math.random(),190f,marksDist,390f);
         marks.setCustomDescriptionId("usa_starofamerica_marks"); //reference descriptions.csv
         marks.getMarket().addCondition(Conditions.RUINS_WIDESPREAD);
         marks.getMarket().addCondition(Conditions.VERY_COLD);
@@ -60,7 +68,7 @@ public class USA_StarofAmerica {
         marks.getMarket().addCondition(Conditions.RARE_ORE_MODERATE);
 
         // Abadon
-        PlanetAPI abadon = system.addPlanet("abadon",americaStar,"Abadon","water",360f * (float) Math.random(),320f,abadonDist,1200f);
+        PlanetAPI abadon = system.addPlanet("abadon",americaStar,"Abadon","water",360f * (float) Math.random(),320f,abadonDist,380f);
         abadon.setCustomDescriptionId("usa_starofamerica_abadon"); //reference descriptions.csv
         PlanetConditionGenerator.generateConditionsForPlanet(abadon, StarAge.AVERAGE);
 
@@ -78,7 +86,7 @@ public class USA_StarofAmerica {
                 360f * (float) Math.random(),
                 220f,
                 amerierraDist,
-                350f);
+                365f);
 
         amerierra.setCustomDescriptionId("usa_starofamerica_planetofamerica"); //reference descriptions.csv
 
@@ -87,9 +95,71 @@ public class USA_StarofAmerica {
                 10,
                 Arrays.asList(
                         Conditions.POPULATION_10,
-                        Conditions.ORE_RICH,
+                        Conditions.URBANIZED_POLITY,
+                        Conditions.ORE_ABUNDANT,
                         Conditions.RARE_ORE_ABUNDANT,
                         Conditions.FARMLAND_BOUNTIFUL,
+                        Conditions.HABITABLE,
+                        Conditions.ORGANIZED_CRIME,
+                        Conditions.TERRAN,
+                        Conditions.REGIONAL_CAPITAL,
+                        Conditions.VOLATILES_ABUNDANT,
+                        Conditions.STEALTH_MINEFIELDS,
+                        Conditions.AI_CORE_ADMIN
+                ),
+                Arrays.asList(
+                        Submarkets.GENERIC_MILITARY,
+                        Submarkets.SUBMARKET_OPEN,
+                        Submarkets.SUBMARKET_STORAGE,
+                        Submarkets.SUBMARKET_BLACK
+                ),
+                Arrays.asList(
+                        Industries.POPULATION,
+                        Industries.MEGAPORT,
+                        Industries.MINING,
+                        Industries.STARFORTRESS,
+                        Industries.HEAVYBATTERIES,
+                        Industries.LIGHTINDUSTRY,
+                        Industries.HIGHCOMMAND,
+                        Industries.WAYSTATION
+                ),
+                0.18f,
+                true,
+                true);
+
+        //amerierra_market.addIndustry(Industries.ORBITALWORKS, Collections.singletonList(Items.PRISTINE_NANOFORGE));
+        amerierra_market.getIndustry(Industries.HIGHCOMMAND).setAICoreId(Commodities.ALPHA_CORE);
+        amerierra_market.getIndustry(Industries.STARFORTRESS).setAICoreId(Commodities.ALPHA_CORE);
+        amerierra_market.getIndustry(Industries.MEGAPORT).setAICoreId(Commodities.ALPHA_CORE);
+        amerierra_market.getIndustry(Industries.MINING).setAICoreId(Commodities.ALPHA_CORE);
+        //amerierra_market.getIndustry(Industries.ORBITALWORKS).setAICoreId(Commodities.ALPHA_CORE);
+        amerierra_market.getIndustry(Industries.POPULATION).setAICoreId(Commodities.BETA_CORE);
+        amerierra_market.getIndustry(Industries.WAYSTATION).setAICoreId(Commodities.GAMMA_CORE);
+
+        // Martini
+        PlanetAPI martini;
+        martini = system.addPlanet("martini",
+                americaStar,
+                "Martini Isle",
+                "water",
+                360f * (float) Math.random(),
+                220f,
+                martiniDist,
+                360f);
+
+        martini.setCustomDescriptionId("usa_starofamerica_martini"); //reference descriptions.csv
+
+        MarketAPI martini_market = addMarketplace("USA", martini, null,
+                "Martini Isle",
+                8,
+                Arrays.asList(
+                        Conditions.POPULATION_8,
+                        Conditions.ORE_RICH,
+                        Conditions.WATER,
+                        Conditions.INDUSTRIAL_POLITY,
+                        Conditions.RARE_ORE_RICH,
+                        Conditions.VOLATILES_PLENTIFUL,
+                        Conditions.VOLTURNIAN_LOBSTER_PENS,
                         Conditions.HABITABLE,
                         Conditions.ORGANIZED_CRIME,
                         Conditions.TERRAN,
@@ -107,6 +177,10 @@ public class USA_StarofAmerica {
                         Industries.POPULATION,
                         Industries.MEGAPORT,
                         Industries.MINING,
+                        Industries.REFINING,
+                        Industries.HEAVYINDUSTRY,
+                        Industries.AQUACULTURE,
+                        Industries.FUELPROD,
                         Industries.STARFORTRESS,
                         Industries.HEAVYBATTERIES,
                         Industries.HIGHCOMMAND,
@@ -116,19 +190,21 @@ public class USA_StarofAmerica {
                 true,
                 true);
 
-        //amerierra_market.addIndustry(Industries.ORBITALWORKS, Collections.singletonList(Items.PRISTINE_NANOFORGE));
-        amerierra_market.getIndustry(Industries.HIGHCOMMAND).setAICoreId(Commodities.ALPHA_CORE);
-        amerierra_market.getIndustry(Industries.STARFORTRESS).setAICoreId(Commodities.ALPHA_CORE);
-        amerierra_market.getIndustry(Industries.MEGAPORT).setAICoreId(Commodities.ALPHA_CORE);
-        amerierra_market.getIndustry(Industries.ORBITALWORKS).setAICoreId(Commodities.ALPHA_CORE);
-        amerierra_market.getIndustry(Industries.POPULATION).setAICoreId(Commodities.BETA_CORE);
-        amerierra_market.getIndustry(Industries.WAYSTATION).setAICoreId(Commodities.GAMMA_CORE);
+
+        martini_market.getIndustry(Industries.HIGHCOMMAND).setAICoreId(Commodities.ALPHA_CORE);
+        martini_market.getIndustry(Industries.STARFORTRESS).setAICoreId(Commodities.ALPHA_CORE);
+        martini_market.getIndustry(Industries.MEGAPORT).setAICoreId(Commodities.ALPHA_CORE);
+        martini_market.getIndustry(Industries.HEAVYINDUSTRY).setAICoreId(Commodities.ALPHA_CORE);
+        martini_market.getIndustry(Industries.MINING).setAICoreId(Commodities.ALPHA_CORE);
+        martini_market.getIndustry(Industries.FUELPROD).setAICoreId(Commodities.ALPHA_CORE);
+        martini_market.getIndustry(Industries.POPULATION).setAICoreId(Commodities.BETA_CORE);
+        martini_market.getIndustry(Industries.WAYSTATION).setAICoreId(Commodities.GAMMA_CORE);
 
         // US Navy Star Fortress
         SectorEntityToken USNSF = system.addCustomEntity("america_navy_star", "US Navy Star Fortress", "station_hightech2", "USA");
-        USNSF.setCircularOrbitPointingDown(americaStar, 0, usnsfDist, 4000f);
+        USNSF.setCircularOrbitPointingDown(americaStar, 0, usnsfDist, 410f);
         USNSF.setCustomDescriptionId("usa_america_usnsf");
-        MarketAPI usnsf_market = addMarketplace("usa", USNSF, null,
+        MarketAPI usnsf_market = addMarketplace("USA", USNSF, null,
                 "US Navy Star Fortress",
                 4,
                 Arrays.asList(
