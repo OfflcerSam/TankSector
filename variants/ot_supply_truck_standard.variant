@@ -1,0 +1,18 @@
+{
+  "variantId": "ot_supply_truck_standard",
+  "hullId": "ot_supply_truck",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": [
+    "ot_man",
+    "ot_man",
+    "ot_man"
+  ]
+}

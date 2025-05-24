@@ -1,0 +1,14 @@
+{
+  "variantId": "ot_fuel_truck_standard",
+  "hullId": "ot_fuel_truck",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}
