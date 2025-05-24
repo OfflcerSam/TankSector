@@ -17,15 +17,16 @@ import static org.officersam.tanks.scripts.world.systems.ot_addmarket.addMarketp
 
 public class USA_StarofAmerica {
     final float asteroids1Dist = 7200f;
-    final float marksDist = 9600f;
-    final float abadonDist = 5000f;
-    final float stable1Dist = 4100f;
-    final float usnsfDist = 12000f;
+    final float stable1Dist = 4000f;
     final float asteroidBelt1Dist = 2050f;
     final float asteroidBelt2Dist = 9200f;
-    final float vengusDist = 2950f;
-    final float amerierraDist = 6500f;
-    final float martiniDist = 4600f;
+
+    final float usnsfDist = 12500f;
+    final float vengusDist = 2900f;
+    final float abadonDist = 4200f;
+    final float amerierraDist = 6800f;
+    final float martiniDist = 5000f;
+    final float marksDist = 9800f;
 
     final float jumpInnerDist = 3050f;
     final float jumpOuterDist = 8400f;
