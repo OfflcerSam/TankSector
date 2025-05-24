@@ -1,9 +1,7 @@
 package org.officersam.tanks.scripts.world.systems;
 
-import com.fs.starfarer.api.campaign.PlanetAPI;
-import com.fs.starfarer.api.campaign.SectorAPI;
-import com.fs.starfarer.api.campaign.SectorEntityToken;
-import com.fs.starfarer.api.campaign.StarSystemAPI;
+import com.fs.starfarer.api.Global;
+import com.fs.starfarer.api.campaign.*;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.impl.campaign.ids.*;
 import com.fs.starfarer.api.impl.campaign.procgen.PlanetConditionGenerator;
@@ -18,16 +16,20 @@ import java.util.concurrent.locks.Condition;
 import static org.officersam.tanks.scripts.world.systems.ot_addmarket.addMarketplace;
 
 public class USA_StarofAmerica {
-    final float asteroids1Dist = 2750f;
-    final float marksDist = 2100f;
-    final float abadonDist = 4100f;
-    final float stable1Dist = 4200f;
-    final float usnsfDist = 6000f;
-    final float asteroidBelt1Dist = 2000f;
-    final float asteroidBelt2Dist = 4050f;
-    final float vengusDist = 1000f;
-    final float amerierraDist = 2500f;
-    final float martiniDist = 2300f;
+    final float asteroids1Dist = 7200f;
+    final float marksDist = 9600f;
+    final float abadonDist = 5000f;
+    final float stable1Dist = 4100f;
+    final float usnsfDist = 12000f;
+    final float asteroidBelt1Dist = 2050f;
+    final float asteroidBelt2Dist = 9200f;
+    final float vengusDist = 2950f;
+    final float amerierraDist = 6500f;
+    final float martiniDist = 4600f;
+
+    final float jumpInnerDist = 3050f;
+    final float jumpOuterDist = 8400f;
+    final float jumpFringeDist = 16700f;
 
     public void generate(SectorAPI sector) {
 
@@ -35,9 +37,40 @@ public class USA_StarofAmerica {
         system.getLocation().set(-5050,-5050);
 
         system.setBackgroundTextureFilename("graphics/backgrounds/StarofAmerica_background.jpg");
+
         //star
         PlanetAPI americaStar = system.initStar("Star of America", "star_yellow", 600f, 700, 10, 0.5f, 3f);
         system.setLightColor(new Color(255, 245, 225));
+
+        //JumppointInner
+        JumpPointAPI jumpPoint3 = Global.getFactory().createJumpPoint(
+                "inner_jump",
+                "Inner System Jump");
+
+        jumpPoint3.setCircularOrbit(system.getEntityById("Star of America"), 2, jumpInnerDist, 4000f);
+        jumpPoint3.setStandardWormholeToHyperspaceVisual();
+
+        system.addEntity(jumpPoint3);
+
+        //JumppointOuter
+        JumpPointAPI jumpPoint2 = Global.getFactory().createJumpPoint(
+                "outer_jump",
+                "Outer System Jump");
+
+        jumpPoint2.setCircularOrbit(system.getEntityById("Star of America"), 2, jumpOuterDist, 2000f);
+        jumpPoint2.setStandardWormholeToHyperspaceVisual();
+
+        system.addEntity(jumpPoint2);
+
+        //JumppointFring
+        JumpPointAPI jumpPoint1 = Global.getFactory().createJumpPoint(
+                "fringe_jump",
+                "Fringe System Jump");
+
+        jumpPoint1.setCircularOrbit(system.getEntityById("Star of America"), 2, jumpFringeDist, 6000f);
+        jumpPoint1.setStandardWormholeToHyperspaceVisual();
+
+        system.addEntity(jumpPoint1);
 
         //asteroid field
         SectorEntityToken americaAF1 = system.addTerrain(Terrain.ASTEROID_FIELD,
@@ -50,12 +83,15 @@ public class USA_StarofAmerica {
         //asteroid belt1 ring
         system.addAsteroidBelt(americaStar, 1000, asteroidBelt1Dist, 800, 250, 400, Terrain.ASTEROID_BELT, "Inner Band");
         system.addRingBand(americaStar, "misc", "rings_asteroids0", 256f, 3, Color.gray, 256f, asteroidBelt1Dist - 200, 250f);
+        system.addRingBand(americaStar, "misc", "rings_asteroids0", 256f, 0, Color.gray, 256f, asteroidBelt1Dist, 350f);
         system.addRingBand(americaStar, "misc", "rings_asteroids0", 256f, 2, Color.gray, 256f, asteroidBelt1Dist + 200, 400f);
 
         //asteroid belt2 ring
         system.addAsteroidBelt(americaStar, 1000, asteroidBelt2Dist, 800, 250, 400, Terrain.ASTEROID_BELT, "Outer Band");
         system.addRingBand(americaStar, "misc", "rings_asteroids0", 256f, 3, Color.gray, 256f, asteroidBelt2Dist - 200, 250f);
-        system.addRingBand(americaStar, "misc", "rings_asteroids0", 256f, 2, Color.gray, 256f, asteroidBelt2Dist + 200, 400f);
+        system.addRingBand(americaStar, "misc", "rings_asteroids0", 256f, 0, Color.gray, 256f, asteroidBelt1Dist, 350f);
+        system.addRingBand(americaStar, "misc", "rings_asteroids0", 256f, 1, Color.gray, 256f, asteroidBelt2Dist + 200, 400f);
+
 
         // Marks Planet
         PlanetAPI marks = system.addPlanet("marks",americaStar,"Marks","frozen",360 * (float) Math.random(),190f,marksDist,390f);
@@ -68,7 +104,7 @@ public class USA_StarofAmerica {
         marks.getMarket().addCondition(Conditions.RARE_ORE_MODERATE);
 
         // Abadon
-        PlanetAPI abadon = system.addPlanet("abadon",americaStar,"Abadon","water",360f * (float) Math.random(),320f,abadonDist,380f);
+        PlanetAPI abadon = system.addPlanet("abadon",americaStar,"Abadon","arid",360f * (float) Math.random(),320f,abadonDist,380f);
         abadon.setCustomDescriptionId("usa_starofamerica_abadon"); //reference descriptions.csv
         PlanetConditionGenerator.generateConditionsForPlanet(abadon, StarAge.AVERAGE);
 
