@@ -22,18 +22,24 @@ import java.util.Arrays;
 import static org.officersam.tanks.scripts.world.systems.ot_addmarket.addMarketplace;
 
 public class USA_StarofAmerica {
+    // Star Orbits
+    //asteroids
     final float asteroids1Dist = 7200f;
     final float stable1Dist = 4000f;
     final float asteroidBelt1Dist = 2050f;
     final float asteroidBelt2Dist = 9200f;
-
+    //relays
+    final float buoy1Dist = 4550f;
+    final float relay1Dist = 5650f;
+    final float sensor1Dist = 9350f;
+    //planets
     final float usnsfDist = 9200f;
     final float vengusDist = 2900f;
     final float abadonDist = 4200f;
     final float amerierraDist = 6800f;
     final float martiniDist = 5000f;
     final float marksDist = 9800f;
-
+    //jumps
     final float jumpInnerDist = 3050f;
     final float jumpOuterDist = 9300;
     final float jumpFringeDist = 16700f;
@@ -46,7 +52,7 @@ public class USA_StarofAmerica {
 
         system.setBackgroundTextureFilename("graphics/backgrounds/StarofAmerica_background.jpg");
 
-        //star
+        //praise the sun
         PlanetAPI americaStar = system.initStar("Star of America", "star_yellow", 600f, 700, 10, 0.5f, 3f);
         system.setLightColor(new Color(255, 245, 225));
 
@@ -110,6 +116,24 @@ public class USA_StarofAmerica {
         system.addRingBand(americaStar, "misc", "rings_asteroids0", 256f, 0, Color.gray, 256f, asteroidBelt1Dist, 350f);
         system.addRingBand(americaStar, "misc", "rings_asteroids0", 256f, 1, Color.gray, 256f, asteroidBelt2Dist + 200, 400f);
 
+        // Relays
+        SectorEntityToken americaStar_relay = system.addCustomEntity("americaStar_relay", // unique id
+                "American Relay", // name - if null, defaultName from custom_entities.json will be used
+                "comm_relay_makeshift", // type of object, defined in custom_entities.json
+                "USA"); // faction
+        americaStar_relay.setCircularOrbitPointingDown(americaStar, MathUtils.getRandomNumberInRange(0f, 360f), relay1Dist, 520);
+
+        SectorEntityToken americaStar_buoy = system.addCustomEntity("americaStar_buoy", // unique id
+                "American Nav Buoy", // name - if null, defaultName from custom_entities.json will be used
+                "nav_buoy_makeshift", // type of object, defined in custom_entities.json
+                "USA"); // faction
+        americaStar_buoy.setCircularOrbitPointingDown(americaStar, MathUtils.getRandomNumberInRange(0f, 360f), buoy1Dist, 520);
+
+        SectorEntityToken americaStar_sensor = system.addCustomEntity("americaStar_sensor", // unique id
+                "American Sensor Array", // name - if null, defaultName from custom_entities.json will be used
+                "sensor_array_makeshift", // type of object, defined in custom_entities.json
+                "USA"); // faction
+        americaStar_sensor.setCircularOrbitPointingDown(americaStar, MathUtils.getRandomNumberInRange(0f, 360f), sensor1Dist, 520);
 
         // Marks Planet
         PlanetAPI marks = system.addPlanet("marks", americaStar, "Marks", "frozen", 360 * (float) Math.random(), 190f, marksDist, 390f);
