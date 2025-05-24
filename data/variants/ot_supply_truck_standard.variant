@@ -11,8 +11,8 @@
   "weaponGroups": [],
   "modules": [],
   "wings": [
-    "ot_man",
-    "ot_man",
-    "ot_man"
+    "ot_man_garand",
+    "ot_man_garand",
+    "ot_man_bar"
   ]
 }
