@@ -1,6 +1,6 @@
 {
 	"playableFaction":true,
-	"corvusCompatible":false,
+	"corvusCompatible":true,
     "marketSpawnWeight":2,	
     "rebelFleetSuffix":"Confederates",
 	"asteroidMiningFleetName":"Commercial Mining Fleet",	
@@ -25,7 +25,7 @@
 		"diplomatic":0.25,
 		"ideological":0.1,
 	},
-	"diplomacyTraits":["lowprofile", "neutralist"],
+	"diplomacyTraits":["stalwart", "likes_ai", "law_and_order", "neutralist"],
 	
 	"colonyExpeditionChance":0.50,
     "colonyTargetValuator":"exerelin.campaign.colony.ColonyTargetValuator",		
@@ -34,26 +34,35 @@
 	"vengeanceLevelNames":["Local Warrant", "Federal Warrant", "Naval Command Warrant"],
 	"vengeanceFleetNames":["Police Apprehension group", "Federal Marshal group", "Naval Strike group"],
 	"vengeanceFleetNamesSingle":["Police Apprehension fleet", "Federal Marshal fleet", "Naval Strike fleet"],
-	
-	# Randomly picked to add to a mining fleet
-	"miningVariantsOrWings":[
-		"ot_supply_truck",
-	],
 
-    "startShipsSolo":["ot_M2a2Light_Hull"], 
-    "startShipsCombatSmall":["ot_M2a2Light_Hull", "ot_M2a2Light_Hull", "ot_supply_truck"], 
-    "startShipsTradeSmall":["ot_M2a2Light_Hull", "ot_supply_truck", "ot_supply_truck"],    
-    "startShipsCarrierSmall":["ot_M2a2Light_Hull", "ot_supply_truck", "ot_supply_truck"], 
-	"startShipsCombatLarge":["ot_M2a2Light_Hull", "ot_M2Medium_Hull", "ot_M2Medium_Hull"],
-	"startShipsTradeLarge":["ot_supply_truck", "ot_supply_truck", "ot_M2a2Light_Hull"],
-    #"startShipsCarrierLarge":[""],
-    "startShipsExplorerLarge":["ot_M2a2Light_Hull", "ot_supply_truck"],	
-    #"startShipsSuper":[""],	
+    "startShipsSolo":[["ot_M2Medium_Hull"]],
+    "startShipsTradeSmall":[
+		["ot_supply_truck", "ot_supply_truck", "ot_supply_truck"],
+		["ot_supply_truck", "ot_supply_truck", "ot_supply_truck"]
+	],
+    "startShipsTradeLarge":[
+		["ot_supply_truck", "ot_supply_truck", "ot_supply_truck"],
+		["ot_supply_truck", "ot_supply_truck", "ot_supply_truck"]
+	],
+    "startShipsCombatSmall":[
+		["ot_M2a2Light_Hull", "ot_M2a2Light_Hull", "ot_M2a2Light_Hull"],
+		["ot_M2Medium_Hull", "ot_M2a2Light_Hull", "ot_M2a2Light_Hull"]
+	],
+    "startShipsCombatLarge":[
+		["ot_M2Medium_Hull", "ot_M2Medium_Hull", "ot_M2a2Light_Hull"],
+		["ot_M2Medium_Hull", "ot_M2Medium_Hull", "ot_M2a2Light_Hull"]
+	],
+    "startShipsCarrierSmall":[
+		["ot_supply_truck", "ot_fuel_truck", "ot_M2a2Light_Hull"],
+		["ot_supply_truck", "ot_supply_truck", "ot_M2a2Light_Hull"]
+	],
+    "startShipsCarrierLarge":[		
+		["ot_fuel_truck", "ot_supply_truck", "ot_M2a2Light_Hull"],
+		["ot_fuel_truck", "ot_supply_truck", "ot_M2Medium_Hull"]
+	],
 	
 	"startSpecialItems":[
-        [["usash_package", ""]],
-        [["usawe_package", ""]],	
-        [["usawi_package", ""]],		
+        [["usash_package", "usawe_package", "usawi_package", ""]],		
     ],	
 	
    "industrySeeds":[
