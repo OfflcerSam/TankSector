@@ -2,16 +2,20 @@
 	# should be a copy of "combatSmall", minus standards that are annoying to fight in low numbers
 	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
 	"combatSmallForSmallFleet":{
-			"ot_M2a2Light_Hull_standard":2,
-			"ot_M2Medium_Hull_standard":1,
+			"ot_M2a2Light_Hull_standard":5,
+			"ot_M2a4Light_Hull_standard":4,
+			"ot_M2Medium_Hull_standard":3,
 	},
 	"combatSmall":{
-			"ot_M2a2Light_Hull_standard":1,
-			"ot_M2Medium_Hull_standard":1,
-			"ot_M4Sherman_Hull_standard":1,
+			"ot_M2a2Light_Hull_standard":5,
+			"ot_M2a4Light_Hull_standard":5
+			"ot_M2Medium_Hull_standard":4,
+			"ot_M4Sherman_Hull_standard":2,
 	},
 	"combatMedium":{
-			
+			"ot_M2a4Light_Hull_standard":2
+			"ot_M2Medium_Hull_standard":3,
+			"ot_M4Sherman_Hull_standard":4,	
 	},
 	"combatLarge":{
 		
@@ -35,7 +39,7 @@
 
 	# carriers
 	"carrierSmall":{
-			"ot_supply_truck_standard":1,
+			"ot_supply_truck_standard":3,
 	},
 	"carrierMedium":{
 
@@ -65,7 +69,7 @@
 	
 	# freighters and such
 	"freighterSmall":{
-		"ot_supply_truck_standard":1,
+		"ot_supply_truck_standard":3,
 	},
 	"freighterMedium":{
 
@@ -76,7 +80,7 @@
 	},
 	
 	"tankerSmall":{
-		"ot_fuel_truck_standard":1,
+		"ot_fuel_truck_standard":3,
 	},
 	"tankerMedium":{
 

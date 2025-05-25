@@ -45,6 +45,7 @@
     "tags": ["usash_bp",],
 		"hulls":[
 			"ot_M2a2Light_Hull",
+			"ot_M2a4Light_Hull",
 			"ot_M2Medium_Hull",
 			"ot_M4Sherman_Hull",
 			"ot_supply_truck",
@@ -56,6 +57,7 @@
     "tags": ["usash_bp"],
     "hulls": [
 			"ot_M2a2Light_Hull",
+			"ot_M2a4Light_Hull",
 			"ot_M2Medium_Hull",
 			"ot_M4Sherman_Hull",
 			"ot_supply_truck",
