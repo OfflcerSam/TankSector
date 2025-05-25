@@ -1,4 +1,7 @@
 name,id,tags,tech/manufacturer,rarity,base price,stack size,cargo space,baseRaidDanger,icon,sound id,sound id drop,plugin,plugin params,desc,order
-USA Ships BP Package,usash_package,package_bp,,,25000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_chip_pickup,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,usash_bp,"USA Blueprints Ships",254
-USA Wings BP Package,usawi_package,package_bp,,,25000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_chip_pickup,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,usawi_bp,"USA Blueprints Wings",255
-USA Weapons BP Package,usawe_package,package_bp,,,25000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_chip_pickup,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,usawe_bp,"USA Blueprints Weapons",256
+#Blueprint,,,,,,,,,,,,,,,
+USA Ships BP Package,usash_package,package_bp,,,25000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_chip_pickup,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,usash_bp,"USA Blueprints, Ships",2001
+USA Wings BP Package,usawi_package,package_bp,,,25000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_chip_pickup,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,usawi_bp,"USA Blueprints, Wings",2002
+USA Weapons BP Package,usawe_package,package_bp,,,25000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_chip_pickup,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,usawe_bp,"USA Blueprints, Weapons",2003
+,,,,,,,,,,,,,,,
+ESD,esd_package,package_bp,,,25000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_chip_pickup,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,esd_bp,"ESD Blueprints, Ships",3000

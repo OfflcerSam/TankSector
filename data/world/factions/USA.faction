@@ -42,7 +42,7 @@
   },
   
   "knownShips": {
-    "tags": ["usash_bp",],
+    "tags": ["usash_bp","USA"],
 		"hulls":[
 			"ot_M2a2Light_Hull",
 			"ot_M2a4Light_Hull",
@@ -57,7 +57,7 @@
   },
   # listing ships here will make the faction mostly use them even if other hulls become available
   "priorityShips": {
-    "tags": ["usash_bp"],
+    "tags": ["usash_bp","USA"],
     "hulls": [
 			"ot_M2a2Light_Hull",
 			"ot_M2a4Light_Hull",
@@ -71,7 +71,7 @@
       ],		
   },
 	"knownFighters":{
-		"tags":["usawi_bp"],
+		"tags":["usawi_bp","USA"],
 		"fighters":[
 			"ot_man_bar",
 			"ot_man_30cal",
@@ -84,7 +84,7 @@
 		],
   },
   "knownWeapons": {
-    "tags": ["usawe_bp"],
+    "tags": ["usawe_bp","USA"],
     "weapons": [
             "ot_M2a2_50cal_turret",
 			"ot_dual_50cal_turret",
