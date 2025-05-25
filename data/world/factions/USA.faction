@@ -135,11 +135,15 @@
 
 	},
 	"fighterSellFrequency":{
+			"ot_man_bar":5,
+			"ot_man_30cal":10,
+			"ot_man_garand":20,
 	},
 	"hullmodSellFrequency":{
 		"heavyarmor":8,
 		"ballistic_rangefinder":9,
 		"targetingunit":7,
+		"armoredweapons":7,
 	},	
 	"factionDoctrine":{
 		"warships":5,
