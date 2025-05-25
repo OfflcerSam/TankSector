@@ -13,8 +13,21 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "30CalRing": "ot_M2a2_30cal_turret",
         "50CalRing": "ot_M2a2_50cal_turret"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "30CalRing": "ot_M2a2_30cal_turret"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Hull": "ot_h30cal"
       }
     }
   ],

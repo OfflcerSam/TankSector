@@ -10,6 +10,13 @@ ot_supply_truck,SHIP,"General purpose supply truck, transport 3 Squads of ""Figh
 ot_fuel_truck,SHIP,A more purposeful modification of the supply truck to carry fuel over people.,,,
 ot_armored_train,SHIP,"Heavy duty armored supply train, has 4 Squads of ""Fighter"" wings, 1 Medium slot, 5 Small slots, and 7 built-in 30cals.",,,
 ,,,,,
+j_fr_contractor,SHIP,"Developed by Eirin-Sahl Dynamics, the ESD–EF48 Contractor II, affectionately nicknamed Deadline, is the backbone escort frigate of the EFF (Eterra Federated Fleet). Engineered with Eirin-Sahl’s hallmark spatial optimization, the Contractor II packs an outsized arsenal and multirole capability into a dense, modular frame—serving equally well in scout, pursuit, and escort roles.
+
+Its signature design philosophy—function over comfort—has earned it a reputation as both indispensable and borderline inhumane among long-term crews. The Deadline earns its name through relentless deployment cycles and a tendency to be first on-scene and last to dock. The EF48 fills the gap, holds the line, and stays on schedule.
+
+“Every time I open one up, I find something else that shouldn't fit—and somehow still does. It's a miracle of design and a nightmare to maintain. Beautiful, terrible work.”
+— Dockmaster Sella Trann, Eirin-Sahl Dynamics",,,
+,,,,,
 # WEAPONS,,,,,
 ot_M2a2_50cal_turret,WEAPON,"Standard M2a2 turret, equipped with a 50cal HMG.",,,
 ot_quad_50cal_turret,WEAPON,"Non-standard modified M2 turret, equipped with quad 50cal HMGs.",,,

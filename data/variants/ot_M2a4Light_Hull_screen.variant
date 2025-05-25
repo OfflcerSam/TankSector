@@ -13,10 +13,16 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
+        "TurretRing": "ot_quad_50cal_turret"
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "Hull": "ot_h30cal",
         "SideL": "ot_h30cal",
-        "SideR": "ot_h30cal",
-        "TurretRing": "ot_quad_50cal_turret"
+        "SideR": "ot_h30cal"
       }
     }
   ],

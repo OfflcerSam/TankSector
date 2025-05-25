@@ -13,7 +13,7 @@
   "viewOffset": 0,
   "builtInMods": [
     "reinforcedhull",
-    "blast_doors"
+	"armoredweapons"
   ],
   "weaponSlots": [
     {
@@ -31,7 +31,7 @@
       "type": "HYBRID",
       "mount": "TURRET",
       "arc": 360,
-      "angle": -0,
+      "angle": 0,
       "locations": [5, -17]
     },
     {
@@ -48,7 +48,7 @@
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 199,
+      "arc": 200,
       "angle": -123.5,
       "locations": [-24.5, -14]
     },
@@ -57,7 +57,7 @@
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 199,
+      "arc": 200,
       "angle": 123.5,
       "locations": [-24.5, 14]
     },
@@ -72,11 +72,11 @@
     },
     {
       "id": "WS0007",
-      "size": "SMALL",
+      "size": "MEDIUM",
       "type": "MISSILE",
       "mount": "HARDPOINT",
       "arc": 90,
-      "angle": -0,
+      "angle": 0,
       "locations": [23.5, 16.5]
     },
     {
@@ -102,7 +102,7 @@
       "size": "MEDIUM",
       "type": "LAUNCH_BAY",
       "mount": "HIDDEN",
-      "arc": 199,
+      "arc": 45,
       "angle": 180,
       "locations": [-13.5, -0.5]
     }
