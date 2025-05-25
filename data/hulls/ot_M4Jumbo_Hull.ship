@@ -13,6 +13,8 @@
   "viewOffset": 0,
   "builtInMods": [
     "reinforcedhull",
+	"heavyarmor",
+	"armoredweapons",
     "turretgyros"
   ],
   "builtInWeapons": {
