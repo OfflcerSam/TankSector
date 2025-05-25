@@ -1,0 +1,22 @@
+{
+  "variantId": "ot_M4Jumbo_Hull_upgun",
+  "hullId": "ot_M4Jumbo_Hull",
+  "displayName": "Upgunned",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "TurretRing": "ot_M26_90mm_turret"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

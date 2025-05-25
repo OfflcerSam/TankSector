@@ -48,6 +48,7 @@
 			"ot_M2a4Light_Hull",
 			"ot_M2Medium_Hull",
 			"ot_M4Sherman_Hull",
+			"ot_M4Jumbo_Hull",
 			"ot_supply_truck",
 			"ot_fuel_truck",
 	],
@@ -60,6 +61,7 @@
 			"ot_M2a4Light_Hull",
 			"ot_M2Medium_Hull",
 			"ot_M4Sherman_Hull",
+			"ot_M4Jumbo_Hull",
 			"ot_supply_truck",
 			"ot_fuel_truck",
       ],		
@@ -86,6 +88,7 @@
             "ot_M2a2_30cal_turret",
             "ot_M2_37mm_turret",
 			"ot_M4_75mm_turret",
+			"ot_M26_90mm_turret",
         ],
   },
   "priorityWeapons": {
@@ -122,12 +125,13 @@
 		],
 	},
 	"weaponSellFrequency":{
-		"ot_M2a2_50cal_turret":6,
-		"ot_M2a2_30cal_turret":7,
-		"ot_M2_37mm_turret":6,
-		"ot_dual_50cal_turret":15,
-		"ot_quad_50cal_turret":15,
-		"ot_M4_75mm_turret":8,
+		"ot_M2a2_50cal_turret":10,
+		"ot_M2a2_30cal_turret":10,
+		"ot_M2_37mm_turret":20,
+		"ot_dual_50cal_turret":10,
+		"ot_quad_50cal_turret":10,
+		"ot_M4_75mm_turret":30,
+		"ot_M26_90mm_turret":5,
 
 	},
 	"fighterSellFrequency":{
