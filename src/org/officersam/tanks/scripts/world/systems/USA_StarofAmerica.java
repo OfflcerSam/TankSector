@@ -208,6 +208,7 @@ public class USA_StarofAmerica {
                         Industries.MINING,
                         Industries.STARFORTRESS,
                         Industries.HEAVYBATTERIES,
+                        Industries.HEAVYINDUSTRY,
                         Industries.LIGHTINDUSTRY,
                         Industries.HIGHCOMMAND,
                         Industries.WAYSTATION
@@ -221,6 +222,8 @@ public class USA_StarofAmerica {
         amerierra_market.getIndustry(Industries.STARFORTRESS).setAICoreId(Commodities.ALPHA_CORE);
         amerierra_market.getIndustry(Industries.MEGAPORT).setAICoreId(Commodities.ALPHA_CORE);
         amerierra_market.getIndustry(Industries.MINING).setAICoreId(Commodities.ALPHA_CORE);
+        amerierra_market.getIndustry(Industries.LIGHTINDUSTRY).setAICoreId(Commodities.ALPHA_CORE);
+        amerierra_market.getIndustry(Industries.HEAVYINDUSTRY).setAICoreId(Commodities.ALPHA_CORE);
         //amerierra_market.getIndustry(Industries.ORBITALWORKS).setAICoreId(Commodities.ALPHA_CORE);
         amerierra_market.getIndustry(Industries.POPULATION).setAICoreId(Commodities.BETA_CORE);
         amerierra_market.getIndustry(Industries.WAYSTATION).setAICoreId(Commodities.GAMMA_CORE);
@@ -250,7 +253,6 @@ public class USA_StarofAmerica {
                         Conditions.VOLATILES_PLENTIFUL,
                         Conditions.VOLTURNIAN_LOBSTER_PENS,
                         Conditions.HABITABLE,
-                        Conditions.ORGANIZED_CRIME,
                         Conditions.TERRAN,
                         Conditions.REGIONAL_CAPITAL,
                         Conditions.STEALTH_MINEFIELDS,

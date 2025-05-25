@@ -36,11 +36,11 @@ public class Tank_gen implements SectorGeneratorPlugin {
         FactionAPI guard = sector.getFaction(Factions.LIONS_GUARD);
 
         usa.setRelationship(player.getId(), 0.3f);	
-        usa.setRelationship(hegemony.getId(), 0.1f);
+        usa.setRelationship(hegemony.getId(), -0.2f);
         usa.setRelationship(tritachyon.getId(), 0.2f);
         usa.setRelationship(pirates.getId(), -0.9f);
         usa.setRelationship(independent.getId(), 0.6f);
-        usa.setRelationship(persean.getId(), 0.1f);
+        usa.setRelationship(persean.getId(), 0.15f);
         usa.setRelationship(church.getId(), -0.3f);
         usa.setRelationship(path.getId(), -0.9f);
         usa.setRelationship(kol.getId(), 0.1f);
