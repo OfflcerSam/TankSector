@@ -4,6 +4,7 @@ id,type,text1,text2,text3,notes
 ot_M2a2Light_Hull,SHIP,"Early US Light tank, has 2 Small slots and a built-in hull 30cal.",,,
 ot_M2Medium_Hull,SHIP,"Early US Medium tank, has 1 Medium slot and 4 built-in hull 30cals.",,,
 ot_M4Sherman_Hull,SHIP,"Mid to Late US Medium tank, has 1 Large slot, a built-in pintle 50cal, and a built-in hull 30cal.",,,
+ot_M4Jumbo_Hull,SHIP,"Late US Medium-Heavy tank, an overall upgrade to the Sherman's armor at the cost of mobility.",,,
 ot_supply_truck,SHIP,"General purpose supply truck, transport 3 Squads of ""Fighter"" wings.",,,
 ot_fuel_truck,SHIP,A more purposeful modification of the supply truck to carry fuel over people.,,,
 ,,,,,
