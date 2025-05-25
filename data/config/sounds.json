@@ -1,9 +1,13 @@
 {
 	"ot_sound_30cal":[
-		{"file":"sounds/sfx_wpn_guns/30cal_fire_1.ogg","pitch":1.0,"volume":0.2},
+		{"file":"sounds/sfx_wpn_guns/30cal_fire_1.ogg","pitch":1.0,"volume":0.1},
+		{"file":"sounds/sfx_wpn_guns/30cal_fire_2.ogg","pitch":1.0,"volume":0.1},
+		{"file":"sounds/sfx_wpn_guns/30cal_fire_3.ogg","pitch":1.0,"volume":0.1},
 	],
 	"ot_sound_50cal":[
 		{"file":"sounds/sfx_wpn_guns/50cal_fire_1.ogg","pitch":1.0,"volume":0.6},
+		{"file":"sounds/sfx_wpn_guns/50cal_fire_2.ogg","pitch":1.0,"volume":0.6},
+		{"file":"sounds/sfx_wpn_guns/50cal_fire_3.ogg","pitch":1.0,"volume":0.6},
 	],     
 	"ot_sound_us37mm_fire":[
 		{"file":"sounds/sfx_wpn_guns/tank_fire_1.ogg","pitch":1.3,"volume":0.8},
@@ -11,9 +15,9 @@
 		{"file":"sounds/sfx_wpn_guns/tank_fire_3.ogg","pitch":1.3,"volume":0.8},
 	],
 		"ot_sound_us75mm_fire":[
-		{"file":"sounds/sfx_wpn_guns/tank_fire_1.ogg","pitch":1,"volume":1.0},
-		{"file":"sounds/sfx_wpn_guns/tank_fire_2.ogg","pitch":1,"volume":1.0},
-		{"file":"sounds/sfx_wpn_guns/tank_fire_2.ogg","pitch":1,"volume":1.0},
+		{"file":"sounds/sfx_wpn_guns/tank_fire_1.ogg","pitch":1,"volume":1.2},
+		{"file":"sounds/sfx_wpn_guns/tank_fire_2.ogg","pitch":1,"volume":1.2},
+		{"file":"sounds/sfx_wpn_guns/tank_fire_2.ogg","pitch":1,"volume":1.2},
 	],
 
 
