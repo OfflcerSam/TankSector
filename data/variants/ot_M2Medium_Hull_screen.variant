@@ -15,6 +15,16 @@
       "weapons": {
         "TurretRing": "ot_quad_50cal_turret"
       }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Hull_1": "ot_h30cal",
+        "Hull_2": "ot_h30cal",
+        "Hull_3": "ot_h30cal",
+        "Hull_4": "ot_h30cal"
+      }
     }
   ],
   "modules": [],

@@ -4,7 +4,7 @@ greetingAmericaFriendly,OpenCommLink,"$faction.id == USA
 $faction.friendlyToPlayer","$menuState = fleetConvMain 0
 FireAll PopulateOptions","""Roger, your IFF has been acknowledged, wait."" A flicker of the US Army star, then: ""Greetings friendly $shipOrFleet, is everything okay?""
 OR
-""$shipOrFleet, your IFF has been acknowledged, is everything okay?""
+""Friendly, your IFF has been acknowledged, is everything okay?""
 OR
 ""IFF recieved, over."" $PersonRank $personName gives a brief salute before signing off.",,
 greetingAmericaHostileWeaker,OpenCommLink,"$faction.id == USA

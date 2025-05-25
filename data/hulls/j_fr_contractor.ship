@@ -13,7 +13,7 @@
   "viewOffset": 0,
   "builtInMods": [
     "reinforcedhull",
-	"armoredweapons"
+    "armoredweapons"
   ],
   "weaponSlots": [
     {
@@ -21,8 +21,8 @@
       "size": "MEDIUM",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 0,
-      "angle": 180,
+      "arc": 360,
+      "angle": 0,
       "locations": [5, 17]
     },
     {

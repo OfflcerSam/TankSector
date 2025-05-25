@@ -15,6 +15,20 @@
       "weapons": {
         "TurretRing": "ot_M4_75mm_turret"
       }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "RoofPintle": "ot_M2a2_50cal_turret"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "HullMG": "ot_h30cal"
+      }
     }
   ],
   "modules": [],

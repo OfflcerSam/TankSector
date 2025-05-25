@@ -3,7 +3,7 @@
 		"USA":[99,107,47,200],
     	},
 	"graphics":{
-	},		
+			
 		"blueprint_packages":{
 			"usash_package":"graphics/icons/cargo/blueprint_usa.png",
 			"usawi_package":"graphics/icons/cargo/blueprint_usa.png",
