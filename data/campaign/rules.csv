@@ -1,0 +1,68 @@
+id,trigger,conditions,script,text,options,notes
+# American fleet greeting lines,,,,,,
+greetingAmericaFriendly,OpenCommLink,"$faction.id == USA
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Roger, your IFF has been acknowledged, wait."" A flicker of the US Army star, then: ""Greetings friendly $shipOrFleet, is everything okay?""
+OR
+""$shipOrFleet, your IFF has been acknowledged, is everything okay?""
+OR
+""IFF recieved, over."" $PersonRank $personName gives a brief salute before signing off.",,
+greetingAmericaHostileWeaker,OpenCommLink,"$faction.id == USA
+$entity.isHostile
+$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"""Attention bandit, this is $PersonRank $personNameYou, you are being advised to power down weapon systems and disengage and await for strike force retrieval. Over.""
+OR
+""Attention bandit. Be advised that firing upon a US vessel is considered an act of war and you will be destroyed."" The American $personRank is calm despite the odds. ""You are to disengage or face further military action .""
+OR
+""Attention bandit. You are to power down your weapons and disengage immediately."" No more words are said before the comms are cut.",cutCommLink:Cut the comm link,
+greetingAmericaHostileWeakerDefiant,OpenCommLink,"$faction.id == USA
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"The American $personRank looks calm and collected. ""Hostile will be engaged if action is pursued,"" $heOrShe says before cutting the comms.
+OR
+""Hostile, we will not back down."" The comm-line cuts out.",cutCommLink:Cut the comm link,
+greetingAmericaHostileStronger,OpenCommLink,"$faction.id == USA
+$entity.isHostile
+$entity.relativeStrength >= 0",$entity.ignorePlayerCommRequests = true 1,"""Attention bandit, you are outnumbered. Make this easy, make this hard. Eitherway you are coming with us, over.""
+OR
+""Attention bandit. You are given the chance to surrender yourself or be met with military action.""",cutCommLink:Cut the comm link,
+greetingAmericaNeutral,OpenCommLink,"$faction.id == USA
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""IFF recieved. Awaiting further transmission from $shipOrFleet.""
+OR
+""This is $PersonRank $personName recieving $shipOrFleet, is everything okay?""",,
+,,,,,,
+# Trade panel flavor text,,,,,,
+flavorTextMarketAmerica,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == USA","AddText ""The port concourse is filled with trader starcraft of every size as the American flags wave from the sidelines. Speculators crowd offloading ship captains with deals and peddlers call out to crew, holding wares and projecting personal ad-holos."" marketFlavorTextColor",,,
+flavorTextMarketAmericaSmall,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$marketSize < 4
+$stability > 1
+$faction.id == USA","AddText ""The humble port concourse has a lone American flag and is filled with small freighters and freelancers down or up on their luck, identifiable by the shine or grime of ship armor and volume of cargo on-loading. A handful of speculators who all seem to know each other crowd offloading ship captains as they arrive while peddlers call out to crew, holding wares and projecting personal ad-holos."" marketFlavorTextColor",,,
+flavorTextMarketAmericaUnstable,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$stability == 1
+$faction.id == USA","AddText ""The port concourse holds only a strew of trader starcraft, the American flag is protected behind a police barrier. A few fidgety-looking speculators seek offloading ship captains with deals. Most peddlers seem to have scurried off - and in a hurry, judging from the detritus, though a few enterprising merchants still do business. The local police appears to have deployed patrols of power-armor units while police drones buzz conspicuously overhead."" marketFlavorTextColor",,,
+flavorTextMarketAmericaVeryUnstable,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$stability == 0
+$faction.id == USA","AddText ""The port concourse contains only a few ships, and half of those look like warcraft, the American flag is protected within a shield projector. Armed gangs of crew huddle around each spacecraft, guarding on- and off-loading cargo. A few brave speculators seem to hurry between spaces which offer what they imagine will provide cover as police drones buzz overhead in a rush to some incident or another."" marketFlavorTextColor",,,
+,,,,,,
+# relationship level descriptions,,,,,,
+relLevelCooperativeAmerica,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == USA",FireAll RelLevelMoreDescription,"Your reputation has reached up even to high levels of the federal government, high ranking politicians and military leaders consider you a valuable asset, or even a buddy. Corporations and business's of all size favor you in contracts, your connections grant you priority docking access, and occasionally American VIPs invite you to dine with them. You're high level connections and reputation also grant you a great deal of leeway.",,
+relLevelFriendlyAmerica,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == USA",FireAll RelLevelMoreDescription,"Your reputation is good with a few high-level American military leaders and officials and you are considered to be a very reliable operator amoung them. Some corporate businesses favor you in contracts, popular figures might invite you to dine with them. You have enough connections that minor indiscretions are easily forgiven.",,
+relLevelWelcomingAmerica,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == USA",FireAll RelLevelMoreDescription,Your reputation is known positively with many mid-level military officers and officials. You are considered a solid operator of choice within many low to mid-level corporations and businesses. Many Americans are willing to forgive you for minor indiscretions.,,
+relLevelFavorableAmerica,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == USA",FireAll RelLevelMoreDescription,Your reputation as a reliable operator is noted by low-level military officers and officials within American territory. Many low-level corporations and local businesses are considering giving you additional tasks.,,
+relLevelNeutralAmerica,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == USA",FireAll RelLevelMoreDescription,"Your are not really known by anyone within American territory, some outlying small businesses and local officials are open to  giving you a few errands.",,
+relLevelSuspiciousAmerica,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == USA",FireAll RelLevelMoreDescription,"Your reputation leads many to accuse you of things not yet publicly proven. Many American officials tend to view you with distrust, only giving you access as a formality of the job. Local police and military usually find you as a decent subject to profile and harass with 'investigations' and 'routine stops'.",,
+relLevelInhospitableAmerica,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == USA",FireAll RelLevelMoreDescription,"Your reputation is know negatively amongst many within American territory. Local officials are considering issuing a warrant for your arrest or destruction. American ports refuse to have anything to do with you, and local police patrols will constantly profile and harass you.",,
+relLevelHostileAmerica,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == USA",FireAll RelLevelMoreDescription,"A local warrant has been issued for you and your $shipOrFleet, with a decently sized bounty backing it. You have been banned from using the American market, unless it means seeing it from behind a prison cell door. You could attempt to recover your standing with desparate low level officials, but it will take serious elbow grease to dig yourself out now.",,
+relLevelVengefulAmerica,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == USA",FireAll RelLevelMoreDescription,"A federal warrant has been issued for you and your $shipOrFleet, information of your whereabouts are shared over public and private forums as part of a campaign to designate you a threat to national security. It is highly likely that the full might of the American military and it's intelligence agencies are working actively to hunt you down.",,
+#relLevelAmericaBaird,RelLevelMoreDescription,"$faction.id == USA
+$global.gaKA_completed",,You are known to have performed work for Provost Baird of the Galatia Academy.,,
