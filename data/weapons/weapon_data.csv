@@ -2,10 +2,10 @@ name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn r
 M2a2 50cal Turret,ot_M2a2_50cal_turret,0,,225,500,,40,,2,65,5,,,,KINETIC,3,,0,0.3,4,0.1,0,9,1,20,,800,,,15,,,PD,"pd6, kinetic4, SR, usawe_bp, USA",,USA,,Point Defense,,,,,,,,,,0.5
 Dual 50cal Turret,ot_dual_50cal_turret,0,,250,500,,40,,2,65,6,,,,KINETIC,3,,0,0.15,8,0.1,0,9,1,20,,800,,,15,,,PD,"pd7, kinetic5, SR, usawe_bp, USA",,USA,,Point Defense,,,,,,,,,,0.5
 Quad 50cal Turret,ot_quad_50cal_turret,0,,300,600,,40,,2,60,6,,,,KINETIC,3,,0,0.05,10,0.1,0,9,1,20,,800,,,15,,,PD,"pd7, kinetic5, SR, usawe_bp, USA",,USA,,Point Defense,,,,,,,,,,0.5
-M2 37mm Turret,ot_M2_37mm_turret,0,,500,750,,100,,10,20,5,,,,HIGH_EXPLOSIVE,60,,0,1.5,1,0.1,0,15,3,15,,900,,,40,,,,"he5, SR, usawe_bp, USA",,USA,,,,,,,,,,,,0.5
-M4 75mm Turret,ot_M4_75mm_turret,0,,1000,900,,300,,30,35,8,,,,HIGH_EXPLOSIVE,120,,0,2.5,1,0.1,0,10,4,15,,850,,,60,,,,"he6, LR, usawe_bp, USA",,USA,,,,,,,,,,,,0.5
-M4 76mm Turret,ot_M4_76mm_turret,0,,1250,950,,350,,30,35,8,,,,KINETIC,130,,0,2.6,1,0.1,0,10,4,15,,850,,,60,,,,"kinetic6, LR, usawe_bp, USA",,USA,,,,,,,,,,,,0.5
-M26 90mm Turret,ot_M26_90mm_turret,0,,2000,1000,,500,,90,35,15,,,,ENERGY,260,,0,5,1,0.1,0,10,5,15,,1050,,,90,,,,"he7, LR, usawe_bp, USA",,USA,,,,,,,,,,,,0.5
+M2 37mm Turret,ot_M2_37mm_turret,0,,500,750,,100,,10,20,5,,,,HIGH_EXPLOSIVE,60,,0,1.4,1,0.1,0,15,3,15,,900,,,40,,,,"he5, SR, usawe_bp, USA",,USA,,,,,,,,,,,,0.5
+M4 75mm Turret,ot_M4_75mm_turret,0,,1000,900,,300,,30,35,8,,,,HIGH_EXPLOSIVE,120,,0,2.4,1,0.1,0,10,4,15,,850,,,60,,,,"he6, LR, usawe_bp, USA",,USA,,,,,,,,,,,,0.5
+M4 76mm Turret,ot_M4_76mm_turret,0,,1250,950,,350,,30,35,8,,,,KINETIC,130,,0,2.5,1,0.1,0,10,4,15,,850,,,60,,,,"kinetic6, LR, usawe_bp, USA",,USA,,,,,,,,,,,,0.5
+M26 90mm Turret,ot_M26_90mm_turret,0,,2000,1000,,500,,90,35,15,,,,ENERGY,260,,0,4.9,1,0.1,0,10,5,15,,1050,,,90,,,,"he7, LR, usawe_bp, USA",,USA,,,,,,,,,,,,0.5
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

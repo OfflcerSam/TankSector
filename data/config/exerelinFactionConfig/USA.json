@@ -1,9 +1,11 @@
 {
-	"playableFaction":true,
-	"corvusCompatible":true,
-    "marketSpawnWeight":2,	
+    "playableFaction":true,
+    "corvusCompatible":true,
+    
     "rebelFleetSuffix":"Confederates",
-	"asteroidMiningFleetName":"Commercial Mining Fleet",	
+    
+    "marketSpawnWeight":2,
+
 	"startRelationships":{
 		"independent":0.6,
 		"pirates":-1.0,
@@ -16,71 +18,86 @@
 	    "sindrian_diktat":-0.2,	
 		"remnant":-0.4,		
 	},
-
-	# Used to determine alliance alignment; also affects disposition towards other factions
+    "maxRelationships":{ "luddic_path":-0.6, "luddic_church":0.0, "pirates":-0.5, },
+    "diplomacyPositiveChance":{ "persean":0.8, "hegemony": 0.4 },
+    "diplomacyNegativeChance":{ "luddic_path":1.5, "luddic_church":0.9 },
+    #"dispositions":{
+    #    "persean": -10,
+    #    "sindrian_diktat": -10,
+    #},
+    
 	"alignments":{
 		"corporate":0.35,
 		"technocratic":0.2,
-		"militarist":0.2,
+		"militarist":0.3,
 		"diplomatic":0.25,
 		"ideological":0.1,
 	},
 	"diplomacyTraits":["stalwart", "likes_ai", "law_and_order", "neutralist"],
-	
-	"colonyExpeditionChance":0.50,
-    "colonyTargetValuator":"exerelin.campaign.colony.ColonyTargetValuator",		
-
+    
+    # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
+    "colonyExpeditionChance":1,	# baseline expansion behaviour
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+    
+    "groundBattleSettings":{
+        "moraleDamageTakenMult":0.9,
+    },
+    
+    #"specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.PlanetNamer",
+    #"specialForcesFlagshipVariants":{ "paragon_Elite":1, "astral_Strike":0.5 },
+    
 	# Number of entries must equal number of vengeance tiers (0-3)
-	"vengeanceLevelNames":["Local Warrant", "Federal Warrant", "Naval Command Warrant"],
-	"vengeanceFleetNames":["Police Apprehension group", "Federal Marshal group", "Naval Strike group"],
-	"vengeanceFleetNamesSingle":["Police Apprehension fleet", "Federal Marshal fleet", "Naval Strike fleet"],
+	"vengeanceLevelNames":["Local Warrant", "Federal Warrant", "National Security Threat"],
+	"vengeanceFleetNamesSingle":["Police Apprehension group", "Federal Marshal group", "Naval Strike group"],
+	"vengeanceFleetNames":["Police Apprehension fleet", "Federal Marshal fleet", "Naval Strike fleet"],
+	"vengeanceFleetSizeMult":1.5,
+	
+	
+	"asteroidMiningFleetName":"Commercial Mining Fleet",
+	"invasionFleetname":"Naval Invasion Command Fleet",
+	"invasionSupportFleetname":"Naval Invasion Support Fleet",
+	"responseFleetname":"Naval Task Force Fleet",
+	"defenceFleetname":"Naval Defence Fleet",
+	"suppressionFleetname":"Naval Police Support Fleet",
 
-    "startShipsSolo":[["ot_M2Medium_Hull"]],
-    "startShipsTradeSmall":[
-		["ot_supply_truck_standard", "ot_supply_truck_standard", "ot_supply_truck_defender"],
-		["ot_supply_truck_standard", "ot_supply_truck_standard", "ot_M2a4Light_Hull_standard"]
-	],
-    "startShipsTradeLarge":[
-		["ot_supply_truck_defender", "ot_supply_truck_defender", "ot_M2a4Light_Hull_screen"],
-		["ot_supply_truck_standard", "ot_supply_truck_standard", "ot_fuel_truck_defender"]
+	
+    "startShipsSolo":[
+	  ["ot_M2Medium_Hull_standard"],
+	  ["ot_M4Sherman_Hull_standard"]
 	],
     "startShipsCombatSmall":[
-		["ot_M2a4Light_Hull_standard","ot_M2a2Light_Hull_screen", "ot_M2a2Light_Hull_standard"],
-		["ot_M2Medium_Hull_standard", "ot_M2a2Light_Hull_standard", "ot_M2a2Light_Hull_standard"]
-	],
+      ["ot_M2a4Light_Hull_standard", "ot_M2a2Light_Hull_standard", "ot_M2a2Light_Hull_screen"],
+      ["ot_M2Medium_Hull_standard", "ot_M2a4Light_Hull_standard", "ot_M2a4Light_Hull_standard"]
+    ],
+    "startShipsTradeSmall":[["ot_fuel_truck_defender", "ot_supply_truck_defender", "ot_M2a4Light_Hull_screen"]],
     "startShipsCombatLarge":[
-		["ot_M4Jumbo_Hull_standard", "ot_M4Sherman_Hull_standard", "ot_M2a4Light_Hull_screen"],
-		["ot_M2Medium_Hull_standard", "ot_M2Medium_Hull_standard", "ot_M2a2Light_Hull_screen"]
-	],
-    "startShipsCarrierSmall":[
-		["ot_supply_truck_defender", "ot_M2a2Light_Hull_screen", "ot_supply_truck_standard"],
-		["ot_supply_truck_standard", "ot_supply_truck_standard", "ot_supply_truck_standard"]
-	],
-    "startShipsCarrierLarge":[		
-		["ot_fuel_truck_defender", "ot_supply_truck_defender", "ot_M2a4Light_Hull_standard"],
-		["ot_fuel_truck_defender", "ot_supply_truck_standard", "ot_M2Medium_Hull_screen"]
-	],
-	
+      ["ot_M4Jumbo_Hull_standard", "ot_M4Sherman_Hull_upgun", "ot_M4Sherman_Hull_standard"],
+      ["ot_M4Sherman_Hull_upgun", "ot_M4Sherman_Hull_standard", "ot_M2Medium_Hull_screen"]
+    ],
+    "startShipsTradeLarge":[["ot_armored_train_standard", "ot_supply_truck_defender", "ot_supply_truck_defender"]],
+    "startShipsExplorerLarge":[["ot_armored_train_standard", "ot_M2Medium_Hull_standard", "ot_M2Medium_Hull_standard"]],
+    "startShipsCarrierSmall":[["ot_supply_truck_standard", "ot_supply_truck_standard", "ot_supply_truck_standard"]],
+    "startShipsCarrierLarge":[["ot_armored_train_standard", "ot_supply_truck_standard", "ot_supply_truck_standard"]],
+    #"startShipsGrandFleet":[[""]],
+    
 	"startSpecialItems":[
         [["usash_package", "usawe_package", "usawi_package", ""]],		
-    ],	
-	
-   "industrySeeds":[
- 		{"id":"militarybase", "mult":1},
-        {"id":"orbitalworks", "mult":1},
-        {"id":"fuelprod", "mult":1},
-        {"id":"lightindustry", "mult":1},
     ],
-
+    
+    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"]},
+        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"], "weight":0.6},
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.8},
+        {"id":"fuelprod", "mult":1.2},
+        {"id":"lightindustry", "mult":0.8},
+    ],
+    
     "bonusSeeds":[
+        {"id":"population_upsize", "count":1, "mult":1.2},
         {"id":"nanoforge_pristine", "count":1},
-        {"id":"population_upsize", "count":1},		
+        {"id":"aiCore_any", "count":1, "mult":1.5},
     ],
-
-
-	# Defense stations used in random sector
-	"defenceStations":[
-		{"ids":["orbitalstation", "battlestation", "starfortress"]},
-		{"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"]},
-	],
 }

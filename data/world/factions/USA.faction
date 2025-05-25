@@ -51,6 +51,7 @@
 			"ot_M4Jumbo_Hull",
 			"ot_supply_truck",
 			"ot_fuel_truck",
+			"ot_armored_train",
 	],
   },
   # listing ships here will make the faction mostly use them even if other hulls become available
@@ -64,6 +65,7 @@
 			"ot_M4Jumbo_Hull",
 			"ot_supply_truck",
 			"ot_fuel_truck",
+			"ot_armored_train",
       ],		
   },
 	"knownFighters":{

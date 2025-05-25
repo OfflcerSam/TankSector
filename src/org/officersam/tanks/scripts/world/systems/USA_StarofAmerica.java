@@ -213,9 +213,9 @@ public class USA_StarofAmerica {
                         Industries.HIGHCOMMAND,
                         Industries.WAYSTATION
                 ),
-                0.18f,
-                true,
-                true);
+                0.17f,
+                false,
+                false);
 
         //amerierra_market.addIndustry(Industries.ORBITALWORKS, Collections.singletonList(Items.PRISTINE_NANOFORGE));
         amerierra_market.getIndustry(Industries.HIGHCOMMAND).setAICoreId(Commodities.ALPHA_CORE);
@@ -278,7 +278,7 @@ public class USA_StarofAmerica {
                         Industries.WAYSTATION
                 ),
                 0.18f,
-                true,
+                false,
                 true);
 
 
@@ -318,9 +318,9 @@ public class USA_StarofAmerica {
                         Industries.ORBITALWORKS,
                         Industries.WAYSTATION
                 ),
-                0.18f,
+                0.20f,
                 false,
-                false);
+                true);
 
         usnsf_market.getIndustry(Industries.MILITARYBASE).setAICoreId(Commodities.BETA_CORE);
         usnsf_market.getIndustry(Industries.BATTLESTATION_HIGH).setAICoreId(Commodities.ALPHA_CORE);
