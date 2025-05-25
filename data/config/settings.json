@@ -5,9 +5,9 @@
 	"graphics":{
 	},		
 		"blueprint_packages":{
-			"usash_package":"graphics/icons/cargo/ot_usa_bp.png",
-			"usawi_package":"graphics/icons/cargo/ot_usa_bp.png",
-			"usawe_package":"graphics/icons/cargo/ot_usa_bp.png",
+			"usash_package":"graphics/icons/cargo/blueprint_usa.png",
+			"usawi_package":"graphics/icons/cargo/blueprint_usa.png",
+			"usawe_package":"graphics/icons/cargo/blueprint_usa.png",
 		},
 	}
 }
