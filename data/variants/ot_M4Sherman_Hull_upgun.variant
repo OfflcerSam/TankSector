@@ -13,7 +13,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "TurretRing": "ot_M26_90mm_turret"
+        "TurretRing": "ot_M4_76mm_turret"
       }
     }
   ],

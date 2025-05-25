@@ -16,6 +16,8 @@ ot_dual_50cal_turret,WEAPON,"Non-standard modified M2a2, equipped with dual 50ca
 ot_M2a2_30cal_turret,WEAPON,"Standard M2a2 turret, equipped with a 30cal LMG.",,,
 ot_M2_37mm_turret,WEAPON,"Standard M2-M3 turret, equipped with a 37mm.",,,
 ot_M4_75mm_turret,WEAPON,"Standard M4 Sherman turret, equipped with a 75mm.",,,
+ot_M4_75mm_turret,WEAPON,"Standard M4 Sherman turret, equipped with a 76mm.",,,
+ot_M26_90mm_turret,WEAPON,"Standard M26 Pershing turret, equipped with a 90mm.",,,
 ,,,,,
 ot_h30cal,WEAPON,"Standard Hull 30cal, you might see this for many built-in weapons.",,,
 ot_bar,WEAPON,"Standard BAR, what does that stand for again?",,,
