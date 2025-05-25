@@ -1,4 +1,5 @@
 {
+#WeaponSounds
 	"ot_sound_30cal":[
 		{"file":"sounds/sfx_wpn_guns/30cal_fire_1.ogg","pitch":1.0,"volume":0.1},
 		{"file":"sounds/sfx_wpn_guns/30cal_fire_2.ogg","pitch":1.0,"volume":0.1},
@@ -20,7 +21,178 @@
 		{"file":"sounds/sfx_wpn_guns/tank_fire_2.ogg","pitch":1,"volume":1.2},
 	],
 
-
+#Music
+	"music_usa_market_neutral":[
+			{
+				"source":"sounds/music",
+				"volume":0.8,
+				"files":[
+					"usa_anthem.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		"music_usa_market_hostile":[
+			{
+				"source":"sounds/music",
+				"volume":0.8,
+				"files":[
+					"usa_johnnymarching_instrumental.ogg",
+					"usa_ambush_waw.ogg",
+					"usa_dogfire_waw.ogg",
+					"usa_anthem.ogg.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		"music_usa_market_friendly":[
+			{
+				"source":"sounds/music",
+				"volume":0.8,
+				"files":[
+					"usa_overthere_instrumental.ogg",
+					"usa_anthem.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		"music_usa_encounter_neutral":[
+			{
+				"source":"sounds/music",
+				"volume":0.8,
+				"files":[
+					"usa_anthem.ogg",
+					"usa_overthere_instrumental.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		"music_usa_encounter_hostile":[
+			{
+				"source":"sounds/music",
+				"volume":0.8,
+				"files":[
+					"usa_ambush_waw.ogg",
+					"usa_johnnymarching_instrumental.ogg",
+					"usa_dogfire_waw.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		"music_usa_encounter_friendly":[
+			{
+				"source":"sounds/music",
+				"volume":0.8,
+				"files":[
+					"usa_johnnymarching_instrumental.ogg",
+					"usa_overthere_instrumental.ogg",
+					"usa_anthem.ogg",
+				],
+				"randomStart":true, 
+			},
+		]
+		
+	"music": {
+		"usabattle": [
+		  {
+			"source": "sounds/music",
+			"volume": 0.5,
+			"file": "usa_americam_waw.ogg"
+		  },
+		  {
+			"source": "sounds/music",
+			"volume": 0.5,
+			"file": "usa_overthere_instrumental.ogg"
+		  },
+		  {
+			"source": "sounds/music",
+			"volume": 0.5,
+			"file": "usa_johnnymarching_instrumental.ogg"
+		  }
+		],
+		"usabattle_hard": [
+		  {
+			"source": "sounds/music",
+			"volume": 0.5,
+			"file": "usa_ambush_waw.ogg"
+		  },
+		  {
+			"source": "sounds/music",
+			"volume": 0.5,
+			"file": "usa_dogfire_waw.ogg"
+		  }
+		],		
+		"usabattle_medium": [
+		  {
+			"source": "sounds/music",
+			"volume": 0.5,
+			"file": "usa_overthere_instrumental.ogg"
+		  },
+		  {
+			"source": "sounds/music",
+			"volume": 0.5,
+			"file": "usa_anthem.ogg"
+		  },
+		  {
+			"source": "sounds/music",
+			"volume": 0.5,
+			"file": "usa_dogfire_waw.ogg"
+		  }
+		],
+		"usa_losing": [
+		  {
+			"source": "sounds/music",
+			"volume": 0.5,
+			"file": "usa_anthem_dminor.ogg"
+		  },
+		  {
+			"source": "sounds/music",
+			"volume": 0.5,
+			"file": "usa_anthem_dminor.ogg"
+		  }
+		],
+		"usa_destroy": [
+		  {
+			"source": "sounds/music",
+			"volume": 0.5,
+			"file": "usa_anthem_dminor.ogg"
+		  },
+		  {
+			"source": "sounds/music",
+			"volume": 0.5,
+			"file": "usa_anthem_dminor.ogg"
+		  }
+		],	
+		"usa_defeat": [
+		  {
+			"source": "sounds/music",
+			"volume": 0.5,
+			"file": "usa_defeat_wt.ogg"
+		  },
+		  {
+			"source": "sounds/music",
+			"volume": 0.5,
+			"file": "usa_anthem_dminor.ogg"
+		  }
+		],
+		"usa_winning": [
+		  {
+			"source": "sounds/music",
+			"volume": 0.8,
+			"file": "usa_victory_waw.ogg"
+		  },
+		  {
+			"source": "sounds/music",
+			"volume": 0.8,
+			"file": "usa_victory_anthem.ogg"
+		  },
+		  {
+			"source": "sounds/music",
+			"volume": 0.8,
+			"file": "usa_victory_wt.ogg"
+		  }
+		]
+	}
 }
 
 
