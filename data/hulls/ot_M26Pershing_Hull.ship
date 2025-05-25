@@ -1,0 +1,80 @@
+{
+  "hullName": "M26 Pershing",
+  "hullId": "ot_M26Pershing_Hull",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/M26Pershing_Hull.png",
+  "style": "MIDLINE",
+  "height": 129,
+  "width": 76,
+  "center": [38, 64.5],
+  "collisionRadius": 81.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 81.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ballistic_rangefinder",
+    "armoredweapons",
+    "hardened_subsystems",
+    "heavyarmor",
+    "reinforcedhull"
+  ],
+  "builtInWeapons": {
+    "Hull": "ot_h30cal",
+    "RoofMG": "ot_M2a2_50cal_turret"
+  },
+  "weaponSlots": [
+    {
+      "id": "Hull",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 75,
+      "angle": 0,
+      "locations": [53, -14]
+    },
+    {
+      "id": "RoofMG",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-1.5, -0]
+    },
+    {
+      "id": "TurretRing",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [12, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-62.5, -28.5],
+      "length": 80,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-62.5, 28.5],
+      "length": 80,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    56.5, 23.5,
+    -52, 23,
+    -63.5, 12,
+    -63.5, -12,
+    -52, -23,
+    56.5, -23.5
+  ]
+}

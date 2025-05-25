@@ -206,7 +206,7 @@ public class USA_StarofAmerica {
                         Industries.POPULATION,
                         Industries.MEGAPORT,
                         Industries.MINING,
-                        Industries.STARFORTRESS,
+                        Industries.STARFORTRESS_HIGH,
                         Industries.HEAVYBATTERIES,
                         Industries.HEAVYINDUSTRY,
                         Industries.LIGHTINDUSTRY,
@@ -219,7 +219,7 @@ public class USA_StarofAmerica {
 
         //amerierra_market.addIndustry(Industries.ORBITALWORKS, Collections.singletonList(Items.PRISTINE_NANOFORGE));
         amerierra_market.getIndustry(Industries.HIGHCOMMAND).setAICoreId(Commodities.ALPHA_CORE);
-        amerierra_market.getIndustry(Industries.STARFORTRESS).setAICoreId(Commodities.ALPHA_CORE);
+        amerierra_market.getIndustry(Industries.STARFORTRESS_HIGH).setAICoreId(Commodities.ALPHA_CORE);
         amerierra_market.getIndustry(Industries.MEGAPORT).setAICoreId(Commodities.ALPHA_CORE);
         amerierra_market.getIndustry(Industries.MINING).setAICoreId(Commodities.ALPHA_CORE);
         amerierra_market.getIndustry(Industries.LIGHTINDUSTRY).setAICoreId(Commodities.ALPHA_CORE);
@@ -272,7 +272,7 @@ public class USA_StarofAmerica {
                         Industries.HEAVYINDUSTRY,
                         Industries.AQUACULTURE,
                         Industries.FUELPROD,
-                        Industries.STARFORTRESS,
+                        Industries.STARFORTRESS_MID,
                         Industries.HEAVYBATTERIES,
                         Industries.HIGHCOMMAND,
                         Industries.WAYSTATION
@@ -283,7 +283,7 @@ public class USA_StarofAmerica {
 
 
         martini_market.getIndustry(Industries.HIGHCOMMAND).setAICoreId(Commodities.ALPHA_CORE);
-        martini_market.getIndustry(Industries.STARFORTRESS).setAICoreId(Commodities.ALPHA_CORE);
+        martini_market.getIndustry(Industries.STARFORTRESS_MID).setAICoreId(Commodities.ALPHA_CORE);
         martini_market.getIndustry(Industries.MEGAPORT).setAICoreId(Commodities.ALPHA_CORE);
         martini_market.getIndustry(Industries.HEAVYINDUSTRY).setAICoreId(Commodities.ALPHA_CORE);
         martini_market.getIndustry(Industries.MINING).setAICoreId(Commodities.ALPHA_CORE);

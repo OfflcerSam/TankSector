@@ -21,9 +21,9 @@
 		{"file":"sounds/sfx_wpn_guns/tank_fire_2.ogg","pitch":1,"volume":1.2},
 	],
 		"ot_sound_us90mm_fire":[
-		{"file":"sounds/sfx_wpn_guns/tank_fire_1.ogg","pitch":0.9,"volume":1.8},
-		{"file":"sounds/sfx_wpn_guns/tank_fire_2.ogg","pitch":0.9,"volume":1.8},
-		{"file":"sounds/sfx_wpn_guns/tank_fire_2.ogg","pitch":0.9,"volume":1.8},
+		{"file":"sounds/sfx_wpn_guns/tank_fire_1.ogg","pitch":1,"volume":1.8},
+		{"file":"sounds/sfx_wpn_guns/tank_fire_2.ogg","pitch":1,"volume":1.8},
+		{"file":"sounds/sfx_wpn_guns/tank_fire_2.ogg","pitch":1,"volume":1.8},
 	],
 
 	#Music
@@ -31,7 +31,7 @@
 		"music_usa_market_neutral":[
 			{
 				"source":"sounds/music",
-				"volume":0.8,
+				"volume":0.5,
 				"files":[
 					"usa_anthem.ogg",
 				],
@@ -41,7 +41,7 @@
 		"music_usa_market_hostile":[
 			{
 				"source":"sounds/music",
-				"volume":0.8,
+				"volume":0.5,
 				"files":[
 					"usa_ambush_waw.ogg",
 					"usa_dogfire_waw.ogg",
@@ -52,7 +52,7 @@
 		"music_usa_market_friendly":[
 			{
 				"source":"sounds/music",
-				"volume":0.8,
+				"volume":0.5,
 				"files":[
 					"usa_anthem.ogg",
 				],
@@ -62,7 +62,7 @@
 		"music_usa_encounter_neutral":[
 			{
 				"source":"sounds/music",
-				"volume":0.8,
+				"volume":0.5,
 				"files":[
 					"usa_americam_waw.ogg",
 					"usa_overthere_instrumental.ogg",
@@ -73,7 +73,7 @@
 		"music_usa_encounter_hostile":[
 			{
 				"source":"sounds/music",
-				"volume":0.8,
+				"volume":0.5,
 				"files":[
 					"usa_ambush_waw.ogg",
 					"usa_dogfire_waw.ogg",
@@ -84,7 +84,7 @@
 		"music_usa_encounter_friendly":[
 			{
 				"source":"sounds/music",
-				"volume":0.8,
+				"volume":0.5,
 				"files":[
 					"usa_overthere_instrumental.ogg",
 					"usa_anthem.ogg",

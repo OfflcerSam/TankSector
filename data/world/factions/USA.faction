@@ -49,6 +49,7 @@
 			"ot_M2Medium_Hull",
 			"ot_M4Sherman_Hull",
 			"ot_M4Jumbo_Hull",
+			"ot_M26Pershing_Hull",
 			"ot_supply_truck",
 			"ot_fuel_truck",
 			"ot_armored_train",
@@ -63,6 +64,7 @@
 			"ot_M2Medium_Hull",
 			"ot_M4Sherman_Hull",
 			"ot_M4Jumbo_Hull",
+			"ot_M26Pershing_Hull",
 			"ot_supply_truck",
 			"ot_fuel_truck",
 			"ot_armored_train",
@@ -90,6 +92,7 @@
             "ot_M2a2_30cal_turret",
             "ot_M2_37mm_turret",
 			"ot_M4_75mm_turret",
+			"ot_M4_76mm_turret",
 			"ot_M26_90mm_turret",
         ],
   },
@@ -128,24 +131,25 @@
 	},
 	"weaponSellFrequency":{
 		"ot_M2a2_50cal_turret":10,
-		"ot_M2a2_30cal_turret":10,
+		"ot_M2a2_30cal_turret":15,
 		"ot_M2_37mm_turret":20,
 		"ot_dual_50cal_turret":10,
 		"ot_quad_50cal_turret":10,
-		"ot_M4_75mm_turret":30,
+		"ot_M4_75mm_turret":20,
+		"ot_M4_76mm_turret":20,
 		"ot_M26_90mm_turret":5,
 
 	},
 	"fighterSellFrequency":{
-			"ot_man_bar":5,
+			"ot_man_bar":15,
 			"ot_man_30cal":10,
 			"ot_man_garand":20,
 	},
 	"hullmodSellFrequency":{
-		"heavyarmor":8,
-		"ballistic_rangefinder":9,
-		"targetingunit":7,
-		"armoredweapons":7,
+		"heavyarmor":10,
+		"ballistic_rangefinder":10,
+		"targetingunit":10,
+		"armoredweapons":10,
 	},	
 	"factionDoctrine":{
 		"warships":5,
@@ -201,7 +205,7 @@
 	"voices":{
 		"LOW":{
 			"soldier":10,
-			"faithful":1,
+			"official":5,
 		},
 		"MEDIUM":{
 			"soldier":10,
