@@ -1,0 +1,84 @@
+{
+  "hullName": "M2a4 Light",
+  "hullId": "ot_M2a4Light_Hull",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/M2a4_Hull.png",
+  "style": "LOW_TECH",
+  "height": 71,
+  "width": 44,
+  "center": [22, 35.5],
+  "collisionRadius": 43.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 43.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "turretgyros"
+  ],
+  "builtInWeapons": {
+    "Hull": "ot_h30cal",
+    "SideL": "ot_h30cal",
+    "SideR": "ot_h30cal"
+  },
+  "weaponSlots": [
+    {
+      "id": "Hull",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 71,
+      "angle": 0,
+      "locations": [26, -6.5]
+    },
+    {
+      "id": "TurretRing",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-3.5, -0]
+    },
+    {
+      "id": "SideR",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 102,
+      "angle": -39,
+      "locations": [7.5, -17]
+    },
+    {
+      "id": "SideL",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 102,
+      "angle": 39,
+      "locations": [7.5, 17]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-34.5, -16.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-34.5, 16.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    31.5, 21,
+    -31.5, 21,
+    -31.5, -21,
+    31.5, -21
+  ]
+}

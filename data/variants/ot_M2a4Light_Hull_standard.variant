@@ -1,0 +1,25 @@
+{
+  "variantId": "ot_M2a4Light_Hull_standard",
+  "hullId": "ot_M2a4Light_Hull",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Hull": "ot_h30cal",
+        "SideL": "ot_h30cal",
+        "SideR": "ot_h30cal",
+        "TurretRing": "ot_M2_37mm_turret"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

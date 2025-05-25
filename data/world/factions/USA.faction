@@ -1,0 +1,351 @@
+{
+	id:"USA",
+	"color":[99,107,47,255],
+	"baseUIColor":[99,107,47,255],
+    "darkUIColor":[99,107,47,175],
+    "gridUIColor":[99,107,47,75],
+	
+	"secondaryUIColor":[255,215,0,255],
+    "secondarySegments":6,
+
+	
+	"displayName":"USMJ",
+	"displayNameWithArticle":"the USMJ",
+	"displayNameLong":"United States Military Junta",
+	"displayNameLongWithArticle":"the United States Military Junta",
+	"logo":"graphics/factions/USMJ/USMJ_flag.png",
+	"crest":"graphics/factions/USMJ/USMJ_crest.png",
+	"shipNamePrefix":"USS",
+	"shipNameSources":{
+	"BRITISH_NAVY":10,
+	},
+	"description":"",
+	"names":{
+		"modern":1,
+		"old english":1,
+	},
+	
+ # variantOverrides restricts hulls to listed variants and adjusts their probability
+  "variantOverrides": {
+  },
+  # multiplier for how often hulls show up in the faction's fleets
+  "hullFrequency": {
+		"tags":{
+    },
+		"hulls":{		
+	},
+},
+  # ships the faction gets access to when importing S&W out-of-faction
+  "shipsWhenImporting": {
+    "tags":[],
+    "hulls":[],
+  },
+  
+  "knownShips": {
+    "tags": ["usash_bp",],
+		"hulls":[
+			"ot_M2a2Light_Hull",
+			"ot_M2a4Light_Hull",
+			"ot_M2Medium_Hull",
+			"ot_M4Sherman_Hull",
+			"ot_M4Jumbo_Hull",
+			"ot_supply_truck",
+			"ot_fuel_truck",
+	],
+  },
+  # listing ships here will make the faction mostly use them even if other hulls become available
+  "priorityShips": {
+    "tags": ["usash_bp"],
+    "hulls": [
+			"ot_M2a2Light_Hull",
+			"ot_M2a4Light_Hull",
+			"ot_M2Medium_Hull",
+			"ot_M4Sherman_Hull",
+			"ot_M4Jumbo_Hull",
+			"ot_supply_truck",
+			"ot_fuel_truck",
+      ],		
+  },
+	"knownFighters":{
+		"tags":["usawi_bp"],
+		"fighters":[
+			"ot_man_bar",
+			"ot_man_30cal",
+			"ot_man_garand",
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+       "fighters":[
+		],
+  },
+  "knownWeapons": {
+    "tags": ["usawe_bp"],
+    "weapons": [
+            "ot_M2a2_50cal_turret",
+			"ot_dual_50cal_turret",
+			"ot_quad_50cal_turret",
+            "ot_M2a2_30cal_turret",
+            "ot_M2_37mm_turret",
+			"ot_M4_75mm_turret",
+			"ot_M26_90mm_turret",
+        ],
+  },
+  "priorityWeapons": {
+    "tags": [],
+    "weapons": [
+        ],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "standard"],
+		"hullMods":[
+      "converted_hangar",
+      "turretgyros",
+      "armoredweapons",
+      "ballistic_rangefinder",
+      "augmentedengines",
+      "converted_hangar",
+      "expanded_deck_crew",
+      "magazines",
+      "missleracks",
+      "extendedshieldemitter",
+      "frontemitter",
+      "frontshield", # makeshift
+      "heavyarmor",
+      "insulatedengine",
+      "nav_relay",
+      "operations_center",
+      "recovery_shuttles",
+      "fluxdistributor",
+      "surveying_equipment",
+      "efficiency_overhaul",
+	  "fluxcoil",
+	  "targetingunit",
+	  "hardened_subsystems",
+		],
+	},
+	"weaponSellFrequency":{
+		"ot_M2a2_50cal_turret":10,
+		"ot_M2a2_30cal_turret":10,
+		"ot_M2_37mm_turret":20,
+		"ot_dual_50cal_turret":10,
+		"ot_quad_50cal_turret":10,
+		"ot_M4_75mm_turret":30,
+		"ot_M26_90mm_turret":5,
+
+	},
+	"fighterSellFrequency":{
+			"ot_man_bar":5,
+			"ot_man_30cal":10,
+			"ot_man_garand":20,
+	},
+	"hullmodSellFrequency":{
+		"heavyarmor":8,
+		"ballistic_rangefinder":9,
+		"targetingunit":7,
+		"armoredweapons":7,
+	},	
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":2,
+		"phaseShips":0,
+		
+		"officerQuality":1,
+		"shipQuality":3,
+		"numShips":3,
+		
+		"shipSize":3,
+		
+		"aggression":4,
+		
+		"combatFreighterProbability":0.5,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.2,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.25,
+
+		"commanderSkillsShuffleProbability":0.5,
+		"commanderSkills":[
+			"fighter_uplink",
+			"carrier_group",
+			"crew_training",
+			"officer_training",
+			"coordinated_maneuvers",
+			"electronic_warfare",
+			"flux_regulation",
+		],
+	},
+	"illegalCommodities":[
+		"drugs",
+	],
+		"music":{
+		"theme":"music_usa_market_neutral",
+		"market_neutral":"music_usa_market_neutral",
+		"market_hostile":"music_usa_market_hostile",
+		"market_friendly":"music_usa_market_friendly",
+		"encounter_neutral":"music_usa_encounter_neutral",
+		"encounter_hostile":"music_usa_encounter_hostile",
+		"encounter_friendly":"music_usa_encounter_friendly",
+	},
+
+	"internalComms":"usa_internal",
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/USMJ.png",
+		],
+		"standard_female":[
+			"graphics/portraits/USMJ.png",	
+		],			
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,
+			"faithful":1,
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"official":5,
+		},
+		"HIGH":{
+			"soldier":10,
+			"business":5,
+			"official":10,
+		},
+	},
+	"custom":{
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":2,
+		"AICoreRepMult":2,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		"caresAboutAtrocities":false,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":false,
+			"territorial":true,
+		},
+		"simulatorData":{
+			"showInSimulator":true,
+		},
+	},
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"High Secretary of the Council"},
+
+			"spaceSailor":{"name":"Specialist"},
+			"spaceChief":{"name":"Sergeant"},
+			"spaceEnsign":{"name":"Ensign"},
+			"spaceLieutenant":{"name":"Captain"},
+			"spaceCommander":{"name":"Lieutenant Colonel"},
+			"spaceCaptain":{"name":"Colonel"},
+			"spaceAdmiral":{"name":"Lieutenant General"},
+			"spaceMarshal":{"name":"General"},
+		
+			"groundPrivate":{"name":"Private"},
+			"groundSergeant":{"name":"Sergeant"},
+			"groundLieutenant":{"name":"Lieutenant"},
+			"groundCaptain":{"name":"Captain"},
+			"groundMajor":{"name":"Major"},
+			"groundColonel":{"name":"Colonel"},
+			"groundGeneral":{"name":"General"},
+			
+			"chiefHighInspector":{"name":"Deputy Director of the Federal Buerau of Investigation"},
+			"deputyStarMarshal":{"name":"Deputy Marshal Inspector"},
+			"guardHighDeputyExecutor":{"name":"Attorney General"},
+		
+			"citizen":{"name":"American Citizen"},
+			"executive":{"name":"Corporate Deputy"},
+			"seniorExecutive":{"name":"Corporate Officer"},
+			"agent":{"name":"Federal Agent"},
+			"specialAgent":{"name":"CIA Operative"},
+			
+			"aristocrat":{name:"Chief Executive Officer"},
+
+		},
+		"posts":{
+			"factionLeader":{"name":"High Secretary of the Council"},
+		
+			"patrolCommander":{"name":"Patrol Leader"},
+			"fleetCommander":{"name":"Fleet Commander"},
+			
+			"baseCommander":{"name":"Planetary Operations Director"},
+			"stationCommander":{"name":"Station Operations Director"},
+			"outpostCommander":{"name":"Outpost Operations Director"},
+			"portmaster":{"name":"Dockmaster"},
+			
+			"intelligenceDirector":{"name":"Director of the Central Intelligence Agency"},
+			"guardLeader":{"name":"Director of Homeland Security"},
+			
+			"supplyOfficer":{"name":"Quartermaster Officer"},
+			"supplyManager":{"name":"Logistics Officer"},
+			"medicalSupplier":{"name":"General Medical Officer"},
+			
+			"administrator":{"name":"Civilian Administrator"},
+			"militaryAdministrator":{"name":"Military Administrator"},
+			"freeAdmin":{"name":"Freelance Administrator"},
+			
+			"minorCriminal":{"name":"First-time Felon"},
+			"criminal":{"name":"Repeat-Offender"},
+			"spacer":{"name":"Drifter"},
+			
+			"genericMilitary":{"name":"Lieutenant Colonel"},
+			"marineSquadLeader":{"name":"Sergeant"},
+			
+			"trader":{"name":"Commercial Tradesman"},
+			"merchant":{"name":"Corporate Exchange Officer"},
+			
+			"shady":{"name":"Suspicious Character"},
+			"armsDealer":{"name":"Commercial Arms Dealer"},
+
+			"citizen":{"name":"American Citizen"},
+			
+			"mercenary":{"name":"Mercenary Officer"},
+			"officer":{"name":"Officer"},
+			"officer_for_hire":{"name":"Junior Officer (available for hire)"}, 
+			
+			"investigator":{"name":"Federal Investigator"},
+			"agent":{"name":"Federal Agent"},
+			"specialAgent":{"name":"CIA Operative"},
+			
+			
+			"securityChief":{name:"Security Director"},
+			"aristocrat":{name:"Corporate Executive Officer"},
+		},
+	},
+	"fleetTypeNames":{
+
+	"trade": "Commercial Trade Fleet",
+	"tradeLiner": "Corporate Spaceliner Fleet",
+	"tradeSmuggler":"'Free' Trader",
+	"smallTrader": "Local Trade Fleet",
+	
+    "patrolSmall": "Naval Police Patrol",
+    "patrolMedium": "Naval Strike Group",
+    "patrolLarge": "Naval Support Detachment",
+
+	"supplyFleet":"Naval Logistics Fleet",
+	
+	"investigators":"Federal Investigators",
+	
+    "inspectionFleet": "Federal Investigation Fleet",
+    "taskForce": "Naval Strike Force",		
+	
+	"scavengerSmall":"Local Recovery Group",
+	"scavengerMedium":"Commercial Recovery Fleet",
+	"scavengerLarge":"Corporate Recovery Fleet",
+	
+	"foodReliefFleet":"Humanitarian Aid Convoy",
+	
+	"mercScout":"PMC Scouting Party",
+	"mercBountyHunter":"Fugitive Recovery Agent",
+	"mercPrivateer":"PMC Group",
+	"mercPatrol":"PMC Patrol Group",
+	"mercArmada":"PMC Strike Fleet",
+	
+	"battlestation":"Star Fortress",
+		
+	},
+		
+},

@@ -1,0 +1,85 @@
+{
+  "hullName": "M4a3E2 Jumbo",
+  "hullId": "ot_M4Jumbo_Hull",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/M4Sherman_Hull.png",
+  "style": "LOW_TECH",
+  "height": 115,
+  "width": 52,
+  "center": [26, 57.5],
+  "collisionRadius": 73.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 73.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reinforcedhull",
+	"heavyarmor",
+	"armoredweapons",
+    "turretgyros"
+  ],
+  "builtInWeapons": {
+    "HullMG": "ot_h30cal",
+    "RoofPintle": "ot_M2a2_50cal_turret"
+  },
+  "weaponSlots": [
+    {
+      "id": "TurretRing",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [1.5, -0]
+    },
+    {
+      "id": "RoofPintle",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-11.5, -0]
+    },
+    {
+      "id": "HullMG",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 71,
+      "angle": 0,
+      "locations": [42, -9.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-57, -20],
+      "length": 50,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-57, 20],
+      "length": 50,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -52.5, 25,
+    42.5, 25,
+    42.5, 15.5,
+    55.5, 15.5,
+    55.5, 6,
+    53.5, 4.5,
+    53.5, -4.5,
+    55.5, -6,
+    55.5, -15.5,
+    42.5, -15.5,
+    42.5, -25,
+    -52.5, -25
+  ]
+}
