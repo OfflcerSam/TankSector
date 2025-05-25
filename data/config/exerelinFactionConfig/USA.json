@@ -37,28 +37,28 @@
 
     "startShipsSolo":[["ot_M2Medium_Hull"]],
     "startShipsTradeSmall":[
-		["ot_supply_truck_standard", "ot_supply_truck_standard", "ot_supply_truck_defender", "ot_M2a2Light_Hull_screen"],
-		["ot_supply_truck_standard", "ot_supply_truck_standard", "ot_supply_truck_defender", "ot_M2a4Light_Hull_standard"]
+		["ot_supply_truck_standard", "ot_supply_truck_standard", "ot_supply_truck_defender"],
+		["ot_supply_truck_standard", "ot_supply_truck_standard", "ot_M2a4Light_Hull_standard"]
 	],
     "startShipsTradeLarge":[
-		["ot_supply_truck_defender", "ot_supply_truck_defender",  "ot_fuel_truck_standard", "ot_supply_truck_standard", "ot_M2a4Light_Hull_screen"],
-		["ot_supply_truck_standard", "ot_supply_truck_standard",  "ot_fuel_truck_defender", "ot_supply_truck_standard", "ot_M2Medium_Hull_standard"]
+		["ot_supply_truck_defender", "ot_supply_truck_defender", "ot_M2a4Light_Hull_screen"],
+		["ot_supply_truck_standard", "ot_supply_truck_standard", "ot_fuel_truck_defender"]
 	],
     "startShipsCombatSmall":[
 		["ot_M2a4Light_Hull_standard","ot_M2a2Light_Hull_screen", "ot_M2a2Light_Hull_standard"],
 		["ot_M2Medium_Hull_standard", "ot_M2a2Light_Hull_standard", "ot_M2a2Light_Hull_standard"]
 	],
     "startShipsCombatLarge":[
-		["ot_M4Sherman_Hull_standard", "ot_M4Sherman_Hull_standard", "ot_M2a4Light_Hull_screen", "ot_M2a4Light_Hull_standard"],
-		["ot_M2Medium_Hull_standard", "ot_M2Medium_Hull_standard", "ot_M2a4Light_Hull_standard","ot_M2a2Light_Hull_screen"]
+		["ot_M4Sherman_Hull_standard", "ot_M4Sherman_Hull_standard", "ot_M2a4Light_Hull_screen"],
+		["ot_M2Medium_Hull_standard", "ot_M2Medium_Hull_standard", "ot_M2a2Light_Hull_screen"]
 	],
     "startShipsCarrierSmall":[
-		["ot_supply_truck_defender", "ot_fuel_truck_standard", "ot_M2a2Light_Hull_screen", "ot_M2a2Light_Hull_standard"],
-		["ot_supply_truck_standard", "ot_supply_truck_standard", "ot_M2a4Light_Hull_screen", "ot_supply_truck_standard",]
+		["ot_supply_truck_defender", "ot_M2a2Light_Hull_screen", "ot_supply_truck_standard"],
+		["ot_supply_truck_standard", "ot_supply_truck_standard", "ot_supply_truck_standard"]
 	],
     "startShipsCarrierLarge":[		
-		["ot_fuel_truck_defender", "ot_supply_truck_defender", "ot_supply_truck_standard", "ot_M2a2Light_Hull_screen", "ot_M2a4Light_Hull_standard"],
-		["ot_fuel_truck_defender", "ot_supply_truck_standard", "ot_supply_truck_standard", "ot_M2Medium_Hull_screen", "ot_M2a2Light_Hull_screen"]
+		["ot_fuel_truck_defender", "ot_supply_truck_defender", "ot_M2a4Light_Hull_standard"],
+		["ot_fuel_truck_defender", "ot_supply_truck_standard", "ot_M2Medium_Hull_screen"]
 	],
 	
 	"startSpecialItems":[
