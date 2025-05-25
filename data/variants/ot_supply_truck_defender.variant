@@ -1,7 +1,7 @@
 {
   "variantId": "ot_supply_truck_defender",
   "hullId": "ot_supply_truck",
-  "displayName": "Standard",
+  "displayName": "Defender",
   "goalVariant": true,
   "fluxCapacitors": 5,
   "fluxVents": 2,

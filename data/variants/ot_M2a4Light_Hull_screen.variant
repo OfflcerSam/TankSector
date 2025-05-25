@@ -1,7 +1,7 @@
 {
   "variantId": "ot_M2a4Light_Hull_screen",
   "hullId": "ot_M2a4Light_Hull",
-  "displayName": "Standard",
+  "displayName": "Screen",
   "goalVariant": true,
   "fluxCapacitors": 10,
   "fluxVents": 10,
