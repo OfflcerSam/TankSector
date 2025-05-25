@@ -61,7 +61,7 @@ public class USA_StarofAmerica {
                 "inner_jump",
                 "Inner System Jump");
 
-        jumpPoint_inner.setCircularOrbit(system.getEntityById("Star of America"), 2, jumpInnerDist, 4000f);
+        jumpPoint_inner.setCircularOrbit(system.getEntityById("Star of America"), 360 * (float) Math.random(), jumpInnerDist, 4000f);
         jumpPoint_inner.setStandardWormholeToHyperspaceVisual();
 
         system.addEntity(jumpPoint_inner);
@@ -71,7 +71,7 @@ public class USA_StarofAmerica {
                 "outer_jump",
                 "Outer System Jump");
 
-        jumpPoint_outer.setCircularOrbit(system.getEntityById("Star of America"), 2, jumpOuterDist, 2000f);
+        jumpPoint_outer.setCircularOrbit(system.getEntityById("Star of America"), 360 * (float) Math.random(), jumpOuterDist, 2000f);
         jumpPoint_outer.setStandardWormholeToHyperspaceVisual();
 
         system.addEntity(jumpPoint_outer);
@@ -81,7 +81,7 @@ public class USA_StarofAmerica {
                 "fringe_jump",
                 "Fringe System Jump");
 
-        jumpPoint_fringe.setCircularOrbit(system.getEntityById("Star of America"), 2, jumpFringeDist, 6000f);
+        jumpPoint_fringe.setCircularOrbit(system.getEntityById("Star of America"), 360 * (float) Math.random(), jumpFringeDist, 6000f);
         jumpPoint_fringe.setStandardWormholeToHyperspaceVisual();
 
         system.addEntity(jumpPoint_fringe);
