@@ -7,10 +7,19 @@
   "turretSprite": "graphics/weapons/M4_Skink_turret.png",
   "hardpointSprite": "",
   "turretOffsets": [
-    69.5,
-    0
+    38,
+    13,
+    38,
+    -13,
+    46,
+    6,
+    46,
+    -6
   ],
   "turretAngleOffsets": [
+    0,
+    0,
+    0,
     0
   ],
   "hardpointOffsets": [
