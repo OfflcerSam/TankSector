@@ -23,12 +23,12 @@
   "barrelMode": "ALTERNATING",
   "animationType": "MUZZLE_FLASH",
   "muzzleFlashSpec": {
-    "length": 40,
-    "spread": 10,
-    "particleSizeMin": 10,
-    "particleSizeRange": 25,
-    "particleDuration": 0.6,
-    "particleCount": 40,
+    "length": 12,
+    "spread": 4,
+    "particleSizeMin": 5,
+    "particleSizeRange": 10,
+    "particleDuration": 0.05,
+    "particleCount": 25,
     "particleColor": [
       255,
       120,

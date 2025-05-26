@@ -23,17 +23,17 @@
   "barrelMode": "ALTERNATING",
   "animationType": "MUZZLE_FLASH",
   "muzzleFlashSpec": {
-    "length": 30,
-    "spread": 20,
+    "length": 60,
+    "spread": 15,
     "particleSizeMin": 10,
-    "particleSizeRange": 10,
-    "particleDuration": 0.5,
-    "particleCount": 10,
+    "particleSizeRange": 35,
+    "particleDuration": 0.05,
+    "particleCount": 50,
     "particleColor": [
-      200,
-      204,
-      204,
-      210
+      255,
+      120,
+      50,
+      245
     ]
   },
   "fireSoundTwo": "ot_sound_us90mm_fire"
