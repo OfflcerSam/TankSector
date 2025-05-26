@@ -25,7 +25,12 @@
 		{"file":"sounds/sfx_wpn_guns/tank_fire_2.ogg","pitch":1,"volume":1.8},
 		{"file":"sounds/sfx_wpn_guns/tank_fire_2.ogg","pitch":1,"volume":1.8},
 	],
-
+		"ot_sound_us105mm_fire":[
+		{"file":"sounds/sfx_wpn_guns/tank_fire_1.ogg","pitch":1,"volume":2.1},
+		{"file":"sounds/sfx_wpn_guns/tank_fire_2.ogg","pitch":1,"volume":2.1},
+		{"file":"sounds/sfx_wpn_guns/tank_fire_2.ogg","pitch":1,"volume":2.1},
+	],
+	
 	#Music
 	"music":{
 		"music_usa_market_neutral":[
