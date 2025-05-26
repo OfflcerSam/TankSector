@@ -1,7 +1,7 @@
 {
   "id": "ot_dual_50cal_turret",
   "specClass": "projectile",
-  "projectileSpecId": "vulcan_shot",
+  "projectileSpecId": "heavymg_shot",
   "type": "BALLISTIC",
   "size": "SMALL",
   "turretSprite": "graphics/weapons/dual_50cal.png",
@@ -26,17 +26,17 @@
   "barrelMode": "ALTERNATING",
   "animationType": "MUZZLE_FLASH",
   "muzzleFlashSpec": {
-    "length": 30,
-    "spread": 20,
-    "particleSizeMin": 4,
-    "particleSizeRange": 8,
-    "particleDuration": 0.3,
-    "particleCount": 8,
+    "length": 40,
+    "spread": 12,
+    "particleSizeMin": 5,
+    "particleSizeRange": 15,
+    "particleDuration": 0.75,
+    "particleCount": 30,
     "particleColor": [
-      200,
-      204,
-      204,
-      210
+      255,
+      120,
+      50,
+      245
     ]
   },
   "fireSoundTwo": "ot_sound_50cal"

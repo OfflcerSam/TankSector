@@ -1,13 +1,13 @@
 {
   "id": "ot_M4_105mm_turret",
   "specClass": "projectile",
-  "projectileSpecId": "heavyac_shot",
+  "projectileSpecId": "hellbore_shot",
   "type": "BALLISTIC",
   "size": "MEDIUM",
   "turretSprite": "graphics/weapons/M4_105mm_turret.png",
   "hardpointSprite": "",
   "turretOffsets": [
-    35,
+    38.5,
     0
   ],
   "turretAngleOffsets": [
@@ -23,17 +23,17 @@
   "barrelMode": "ALTERNATING",
   "animationType": "MUZZLE_FLASH",
   "muzzleFlashSpec": {
-    "length": 30,
-    "spread": 20,
+    "length": 65,
+    "spread": 15,
     "particleSizeMin": 10,
-    "particleSizeRange": 10,
-    "particleDuration": 0.5,
-    "particleCount": 10,
+    "particleSizeRange": 35,
+    "particleDuration": 0.75,
+    "particleCount": 50,
     "particleColor": [
-      200,
-      204,
-      204,
-      210
+      255,
+      120,
+      50,
+      245
     ]
   },
   "fireSoundTwo": "ot_sound_us105mm_fire"

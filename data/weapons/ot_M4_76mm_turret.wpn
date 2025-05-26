@@ -7,7 +7,7 @@
   "turretSprite": "graphics/weapons/M4_76mm_turret.png",
   "hardpointSprite": "",
   "turretOffsets": [
-    35,
+    69.5,
     0
   ],
   "turretAngleOffsets": [
