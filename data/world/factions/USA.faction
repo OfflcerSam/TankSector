@@ -93,6 +93,7 @@
             "ot_M2_37mm_turret",
 			"ot_M4_75mm_turret",
 			"ot_M4_76mm_turret",
+			"ot_M4_105mm_turret",
 			"ot_M26_90mm_turret",
         ],
   },
@@ -137,6 +138,7 @@
 		"ot_quad_50cal_turret":10,
 		"ot_M4_75mm_turret":20,
 		"ot_M4_76mm_turret":20,
+		"ot_M4_105mm_turret":5,
 		"ot_M26_90mm_turret":5,
 
 	},
