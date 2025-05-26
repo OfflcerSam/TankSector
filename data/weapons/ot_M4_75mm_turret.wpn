@@ -3,7 +3,7 @@
   "specClass": "projectile",
   "projectileSpecId": "heavyac_shot",
   "type": "BALLISTIC",
-  "size": "MEDIUM",
+  "size": "LARGE",
   "turretSprite": "graphics/weapons/M4_75mm_turret.png",
   "hardpointSprite": "",
   "turretOffsets": [

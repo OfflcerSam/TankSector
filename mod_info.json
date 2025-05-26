@@ -15,9 +15,10 @@
 	"utility": "false",
  
 	"dependencies": [
-    {"id": "lw_lazylib", "name": "LazyLib"},
-	{"id": "MagicLib", "name": "MagicLib"},
-	{"id": "nexerelin", "name": "Nexerelin"},
-	#{"id": "battle_music", "name": "Battle Music"},
+    	{"id": "lw_lazylib", "name": "LazyLib"},
+		{"id": "MagicLib", "name": "MagicLib"},
+		{"id": "nexerelin", "name": "Nexerelin"},
+		#{"id": "shaderLib", "name": "GraphicsLib"},
+		#{"id": "battle_music", "name": "Battle Music"},
   ],
 }

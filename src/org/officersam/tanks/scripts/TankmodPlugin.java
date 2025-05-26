@@ -11,6 +11,7 @@ import com.fs.starfarer.api.impl.campaign.ids.Skills;
 import org.officersam.tanks.scripts.world.Tank_gen;
 import exerelin.campaign.SectorManager;
 
+//public static boolean hasGraphicsLib;
 
 public class TankmodPlugin extends BaseModPlugin {
 
