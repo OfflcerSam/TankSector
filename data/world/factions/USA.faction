@@ -18,6 +18,7 @@
 	"shipNamePrefix":"USS",
 	"shipNameSources":{
 	"BRITISH_NAVY":10,
+	"AmericanHistorical:10,
 	},
 	"description":"",
 	"names":{

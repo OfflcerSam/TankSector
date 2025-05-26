@@ -81,8 +81,8 @@
     #"startShipsGrandFleet":[[""]],
     
 	"startSpecialItems":[
-        [["usawe_package",""],["usash_package",""],["usawi_package",""]],
-		[["heavyarmor","magazines","ballistic_rangefinder"]]
+        [["usawe_package",""],["usash_package",""],["usawi_package",""]]
+		#[["heavyarmor","magazines","ballistic_rangefinder"]]
     ],
     
     "defenceStations":[
