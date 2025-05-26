@@ -15,6 +15,7 @@
 			"ot_M2a4Light_Hull_screen":5,
 			"ot_M2Medium_Hull_standard":20,
 			"ot_M2Medium_Hull_screen":5,
+			"ot_M3Lee_Hull_standard":15,
 			"ot_M4Sherman_Hull_standard":10,
 			"ot_M4Sherman_Hull_upgun":1,
 	},
@@ -23,6 +24,7 @@
 			"ot_M2a4Light_Hull_screen":5,
 			"ot_M2Medium_Hull_screen":10,
 			"ot_M2Medium_Hull_standard":20,
+			"ot_M3Lee_Hull_standard":20,
 			"ot_M4Sherman_Hull_standard":30,
 			"ot_M4Sherman_Hull_upgun":10,
 			"ot_M26Pershing_Hull_standard":10,
@@ -33,6 +35,7 @@
 	},
 	"combatLarge":{
 			"ot_M2Medium_Hull_screen":10,
+			"ot_M3Lee_Hull_standard":15,
 			"ot_M4Sherman_Hull_upgun":20,
 			"ot_M4Sherman_Hull_standard":20,
 			"ot_M4Jumbo_Hull_standard":20,

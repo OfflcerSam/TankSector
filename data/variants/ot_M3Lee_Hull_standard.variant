@@ -1,0 +1,36 @@
+{
+  "variantId": "ot_M3Lee_Hull_standard",
+  "hullId": "ot_M3Lee_Hull",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "HullGun": "ot_M3_75mm_turret"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "TurretRing": "ot_M2_37mm_turret"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "RoofMG": "ot_M2a2_30cal_turret"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

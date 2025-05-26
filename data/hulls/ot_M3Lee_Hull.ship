@@ -15,10 +15,8 @@
     "reinforcedhull"
   ],
   "builtInWeapons": {
-    "Hull_1": "ot_h30cal",
-    "Hull_2": "ot_h30cal",
-    "Hull_3": "ot_h30cal",
-    "Hull_4": "ot_h30cal"
+    "HullGun": "ot_M3_75mm_turret",
+    "RoofMG": "ot_M2a2_30cal_turret"
   },
   "weaponSlots": [
     {
@@ -28,43 +26,25 @@
       "mount": "TURRET",
       "arc": 360,
       "angle": 0,
-      "locations": [0, -0]
+      "locations": [1.5, 6]
     },
     {
-      "id": "Hull_1",
-      "size": "SMALL",
+      "id": "HullGun",
+      "size": "LARGE",
       "type": "BUILT_IN",
       "mount": "TURRET",
-      "arc": 110,
-      "angle": -135,
-      "locations": [-13.5, -19]
+      "arc": 26,
+      "angle": 0,
+      "locations": [13, -14]
     },
     {
-      "id": "Hull_2",
+      "id": "RoofMG",
       "size": "SMALL",
       "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 110,
-      "angle": 135,
-      "locations": [-13.5, 19]
-    },
-    {
-      "id": "Hull_3",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 110,
-      "angle": -45,
-      "locations": [12, -19]
-    },
-    {
-      "id": "Hull_4",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 110,
-      "angle": 45,
-      "locations": [12, 19]
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-8, 6]
     }
   ],
   "engineSlots": [
@@ -86,9 +66,19 @@
     }
   ],
   "bounds": [
-    44, 23,
-    -42, 23,
-    -42, -23,
-    44, -23
+    44, 13,
+    35, 13.5,
+    26.5, 22,
+    -7, 22,
+    -17, 14,
+    -42, 14,
+    -42, -14,
+    -17, -14,
+    -7, -22,
+    10, -22,
+    21.5, -8,
+    35, -8,
+    35, -13,
+    44, -13
   ]
 }
