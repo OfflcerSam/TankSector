@@ -102,6 +102,7 @@ public class USA_StarofAmerica {
         addDerelict(system, americaAF1, "wolf_d_pirates_Attack", ShipRecoverySpecial.ShipCondition.BATTERED, 240f, (Math.random() < 0.6));
         addDerelict(system, americaAF1, "ot_M2a2Light_Hull_standard", ShipRecoverySpecial.ShipCondition.BATTERED, 270f, (Math.random() < 0.6));
         addDerelict(system, americaAF1, "ot_M2a2Light_Hull_standard", ShipRecoverySpecial.ShipCondition.WRECKED, 220f, (Math.random() < 0.6));
+        addDerelict(system, americaAF1, "ot_M2a2Light_Hull_standard", ShipRecoverySpecial.ShipCondition.WRECKED, 210f, (Math.random() < 0.6));
         addDerelict(system, americaAF1, "lasher_PD", ShipRecoverySpecial.ShipCondition.BATTERED, 125f, (Math.random() < 0.6));
 
         //asteroid belt1 ring

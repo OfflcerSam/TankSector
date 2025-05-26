@@ -39,6 +39,7 @@
 				"volume":0.5,
 				"files":[
 					"usa_anthem.ogg",
+					"mychanceto.ogg",
 				],
 				"randomStart":true, 
 			},
@@ -60,6 +61,7 @@
 				"volume":0.5,
 				"files":[
 					"usa_anthem.ogg",
+					"mychanceto.ogg",
 				],
 				"randomStart":true, 
 			},
