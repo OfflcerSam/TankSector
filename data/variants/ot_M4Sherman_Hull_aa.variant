@@ -1,0 +1,36 @@
+{
+  "variantId": "ot_M4Sherman_Hull_aa",
+  "hullId": "ot_M4Sherman_Hull",
+  "displayName": "Antiair",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "TurretRing": "ot_M4_Skink_turret"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "RoofPintle": "ot_M2a2_50cal_turret"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "HullMG": "ot_h30cal"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
