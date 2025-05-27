@@ -99,7 +99,7 @@
 	},
 	"freighterMedium":{
 			"ot_armored_train_standard":10,
-			"ot_train_hauler":20,
+			"ot_train_standard":20,
 
 	},
 	"freighterLarge":{
@@ -111,7 +111,7 @@
 	},
 	"tankerMedium":{
 			"ot_armored_train_standard":10,
-			"ot_train_hauler":20,
+			"ot_train_standard":20,
 	},
 	"tankerLarge":{
 		
