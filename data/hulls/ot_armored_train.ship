@@ -12,11 +12,7 @@
   "shieldRadius": 122,
   "viewOffset": 0,
   "builtInMods": [
-    "reinforcedhull",
-    "pointdefenseai",
-    "blast_doors",
     "armoredweapons",
-    "ballistic_rangefinder",
     "ground_support",
 	"rugged"
   ],
