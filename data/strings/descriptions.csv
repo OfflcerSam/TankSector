@@ -11,7 +11,7 @@ ot_M26Pershing_Hull,SHIP,"Late US Heavy tank, derived from several tank projects
 ot_supply_truck,SHIP,"General purpose supply truck, transport 3 Squads of ""Fighter"" wings.",,,
 ot_fuel_truck,SHIP,A more purposeful modification of the supply truck to carry fuel over people.,,,
 ot_armored_train,SHIP,"Heavy duty armored supply train, has 4 Squads of ""Fighter"" wings, 1 Medium slot, 5 Small slots, and 7 built-in 30cals.",,,
-,,,,,
+ot_train,SHIP,"Heavy duty freight train, has a squad of ""Fighter"" wings, 1 Medium slot, 1 Small slot, and 4 built-in 30cals.",,,
 ,,,,,
 # WEAPONS,,,,,
 ot_M2a2_50cal_turret,WEAPON,"Standard M2a2 turret, equipped with a 50cal HMG.",,,
