@@ -77,7 +77,7 @@
 	"utility":{
 	},
 	"civilianRandom":{
-			"ot_train_hauler":20,
+			"ot_train_standard":20,
 	},
 	
 	# freighters and such
