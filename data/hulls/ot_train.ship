@@ -1,0 +1,139 @@
+{
+  "hullName": "Train",
+  "hullId": "ot_train",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/US_Train.png",
+  "style": "MIDLINE",
+  "height": 233,
+  "width": 42,
+  "center": [21, 116.5],
+  "collisionRadius": 122,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 122,
+  "viewOffset": 0,
+  "builtInMods": [
+    "surveying_equipment",
+    "repair_gantry",
+    "civgrade"
+  ],
+  "builtInWeapons": {
+    "F30L": "ot_h30cal",
+    "F30R": "ot_h30cal",
+    "FSL30": "ot_h30cal",
+    "FSR30": "ot_h30cal"
+  },
+  "weaponSlots": [
+    {
+      "id": "RearC",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 243,
+      "angle": 180,
+      "locations": [-90, -0]
+    },
+    {
+      "id": "Central",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [39, -0]
+    },
+    {
+      "id": "FSR30",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": 180,
+      "locations": [-109, -14.5]
+    },
+    {
+      "id": "FSL30",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": -180,
+      "locations": [-109, 14.5]
+    },
+    {
+      "id": "F30R",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 112,
+      "angle": -40.5,
+      "locations": [87, -11]
+    },
+    {
+      "id": "F30L",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 112,
+      "angle": 40.5,
+      "locations": [87, 11]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [8, -18]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [8, 18]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-112.5, -6],
+      "length": 71,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-112.5, 6],
+      "length": 71,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    111.5, 11,
+    108.5, 16,
+    97.5, 18,
+    80, 18,
+    77, 21,
+    63.5, 21,
+    60.5, 18,
+    -98.5, 18,
+    -107, 17,
+    -112.5, 9,
+    -112.5, -9,
+    -107, -17,
+    -98.5, -18,
+    60.5, -18,
+    63.5, -21,
+    77, -21,
+    80, -18,
+    97.5, -18,
+    108.5, -16,
+    111.5, -11
+  ]
+}
