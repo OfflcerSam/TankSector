@@ -4,7 +4,7 @@
   "displayName": "Standard",
   "goalVariant": true,
   "fluxCapacitors": 20,
-  "fluxVents": 15,
+  "fluxVents": 5,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],

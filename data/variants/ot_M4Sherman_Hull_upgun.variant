@@ -4,7 +4,7 @@
   "displayName": "Upgunned",
   "goalVariant": true,
   "fluxCapacitors": 10,
-  "fluxVents": 10,
+  "fluxVents": 3,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],

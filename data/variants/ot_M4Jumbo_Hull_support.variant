@@ -4,7 +4,7 @@
   "displayName": "Support",
   "goalVariant": true,
   "fluxCapacitors": 10,
-  "fluxVents": 10,
+  "fluxVents": 0,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],
