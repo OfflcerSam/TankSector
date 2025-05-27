@@ -120,19 +120,19 @@ public class USA_StarofAmerica {
         // Relays
         SectorEntityToken americaStar_relay = system.addCustomEntity("americaStar_relay", // unique id
                 "American Relay", // name - if null, defaultName from custom_entities.json will be used
-                "comm_relay_makeshift", // type of object, defined in custom_entities.json
+                "comm_relay", // type of object, defined in custom_entities.json
                 "USA"); // faction
         americaStar_relay.setCircularOrbitPointingDown(americaStar, MathUtils.getRandomNumberInRange(0f, 360f), relay1Dist, 520);
 
         SectorEntityToken americaStar_buoy = system.addCustomEntity("americaStar_buoy", // unique id
                 "American Nav Buoy", // name - if null, defaultName from custom_entities.json will be used
-                "nav_buoy_makeshift", // type of object, defined in custom_entities.json
+                "nav_buoy", // type of object, defined in custom_entities.json
                 "USA"); // faction
         americaStar_buoy.setCircularOrbitPointingDown(americaStar, MathUtils.getRandomNumberInRange(0f, 360f), buoy1Dist, 520);
 
         SectorEntityToken americaStar_sensor = system.addCustomEntity("americaStar_sensor", // unique id
                 "American Sensor Array", // name - if null, defaultName from custom_entities.json will be used
-                "sensor_array_makeshift", // type of object, defined in custom_entities.json
+                "sensor_array", // type of object, defined in custom_entities.json
                 "USA"); // faction
         americaStar_sensor.setCircularOrbitPointingDown(americaStar, MathUtils.getRandomNumberInRange(0f, 360f), sensor1Dist, 520);
 
