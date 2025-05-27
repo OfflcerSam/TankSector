@@ -12,7 +12,8 @@
   "shieldRadius": 53.5,
   "viewOffset": 0,
   "builtInMods": [
-    "reinforcedhull"
+    "reinforcedhull",
+    "rugged"
   ],
   "builtInWeapons": {
     "Hull_1": "ot_h30cal",

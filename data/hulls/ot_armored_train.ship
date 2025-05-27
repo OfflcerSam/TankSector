@@ -16,7 +16,8 @@
     "pointdefenseai",
     "blast_doors",
     "armoredweapons",
-    "ballistic_rangefinder"
+    "ballistic_rangefinder",
+    "ground_support"
   ],
   "builtInWeapons": {
     "F30L": "ot_h30cal",
