@@ -12,7 +12,8 @@
   "shieldRadius": 53.5,
   "viewOffset": 0,
   "builtInMods": [
-    "reinforcedhull"
+    "reinforcedhull",
+	"rugged"
   ],
   "builtInWeapons": {
     "HullGun": "ot_M3_75mm_turret",

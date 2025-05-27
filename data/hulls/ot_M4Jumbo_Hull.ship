@@ -15,7 +15,8 @@
     "reinforcedhull",
 	"heavyarmor",
 	"armoredweapons",
-    "turretgyros"
+    "turretgyros",
+	"rugged"
   ],
   "builtInWeapons": {
     "HullMG": "ot_h30cal",

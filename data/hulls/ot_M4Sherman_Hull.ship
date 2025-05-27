@@ -13,7 +13,8 @@
   "viewOffset": 0,
   "builtInMods": [
     "reinforcedhull",
-    "turretgyros"
+    "turretgyros",
+	"rugged"
   ],
   "builtInWeapons": {
     "HullMG": "ot_h30cal",

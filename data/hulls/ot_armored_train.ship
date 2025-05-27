@@ -17,7 +17,8 @@
     "blast_doors",
     "armoredweapons",
     "ballistic_rangefinder",
-    "ground_support"
+    "ground_support",
+	"rugged"
   ],
   "builtInWeapons": {
     "F30L": "ot_h30cal",

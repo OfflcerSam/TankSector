@@ -16,7 +16,8 @@
     "armoredweapons",
     "hardened_subsystems",
     "heavyarmor",
-    "reinforcedhull"
+    "reinforcedhull",
+	"rugged"
   ],
   "builtInWeapons": {
     "Hull": "ot_h30cal",
