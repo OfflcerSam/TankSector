@@ -12,7 +12,8 @@
   "shieldRadius": 43.5,
   "viewOffset": 0,
   "builtInMods": [
-    "turretgyros"
+    "turretgyros",
+	"rugged"
   ],
   "builtInWeapons": {
     "Hull": "ot_h30cal"

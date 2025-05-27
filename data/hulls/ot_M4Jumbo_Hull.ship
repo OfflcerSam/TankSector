@@ -12,10 +12,8 @@
   "shieldRadius": 73.5,
   "viewOffset": 0,
   "builtInMods": [
-    "reinforcedhull",
 	"heavyarmor",
 	"armoredweapons",
-    "turretgyros",
 	"rugged"
   ],
   "builtInWeapons": {

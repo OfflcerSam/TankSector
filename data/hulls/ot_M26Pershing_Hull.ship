@@ -12,11 +12,8 @@
   "shieldRadius": 81.5,
   "viewOffset": 0,
   "builtInMods": [
-    "ballistic_rangefinder",
-    "armoredweapons",
-    "hardened_subsystems",
-    "heavyarmor",
-    "reinforcedhull",
+	"heavyarmor",
+	"armoredweapons",
 	"rugged"
   ],
   "builtInWeapons": {
