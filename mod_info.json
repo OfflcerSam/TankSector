@@ -3,7 +3,7 @@
 	"name": "TankSector",
 	"author": "Officer_Sam",
 
-	"version": {"major":1, "minor":0, "patch":2},
+	"version": {"major":1, "minor":0, "patch":3},
   
 	"description": "Adds in tanks to the sector.",
 	"gameVersion": "0.98a-RC8",

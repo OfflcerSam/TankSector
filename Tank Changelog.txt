@@ -1,0 +1,55 @@
+V1.0.3 - Save Compatible - Testing Version Checker
+This update is a test of Version Checker and Changelogs.
+
+V1.0.2 - Save Compatible Note: Minor nerf to Armored Train and Truck.
+Minor fixes to Nexerelin Starts, theortical issue with Small Trade start.
+Actually made player start with Blueprints.
+
+Nerfs
+Armored Train - Removed 1 fighter bay.
+Supply Truck - Removed 1 fighter bay.
+
+V1.0 - Release
+Release of the mod, base stuff listed.
+Ships:
+Wings -
+Infantry man wings
+Assualter man wings
+Machine gunner
+
+Frigates -
+Supply Truck
+Fuel Truck
+M2a2 Light Tank
+M2a4 Light Tank
+M2 Medium
+M3 Lee
+M4 Sherman
+M4 Jumbo
+M26 Pershing
+
+Destroyers -
+Armored Train
+Train
+(and respected variants)
+
+Weapons:
+Small Turrets -
+BAR (no sprite)
+Garand (no spirte)
+Hull 30 cal (for built-in weapons)
+M2a2 30 cal Turret
+M2a2 50 cal Turret
+M2a2 Dual 50 cal Turret
+
+Medium Turret -
+M2 Quad 50 Cal Turret
+M2 37mm Turret
+
+Large Turret-
+M4 Skink Turret
+M4 75mm Turret
+M4 76mm Turret
+M4 105mm Turret
+M26 90mm Turret
+	

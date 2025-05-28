@@ -6,8 +6,8 @@
     {
         "major":1,
         "minor":0,
-        "patch":"2",
+        "patch":"3",
     },
 	"starsectorVersion":"0.98a-RC8",
-	#"directDownloadURL":"https://github.com/OfflcerSam/TankSector/releases/download/v1.0-Release/TankSector-release1.zip",		
+	#"directDownloadURL":"https://github.com/OfflcerSam/TankSector/releases",		
 }
