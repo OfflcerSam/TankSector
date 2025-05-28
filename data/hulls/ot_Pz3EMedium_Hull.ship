@@ -1,0 +1,64 @@
+{
+  "hullName": "Pz III E",
+  "hullId": "ot_Pz3EMedium_Hull",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Pz3E_Hull.png",
+  "style": "LOW_TECH",
+  "height": 100,
+  "width": 54,
+  "center": [27, 50],
+  "collisionRadius": 62.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 62.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rugged"
+  ],
+  "builtInWeapons": {
+    "HullMG": "ot_h792"
+  },
+  "weaponSlots": [
+    {
+      "id": "TurretRing",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [6, -0]
+    },
+    {
+      "id": "HullMG",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 70,
+      "angle": 0,
+      "locations": [30, -9.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-47, -21.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-47, 21.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -46, 17,
+    45, 17,
+    45, -17,
+    -46, -17
+  ]
+}

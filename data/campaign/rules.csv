@@ -9,7 +9,7 @@ OR
 ""IFF recieved, over."" $PersonRank $personName gives a brief salute before signing off.",,
 greetingAmericaHostileWeaker,OpenCommLink,"$faction.id == USA
 $entity.isHostile
-$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"""Attention bandit, this is $PersonRank $personNameYou, you are being advised to power down weapon systems and disengage and await for strike force retrieval. Over.""
+$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"""Attention bandit, this is $PersonRank $personName, you are being advised to power down weapon systems and disengage and await for strike force retrieval. Over.""
 OR
 ""Attention bandit. Be advised that firing upon a US vessel is considered an act of war and you will be destroyed."" The American $personRank is calm despite the odds. ""You are to disengage or face further military action .""
 OR
@@ -66,3 +66,70 @@ relLevelVengefulAmerica,RelationshipLevelDesc,"$faction.rel == VENGEFUL
 $faction.id == USA",FireAll RelLevelMoreDescription,"A federal warrant has been issued for you and your $shipOrFleet, information of your whereabouts are shared over public and private forums as part of a campaign to designate you a threat to national security. It is highly likely that the full might of the American military and it's intelligence agencies are working actively to hunt you down.",,
 #relLevelAmericaBaird,RelLevelMoreDescription,"$faction.id == USA
 $global.gaKA_completed",,You are known to have performed work for Provost Baird of the Galatia Academy.,,
+,,,,,,
+,,,,,,
+# German fleet greeting lines,,,,,,
+greetingGermanyFriendly,OpenCommLink,"$faction.id == GER
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Roger, your signature has been acknowledged, good day to you.""
+OR
+""Ah, a friendly face. Do you need something from me?""
+OR
+$PersonRank $personName gives a brief salute, ""Victory, yes?""",,
+greetingGermanyHostileWeaker,OpenCommLink,"$faction.id == GER
+$entity.isHostile
+$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"""I am $PersonRank $personName. And I suggest you back off.""
+OR
+""War with you will be easy, so I suggest you run off."" The American $personRank is calm despite the odds. ""You are to disengage or face further military action .""
+OR
+""Why don't you run off and we won't call for a fleet?"" No more words are said before the comms are cut.",cutCommLink:Cut the comm link,
+greetingGermanyHostileWeakerDefiant,OpenCommLink,"$faction.id == GER
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"The German $personRank looks calm and collected. ""We won't backdown to such degenerate behavior,"" $heOrShe says before cutting the comms.
+OR
+""You do not scare me, little boy."" The comm-line cuts out",cutCommLink:Cut the comm link,
+greetingGermanyHostileStronger,OpenCommLink,"$faction.id == GER
+$entity.isHostile
+$entity.relativeStrength >= 0",$entity.ignorePlayerCommRequests = true 1,"""Make this easy for us, and let yourself be boarded. We promise a cozy room if you rat any friends out too.""
+OR
+""You could surrender, but struggle is a favorite of mine too.""",cutCommLink:Cut the comm link,
+greetingGermanyNeutral,OpenCommLink,"$faction.id == GER
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""I read you, do you need anything?""
+OR
+$PersonRank $personName gives a brief salute, ""Victory to Germany, do you need something?""",,
+,,,,,,
+# German trade panel flavor text,,,,,,
+flavorTextMarketGermany,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == GER","AddText ""The port concourse is filled with trader starcraft of every size as the German flags wave from the sidelines. Speculators crowd offloading ship captains with deals and peddlers call out to crew, holding wares and projecting personal ad-holos."" marketFlavorTextColor",,,
+flavorTextMarketGermanySmall,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$marketSize < 4
+$stability > 1
+$faction.id == GER","AddText ""The humble port concourse has a lone German flag and is filled with small freighters and freelancers down or up on their luck, identifiable by the shine or grime of ship armor and volume of cargo on-loading. A handful of speculators who all seem to know each other crowd offloading ship captains as they arrive while peddlers call out to crew, holding wares and projecting personal ad-holos."" marketFlavorTextColor",,,
+flavorTextMarketGermanyUnstable,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$stability == 1
+$faction.id == GER","AddText ""The port concourse holds only a strew of trader starcraft, the German flag is protected behind a police barrier. A few fidgety-looking speculators seek offloading ship captains with deals. Most peddlers seem to have scurried off - and in a hurry, judging from the detritus, though a few enterprising merchants still do business. The local police appears to have deployed patrols of power-armor units while police drones buzz conspicuously overhead."" marketFlavorTextColor",,,
+flavorTextMarketGermanyVeryUnstable,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$stability == 0
+$faction.id == GER","AddText ""The port concourse contains only a few ships, and half of those look like warcraft, the German flag is protected within a shield projector. Armed gangs of crew huddle around each spacecraft, guarding on- and off-loading cargo. A few brave speculators seem to hurry between spaces which offer what they imagine will provide cover as police drones buzz overhead in a rush to some incident or another."" marketFlavorTextColor",,,
+,,,,,,
+# relationship level descriptions,,,,,,
+relLevelCooperativeGermany,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == GER",FireAll RelLevelMoreDescription,"Your standing with the German Party is very high. Many high ranks in both the military and the party know you and sometimes prefer you in various business matters and may even recommend you to others. Due to these friends in high places, you also have a deal of leeway when getting in trouble.",,
+relLevelFriendlyGermany,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == GER",FireAll RelLevelMoreDescription,Your standing with the Germany Party is decently high. A couple high ranks in both the military and the party know you or have atleast heard a bit about your work and operations. This has gained you a good deal of preference in many areas.,,
+relLevelWelcomingGermany,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == GER",FireAll RelLevelMoreDescription,Your standing with the German Party is good. A few mid ranking military and party officials know of you and your reputation. Many recommending you to others so you gain preference in certain areas.,,
+relLevelFavorableGermany,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == GER",FireAll RelLevelMoreDescription,"Your standing with the German Party is more or less entry level. A few low ranking military and party officials know of you and your reputation, gaining you some preference in some local matters and operations.",,
+relLevelNeutralGermany,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == GER",FireAll RelLevelMoreDescription,"Your standing with the German Party is neutral. You aren't really known to many, but they are always open to people who support their cause.",,
+relLevelSuspiciousGermany,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == GER",FireAll RelLevelMoreDescription,The German Party's standing with you is suspicious. The Gestapo and local police might stop and search you at random.,,
+relLevelInhospitableGermany,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == GER",FireAll RelLevelMoreDescription,The German Party's standing with you is inhospitable.,,
+relLevelHostileGermany,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == GER",FireAll RelLevelMoreDescription,The German Party's standing with you is hostile.,,
+relLevelVengefulGermany,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == GER",FireAll RelLevelMoreDescription,The German Party's standing with you is extremely hostile.,,

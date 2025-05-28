@@ -3,7 +3,7 @@
   "hullId": "ot_Pz2FLight_Hull",
   "hullSize": "FRIGATE",
   "spriteName": "graphics/ships/Pz2F_Hull.png",
-  "style": "MIDLINE",
+  "style": "LOW_TECH",
   "height": 80,
   "width": 44,
   "center": [22, 40],

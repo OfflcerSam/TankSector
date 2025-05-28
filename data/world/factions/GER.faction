@@ -47,6 +47,7 @@
     "tags": ["gersh_bp","GER"],
 		"hulls":[
 			"ot_Pz2FLight_Hull",
+			"ot_Pz3EMedium_Hull",
 			"ot_train",
 	],
   },
@@ -55,6 +56,7 @@
     "tags": ["gersh_bp","GER"],
     "hulls": [
 			"ot_Pz2FLight_Hull",
+			"ot_Pz3EMedium_Hull",
 			"ot_train",
       ],		
   },
@@ -74,6 +76,8 @@
     "tags": ["gerwe_bp","GER"],
     "weapons": [
 			"ot_Pz2_20mm_turret",
+			"ot_Pz3_37mm_turret",
+			"ot_Pz3_50mm_turret",
 
         ],
   },
@@ -111,9 +115,10 @@
 		],
 	},
 	"weaponSellFrequency":{
-		"ot_Pz2_20mm_turret":10,
-
-
+			"ot_Pz2_20mm_turret":10,
+			"ot_Pz3_37mm_turret",
+			"ot_Pz3_50mm_turret",
+			
 	},
 	"fighterSellFrequency":{
 			"ot_man_bar":15,
