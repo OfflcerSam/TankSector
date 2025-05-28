@@ -2,6 +2,7 @@ V1.0.3 - Save Compatible - Testing Version Checker
 This update is a test of Version Checker and Changelogs.
 
 V1.0.2 - Save Compatible Note: Minor nerf to Armored Train and Truck.
+Fixes
 Minor fixes to Nexerelin Starts, theortical issue with Small Trade start.
 Actually made player start with Blueprints.
 
