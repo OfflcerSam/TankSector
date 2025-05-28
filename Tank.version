@@ -1,5 +1,6 @@
 {
     "masterVersionFile":"https://raw.githubusercontent.com/OfflcerSam/TankSector/refs/heads/main/Tank.version",
+	"changelogURL": "https://raw.githubusercontent.com/OfflcerSam/TankSector/refs/heads/main/Tank%20Changelog.txt",
     "modName":"TankSector",
     "modThreadId":33212,
     "modVersion":
