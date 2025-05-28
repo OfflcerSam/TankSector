@@ -17,10 +17,6 @@ M26 90mm Turret,ot_M26_90mm_turret,3,0.4,2000,1000,,950,,200,20,15,4,0.07,1,ENER
 M4 105mm Turret,ot_M4_105mm_turret,3,0.4,4000,1200,,2000,,400,8,30,3,0.05,1,HIGH_EXPLOSIVE,500,,0,7.5,1,0,0.01,20,10,10,,600,,,120,,,NO_TURN_RATE_BOOST_WHEN_IDLE,"he15, LR, usawe_bp, USA",,USA,,Anti Armor,,,,,,,,,,105
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-M2a2 30cal Turret,ot_M2a2_30cal_turret,0,0.6,200,350,,20,,1,20,2,250,3.1,50,FRAGMENTATION,1,,0,0.11,1,0,0.01,10,1,10,,650,,,10,,,"PD, PD_ALSO, NO_TURN_RATE_BOOST_WHEN_IDLE","pd6, kinetic3, SR, usawe_bp, USA",,USA,,Point Defense,,,,,,,,,,3
-Garand,ot_garand,0,,100,350,,20,,1,120,2,8,1.3,8,FRAGMENTATION,1,,0,0.3,1,0,0.01,10,1,10,,650,,,10,,,"PD, SYSTEM, PD_ALSO, SHOW_IN_CODEX, NO_TURN_RATE_BOOST_WHEN_IDLE","pd6, kinetic3, SR",,USA,,Point Defense (Fighter),,,,,,,,,,3
-BAR,ot_bar,0,,100,350,,20,,1,120,2,20,2.5,20,FRAGMENTATION,1,,0,0.15,1,0,0.01,10,1,10,,650,,,10,,,"PD, SYSTEM, PD_ALSO, SHOW_IN_CODEX, NO_TURN_RATE_BOOST_WHEN_IDLE","pd6, kinetic3, SR",,USA,,Point Defense (Fighter),,,,,,,,,,3
-Hull 30cal,ot_h30cal,0,,200,350,,20,,1,80,2,250,3.1,50,FRAGMENTATION,1,,0,0.11,1,0,0.01,10,1,10,,650,,,10,,,"PD, SYSTEM, PD_ALSO, SHOW_IN_CODEX, NO_TURN_RATE_BOOST_WHEN_IDLE","pd6, kinetic3, SR",,USA,,Point Defense,,,,,,,,,,3
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #GER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
