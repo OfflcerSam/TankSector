@@ -1,0 +1,13 @@
+{
+    "masterVersionFile":"",
+    "modName":"TankSector",
+    "modThreadId":33212,
+    "modVersion":
+    {
+        "major":1,
+        "minor":0,
+        "patch":"2",
+    },
+	"starsectorVersion":"0.98a-RC8",
+	#"directDownloadURL":"https://drive.google.com/uc?export=download&id=1OcljFuDNMzE8P2zC1HFzO7JOC0V6ngA5",		
+}
