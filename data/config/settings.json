@@ -1,6 +1,7 @@
 {
 	"designTypeColors":{
 		"USA":[99,107,47,200],
+		"GER":[221,0,0,200],
     	},
 	"graphics":{
 			
@@ -8,6 +9,10 @@
 			"usash_package":"graphics/icons/cargo/blueprint_usa.png",
 			"usawi_package":"graphics/icons/cargo/blueprint_usa.png",
 			"usawe_package":"graphics/icons/cargo/blueprint_usa.png",
+			
+			"gersh_package":"graphics/icons/cargo/blueprint_ger.png",
+			"gerwi_package":"graphics/icons/cargo/blueprint_ger.png",
+			"gerwe_package":"graphics/icons/cargo/blueprint_ger.png",
 		},
 	}
 }

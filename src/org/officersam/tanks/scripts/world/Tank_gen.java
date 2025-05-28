@@ -7,6 +7,7 @@ import com.fs.starfarer.api.campaign.SectorAPI;
 import com.fs.starfarer.api.campaign.SectorGeneratorPlugin;
 import com.fs.starfarer.api.impl.campaign.ids.Factions;
 import com.fs.starfarer.api.impl.campaign.shared.SharedData;
+import org.officersam.tanks.scripts.world.systems.GER_SonneDeutschlands;
 import org.officersam.tanks.scripts.world.systems.USA_StarofAmerica;
 
 import java.io.IOException;
@@ -19,10 +20,13 @@ public class Tank_gen implements SectorGeneratorPlugin {
     public void generate(SectorAPI sector) {
 	
         new USA_StarofAmerica().generate(sector);
+        new GER_SonneDeutschlands().generate(sector);
 		
         SharedData.getData().getPersonBountyEventData().addParticipatingFaction("USA");
 
         FactionAPI usa = sector.getFaction("USA");
+        FactionAPI ger = sector.getFaction("GER");
+
         FactionAPI player = sector.getFaction(Factions.PLAYER);
         FactionAPI hegemony = sector.getFaction(Factions.HEGEMONY);
         FactionAPI tritachyon = sector.getFaction(Factions.TRITACHYON);
@@ -35,6 +39,11 @@ public class Tank_gen implements SectorGeneratorPlugin {
 		FactionAPI persean = sector.getFaction(Factions.PERSEAN);
         FactionAPI guard = sector.getFaction(Factions.LIONS_GUARD);
 
+        usa.setRelationship(ger.getId(), -0.6f);
+        ger.setRelationship(usa.getId(), -0.6f);
+
+
+
         usa.setRelationship(player.getId(), 0.3f);	
         usa.setRelationship(hegemony.getId(), -0.2f);
         usa.setRelationship(tritachyon.getId(), 0.2f);
@@ -45,7 +54,19 @@ public class Tank_gen implements SectorGeneratorPlugin {
         usa.setRelationship(path.getId(), -0.9f);
         usa.setRelationship(kol.getId(), 0.1f);
         usa.setRelationship(diktat.getId(), -0.15f);
-        usa.setRelationship(guard.getId(), -0.25f);   
-	
+        usa.setRelationship(guard.getId(), -0.25f);
+
+        ger.setRelationship(player.getId(), 0.3f);
+        ger.setRelationship(hegemony.getId(), -0.6f);
+        ger.setRelationship(tritachyon.getId(), -0.2f);
+        ger.setRelationship(pirates.getId(), -0.9f);
+        ger.setRelationship(independent.getId(), 0.3f);
+        ger.setRelationship(persean.getId(), -0.2f);
+        ger.setRelationship(church.getId(), -0.3f);
+        ger.setRelationship(path.getId(), -0.9f);
+        ger.setRelationship(kol.getId(), -0.2f);
+        ger.setRelationship(diktat.getId(), -0.4f);
+        ger.setRelationship(guard.getId(), -0.4f);
+
     }
 }

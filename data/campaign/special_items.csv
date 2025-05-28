@@ -1,7 +1,9 @@
 name,id,tags,tech/manufacturer,rarity,base price,stack size,cargo space,baseRaidDanger,icon,sound id,sound id drop,plugin,plugin params,desc,order
 #Blueprint,,,,,,,,,,,,,,,
-USA Ships BP Package,usash_package,package_bp,,,25000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_chip_pickup,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,usash_bp,"USA Blueprints, Ships",2001
-USA Wings BP Package,usawi_package,package_bp,,,25000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_chip_pickup,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,usawi_bp,"USA Blueprints, Wings",2002
-USA Weapons BP Package,usawe_package,package_bp,,,25000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_chip_pickup,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,usawe_bp,"USA Blueprints, Weapons",2003
+USMJ  Ships BP Package,usash_package,package_bp,,,25000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_chip_pickup,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,usash_bp,"USMJ Blueprints, Ships",1942
+USMJ  Wings BP Package,usawi_package,package_bp,,,25000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_chip_pickup,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,usawi_bp,"USMJ  Blueprints, Wings",1942
+USMJ Weapons BP Package,usawe_package,package_bp,,,25000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_chip_pickup,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,usawe_bp,"USMJ  Blueprints, Weapons",1942
 ,,,,,,,,,,,,,,,
-ESD,esd_package,package_bp,,,25000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_chip_pickup,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,esd_bp,"ESD Blueprints, Ships",3000
+GGSR Ships BP Package,gersh_package,package_bp,,,25000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_chip_pickup,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,gersh_bp,"GGSR Blueprints, Ships",1936
+GGSR Wings BP Package,gerwi_package,package_bp,,,25000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_chip_pickup,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,gerwi_bp,"GGSR Blueprints, Wings",1936
+GGSR Weapons BP Package,gerwe_package,package_bp,,,25000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_chip_pickup,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,gerwe_bp,"GGSR Blueprints, Weapons",1936

@@ -33,6 +33,7 @@
 	
 	#Music
 	"music":{
+		#USA
 		"music_usa_market_neutral":[
 			{
 				"source":"sounds/music",
@@ -95,6 +96,74 @@
 				"files":[
 					"usa_overthere_instrumental.ogg",
 					"usa_anthem.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+
+		#GER
+		"music_ger_market_neutral":[
+			{
+				"source":"sounds/music",
+				"volume":0.5,
+				"files":[
+					"ger_anthem.ogg",
+					"ger_panzerlied.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		"music_ger_market_hostile":[
+			{
+				"source":"sounds/music",
+				"volume":0.5,
+				"files":[
+					"usa_ambush_waw.ogg",
+					"ger_hellmarch.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		"music_ger_market_friendly":[
+			{
+				"source":"sounds/music",
+				"volume":0.5,
+				"files":[
+					"ger_anthem.ogg",
+					"ger_alte.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		"music_ger_encounter_neutral":[
+			{
+				"source":"sounds/music",
+				"volume":0.5,
+				"files":[
+					"ger_anthem.ogg",
+					"ger_panzerlied.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		"music_ger_encounter_hostile":[
+			{
+				"source":"sounds/music",
+				"volume":0.5,
+				"files":[
+					"ger_hellmarch.ogg",
+					"usa_dogfire_waw.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		"music_ger_encounter_friendly":[
+			{
+				"source":"sounds/music",
+				"volume":0.5,
+				"files":[
+					"ger_panzerlied.ogg",
+					"ger_alte.ogg",
 				],
 				"randomStart":true, 
 			},

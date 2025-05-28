@@ -17,6 +17,8 @@
 			"ot_M2Medium_Hull_screen":10,
 			"ot_M3Lee_Hull_standard":15,
 			"ot_M4Sherman_Hull_standard":5,
+			
+			"ot_Pz2FLight_Hull_standard":20,
 	},
 	"combatMedium":{
 			"ot_M4Sherman_Hull_standard":30,

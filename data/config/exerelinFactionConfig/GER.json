@@ -2,40 +2,40 @@
     "playableFaction":true,
     "corvusCompatible":true,
     
-    "rebelFleetSuffix":"Confederates",
+    "rebelFleetSuffix":"Partisans",
     
-    "marketSpawnWeight":1.0,
+    "marketSpawnWeight":0.8,
 
 	"startRelationships":{
-		"GER":-1.0,
+		"USA":-1.0,
 		
-		"independent":0.6,
+		"independent":0.4,
 		"pirates":-1.0,
-		"tritachyon":0.2,
-		"hegemony":-0.1,
-		"luddic_church":-0.3,	
+		"tritachyon":0.0,
+		"hegemony":-0.5,
+		"luddic_church":-0.5,	
 		"luddic_path":-1.0,
-		"persean": 0.2,
-		"lions_guard":-0.2,			
-	    "sindrian_diktat":-0.2,	
-		"remnant":-0.4,		
+		"persean": 0.0,
+		"lions_guard":-0.4,			
+	    "sindrian_diktat":-0.3,	
+		"remnant":-0.6,		
 	},
-    "maxRelationships":{ "luddic_path":-0.6, "luddic_church":0.0, "pirates":-0.5, },
-    "diplomacyPositiveChance":{ "persean":0.8, "hegemony": 0.4 },
-    "diplomacyNegativeChance":{ "GER":1.2, "luddic_path":1.5, "luddic_church":0.9 },
+    "maxRelationships":{ "luddic_path":-0.6, "luddic_church":-0.2, "pirates":-0.8, },
+    "diplomacyPositiveChance":{ "persean":0.5, "hegemony": 0.5 },
+    "diplomacyNegativeChance":{ "USA":1.5, "luddic_path":1.5, "luddic_church":0.9 },
     #"dispositions":{
     #    "persean": -10,
     #    "sindrian_diktat": -10,
     #},
     
 	"alignments":{
-		"corporate":1.0,
+		"corporate":0.0,
 		"technocratic":0.5,
-		"militarist":0.25,
-		"diplomatic":0.25,
-		"ideological":0.0,
+		"militarist":1.0,
+		"diplomatic":-0.5,
+		"ideological":1.0,
 	},
-	"diplomacyTraits":["stalwart", "likes_ai", "law_and_order", "neutralist"],
+	"diplomacyTraits":["paranoid", "envious", "stalwart", "temperamental", "likes_ai", "law_and_order"],
     
     # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
     "colonyExpeditionChance":1,	# baseline expansion behaviour
@@ -49,18 +49,18 @@
     #"specialForcesFlagshipVariants":{ "paragon_Elite":1, "astral_Strike":0.5 },
     
 	# Number of entries must equal number of vengeance tiers (0-3)
-	"vengeanceLevelNames":["Local Warrant", "Federal Warrant", "National Security Threat"],
-	"vengeanceFleetNamesSingle":["Police Apprehension group", "Federal Marshal group", "Naval Strike group"],
-	"vengeanceFleetNames":["Police Apprehension fleet", "Federal Marshal fleet", "Naval Strike fleet"],
-	"vengeanceFleetSizeMult":1.5,
+	"vengeanceLevelNames":["Local Warrant", "Military Warrant", "National Threat"],
+	"vengeanceFleetNamesSingle":["Gestapo Apprehension group", "Wehrmacht Strike group", "Schutzstaffel Elite group"],
+	"vengeanceFleetNames":["Gestapo Apprehension fleet", "Wehrmacht Strike fleet", "Schutzstaffel Elite fleet"],
+	"vengeanceFleetSizeMult":1.25,
 	
 	
-	"asteroidMiningFleetName":"Commercial Mining Fleet",
-	"invasionFleetname":"Naval Invasion Command Fleet",
-	"invasionSupportFleetname":"Naval Invasion Support Fleet",
-	"responseFleetname":"Naval Task Force Fleet",
-	"defenceFleetname":"Naval Defence Fleet",
-	"suppressionFleetname":"Naval Police Support Fleet",
+	"asteroidMiningFleetName":"State Mining Fleet",
+	"invasionFleetname":"Kriegsmarine Invasion Command Fleet",
+	"invasionSupportFleetname":"Kriegsmarine Invasion Support Fleet",
+	"responseFleetname":"Kriegsmarine Task Force Fleet",
+	"defenceFleetname":"Kriegsmarine Defence Fleet",
+	"suppressionFleetname":"Gestapo Suppression Fleet",
 
 	
     "startShipsSolo":[
@@ -68,8 +68,8 @@
 	  ["ot_M4Sherman_Hull_standard"]
 	],
     "startShipsCombatSmall":[
-      ["ot_M2a4Light_Hull_standard", "ot_M2a4Light_Hull_standard", "ot_M2a2Light_Hull_standard", "ot_M2a2Light_Hull_screen"],
-      ["ot_M2Medium_Hull_standard", "ot_M2Medium_Hull_standard", "ot_M2a4Light_Hull_standard", "ot_M2a4Light_Hull_standard"]
+      ["ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard"],
+      ["ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard"]
     ],
     "startShipsCombatLarge":[
       ["ot_M4Jumbo_Hull_standard", "ot_M4Sherman_Hull_upgun", "ot_M4Sherman_Hull_standard", "ot_M4Sherman_Hull_standard"],
@@ -86,9 +86,9 @@
     #"startShipsGrandFleet":[[""]],
     
 	"startSpecialItems":[
-        [["usawe_package",""]],
-		[["usawi_package",""]],
-		[["usash_package",""]]
+        [["gerwe_package",""]],
+		[["gerwi_package",""]],
+		[["gersh_package",""]]
     ],
     
     "defenceStations":[

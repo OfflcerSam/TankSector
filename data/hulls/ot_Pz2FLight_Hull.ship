@@ -1,0 +1,57 @@
+{
+  "hullName": "Pz II F",
+  "hullId": "ot_Pz2FLight_Hull",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Pz2F_Hull.png",
+  "style": "MIDLINE",
+  "height": 80,
+  "width": 44,
+  "center": [22, 40],
+  "collisionRadius": 50.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 50.5,
+  "viewOffset": 0,
+  "builtInMods": [
+	"turretgyros",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "TurretRing",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [10, 4]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-39, -16.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-39, 16.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -36, 12,
+    -3, 12,
+    -3, 16,
+    16, 16,
+    23, 12,
+    38, 12,
+    38, -12,
+    -36, -12
+  ]
+}
