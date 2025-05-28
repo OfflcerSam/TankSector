@@ -1,5 +1,5 @@
 {
-    "masterVersionFile":"",
+    "masterVersionFile":"https://raw.githubusercontent.com/OfflcerSam/TankSector/refs/heads/main/Tank.version",
     "modName":"TankSector",
     "modThreadId":33212,
     "modVersion":
@@ -9,5 +9,5 @@
         "patch":"2",
     },
 	"starsectorVersion":"0.98a-RC8",
-	#"directDownloadURL":"https://drive.google.com/uc?export=download&id=1OcljFuDNMzE8P2zC1HFzO7JOC0V6ngA5",		
+	#"directDownloadURL":"https://github.com/OfflcerSam/TankSector/releases/download/v1.0-Release/TankSector-release1.zip",		
 }
