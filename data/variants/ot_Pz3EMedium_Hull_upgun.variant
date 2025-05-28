@@ -1,7 +1,7 @@
 {
   "variantId": "ot_Pz3EMedium_Hull_upgun",
   "hullId": "ot_Pz3EMedium_Hull",
-  "displayName": "Standard",
+  "displayName": "Upgunned",
   "goalVariant": true,
   "fluxCapacitors": 2,
   "fluxVents": 5,
