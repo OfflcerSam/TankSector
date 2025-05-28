@@ -1,3 +1,14 @@
+V1.1.5 - Save Compatible
+[Additions]
+	Ships:
+		Frigates -
+			M8 Greyhound
+
+[Fixes]
+	Minor spelling errors
+	Pz3 Firerate
+	Me, maybe
+
 V1.1.4 - Save Compatible Note: New incomplete faction and star system, new generation required to see them.
 [Additions]
 	Factions: 

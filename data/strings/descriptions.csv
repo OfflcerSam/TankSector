@@ -1,6 +1,7 @@
 id,type,text1,text2,text3,notes
 # SHIPS,,,,,
 #USA Ships,,,,,
+ot_M8Greyhound_Hull,SHIP,"Early to Mid US Armored Car, has 1 Medium Slots and a built-in roof 50 cal.",,,
 ot_M2a2Light_Hull,SHIP,"Early US Light tank, has 2 Small slots and a built-in hull 30cal.",,,
 ot_M2a4Light_Hull,SHIP,"Early US Light tank, has 1 Medium slots, a built-in pintle 30 cal and a built-in hull 30cal.",,,
 ot_M2Medium_Hull,SHIP,"Early US Medium tank, has 1 Medium slot and 4 built-in hull 30cals.",,,

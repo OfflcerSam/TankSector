@@ -1,0 +1,72 @@
+{
+  "hullName": "M8 Greyhund",
+  "hullId": "ot_M8Greyhound_Hull",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/M8Greyhound_Hull.png",
+  "style": "LOW_TECH",
+  "height": 77,
+  "width": 42,
+  "center": [21, 38.5],
+  "collisionRadius": 48.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 48.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hiressensors",
+    "rugged",
+    "surveying_equipment"
+  ],
+  "builtInWeapons": {
+    "RoofMG": "ot_M2a2_50cal_turret"
+  },
+  "weaponSlots": [
+    {
+      "id": "Turret Ring",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-0.5, 0]
+    },
+    {
+      "id": "RoofMG",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-6, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-37.5, -13],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-37.5, 13],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -37.5, 18,
+    13.5, 18,
+    14.5, 20,
+    32.5, 20,
+    37.5, 15,
+    37.5, -15,
+    32.5, -20,
+    14.5, -20,
+    13.5, -18,
+    -37.5, -18
+  ]
+}

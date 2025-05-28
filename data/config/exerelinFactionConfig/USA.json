@@ -77,7 +77,7 @@
 	"startShipsTradeSmall":[["ot_fuel_truck_standard", "ot_supply_truck_defender", "ot_M2a4Light_Hull_screen"]],
     "startShipsTradeLarge":[["ot_armored_train_standard", "ot_train_standard", "ot_train_standard", "ot_supply_truck_defender"]],
 	
-    "startShipsExplorerLarge":[["ot_armored_train_standard", "ot_train_standard", "ot_M2Medium_Hull_standard"]],
+    "startShipsExplorerLarge":[["ot_armored_train_standard", "ot_train_standard", "ot_M8Greyhound_Hull_standard"]],
 	
     "startShipsCarrierSmall":[["ot_supply_truck_standard", "ot_supply_truck_standard", "ot_supply_truck_standard"]],
     "startShipsCarrierLarge":[["ot_armored_train_standard", "ot_supply_truck_standard", "ot_supply_truck_standard", "ot_supply_truck_standard"]],

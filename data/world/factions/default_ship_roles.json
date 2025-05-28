@@ -10,6 +10,7 @@
 	},
 	"combatSmall":{
 			"ot_M2a2Light_Hull_standard":20,
+			"ot_M8Greyhound_Hull_standard":10,
 			"ot_M2a2Light_Hull_screen":10,
 			"ot_M2a4Light_Hull_standard":20,
 			"ot_M2a4Light_Hull_screen":10,

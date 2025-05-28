@@ -1,0 +1,29 @@
+{
+  "variantId": "ot_M8Greyhound_Hull_standard",
+  "hullId": "ot_M8Greyhound_Hull",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Turret Ring": "ot_M2_37mm_turret"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "RoofMG": "ot_M2a2_50cal_turret"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
