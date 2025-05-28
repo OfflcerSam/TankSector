@@ -1,3 +1,39 @@
+V1.1.4 - Save Compatible Note: New incomplete faction and star system, new generation required to see them.
+[Additions]
+	Factions: 
+		Greater German Space Reich, Sonne Deutschlands #This is currently a copy of the US system until I mess with it.
+
+	Ships:
+		Frigates -
+		Panzer 2 F
+		Panzer 3 E
+
+	Weapons:
+		Small Turrets -
+			Panzer 2 F 20mm	
+
+		Medium Turrets -
+			Panzer 3 E 37mm
+			Panzer 3 J1 50mm
+
+	Misc:
+		Added German blueprints.
+		Added German Person Name List.
+		Added German Ship Name List.
+		Added rules stuff for Germany, mostly temporary and not fleshed out.
+
+[Changes]
+	Adjusted reload rates of weapons.
+	Adjusted fire rate of weapons.
+	Added extra description line to weapons.
+
+[Fixes]
+	Fixed tank float turn rate, caused by me being dumb with stats.
+	Minor spelling errors in some files.
+
+[Notes]
+	Some german text might be what one would call 'inaccurate', this is because some of it is translated using DeepL or from wikipedia. So if its bad, tell me.
+
 V1.0.3 - Save Compatible - Testing Version Checker
 This update is a test of Version Checker and Changelogs.
 
@@ -12,6 +48,9 @@ Supply Truck - Removed 1 fighter bay.
 
 V1.0 - Release
 Release of the mod, base stuff listed.
+Factions:
+United States Military Junta, Star of America
+
 Ships:
 Wings -
 Infantry man wings
