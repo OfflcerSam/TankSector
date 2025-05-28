@@ -282,7 +282,7 @@
 			"merchant":{"name":"Unternehmenshändler"},
 			
 			"shady":{"name":"Zwielichtiger Charakter"},
-			"armsDealer":{"name":"CWaffenhändler"},
+			"armsDealer":{"name":"Waffenhändler"},
 
 			"citizen":{"name":"Deutscher Staatsbürger"},
 			
