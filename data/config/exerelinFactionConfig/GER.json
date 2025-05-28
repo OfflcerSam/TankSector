@@ -20,13 +20,15 @@
 	    "sindrian_diktat":-0.3,	
 		"remnant":-0.6,		
 	},
-    "maxRelationships":{ "luddic_path":-0.6, "luddic_church":-0.2, "pirates":-0.8, },
+    "maxRelationships":{ "luddic_path":-0.6, "luddic_church":-0.2, "pirates":-0.8, "USA":0.0 },
     "diplomacyPositiveChance":{ "persean":0.5, "hegemony": 0.5 },
     "diplomacyNegativeChance":{ "USA":1.5, "luddic_path":1.5, "luddic_church":0.9 },
-    #"dispositions":{
-    #    "persean": -10,
-    #    "sindrian_diktat": -10,
-    #},
+    "dispositions":{
+        "USA": -10,
+        "luddic_church": -10,
+		"luddic_path": -50,
+		"hegemony": -5,
+    },
     
 	"alignments":{
 		"corporate":0.0,
