@@ -21,4 +21,4 @@ Hull 30cal,ot_h30cal,0,,200,350,,20,,1,80,2,250,3.1,50,FRAGMENTATION,1,,0,0.11,1
 Hull 7.92mm,ot_h792,0,,200,350,,20,,1,80,2,150,3.1,50,FRAGMENTATION,1,,0,0.067,1,0,0.01,10,1,10,,650,,,10,,,"PD, SYSTEM, PD_ALSO, SHOW_IN_CODEX, NO_TURN_RATE_BOOST_WHEN_IDLE","pd6, kinetic3, SR",,GER,,Point Defense,,,,,,,,,,3
 Pz. II F 20mm Turret,ot_Pz2_20mm_turret,1,0.5,1300,500,,50,,5,25,5,20,0.83,10,KINETIC,6,,0,0.33,1,0,0.01,15,3,10,,895,,,20,,,NO_TURN_RATE_BOOST_WHEN_IDLE,"pd8, kinetic6, LR, gerwe_bp, GER",,GER,,Point Defense,,,,,,,,,,20
 Pz III E 37mm Turret,ot_Pz3_37mm_turret,1,0.5,500,600,,190,,20,15,5,5,0.17,1,ENERGY,80,,0,1.1,1,0,0.01,15,5,10,,900,,,40,,,NO_TURN_RATE_BOOST_WHEN_IDLE,"energy7, SR, gerwe_bp, GER",,GER,,Anti Armor,,,,,,,,,,37
-Pz III J1 50mm Turret,ot_Pz3_50mm_turret,1,0.5,500,800,,300,,35,15,6,5,0.14,1,ENERGY,110,,0,2.8,1,0,0.01,15,5,10,,900,,,40,,,NO_TURN_RATE_BOOST_WHEN_IDLE,"energy7, SR, gerwe_bp, GER",,GER,,Anti Armor,,,,,,,,,,50
+Pz III J1 50mm Turret,ot_Pz3_50mm_turret,2,0.5,750,800,,300,,35,15,6,5,0.14,1,ENERGY,110,,0,2.8,1,0,0.01,15,5,10,,900,,,40,,,NO_TURN_RATE_BOOST_WHEN_IDLE,"energy7, SR, gerwe_bp, GER",,GER,,Anti Armor,,,,,,,,,,50

@@ -115,9 +115,9 @@
 		],
 	},
 	"weaponSellFrequency":{
-			"ot_Pz2_20mm_turret":10,
-			"ot_Pz3_37mm_turret",
-			"ot_Pz3_50mm_turret",
+			"ot_Pz2_20mm_turret":20,
+			"ot_Pz3_37mm_turret":15,
+			"ot_Pz3_50mm_turret":10,
 			
 	},
 	"fighterSellFrequency":{

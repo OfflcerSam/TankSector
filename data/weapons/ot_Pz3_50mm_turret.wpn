@@ -23,9 +23,6 @@
   "barrelMode": "ALTERNATING",
   "animationType": "MUZZLE_FLASH",
   "muzzleFlashSpec": {
-  "barrelMode": "ALTERNATING",
-  "animationType": "MUZZLE_FLASH",
-  "muzzleFlashSpec": {
     "length": 50,
     "spread": 14,
     "particleSizeMin": 10,
