@@ -20,6 +20,7 @@ ot_Pz3EMedium_Hull,SHIP,"Early German Light tank, has 1 Medium slot and a built-
 ,,,,,
 # WEAPONS,,,,,
 #USA Weapons,,,,,
+ot_r50cal,WEAPON,"Standard Hull 50cal, you might see this for many built-in weapons. The loading mechanism has been automated, it feeds in one 45 round belt at a time while holding 105 rounds in reserve total.",,,
 ot_M2a2_50cal_turret,WEAPON,"Standard M2a2 turret, equipped with a 50cal HMG. The loading mechanism has been automated, it feeds in one 45 round belt at a time while holding 105 rounds in reserve total.",,,
 ot_quad_50cal_turret,WEAPON,"Non-standard modified M2 turret, equipped with quad 50cal HMGs. The loading mechanism has been automated, it feeds in 2 pairs of 45 round belts at a time while keeping 210 rounds in reserve total.",,,
 ot_dual_50cal_turret,WEAPON,"Non-standard modified M2a2, equipped with dual 50cal HMGs. The loading mechanism has been automated, it feeds in 4 pairs of 45 round belts at a time while keeping 425 rounds in reserve total.",,,

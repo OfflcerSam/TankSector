@@ -1,5 +1,6 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
 #USA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Roof 50cal,ot_r50cal,0,0.6,225,500,,40,,2,70,5,105,3.75,45,FRAGMENTATION,3,,0,0.12,1,0,0.01,15,1,10,,800,,,15,,,"PD, SYSTEM, PD_ALSO,  SHOW_IN_CODEX, NO_TURN_RATE_BOOST_WHEN_IDLE","pd7, kinetic4, SR",,USA,,Point Defense,,,,,,,,,,5
 M2a2 50cal Turret,ot_M2a2_50cal_turret,0,0.6,225,500,,40,,2,20,5,105,3.75,45,FRAGMENTATION,3,,0,0.12,1,0,0.01,15,1,10,,800,,,15,,,"PD, PD_ALSO, NO_TURN_RATE_BOOST_WHEN_IDLE","pd7, kinetic4, SR, usawe_bp, USA",,USA,,Point Defense,,,,,,,,,,5
 Dual 50cal Turret,ot_dual_50cal_turret,1,0.6,250,500,,40,,2,15,6,210,6.56,105,FRAGMENTATION,3,,0,0.065,1,0,0.01,20,1,10,,800,,,15,,,"PD, PD_ALSO, NO_TURN_RATE_BOOST_WHEN_IDLE","pd8, kinetic6, SR, usawe_bp, USA",,USA,,Point Defense,,,,,,,,,,5
 Quad 50cal Turret,ot_quad_50cal_turret,1,0.5,300,600,,40,,2,15,6,425,8.75,210,FRAGMENTATION,3,,0,0.025,1,0,0.01,25,1,10,,800,,,15,,,"PD, NO_TURN_RATE_BOOST_WHEN_IDLE","pd10, kinetic7, SR, usawe_bp, USA",,USA,,Point Defense,,,,,,,,,,5
@@ -16,6 +17,7 @@ M2a2 30cal Turret,ot_M2a2_30cal_turret,0,0.6,200,350,,20,,1,20,2,250,3.1,50,FRAG
 Garand,ot_garand,0,,100,350,,20,,1,120,2,8,1.3,8,FRAGMENTATION,1,,0,0.3,1,0,0.01,10,1,10,,650,,,10,,,"PD, SYSTEM, PD_ALSO, SHOW_IN_CODEX, NO_TURN_RATE_BOOST_WHEN_IDLE","pd6, kinetic3, SR",,USA,,Point Defense (Fighter),,,,,,,,,,3
 BAR,ot_bar,0,,100,350,,20,,1,120,2,20,2.5,20,FRAGMENTATION,1,,0,0.15,1,0,0.01,10,1,10,,650,,,10,,,"PD, SYSTEM, PD_ALSO, SHOW_IN_CODEX, NO_TURN_RATE_BOOST_WHEN_IDLE","pd6, kinetic3, SR",,USA,,Point Defense (Fighter),,,,,,,,,,3
 Hull 30cal,ot_h30cal,0,,200,350,,20,,1,80,2,250,3.1,50,FRAGMENTATION,1,,0,0.11,1,0,0.01,10,1,10,,650,,,10,,,"PD, SYSTEM, PD_ALSO, SHOW_IN_CODEX, NO_TURN_RATE_BOOST_WHEN_IDLE","pd6, kinetic3, SR",,USA,,Point Defense,,,,,,,,,,3
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #GER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Hull 7.92mm,ot_h792,0,,200,350,,20,,1,80,2,150,3.1,50,FRAGMENTATION,1,,0,0.067,1,0,0.01,10,1,10,,650,,,10,,,"PD, SYSTEM, PD_ALSO, SHOW_IN_CODEX, NO_TURN_RATE_BOOST_WHEN_IDLE","pd6, kinetic3, SR",,GER,,Point Defense,,,,,,,,,,3

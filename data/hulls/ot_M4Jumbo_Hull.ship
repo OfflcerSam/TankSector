@@ -18,7 +18,7 @@
   ],
   "builtInWeapons": {
     "HullMG": "ot_h30cal",
-    "RoofPintle": "ot_M2a2_50cal_turret"
+    "RoofPintle": "ot_h50cal"
   },
   "weaponSlots": [
     {
