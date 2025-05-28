@@ -12,7 +12,6 @@
   "modules": [],
   "wings": [
     "ot_man_garand",
-    "ot_man_garand",
-    "ot_man_bar"
+    "ot_man_garand"
   ]
 }
