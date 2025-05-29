@@ -66,16 +66,16 @@
 
 	
     "startShipsSolo":[
-	  ["ot_M26Pershing_Hull_standard"],
-	  ["ot_M4Sherman_Hull_standard"]
+	  ["ot_Pz3EMedium_Hull_upgun"],
+	  ["ot_Pz4HMedium_Hull_standard"]
 	],
     "startShipsCombatSmall":[
       ["ot_Pz3EMedium_Hull_upgun", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard"],
       ["ot_Pz3EMedium_Hull_standard", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard"]
     ],
     "startShipsCombatLarge":[
-      ["ot_Pz3EMedium_Hull_standard", "ot_Pz3EMedium_Hull_upgun", "ot_Pz3EMedium_Hull_standard", "ot_Pz2FLight_Hull_standard"],
-      ["ot_Pz3EMedium_Hull_standard", "ot_Pz3EMedium_Hull_upgun", "ot_Pz3EMedium_Hull_standard", "ot_Pz2FLight_Hull_standard"]
+      ["ot_Pz4HMedium_Hull_standard", "ot_Pz3EMedium_Hull_upgun", "ot_Pz3EMedium_Hull_standard", "ot_Pz2FLight_Hull_standard"],
+      ["ot_Pz4HMedium_Hull_standard", "ot_Pz4HMedium_Hull_support", "ot_Pz3EMedium_Hull_standard", "ot_Pz2FLight_Hull_standard"]
     ],
 	"startShipsTradeSmall":[["ot_fuel_truck_standard", "ot_supply_truck_defender", "ot_M2a4Light_Hull_screen"]],
     "startShipsTradeLarge":[["ot_armored_train_standard", "ot_train_standard", "ot_train_standard", "ot_supply_truck_defender"]],

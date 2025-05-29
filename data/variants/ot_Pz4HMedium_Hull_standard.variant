@@ -1,0 +1,29 @@
+{
+  "variantId": "ot_Pz4HMedium_Hull_standard",
+  "hullId": "ot_Pz4HMedium_Hull",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "TurretRing": "ot_Pz4_Long75mm_turret"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "HullMG": "ot_h792"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
