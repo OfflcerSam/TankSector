@@ -46,6 +46,7 @@ ot_Pz3_37mm_turret,WEAPON,"Standard Pz III turret, equipped with a 37mm. The loa
 ot_Pz3_50mm_turret,WEAPON,"Modified Pz III turret, equipped with a 50mm. The loading mechanism has been semi-automated, it has a ready rack of 5 rounds that is reloaded manually one at a time.",,,
 ot_Pz4_Short75mm_turret,WEAPON,"Standard Pz IV turret, equipped with a short 75mm. The loading mechanism has been semi-automated, it has a ready rack of 3 rounds that is reloaded manually one at a time.",,,
 ot_Pz4_Long75mm_turret,WEAPON,"Modified Pz IV turret, equipped with a long 75mm. The loading mechanism has been semi-automated, it has a ready rack of 4 rounds that is reloaded manually one at a time.",,,
+ot_Pz4_Ostwind2_turret,WEAPON,"Custom Pz IV turret, equipped with dual 37mm. The loading mechanism has been automated, it feeds one 8 round clip at a time while keeping 36 rounds in reserve total.",,,
 ot_Pz5_Longer75mm_turret,WEAPON,"Standard Pz V turret, equipped with a longer 75mm. The loading mechanism has been semi-automated, it has a ready rack of 4 rounds that is reloaded manually one at a time.",,,
 ,,,,,
 # FACTIONS,,,,,

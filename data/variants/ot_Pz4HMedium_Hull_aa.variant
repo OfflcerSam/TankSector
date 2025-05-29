@@ -1,6 +1,6 @@
 {
-  "variantId": "ot_M4Sherman_Hull_aa",
-  "hullId": "ot_M4Sherman_Hull",
+  "variantId": "ot_Pz4HMedium_Hull_aa",
+  "hullId": "ot_Pz4HMedium_Hull",
   "displayName": "Antiair",
   "goalVariant": true,
   "fluxCapacitors": 10,
@@ -13,21 +13,21 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "TurretRing": "ot_M4_Skink_turret"
+        "TurretRing": "ot_Pz4_Ostwind2_turret"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "RoofPintle": "ot_M2a2_50cal_turret"
+        "HullMG": "ot_h792"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "HullMG": "ot_h30cal"
+        "PintleMG": "ot_h792"
       }
     }
   ],
