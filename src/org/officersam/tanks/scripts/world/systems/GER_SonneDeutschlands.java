@@ -53,7 +53,7 @@ public class GER_SonneDeutschlands {
         system.setBackgroundTextureFilename("graphics/backgrounds/StarofAmerica_background.jpg");
 
         //praise the sun
-        PlanetAPI germanStar = system.initStar("SonneDeutschlands", "star_yellow", 600f, 700, 10, 0.5f, 3f);
+        PlanetAPI germanStar = system.initStar("SonneDeutschlands", "star_yellow", 800f, 700, 10, 0.5f, 3f);
         system.setLightColor(new Color(255, 245, 225));
 
         //JumppointInner
