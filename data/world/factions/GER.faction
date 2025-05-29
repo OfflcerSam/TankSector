@@ -48,6 +48,7 @@
 		"hulls":[
 			"ot_Pz2FLight_Hull",
 			"ot_Pz3EMedium_Hull",
+			"ot_Pz5PantherAMedium_Hull",
 			"ot_train",
 	],
   },
@@ -57,6 +58,7 @@
     "hulls": [
 			"ot_Pz2FLight_Hull",
 			"ot_Pz3EMedium_Hull",
+			"ot_Pz5PantherAMedium_Hull",
 			"ot_train",
       ],		
   },
@@ -78,6 +80,9 @@
 			"ot_Pz2_20mm_turret",
 			"ot_Pz3_37mm_turret",
 			"ot_Pz3_50mm_turret",
+			"ot_Pz4_Short75mm_turret",
+			"ot_Pz4_Long75mm_turret",
+			"ot_Pz5_Longer75mm_turret",
 
         ],
   },
@@ -118,6 +123,9 @@
 			"ot_Pz2_20mm_turret":20,
 			"ot_Pz3_37mm_turret":15,
 			"ot_Pz3_50mm_turret":10,
+			"ot_Pz4_Short75mm_turret":10,
+			"ot_Pz4_Long75mm_turret":10,
+			"ot_Pz5_Longer75mm_turret":5,
 			
 	},
 	"fighterSellFrequency":{

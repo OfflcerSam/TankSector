@@ -1,25 +1,27 @@
 name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,c/s,c/f,f/s,f/f,crew/s,crew/f,hints,tags,rarity,breakProb,minPieces,maxPieces,travel drive,number
 #US Tanks,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-M8 Greyhound,ot_M8Greyhound_Hull,Armored Car,USA,,2,850,60,1000,,200,25,,400,200,250,90,90,60,OMNI,,65,0.5,1,,,2,4,10,20,1,20,9,4500,15,15,200,0.25,2,2,,,,,,,,"usash_bp, USA",,0.7,1,3,,100
-M2a2 Light,ot_M2a2Light_Hull,Light Tank,USA,,2,1000,75,1500,,250,35,,350,150,180,120,120,100,FRONT,,65,0.5,1,,,2,4,10,25,1,20,8,5000,15,15,200,0.25,2,2,,,,,,,,"usash_bp, USA",,0.7,1,3,,100
-M2a4 Light,ot_M2a4Light_Hull,Light Tank,USA,,2,1250,90,1500,,250,40,,325,150,180,120,120,100,FRONT,,65,0.5,1,,,2,4,15,25,1,25,8,6000,15,15,200,0.25,2,2,,,,,,,,"usash_bp, USA",,0.7,1,3,,100
-M2 Medium,ot_M2Medium_Hull,Medium Tank,USA,,5,1500,150,2000,,350,45,,225,120,140,100,100,200,FRONT,,65,0.5,1,,,2,6,20,40,1,30,8,7500,10,20,300,0.25,4,4,,,,,,,,"usash_bp, USA",,0.6,2,5,,100
-M3 Lee,ot_M3Lee_Hull,Medium Tank,USA,,6,2000,250,2500,,350,45,,225,120,140,100,100,250,FRONT,,65,0.5,1,,,2,6,20,40,1,30,8,8000,10,20,300,0.25,4,4,,,,,,,,"usash_bp, USA",,0.6,2,5,,100
-M4 Sherman,ot_M4Sherman_Hull,Medium Tank,USA,,8,3000,400,3000,,400,55,,200,110,130,100,100,300,FRONT,,65,0.4,1,,,2,5,25,50,1,45,8,15000,10,20,350,0.25,5,5,,,,,,,,"usash_bp, USA",,0.5,2,5,,100
-M4a3E2 Jumbo,ot_M4Jumbo_Hull,Heavy Tank,USA,,15,3500,550,3000,,400,60,,180,90,110,100,70,500,FRONT,,75,0.4,0.9,,,2,5,20,50,1,45,7,25000,10,25,360,0.25,8,8,,,,,,,,"usash_bp, USA",,0.5,2,5,,100
-M26 Pershing,ot_M26Pershing_Hull,Heavy Tank,USA,,20,5000,850,3500,,425,65,,180,100,120,125,80,900,FRONT,,75,0.4,0.9,,,2,5,20,60,1,45,7,40000,10,25,380,0.25,10,10,,,,,,,,"usash_bp, USA",,0.5,2,6,,100
+M8 Greyhound,ot_M8Greyhound_Hull,Armored Car,USA,,2,200,60,1000,,200,25,,400,200,300,90,160,60,OMNI,,65,0.5,1,,,2,4,10,20,1,20,9,4500,15,15,200,0.25,2,2,,,,,,,,"usash_bp, USA",,0.7,1,3,,100
+M2a2 Light,ot_M2a2Light_Hull,Light Tank,USA,,2,350,75,1500,,250,35,,350,150,250,90,160,100,FRONT,,65,0.5,1,,,2,4,10,25,1,20,8,5000,15,15,200,0.25,2,2,,,,,,,,"usash_bp, USA",,0.7,1,3,,100
+M2a4 Light,ot_M2a4Light_Hull,Light Tank,USA,,2,450,90,1500,,250,40,,325,150,225,90,160,100,FRONT,,65,0.5,1,,,2,4,15,25,1,25,8,6000,15,15,200,0.25,2,2,,,,,,,,"usash_bp, USA",,0.7,1,3,,100
+M2 Medium,ot_M2Medium_Hull,Medium Tank,USA,,5,650,150,2000,,350,45,,225,120,150,60,120,200,FRONT,,65,0.5,1,,,2,6,20,40,1,30,8,7500,10,20,300,0.25,4,4,,,,,,,,"usash_bp, USA",,0.6,2,5,,100
+M3 Lee,ot_M3Lee_Hull,Medium Tank,USA,,6,1000,250,2500,,350,45,,225,120,150,60,120,250,FRONT,,65,0.5,1,,,2,6,20,40,1,30,8,8000,10,20,300,0.25,4,4,,,,,,,,"usash_bp, USA",,0.6,2,5,,100
+M4 Sherman,ot_M4Sherman_Hull,Medium Tank,USA,,8,1500,400,3000,,400,55,,200,110,150,60,120,300,FRONT,,65,0.4,1,,,2,5,25,50,1,45,8,15000,10,20,350,0.25,5,5,,,,,,,,"usash_bp, USA",,0.5,2,5,,100
+M4a3E2 Jumbo,ot_M4Jumbo_Hull,Heavy Tank,USA,,15,1650,600,3000,,400,60,,180,90,125,60,120,500,FRONT,,75,0.4,0.9,,,2,5,20,50,1,45,7,25000,10,25,360,0.25,8,8,,,,,,,,"usash_bp, USA",,0.5,2,5,,100
+M26 Pershing,ot_M26Pershing_Hull,Heavy Tank,USA,,20,3000,900,3500,,425,65,,180,100,125,60,120,900,FRONT,,75,0.4,0.9,,,2,5,20,60,1,45,7,40000,10,25,380,0.25,10,10,,,,,,,,"usash_bp, USA",,0.5,2,6,,100
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Supply Truck,ot_supply_truck,Freighter Truck,USA,,2,500,50,500,,200,30,2,225,100,120,60,60,50,FRONT,,75,0.4,1,,,1,25,250,50,1,60,9,7250,20,10,250,0.25,2,2,,,,,,,"CARRIER, FREIGHTER","usash_bp, USA",,0.7,1,5,,110
-Fuel Truck,ot_fuel_truck,Tanker Truck,USA,,1,500,50,500,,200,20,,225,100,120,60,60,50,FRONT,,75,0.4,1,,,1,10,50,300,1,125,9,7000,20,10,180,0.25,2,2,,,,,,,"CIVILIAN, TANKER","usash_bp, USA",,0.7,1,5,,110
-Armored Train,ot_armored_train,Armored Freighter Train,USA,,30,6500,900,3000,,350,100,3,250,90,90,90,90,2500,OMNI,,90,0.4,0.9,,,15,40,500,100,1,150,9,65000,25,30,380,0.25,20,20,,,,,,,"CARRIER, FREIGHTER","usash_bp, USA",,0.4,2,8,,110
-Train,ot_train,Freighter Train,USA,,15,3250,350,1500,,200,70,1,350,120,120,90,90,1200,FRONT,,275,0.4,0.9,,,8,90,600,250,1,250,10,45000,15,20,260,0.25,10,10,,,,,,,"CIVILIAN, FREIGHTER, TANKER","usash_bp, USA",,0.5,2,8,,110
+#US Logistics,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Supply Truck,ot_supply_truck,Freighter Truck,USA,,2,200,50,500,,200,30,2,225,100,150,60,120,50,FRONT,,75,0.4,1,,,1,25,250,50,1,60,9,7250,20,10,250,0.25,2,2,,,,,,,"CARRIER, FREIGHTER","usash_bp, USA",,0.7,1,5,,110
+Fuel Truck,ot_fuel_truck,Tanker Truck,USA,,1,200,50,500,,200,20,,225,100,150,60,120,50,FRONT,,75,0.4,1,,,1,10,50,300,1,125,9,7000,20,10,180,0.25,2,2,,,,,,,"CIVILIAN, TANKER","usash_bp, USA",,0.7,1,5,,110
+Armored Train,ot_armored_train,Armored Freighter Train,USA,,30,5500,900,3000,,350,100,3,250,90,100,90,100,2500,OMNI,,90,0.4,0.9,,,15,40,500,100,1,150,9,65000,25,30,380,0.25,20,20,,,,,,,"CARRIER, FREIGHTER","usash_bp, USA",,0.4,2,8,,110
+Train,ot_train,Freighter Train,USA,,15,3000,350,1500,,200,70,1,350,120,200,90,100,1200,FRONT,,275,0.4,0.9,,,8,90,600,250,1,250,10,45000,15,20,260,0.25,10,10,,,,,,,"CIVILIAN, FREIGHTER, TANKER","usash_bp, USA",,0.5,2,8,,110
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Wings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Machine Gunner,ot_man_30cal,Infantry,USA,,0,10,30,80,,35,20,,125,100,200,200,200,20,FRONT,,45,0.4,0.9,,,1,1,,,,,9,100,,,,,,,,,,,,,,,,1,3,8,,100
-Assualter,ot_man_bar,Infantry,USA,,0,10,25,70,,30,20,,150,100,200,200,200,20,FRONT,,30,0.5,0.95,,,1,1,,,,,9,100,,,,,,,,,,,,,,,,1,3,8,,100
-Infantry,ot_man_garand,Infantry,USA,,0,10,15,50,,20,20,,200,100,200,200,200,20,FRONT,,25,0.5,1,,,1,1,,,,,9,100,,,,,,,,,,,,,,,,1,3,8,,100
+Machine Gunner,ot_man_30cal,Infantry,USA,,0,10,30,80,,35,20,,125,100,200,200,300,20,FRONT,,45,0.4,0.9,,,1,1,,,,,9,100,,,,,,,,,,,,,,,,1,3,8,,100
+Assualter,ot_man_bar,Infantry,USA,,0,10,25,70,,30,20,,150,100,200,200,300,20,FRONT,,30,0.5,0.95,,,1,1,,,,,9,100,,,,,,,,,,,,,,,,1,3,8,,100
+Infantry,ot_man_garand,Infantry,USA,,0,10,15,50,,20,20,,200,100,200,200,300,20,FRONT,,25,0.5,1,,,1,1,,,,,9,100,,,,,,,,,,,,,,,,1,3,8,,100
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # German Tanks,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Pz. II F,ot_Pz2FLight_Hull,Light Tank,GGSR,,2,1000,75,1500,,250,35,,325,180,200,130,130,100,FRONT,,65,0.5,1,,,2,3,10,20,1,20,8,5000,15,15,200,0.25,2,2,,,,,,,,"gersh_bp, GER",,0.7,1,3,,100
-Pz. III E,ot_Pz3EMedium_Hull,Medium Tank,GGSR,,4,1350,145,1850,,300,40,,275,150,170,115,115,150,FRONT,,65,0.5,1,,,2,6,25,40,1,30,8,7500,10,20,300,0.25,4,4,,,,,,,,"gersh_bp, GER",,0.6,2,5,,100
-Pz. IV H,ot_Pz4HMedium_Hull,Medium Tank,GGSR,,7,2700,350,2500,,350,45,,200,105,135,100,100,250,FRONT,,65,0.5,1,,,2,6,25,50,1,40,8,12500,10,20,300,0.25,4,4,,,,,,,,"gersh_bp, GER",,0.5,2,5,,100
+Pz. II F,ot_Pz2FLight_Hull,Light Tank,GGSR,,2,400,75,1500,,250,35,,325,180,200,90,160,100,FRONT,,65,0.5,1,,,2,3,10,20,1,20,8,5000,15,15,200,0.25,2,2,,,,,,,,"gersh_bp, GER",,0.7,1,3,,100
+Pz. III E,ot_Pz3EMedium_Hull,Medium Tank,GGSR,,4,600,145,1850,,300,40,,275,150,170,90,160,150,FRONT,,65,0.5,1,,,2,6,25,40,1,30,8,7500,10,20,300,0.25,4,4,,,,,,,,"gersh_bp, GER",,0.6,2,5,,100
+Pz. IV H,ot_Pz4HMedium_Hull,Medium Tank,GGSR,,7,1250,350,2500,,350,45,,200,105,135,60,120,250,FRONT,,65,0.5,1,,,2,6,25,50,1,40,8,12500,10,20,300,0.25,4,4,,,,,,,,"gersh_bp, GER",,0.5,2,5,,100
+Pz. V Panther A,ot_Pz5PantherAMedium_Hull,Medium Tank,GGSR,,15,1600,550,3000,,400,60,,180,90,110,60,120,500,FRONT,,75,0.4,0.9,,,2,5,20,50,1,45,7,25000,10,25,360,0.25,8,8,,,,,,,,"usash_bp, USA",,0.5,2,5,,100

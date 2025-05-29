@@ -34,6 +34,7 @@
 			
 			"ot_Pz4HMedium_Hull_standard":25,
 			"ot_Pz4HMedium_Hull_support":10,
+			"ot_Pz5PantherAMedium_Hull_standard":10,
 			
 	},
 	"combatLarge":{
@@ -42,6 +43,7 @@
 			"ot_M4Jumbo_Hull_support": 10,
 			"ot_M26Pershing_Hull_standard":15,
 			
+			"ot_Pz5PantherAMedium_Hull_standard":15,
 	},
 	"combatCapital":{
 	
