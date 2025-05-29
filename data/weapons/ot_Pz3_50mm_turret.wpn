@@ -5,7 +5,10 @@
   "type": "BALLISTIC",
   "size": "MEDIUM",
   "turretSprite": "graphics/weapons/Pz3_50mm_Turret.png",
+  "turretGunSprite": "graphics/weapons/Pz3_50mm_Turret_gun.png",
+  "renderHints":[RENDER_BARREL_BELOW],
   "hardpointSprite": "",
+  "visualRecoil": 8,
   "turretOffsets": [
     57,
     0

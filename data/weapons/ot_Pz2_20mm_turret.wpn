@@ -5,7 +5,10 @@
   "type": "BALLISTIC",
   "size": "SMALL",
   "turretSprite": "graphics/weapons/Pz2F_20mm_Turret.png",
+  "turretGunSprite": "graphics/weapons/Pz2F_20mm_Turret_gun.png",
+  "renderHints":[RENDER_BARREL_BELOW],
   "hardpointSprite": "",
+  "visualRecoil": 8,
   "turretOffsets": [
     29,
     4

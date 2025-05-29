@@ -5,7 +5,10 @@
   "type": "BALLISTIC",
   "size": "LARGE",
   "turretSprite": "graphics/weapons/Pz4_s75mm_Turret.png",
+  "turretGunSprite": "graphics/weapons/Pz4_s75mm_Turret_gun.png",
+  "renderHints":[RENDER_BARREL_BELOW],
   "hardpointSprite": "",
+  "visualRecoil": 3,
   "turretOffsets": [
     44,
     0

@@ -5,7 +5,10 @@
   "type": "BALLISTIC",
   "size": "LARGE",
   "turretSprite": "graphics/weapons/M4_Skink_turret.png",
+  "turretGunSprite": "graphics/weapons/M4_Skink_turret_gun.png",
+  "renderHints":[RENDER_BARREL_BELOW],
   "hardpointSprite": "",
+  "visualRecoil": 10,
   "turretOffsets": [
     38,
     13,

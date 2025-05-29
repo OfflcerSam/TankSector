@@ -5,7 +5,10 @@
   "type": "BALLISTIC",
   "size": "LARGE",
   "turretSprite": "graphics/weapons/M3Lee_75mm_turret.png",
+  "turretGunSprite": "graphics/weapons/M3Lee_75mm_turret_gun.png",
+  "renderHints":[RENDER_BARREL_BELOW],
   "hardpointSprite": "",
+  "visualRecoil": 8,
   "turretOffsets": [
     41,
     0

@@ -5,7 +5,10 @@
   "type": "BALLISTIC",
   "size": "LARGE",
   "turretSprite": "graphics/weapons/M4_105mm_turret.png",
+  "turretGunSprite": "graphics/weapons/M4_105mm_turret_gun.png",
+  "renderHints":[RENDER_BARREL_BELOW],
   "hardpointSprite": "",
+  "visualRecoil": 5,
   "turretOffsets": [
     38.5,
     0

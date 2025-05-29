@@ -5,7 +5,10 @@
   "type": "BALLISTIC",
   "size": "LARGE",
   "turretSprite": "graphics/weapons/M26_90mm_turret.png",
+  "turretGunSprite": "graphics/weapons/M26_90mm_turret_gun.png",
+  "renderHints":[RENDER_BARREL_BELOW],
   "hardpointSprite": "",
+  "visualRecoil": 10,
   "turretOffsets": [
     102.5,
     0
