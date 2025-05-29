@@ -8,7 +8,7 @@
   "turretGunSprite": "graphics/weapons/Pz3_37mm_Turret_gun.png",
   "renderHints":[RENDER_BARREL_BELOW],
   "hardpointSprite": "",
-  "visualRecoil": 6,
+  "visualRecoil": 8,
   "turretOffsets": [
     41,
     0

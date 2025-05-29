@@ -8,7 +8,7 @@
   "turretGunSprite": "graphics/weapons/M4_105mm_turret_gun.png",
   "renderHints":[RENDER_BARREL_BELOW],
   "hardpointSprite": "",
-  "visualRecoil": 5,
+  "visualRecoil": 8,
   "turretOffsets": [
     38.5,
     0

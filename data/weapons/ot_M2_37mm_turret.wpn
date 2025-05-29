@@ -8,7 +8,7 @@
   "turretGunSprite": "graphics/weapons/M2_37mm_turret_gun.png",
   "renderHints":[RENDER_BARREL_BELOW],
   "hardpointSprite": "",
-  "visualRecoil": 6,
+  "visualRecoil": 8,
   "turretOffsets": [
     35,
     0
