@@ -15,7 +15,8 @@
     "rugged"
   ],
   "builtInWeapons": {
-    "HullMG": "ot_h792"
+    "HullMG": "ot_h792",
+    "PintleMG": "ot_h792"
   },
   "weaponSlots": [
     {
@@ -35,6 +36,15 @@
       "arc": 70,
       "angle": 0,
       "locations": [37.5, -10.5]
+    },
+    {
+      "id": "PintleMG",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-9, 1]
     }
   ],
   "engineSlots": [
