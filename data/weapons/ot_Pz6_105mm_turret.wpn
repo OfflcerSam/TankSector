@@ -1,16 +1,16 @@
 {
-  "id": "ot_M4_105mm_turret",
+  "id": "ot_Pz6_105mm_turret",
   "specClass": "projectile",
   "projectileSpecId": "hellbore_shot",
   "type": "BALLISTIC",
   "size": "LARGE",
-  "turretSprite": "graphics/weapons/M4_105mm_turret.png",
-  "turretGunSprite": "graphics/weapons/M4_105mm_turret_gun.png",
+  "turretSprite": "graphics/weapons/Pz6_105mm_turret.png",
+  "turretGunSprite": "graphics/weapons/Pz6_105mm_turret_gun.png",
   "renderHints":[RENDER_BARREL_BELOW],
   "hardpointSprite": "",
   "visualRecoil": 8,
   "turretOffsets": [
-    38.5,
+    152,
     0
   ],
   "turretAngleOffsets": [
@@ -26,12 +26,12 @@
   "barrelMode": "ALTERNATING",
   "animationType": "MUZZLE_FLASH",
   "muzzleFlashSpec": {
-    "length": 65,
-    "spread": 15,
-    "particleSizeMin": 10,
-    "particleSizeRange": 35,
-    "particleDuration": 0.15,
-    "particleCount": 60,
+    "length": 75,
+    "spread": 20,
+    "particleSizeMin": 15,
+    "particleSizeRange": 60,
+    "particleDuration": 0.05,
+    "particleCount": 70,
     "particleColor": [
       255,
       120,
@@ -39,5 +39,5 @@
       245
     ]
   },
-  "fireSoundTwo": "ot_sound_us105mmH_fire"
+  "fireSoundTwo": "ot_sound_ger105mm_fire"
 }

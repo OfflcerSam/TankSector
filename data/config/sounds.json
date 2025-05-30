@@ -80,9 +80,9 @@
 		{"file":"sounds/sfx_wpn_guns/ger/88mm_kwk43_3.ogg","pitch":1,"volume":0.6},
 	],
 	"ot_sound_ger105mm_fire":[
-		{"file":"sounds/sfx_wpn_guns/ger/105mm_kwk46_1.ogg","pitch":1,"volume":0.65},
-		{"file":"sounds/sfx_wpn_guns/ger/105mm_kwk46_2.ogg","pitch":1,"volume":0.65},
-		{"file":"sounds/sfx_wpn_guns/ger/105mm_kwk46_3.ogg","pitch":1,"volume":0.65},
+		{"file":"sounds/sfx_wpn_guns/ger/105mm_kwk46_1.ogg","pitch":1,"volume":0.7},
+		{"file":"sounds/sfx_wpn_guns/ger/105mm_kwk46_2.ogg","pitch":1,"volume":0.7},
+		{"file":"sounds/sfx_wpn_guns/ger/105mm_kwk46_3.ogg","pitch":1,"volume":0.7},
 	],
 
 	

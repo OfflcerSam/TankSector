@@ -51,7 +51,7 @@
 			"ot_Pz5PantherA_Hull",
 			"ot_Pz5Panther2_Hull",
 			"ot_Pz6TigerE_Hull",
-			"ot_Pz5KingTiger_Hull",
+			"ot_Pz6KingTiger_Hull",
 			"ot_armored_train_g",
 			"ot_train_g",
 			"ot_supply_truck_g",
@@ -67,7 +67,7 @@
 			"ot_Pz5PantherAMedium_Hull",
 			"ot_Pz5Panther2Medium_Hull",
 			"ot_Pz6TigerE_Hull",
-			"ot_Pz5KingTiger_Hull",
+			"ot_Pz6KingTiger_Hull",
 			"ot_armored_train_g",
 			"ot_train_g",
 			"ot_supply_truck_g",
@@ -77,7 +77,9 @@
 	"knownFighters":{
 		"tags":["gerwi_bp","GER"],
 		"fighters":[
-			"ot_man_bar",
+			"ot_man_german",
+			"ot_man_german_a",
+			"ot_man_german_m",
 
 		],
 	},

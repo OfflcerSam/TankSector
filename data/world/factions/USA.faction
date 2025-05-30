@@ -80,9 +80,10 @@
 	"knownFighters":{
 		"tags":["usawi_bp","USA"],
 		"fighters":[
-			"ot_man_bar",
-			"ot_man_30cal",
-			"ot_man_garand",
+			"ot_man_american",
+			"ot_man_american_a",
+			"ot_man_american_m",
+
 		],
 	},
 	"priorityFighters":{

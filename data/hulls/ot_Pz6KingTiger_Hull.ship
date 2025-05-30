@@ -1,0 +1,98 @@
+{
+  "hullName": "Pz VI KingTiger",
+  "hullId": "ot_Pz6KingTiger_Hull",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Pz6KingTiger_Hull.png",
+  "style": "LOW_TECH",
+  "height": 156,
+  "width": 82,
+  "center": [41, 78],
+  "collisionRadius": 96,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 96,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hardenedshieldemitter",
+    "rugged",
+    "ballistic_rangefinder"
+  ],
+  "builtInWeapons": {
+    "HullMg": "ot_h792",
+    "RoofMG": "ot_h792"
+  },
+  "weaponSlots": [
+    {
+      "id": "TurretRing",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-2.5, -0]
+    },
+    {
+      "id": "RoofMG",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-11.5, -0]
+    },
+    {
+      "id": "HullMg",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 70,
+      "angle": 0,
+      "locations": [63, -14.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-73, -33],
+      "length": 68,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-73, 33],
+      "length": 68,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-77, -6.5],
+      "length": 24,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-77, 6.5],
+      "length": 24,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -71, 27.5,
+    -66, 33,
+    64, 33,
+    64, 21,
+    77, 21,
+    77, -21,
+    64, -21,
+    64, -33,
+    -66, -33,
+    -71, -27.5
+  ]
+}
