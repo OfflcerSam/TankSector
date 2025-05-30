@@ -1,3 +1,33 @@
+V1.2.6 - Save Compatible(?)
+[Additions]
+	Ships:
+		Frigates -
+			Panzer 4 H
+			Panzer 5 Panther A
+		
+	Weapons:
+		Medium Turrets -
+			Panzer 4 H 75mm
+			Panzer 4 F1 75mm
+			Panzer 4 Ostwind II 37mm
+			##Panzer 4 Wirbelwind 20mm## Later
+			Panzer 5 Panther A 75mm
+		
+	Misc:
+		Separated gun barrels and added visual recoil (Should work in save games)
+		War thunder sound effects for cannons (MGs later)
+
+[Changes]
+Adjusted Hull HP to be lower, to around vanillaish
+Adjusted Max Flux and Flux dissipation, to around vanillaish
+Adjusted gun flux per shot, to around vanillaish
+Adjusted a couple damages
+Adjusted max turn rate to be more vanilla, so its not stupidly icey
+
+[Fixes]
+	I am bad at spelling
+
+		
 V1.1.5 - Save Compatible
 [Additions]
 	Ships:
@@ -16,8 +46,8 @@ V1.1.4 - Save Compatible Note: New incomplete faction and star system, new gener
 
 	Ships:
 		Frigates -
-		Panzer 2 F
-		Panzer 3 E
+			Panzer 2 F
+			Panzer 3 E
 
 	Weapons:
 		Small Turrets -
