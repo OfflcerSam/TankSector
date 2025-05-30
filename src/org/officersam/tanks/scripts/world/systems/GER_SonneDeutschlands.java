@@ -178,7 +178,7 @@ public class GER_SonneDeutschlands {
                 germaniaDist,
                 365f);
 
-        germania.setCustomDescriptionId("ger_starofamerica_germania"); //reference descriptions.csv
+        germania.setCustomDescriptionId("ger_sonnedeutschlands_germania"); //reference descriptions.csv
 
         MarketAPI germania_market = addMarketplace("GER", germania, null,
                 "Planet Deutschland",
