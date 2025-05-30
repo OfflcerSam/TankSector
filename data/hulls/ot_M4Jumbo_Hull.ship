@@ -12,7 +12,6 @@
   "shieldRadius": 73.5,
   "viewOffset": 0,
   "builtInMods": [
-	"heavyarmor",
 	"armoredweapons",
 	"rugged"
   ],

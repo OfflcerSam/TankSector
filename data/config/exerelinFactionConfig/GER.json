@@ -67,7 +67,7 @@
 	
     "startShipsSolo":[
 	  ["ot_Pz5PantherAMedium_Hull_standard"],
-	  ["ot_Pz4HMedium_Hull_standard"]
+	  ["ot_Pz5Panther2Medium_Hull_standard"]
 	],
     "startShipsCombatSmall":[
       ["ot_Pz3EMedium_Hull_upgun", "ot_Pz4HMedium_Hull_aa", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard"],

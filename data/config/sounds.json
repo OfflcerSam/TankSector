@@ -74,7 +74,11 @@
 		{"file":"sounds/sfx_wpn_guns/ger/75mm_kwk40_2.ogg","pitch":1,"volume":0.5},
 		{"file":"sounds/sfx_wpn_guns/ger/75mm_kwk40_3.ogg","pitch":1,"volume":0.5},
 	],
-
+	"ot_sound_ger88mm_fire":[
+		{"file":"sounds/sfx_wpn_guns/ger/88mm_kwk43_1.ogg","pitch":1,"volume":0.6},
+		{"file":"sounds/sfx_wpn_guns/ger/88mm_kwk43_2.ogg","pitch":1,"volume":0.6},
+		{"file":"sounds/sfx_wpn_guns/ger/88mm_kwk43_3.ogg","pitch":1,"volume":0.6},
+	],
 
 	
 	#Music

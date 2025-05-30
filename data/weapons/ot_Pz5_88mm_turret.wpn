@@ -1,16 +1,16 @@
 {
-  "id": "ot_M26_90mm_turret",
+  "id": "ot_Pz5_88mm_turret",
   "specClass": "projectile",
   "projectileSpecId": "heavyac_shot",
   "type": "BALLISTIC",
   "size": "LARGE",
-  "turretSprite": "graphics/weapons/M26_90mm_turret.png",
-  "turretGunSprite": "graphics/weapons/M26_90mm_turret_gun.png",
+  "turretSprite": "graphics/weapons/Pz5_88mm_turret.png",
+  "turretGunSprite": "graphics/weapons/Pz5_88mm_turret_gun.png",
   "renderHints":[RENDER_BARREL_BELOW],
   "hardpointSprite": "",
   "visualRecoil": 8,
   "turretOffsets": [
-    102.5,
+    111,
     0
   ],
   "turretAngleOffsets": [
@@ -29,7 +29,7 @@
     "length": 65,
     "spread": 15,
     "particleSizeMin": 15,
-    "particleSizeRange": 60,
+    "particleSizeRange": 50,
     "particleDuration": 0.05,
     "particleCount": 60,
     "particleColor": [
@@ -39,5 +39,5 @@
       245
     ]
   },
-  "fireSoundTwo": "ot_sound_us90mm_fire"
+  "fireSoundTwo": "ot_sound_ger88mm_fire"
 }
