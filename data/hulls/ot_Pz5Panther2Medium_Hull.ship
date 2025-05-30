@@ -12,7 +12,6 @@
   "shieldRadius": 87.5,
   "viewOffset": 0,
   "builtInMods": [
-	"ballistic_rangefinder",
 	"armoredweapons",
     "rugged"
   ],
