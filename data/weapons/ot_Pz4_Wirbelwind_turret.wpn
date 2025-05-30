@@ -1,0 +1,46 @@
+{
+  "id": "ot_Pz4_Wirbelwind_turret",
+  "specClass": "projectile",
+  "projectileSpecId": "lightdualac_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/Pz4_ost37mm_turret.png",
+  "turretGunSprite": "graphics/weapons/Pz4_ost37mm_turret_gun.png",
+  "renderHints":[RENDER_BARREL_BELOW],
+  "hardpointSprite": "",
+  "visualRecoil": 8,
+  "turretOffsets": [
+    45,
+    4,
+    45,
+    -4
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+   "muzzleFlashSpec": {
+    "length": 40,
+    "spread": 8,
+    "particleSizeMin": 8,
+    "particleSizeRange": 15,
+    "particleDuration": 0.05,
+    "particleCount": 30,
+    "particleColor": [
+      255,
+      120,
+      50,
+      245
+    ]
+  },
+  "fireSoundTwo": "ot_sound_ger20mm_fire"
+}
