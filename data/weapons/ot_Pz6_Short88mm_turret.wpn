@@ -6,6 +6,7 @@
   "size": "LARGE",
   "turretSprite": "graphics/weapons/Pz6_88mm_turret.png",
   "turretGunSprite": "graphics/weapons/Pz6_88mm_turret_gun.png",
+  "renderHints":[RENDER_BARREL_BELOW],
   "hardpointSprite": "",
   "visualRecoil": 8,
   "turretOffsets": [

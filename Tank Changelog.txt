@@ -1,3 +1,42 @@
+V1.3.8 - Not Save Compatible: Renamed fighter wings
+[Additions]
+	Ships:
+		Wings -
+			German Rifleman
+			German Grendiar
+			German Machinegunner
+			# Due to renaming the wings to separate them better, any existing wings in saves will probably not be found
+	
+		Frigates -
+			T26E5 Jumbo Pershing #Uses same sprite as pershing
+			Panzer 5 Panther 2 #Uses same sprite as panther
+			Tiger 1 E
+			Tiger 2
+		
+		
+	Weapons:
+		Large Turrets -
+			Panzer 5 Panther 2 88mm
+			Tiger E 88mm
+			Tiger 2 105mm
+			
+	Misc:
+		Added Tigers to the lineup at start
+		Added German tanks to sim battles (whoops)
+
+[Changes]
+Got rid of heavyarmor being built-in, makes it more of a choice.
+Adjusted starting tanks options to be more, considering the tanks are only good in number. #Recommend fleet increase mod to collect more than 30 tanks.
+Changed ready racks to 4
+Some other balancing changes
+
+Reskinned the following:
+German Supply and Fuel Truck, German Train and Armored Train, German Man
+Skins aren't final, but got to lazy to make them better
+
+[Fixes]
+Something was fixed, probably
+
 V1.2.6 - Save Compatible(?)
 [Additions]
 	Ships:
@@ -6,11 +45,11 @@ V1.2.6 - Save Compatible(?)
 			Panzer 5 Panther A
 		
 	Weapons:
-		Medium Turrets -
+		Large Turrets -
 			Panzer 4 H 75mm
 			Panzer 4 F1 75mm
 			Panzer 4 Ostwind II 37mm
-			##Panzer 4 Wirbelwind 20mm## Later
+			Panzer 4 Wirbelwind 20mm
 			Panzer 5 Panther A 75mm
 		
 	Misc:
