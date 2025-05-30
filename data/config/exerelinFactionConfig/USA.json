@@ -68,7 +68,7 @@
 	  ["ot_armored_train_standard"]
 	],
     "startShipsCombatSmall":[
-      ["ot_M3Lee_Hull_standard", "ot_M3Lee_Hull_standard", "ot_M2a2Light_Hull_standard", "ot_M2a2Light_Hull_screen", "ot_M2a2Light_Hull_standard", "ot_M2a2Light_Hull_screen", "ot_M2Medium_Hull_standard"],
+      ["ot_M3Lee_Hull_standard", "ot_M3Lee_Hull_standard", "ot_M2a2Light_Hull_standard", "ot_M2a2Light_Hull_screen", "ot_M8Greyhound_Hull_standard", "ot_M2a2Light_Hull_screen", "ot_M2Medium_Hull_standard"],
       ["ot_M2Medium_Hull_standard", "ot_M2Medium_Hull_standard", "ot_M2Medium_Hull_standard", "ot_M2a4Light_Hull_standard", "ot_M2a4Light_Hull_standard", "ot_M2a4Light_Hull_standard", "ot_M2a2Light_Hull_screen"]
     ],
     "startShipsCombatLarge":[
