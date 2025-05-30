@@ -51,6 +51,8 @@
 			"ot_Pz5PantherAMedium_Hull",
 			"ot_Pz5Panther2Medium_Hull",
 			"ot_train",
+			"ot_supply_truck",
+			"ot_fuel_truck",
 	],
   },
   # listing ships here will make the faction mostly use them even if other hulls become available
@@ -62,6 +64,8 @@
 			"ot_Pz5PantherAMedium_Hull",
 			"ot_Pz5Panther2Medium_Hull",
 			"ot_train",
+			"ot_supply_truck",
+			"ot_fuel_truck",
       ],		
   },
 	"knownFighters":{

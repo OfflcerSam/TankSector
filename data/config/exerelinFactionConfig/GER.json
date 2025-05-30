@@ -70,19 +70,19 @@
 	  ["ot_Pz5Panther2Medium_Hull_standard"]
 	],
     "startShipsCombatSmall":[
-      ["ot_Pz3EMedium_Hull_upgun", "ot_Pz4HMedium_Hull_aa", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard"],
-      ["ot_Pz3EMedium_Hull_standard", "ot_Pz4HMedium_Hull_screen", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard"]
+      ["ot_Pz3EMedium_Hull_upgun", "ot_Pz3EMedium_Hull_standard", "ot_Pz4HMedium_Hull_aa", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard", "ot_supply_truck_standard"],
+      ["ot_Pz3EMedium_Hull_standard", "ot_Pz3EMedium_Hull_standard", "ot_Pz4HMedium_Hull_screen", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard", "ot_supply_truck_standard"]
     ],
     "startShipsCombatLarge":[
-      ["ot_Pz4HMedium_Hull_standard", "ot_Pz3EMedium_Hull_upgun", "ot_Pz3EMedium_Hull_standard", "ot_Pz4HMedium_Hull_aa"],
-      ["ot_Pz5PantherAMedium_Hull_standard", "ot_Pz4HMedium_Hull_support", "ot_Pz3EMedium_Hull_standard", "ot_Pz2FLight_Hull_standard"]
+      ["ot_Pz5Panther2Medium_Hull_standard", "ot_Pz4HMedium_Hull_standard", "ot_Pz4HMedium_Hull_screen", "ot_Pz4HMedium_Hull_standard", "ot_Pz3EMedium_Hull_upgun", "ot_Pz3EMedium_Hull_upgun", "ot_Pz3EMedium_Hull_upgun", "ot_Pz3EMedium_Hull_standard", "ot_Pz4HMedium_Hull_aa", "ot_fuel_truck_standard", "ot_supply_truck_standard", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard", "ot_supply_truck_standard"],
+      ["ot_Pz5PantherAMedium_Hull_standard", "ot_Pz5PantherAMedium_Hull_standard", "ot_Pz4HMedium_Hull_standard", "ot_Pz4HMedium_Hull_standard", "ot_Pz4HMedium_Hull_screen", "ot_Pz4HMedium_Hull_support", "ot_Pz4HMedium_Hull_support", "ot_Pz3EMedium_Hull_standard", "ot_Pz2FLight_Hull_standard", "ot_fuel_truck_standard", "ot_supply_truck_standard", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard", "ot_supply_truck_standard"]
     ],
-	"startShipsTradeSmall":[["ot_fuel_truck_standard", "ot_supply_truck_defender", "ot_Pz4HMedium_Hull_aa"]],
+	"startShipsTradeSmall":[["ot_train_standard", "ot_fuel_truck_standard", "ot_supply_truck_defender", "ot_supply_truck_defender", "ot_Pz4HMedium_Hull_aa"]],
     "startShipsTradeLarge":[["ot_train_standard", "ot_train_standard", "ot_train_standard", "ot_supply_truck_defender"]],
 	
-    "startShipsExplorerLarge":[["ot_train_standard", "ot_train_standard", "ot_Pz3EMedium_Hull_standard"]],
+    "startShipsExplorerLarge":[["ot_train_standard", "ot_train_standard", "ot_train_standard", "ot_Pz3EMedium_Hull_standard"]],
 	
-    "startShipsCarrierSmall":[["ot_supply_truck_standard", "ot_supply_truck_standard", "ot_supply_truck_standard"]],
+    "startShipsCarrierSmall":[["ot_supply_truck_standard", "ot_supply_truck_standard", "ot_supply_truck_standard", "ot_supply_truck_standard"]],
     "startShipsCarrierLarge":[["ot_armored_train_standard", "ot_supply_truck_standard", "ot_supply_truck_standard", "ot_supply_truck_standard"]],
 	
     #"startShipsGrandFleet":[[""]],
