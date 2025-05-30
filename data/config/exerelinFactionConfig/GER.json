@@ -71,7 +71,7 @@
 	],
     "startShipsCombatSmall":[
       ["ot_Pz3EMedium_Hull_upgun", "ot_Pz4HMedium_Hull_aa", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard"],
-      ["ot_Pz3EMedium_Hull_standard", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard"]
+      ["ot_Pz3EMedium_Hull_standard", "ot_Pz4HMedium_Hull_screen", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard"]
     ],
     "startShipsCombatLarge":[
       ["ot_Pz4HMedium_Hull_standard", "ot_Pz3EMedium_Hull_upgun", "ot_Pz3EMedium_Hull_standard", "ot_Pz4HMedium_Hull_aa"],

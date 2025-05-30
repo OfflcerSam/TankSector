@@ -20,11 +20,12 @@
 			"ot_M4Sherman_Hull_standard":5,
 			
 			"ot_Pz2FLight_Hull_standard":20,
-			"ot_Pz3EMedium_Hull_standard":15,
+			"ot_Pz3EMedium_Hull_standard":20,
 			"ot_Pz3EMedium_Hull_upgun":10,
 			"ot_Pz4HMedium_Hull_aa":5,
+			"ot_Pz4HMedium_Hull_screen":5,
 			"ot_Pz4HMedium_Hull_support":5,
-			"ot_Pz4HMedium_Hull_standard":5,
+			"ot_Pz4HMedium_Hull_standard":10,
 	},
 	"combatMedium":{
 			"ot_M4Sherman_Hull_standard":30,
@@ -33,7 +34,8 @@
 			"ot_M4Jumbo_Hull_standard":10,
 			
 			"ot_Pz4HMedium_Hull_aa":10,
-			"ot_Pz4HMedium_Hull_standard":25,
+			"ot_Pz4HMedium_Hull_screen":10,
+			"ot_Pz4HMedium_Hull_standard":30,
 			"ot_Pz4HMedium_Hull_support":10,
 			"ot_Pz5PantherAMedium_Hull_standard":10,
 			
