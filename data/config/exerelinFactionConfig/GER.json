@@ -90,7 +90,9 @@
 	"startSpecialItems":[
         [["gerwe_package",""]],
 		[["gerwi_package",""]],
-		[["gersh_package",""]]
+		[["gersh_package",""]],
+		[["modspec","heavyarmor"],["modspec","ballistic_rangefinder"]],
+		[["modspec","magazines"],["modspec","turretgyros"]]
     ],
     
     "defenceStations":[
