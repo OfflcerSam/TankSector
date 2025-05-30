@@ -1,0 +1,42 @@
+{
+  "id": "ot_Pz6_Short88mm_turret",
+  "specClass": "projectile",
+  "projectileSpecId": "hellbore_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/Pz6_88mm_turret.png",
+  "turretGunSprite": "graphics/weapons/Pz6_88mm_turret_gun.png",
+  "hardpointSprite": "",
+  "visualRecoil": 8,
+  "turretOffsets": [
+    115,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 65,
+    "spread": 15,
+    "particleSizeMin": 15,
+    "particleSizeRange": 50,
+    "particleDuration": 0.05,
+    "particleCount": 60,
+    "particleColor": [
+      255,
+      120,
+      50,
+      245
+    ]
+  },
+  "fireSoundTwo": "ot_sound_ger88mm_fire"
+}

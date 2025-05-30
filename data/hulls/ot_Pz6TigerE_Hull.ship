@@ -1,0 +1,81 @@
+{
+  "hullName": "Pz VI Tiger E",
+  "hullId": "ot_Pz6TigerE_Hull",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Pz6TigerE_Hull.png",
+  "style": "LOW_TECH",
+  "height": 147,
+  "width": 84,
+  "center": [42, 73.5],
+  "collisionRadius": 100.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 100.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rugged",
+    "armoredweapons"
+  ],
+  "builtInWeapons": {
+    "HullMG": "ot_h792",
+    "RoofMG": "ot_h792"
+  },
+  "weaponSlots": [
+    {
+      "id": "Turret",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [3.5, -0]
+    },
+    {
+      "id": "RoofMG",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-5, -0]
+    },
+    {
+      "id": "HullMG",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 70,
+      "angle": 0,
+      "locations": [54.5, -12]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-70.5, -33],
+      "length": 76.5,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-70.5, 33],
+      "length": 76.5,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -66.5, 33.5,
+    -63.5, 36,
+    54.5, 36,
+    54.5, 21,
+    70.5, 21,
+    70.5, -21,
+    54.5, -21,
+    54.5, -36,
+    -63.5, -36,
+    -66.5, -33.5
+  ]
+}

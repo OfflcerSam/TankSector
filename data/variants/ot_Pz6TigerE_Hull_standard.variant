@@ -1,0 +1,36 @@
+{
+  "variantId": "ot_Pz6TigerE_Hull_standard",
+  "hullId": "ot_Pz6TigerE_Hull",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Turret": "ot_Pz6_Short88mm_turret"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "HullMG": "ot_h792"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "RoofMG": "ot_h792"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

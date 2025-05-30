@@ -1,0 +1,81 @@
+{
+  "hullName": "Pz V Panther 2",
+  "hullId": "ot_Pz5Panther2_Hull",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/PzVPantherA_Hull.png",
+  "style": "LOW_TECH",
+  "height": 143,
+  "width": 68,
+  "center": [34, 71.5],
+  "collisionRadius": 87.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 87.5,
+  "viewOffset": 0,
+  "builtInMods": [
+	"armoredweapons",
+    "rugged"
+  ],
+  "builtInWeapons": {
+    "HullMG": "ot_h792",
+    "RoofMG": "ot_h792"
+  },
+  "weaponSlots": [
+    {
+      "id": "TurretRing",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-3.5, -0]
+    },
+    {
+      "id": "HullMG",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 70,
+      "angle": 0,
+      "locations": [52, -8.5]
+    },
+    {
+      "id": "RoofMG",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-14.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-69.5, -20],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-69.5, 20],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -64.5, 29,
+    -59.5, 33,
+    53.5, 33,
+    53.5, 18.5,
+    66.5, 18.5,
+    66.5, -18.5,
+    53.5, -18.5,
+    53.5, -33,
+    -59.5, -33,
+    -64.5, -29
+  ]
+}
