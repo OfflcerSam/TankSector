@@ -52,6 +52,7 @@
 			"ot_M4Sherman_Hull",
 			"ot_M4Jumbo_Hull",
 			"ot_M26Pershing_Hull",
+			"ot_T26Jumbo_Hull",
 			"ot_supply_truck",
 			"ot_fuel_truck",
 			"ot_armored_train",
@@ -69,6 +70,7 @@
 			"ot_M4Sherman_Hull",
 			"ot_M4Jumbo_Hull",
 			"ot_M26Pershing_Hull",
+			"ot_T26Jumbo_Hull",
 			"ot_supply_truck",
 			"ot_fuel_truck",
 			"ot_armored_train",
@@ -147,6 +149,7 @@
 		"ot_M4_76mm_turret":20,
 		"ot_M4_105mm_turret":5,
 		"ot_M26_90mm_turret":5,
+
 
 	},
 	"fighterSellFrequency":{

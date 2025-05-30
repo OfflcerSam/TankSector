@@ -1,0 +1,36 @@
+{
+  "variantId": "ot_T26Jumbo_Hull_standard",
+  "hullId": "ot_T26Jumbo_Hull",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "TurretRing": "ot_M26_90mm_turret"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "RoofMG": "ot_M2a2_50cal_turret"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Hull": "ot_h30cal"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

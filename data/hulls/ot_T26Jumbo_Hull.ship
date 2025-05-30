@@ -1,6 +1,6 @@
 {
-  "hullName": "M26 Pershing",
-  "hullId": "ot_M26Pershing_Hull",
+  "hullName": "T26 Jumbo Pershin",
+  "hullId": "ot_T26Jumbo_Hull",
   "hullSize": "FRIGATE",
   "spriteName": "graphics/ships/M26Pershing_Hull.png",
   "style": "MIDLINE",
