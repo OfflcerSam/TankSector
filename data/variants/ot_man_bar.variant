@@ -1,7 +1,7 @@
 {
   "variantId": "ot_man_bar",
-  "hullId": "ot_man_bar",
-  "displayName": "man",
+  "hullId": "ot_man_american_a",
+  "displayName": "Assualt",
   "goalVariant": false,
   "fluxCapacitors": 5,
   "fluxVents": 5,

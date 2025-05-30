@@ -1,0 +1,50 @@
+{
+  "variantId": "ot_armored_train_g_standard",
+  "hullId": "ot_armored_train_g",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "F30L": "ot_h792",
+        "F30R": "ot_h792",
+        "FSL30": "ot_h792",
+        "FSR30": "ot_h792",
+        "RearL30": "ot_h792",
+        "RearR30": "ot_h792",
+        "WS0003": "ot_h792"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "FrontL": "ot_Pz2_20mm_turret",
+        "FrontR": "ot_Pz2_20mm_turret",
+        "RearC": "ot_Pz2_20mm_turret",
+        "WS0001": "ot_Pz2_20mm_turret",
+        "WS0002": "ot_Pz2_20mm_turret"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "Central": "ot_Pz3_37mm_turret"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "ot_man_german_a",
+    "ot_man_german_a",
+    "ot_man_german"
+  ]
+}

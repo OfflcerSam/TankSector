@@ -1,6 +1,6 @@
 {
-  "variantId": "ot_supply_truck_standard",
-  "hullId": "ot_supply_truck",
+  "variantId": "ot_fuel_truck_g_standard",
+  "hullId": "ot_fuel_truck_g",
   "displayName": "Standard",
   "goalVariant": true,
   "fluxCapacitors": 5,
@@ -10,8 +10,5 @@
   "hullMods": [],
   "weaponGroups": [],
   "modules": [],
-  "wings": [
-    "ot_man_american",
-    "ot_man_american"
-  ]
+  "wings": []
 }

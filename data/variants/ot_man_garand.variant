@@ -1,7 +1,7 @@
 {
   "variantId": "ot_man_garand",
-  "hullId": "ot_man_garand",
-  "displayName": "man",
+  "hullId": "ot_man_american",
+  "displayName": "Rifleman",
   "goalVariant": false,
   "fluxCapacitors": 5,
   "fluxVents": 5,

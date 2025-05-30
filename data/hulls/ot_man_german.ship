@@ -1,8 +1,8 @@
 {
-  "hullName": "Infantry",
-  "hullId": "ot_man_garand",
+  "hullName": "Soldaten",
+  "hullId": "ot_man_german",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/ships/man.png",
+  "spriteName": "graphics/ships/man_g.png",
   "style": "LOW_TECH",
   "height": 16,
   "width": 16,

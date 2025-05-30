@@ -1,7 +1,7 @@
 {
-  "variantId": "ot_man_30cal",
-  "hullId": "ot_man_american_m",
-  "displayName": "Machine Gunner",
+  "variantId": "ot_man_kar98",
+  "hullId": "ot_man_german",
+  "displayName": "Schütze",
   "goalVariant": false,
   "fluxCapacitors": 5,
   "fluxVents": 5,
@@ -13,7 +13,7 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "Hand": "ot_h30cal"
+        "Hand": "ot_kar98"
       }
     }
   ],

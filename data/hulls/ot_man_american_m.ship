@@ -1,6 +1,6 @@
 {
-  "hullName": "Assualter",
-  "hullId": "ot_man_bar",
+  "hullName": "Soldier",
+  "hullId": "ot_man_american_m",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/man.png",
   "style": "LOW_TECH",

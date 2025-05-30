@@ -1,7 +1,7 @@
 {
-  "variantId": "ot_supply_truck_standard",
-  "hullId": "ot_supply_truck",
-  "displayName": "Standard",
+  "variantId": "ot_supply_truck_g_defender",
+  "hullId": "ot_supply_truck_g",
+  "displayName": "Defender",
   "goalVariant": true,
   "fluxCapacitors": 5,
   "fluxVents": 2,
@@ -11,7 +11,7 @@
   "weaponGroups": [],
   "modules": [],
   "wings": [
-    "ot_man_american",
-    "ot_man_american"
+    "ot_man_german_a",
+    "ot_man_german_m"
   ]
 }

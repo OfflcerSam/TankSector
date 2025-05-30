@@ -60,6 +60,8 @@
 	},
 	"combatFreighterMedium":{
 			"ot_armored_train_standard":10,
+			
+			"ot_armored_train_g_standard":10,
 	},
 	"combatFreighterLarge":{
 
@@ -69,9 +71,14 @@
 	"carrierSmall":{
 			"ot_supply_truck_standard":20,
 			"ot_supply_truck_defender":10,
+			
+			"ot_supply_truck_g_standard":20,
+			"ot_supply_truck_g_defender":10,
 	},
 	"carrierMedium":{
 			"ot_armored_train_standard":10,
+			
+			"ot_armored_train_g_standard":10,
 	},
 	"carrierLarge":{
 	
@@ -93,16 +100,27 @@
 	"utility":{
 	},
 	"civilianRandom":{
-			"ot_train_standard":20,
+			"ot_train_standard":10,
+			"ot_supply_truck_standard":20,
+			"ot_fuel_truck_standard":20,
+			
+			"ot_train_g_standard":10,
+			"ot_supply_truck_g_standard":20,
+			"ot_fuel_truck_g_standard":20,
 	},
 	
 	# freighters and such
 	"freighterSmall":{
 			"ot_supply_truck_standard":20,
+			
+			"ot_supply_truck_g_standard":20,
 	},
 	"freighterMedium":{
 			"ot_armored_train_standard":10,
 			"ot_train_standard":20,
+			
+			"ot_train_g_standard":20,
+			"ot_armored_train_g_standard":10,
 
 	},
 	"freighterLarge":{
@@ -111,10 +129,15 @@
 	
 	"tankerSmall":{
 			"ot_fuel_truck_standard":20,
+			
+			"ot_fuel_truck_g_standard":20,
 	},
 	"tankerMedium":{
 			"ot_armored_train_standard":10,
 			"ot_train_standard":20,
+			
+			"ot_train_g_standard":20,
+			"ot_armored_train_g_standard":10,
 	},
 	"tankerLarge":{
 		
