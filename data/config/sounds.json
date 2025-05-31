@@ -15,6 +15,13 @@
 		{"file":"sounds/sfx_wpn_guns/tank_fire_2.ogg","pitch":1,"volume":1},
 		{"file":"sounds/sfx_wpn_guns/tank_fire_3.ogg","pitch":1,"volume":1},
 	],
+	"ot_sound_grenadepin":[
+		{"file":"sounds/sfx_wpn_guns/pin_1.ogg","pitch":1,"volume":0.3},
+		{"file":"sounds/sfx_wpn_guns/pin_2.ogg.ogg","pitch":1,"volume":0.2},
+		{"file":"sounds/sfx_wpn_guns/pin_3.ogg.ogg","pitch":1,"volume":0.2},
+		{"file":"sounds/sfx_wpn_guns/pin_4.ogg.ogg","pitch":1,"volume":0.2},
+		{"file":"sounds/sfx_wpn_guns/pin_5.ogg.ogg","pitch":1,"volume":0.2},
+	],
 	
 	#USAWeapons
 	"ot_sound_us20mm_fire":[

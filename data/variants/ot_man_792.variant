@@ -15,6 +15,13 @@
       "weapons": {
         "Hand": "ot_h792"
       }
+    },
+	{
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "Second": "ot_atg"
+      }
     }
   ],
   "modules": [],
