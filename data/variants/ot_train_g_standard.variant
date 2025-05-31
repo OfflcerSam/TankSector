@@ -27,14 +27,14 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "Central": "ot_Pz2_20mm_turret"
+        "Central": "ot_Pz1_7mm_turret"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "RearC": "ot_Pz2_20mm_turret"
+        "RearC": "ot_Pz1_7mm_turret"
       }
     }
   ],

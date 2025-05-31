@@ -29,15 +29,15 @@
         "FrontL": "ot_Pz2_20mm_turret",
         "FrontR": "ot_Pz2_20mm_turret",
         "RearC": "ot_Pz2_20mm_turret",
-        "WS0001": "ot_Pz2_20mm_turret",
-        "WS0002": "ot_Pz2_20mm_turret"
+        "WS0001": "ot_Pz1_7mm_turret",
+        "WS0002": "ot_Pz1_7mm_turret"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "Central": "ot_Pz3_37mm_turret"
+        "Central": "ot_t15mm_turret"
       }
     }
   ],
