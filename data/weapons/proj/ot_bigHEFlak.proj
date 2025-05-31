@@ -17,8 +17,8 @@
 	"bulletSprite":"graphics/missiles/shell_hellbore.png",
 	
 	"explosionSpec":{"duration":0.1f, # not visual
-					 "radius":80,
-					 "coreRadius":30, # full damage within core radius
+					 "radius":50,
+					 "coreRadius":20, # full damage within core radius
 					 "collisionClass":MISSILE_FF,
 					 "collisionClassByFighter":MISSILE_FF},
 					 
