@@ -20,6 +20,15 @@
       "arc": 15,
       "angle": 0,
       "locations": [-2, -0]
+    },
+	{
+      "id": "Second",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-2, -0]
     }
   ],
   "engineSlots": [

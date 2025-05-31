@@ -10,10 +10,17 @@
   "hullMods": [],
   "weaponGroups": [
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "Hand": "ot_bar"
+      }
+	},
+	{
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "Second": "ot_bazooka"
       }
     }
   ],
