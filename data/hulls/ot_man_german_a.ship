@@ -17,7 +17,7 @@
       "size": "SMALL",
       "type": "UNIVERSAL",
       "mount": "HIDDEN",
-      "arc": 15,
+      "arc": 40,
       "angle": 0,
       "locations": [-2, -0]
     },
@@ -26,7 +26,7 @@
       "size": "SMALL",
       "type": "UNIVERSAL",
       "mount": "HIDDEN",
-      "arc": 10,
+      "arc": 35,
       "angle": 0,
       "locations": [-2, -0]
     }
