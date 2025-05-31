@@ -9,12 +9,12 @@
 	"collisionClass":"MISSILE_FF",
 	"explosionColor":[255,165,0,255],  # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":15, # purely visual
-	"flameoutTime":0, # total time from flameout to full fadeout
-	"noEngineGlowTime":3, # time spent without the engine glow being rendered
+	"flameoutTime":0.25, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.1, # time spent without the engine glow being rendered
 	"fadeTime":0.5, # fadeout duration	
 	"engineSpec":{"turnAcc":0,
 				  "turnRate":0,
-				  "acc":5,
+				  "acc":50,
 				  "dec":0},
 	"engineSlots":[{"id":"ES1",
 					"loc":[-11, 0],
@@ -22,7 +22,7 @@
 				    "style":"CUSTOM",
 					"styleSpec":{
 						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
-						"engineColor":[255,125,25,255],
+						"engineColor":[75,75,75,50],
 						"contrailDuration":.1,
 						"contrailWidthMult":1,
 						"contrailWidthAddedFractionAtEnd":1,  # can be negative. makes trail spread out/narrow at the end
@@ -33,9 +33,9 @@
 						"contrailColor":[75,75,75,150],
 						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
 					},
-				    "width":2.0,
-				    "length":10.0,
-				    "angle":15.0}]
+				    "width":5.0,
+				    "length":5.0,
+				    "angle":180.0}]
 }
 
 			
