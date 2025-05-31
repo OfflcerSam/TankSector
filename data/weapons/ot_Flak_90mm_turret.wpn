@@ -1,0 +1,43 @@
+{
+  "id": "ot_Flak_90mm_turret",
+  "specClass": "projectile",
+  "projectileSpecId": "ot_bigHEFlak",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/M26_90mm_turret.png",
+  "turretGunSprite": "graphics/weapons/M26_90mm_turret_gun.png",
+  "renderHints":[RENDER_BARREL_BELOW],
+  "hardpointSprite": "",
+  "visualRecoil": 8,
+  "turretOffsets": [
+    102.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 65,
+    "spread": 15,
+    "particleSizeMin": 15,
+    "particleSizeRange": 60,
+    "particleDuration": 0.05,
+    "particleCount": 60,
+    "particleColor": [
+      255,
+      120,
+      50,
+      245
+    ]
+  },
+  "fireSoundTwo": "ot_sound_us90mm_fire"
+}
