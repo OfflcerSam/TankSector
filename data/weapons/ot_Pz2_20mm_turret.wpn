@@ -1,7 +1,7 @@
 {
   "id": "ot_Pz2_20mm_turret",
   "specClass": "projectile",
-  "projectileSpecId": "lightdualac_shot",
+  "projectileSpecId": "ot_smallCannon_shot",
   "type": "BALLISTIC",
   "size": "SMALL",
   "turretSprite": "graphics/weapons/Pz2F_20mm_Turret.png",

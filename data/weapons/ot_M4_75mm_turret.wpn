@@ -1,7 +1,7 @@
 {
   "id": "ot_M4_75mm_turret",
   "specClass": "projectile",
-  "projectileSpecId": "heavyac_shot",
+  "projectileSpecId": "ot_mediumCannon_shot",
   "type": "BALLISTIC",
   "size": "LARGE",
   "turretSprite": "graphics/weapons/M4_75mm_turret.png",

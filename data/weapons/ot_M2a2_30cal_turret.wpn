@@ -1,7 +1,7 @@
 {
   "id": "ot_M2a2_30cal_turret",
   "specClass": "projectile",
-  "projectileSpecId": "lightmg_shot",
+  "projectileSpecId": "ot_lightmg_red",
   "type": "BALLISTIC",
   "size": "SMALL",
   "turretSprite": "graphics/weapons/M2a2_30cal.png",

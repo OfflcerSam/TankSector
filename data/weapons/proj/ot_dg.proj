@@ -17,16 +17,15 @@
 				  "acc":50,
 				  "dec":0},
 	"explosionSpec":{"duration":0.1f, # not visual
-					 "radius":70,
-					 "coreRadius":50, # full damage within core radius
+					 "radius":50,
+					 "coreRadius":40, # full damage within core radius
 					 "collisionClass":MISSILE_FF,
 					 "collisionClassByFighter":MISSILE_FF},
 	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
-					#"slowToMaxSpeed":true,
-					"range":40,
+					"range":45,
 					"explosionSpec":{"duration":0.12f,
-									 "radius":75,
-									 "coreRadius":50, # full damage within core radius - at least equal to proximity fuse range
+									 "radius":70,
+									 "coreRadius":35, # full damage within core radius - at least equal to proximity fuse range
 									 "collisionClass":PROJECTILE_NO_FF,
 									 "collisionClassByFighter":PROJECTILE_FIGHTER,
 									 "particleSizeMin":4.0,

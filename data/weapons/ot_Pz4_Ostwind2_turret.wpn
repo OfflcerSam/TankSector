@@ -1,7 +1,7 @@
 {
   "id": "ot_Pz4_Ostwind2_turret",
   "specClass": "projectile",
-  "projectileSpecId": "lightdualac_shot",
+  "projectileSpecId": "ot_smallCannon_shot",
   "type": "BALLISTIC",
   "size": "LARGE",
   "turretSprite": "graphics/weapons/Pz4_ost37mm_turret.png",

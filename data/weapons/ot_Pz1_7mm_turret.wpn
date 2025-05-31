@@ -1,7 +1,7 @@
 {
   "id": "ot_Pz1_7mm_turret",
   "specClass": "projectile",
-  "projectileSpecId": "lightmg_shot",
+  "projectileSpecId": "ot_lightmg_green",
   "type": "BALLISTIC",
   "size": "SMALL",
   "turretSprite": "graphics/weapons/Pz1_7mm_turret.png",

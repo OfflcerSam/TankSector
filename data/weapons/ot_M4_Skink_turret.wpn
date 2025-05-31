@@ -1,7 +1,7 @@
 {
   "id": "ot_M4_Skink_turret",
   "specClass": "projectile",
-  "projectileSpecId": "heavyac_shot",
+  "projectileSpecId": "ot_smallCannon_shot",
   "type": "BALLISTIC",
   "size": "LARGE",
   "turretSprite": "graphics/weapons/M4_Skink_turret.png",

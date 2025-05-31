@@ -1,7 +1,7 @@
 {
   "id": "ot_M26_90mm_turret",
   "specClass": "projectile",
-  "projectileSpecId": "heavyac_shot",
+  "projectileSpecId": "ot_largeCannon_shot",
   "type": "BALLISTIC",
   "size": "LARGE",
   "turretSprite": "graphics/weapons/M26_90mm_turret.png",

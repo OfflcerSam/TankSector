@@ -1,7 +1,7 @@
 {
   "id": "ot_t15mm_turret",
   "specClass": "projectile",
-  "projectileSpecId": "heavymg_shot",
+  "projectileSpecId": "ot_heavymg_green",
   "type": "BALLISTIC",
   "size": "MEDIUM",
   "turretSprite": "graphics/weapons/t_15mm_turret.png",

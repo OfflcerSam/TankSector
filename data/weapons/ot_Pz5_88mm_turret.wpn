@@ -1,7 +1,7 @@
 {
   "id": "ot_Pz5_88mm_turret",
   "specClass": "projectile",
-  "projectileSpecId": "heavyac_shot",
+  "projectileSpecId": "ot_largeCannon_shot",
   "type": "BALLISTIC",
   "size": "LARGE",
   "turretSprite": "graphics/weapons/Pz5_88mm_turret.png",

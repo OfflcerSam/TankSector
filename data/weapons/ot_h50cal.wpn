@@ -1,7 +1,7 @@
 {
   "id": "ot_h50cal",
   "specClass": "projectile",
-  "projectileSpecId": "heavymg_shot",
+  "projectileSpecId": "ot_heavymg_red",
   "type": "BALLISTIC",
   "size": "SMALL",
   "turretSprite": "graphics/weapons/hull30cal.png",

@@ -1,7 +1,7 @@
 {
   "id": "ot_quad_50cal_turret",
   "specClass": "projectile",
-  "projectileSpecId": "heavymg_shot",
+  "projectileSpecId": "ot_heavymg_red",
   "type": "BALLISTIC",
   "size": "MEDIUM",
   "turretSprite": "graphics/weapons/quad_50cal.png",

@@ -1,7 +1,7 @@
 {
   "id": "ot_Pz4_Long75mm_turret",
   "specClass": "projectile",
-  "projectileSpecId": "heavyac_shot",
+  "projectileSpecId": "ot_mediumCannon_shot",
   "type": "BALLISTIC",
   "size": "LARGE",
   "turretSprite": "graphics/weapons/Pz4_75mm_Turret.png",

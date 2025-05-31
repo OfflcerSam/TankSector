@@ -1,7 +1,7 @@
 {
   "id": "ot_h792",
   "specClass": "projectile",
-  "projectileSpecId": "lightmg_shot",
+  "projectileSpecId": "ot_lightmg_green",
   "type": "BALLISTIC",
   "size": "SMALL",
   "turretSprite": "graphics/weapons/hull792.png",

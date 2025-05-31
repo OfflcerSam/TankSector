@@ -1,7 +1,7 @@
 {
   "id": "ot_stg44",
   "specClass": "projectile",
-  "projectileSpecId": "vulcan_shot",
+  "projectileSpecId": "ot_lightmg_green",
   "type": "BALLISTIC",
   "size": "SMALL",
   "turretSprite": "graphics/weapons/hull30cal.png",

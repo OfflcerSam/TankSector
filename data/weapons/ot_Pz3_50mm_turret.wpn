@@ -1,7 +1,7 @@
 {
   "id": "ot_Pz3_50mm_turret",
   "specClass": "projectile",
-  "projectileSpecId": "heavyac_shot",
+  "projectileSpecId": "ot_mediumCannon_shot",
   "type": "BALLISTIC",
   "size": "MEDIUM",
   "turretSprite": "graphics/weapons/Pz3_50mm_Turret.png",

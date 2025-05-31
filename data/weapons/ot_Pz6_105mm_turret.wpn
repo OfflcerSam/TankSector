@@ -1,7 +1,7 @@
 {
   "id": "ot_Pz6_105mm_turret",
   "specClass": "projectile",
-  "projectileSpecId": "hellbore_shot",
+  "projectileSpecId": "ot_bigHE",
   "type": "BALLISTIC",
   "size": "LARGE",
   "turretSprite": "graphics/weapons/Pz6_105mm_turret.png",

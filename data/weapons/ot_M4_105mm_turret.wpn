@@ -1,7 +1,7 @@
 {
   "id": "ot_M4_105mm_turret",
   "specClass": "projectile",
-  "projectileSpecId": "hellbore_shot",
+  "projectileSpecId": "ot_bigHE",
   "type": "BALLISTIC",
   "size": "LARGE",
   "turretSprite": "graphics/weapons/M4_105mm_turret.png",

@@ -1,7 +1,7 @@
 {
   "id": "ot_M2_37mm_turret",
   "specClass": "projectile",
-  "projectileSpecId": "lightdualac_shot",
+  "projectileSpecId": "ot_smallCannon_shot",
   "type": "BALLISTIC",
   "size": "MEDIUM",
   "turretSprite": "graphics/weapons/M2_37mm_turret.png",
