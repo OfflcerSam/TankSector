@@ -8,7 +8,7 @@
 	"collisionRadius":9,
 	"collisionClass":"MISSILE_NO_FF",
 	"explosionColor":[255,165,0,255],  # purely visual, will get a white additively blended core on top of this color
-	"explosionRadius":80, # purely visual
+	"explosionRadius":90, # purely visual
 	"flameoutTime":0.25, # total time from flameout to full fadeout
 	"noEngineGlowTime":0.1, # time spent without the engine glow being rendered
 	"fadeTime":0.5, # fadeout duration	
@@ -17,8 +17,8 @@
 				  "acc":50,
 				  "dec":0},
 	"explosionSpec":{"duration":0.1f, # not visual
-					 "radius":60,
-					 "coreRadius":45, # full damage within core radius
+					 "radius":70,
+					 "coreRadius":50, # full damage within core radius
 					 "collisionClass":MISSILE_FF,
 					 "collisionClassByFighter":MISSILE_FF},
 	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
