@@ -1,14 +1,14 @@
 {
 	"id":"ot_atg",
 	"specClass":"missile",
-	"missileType":"ROCKET",
-	"sprite":"graphics/missiles/missile_annihilator.png",
-	"size":[4,18],	
-	"center":[2,9],
-	"collisionRadius":12,
-	"collisionClass":"MISSILE_FF",
+	"missileType":"BOMB",
+	"sprite":"graphics/missiles/canister_flak.png",
+	"size":[6,10],	
+	"center":[3,5],
+	"collisionRadius":9,
+	"collisionClass":"MISSILE_NO_FF",
 	"explosionColor":[255,165,0,255],  # purely visual, will get a white additively blended core on top of this color
-	"explosionRadius":15, # purely visual
+	"explosionRadius":30, # purely visual
 	"flameoutTime":0.25, # total time from flameout to full fadeout
 	"noEngineGlowTime":0.1, # time spent without the engine glow being rendered
 	"fadeTime":0.5, # fadeout duration	
@@ -16,26 +16,12 @@
 				  "turnRate":0,
 				  "acc":50,
 				  "dec":0},
-	"engineSlots":[{"id":"ES1",
-					"loc":[-11, 0],
-				    #"style":"ROCKET_LOW_TECH",
-				    "style":"CUSTOM",
-					"styleSpec":{
-						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
-						"engineColor":[75,75,75,50],
-						"contrailDuration":.1,
-						"contrailWidthMult":1,
-						"contrailWidthAddedFractionAtEnd":1,  # can be negative. makes trail spread out/narrow at the end
-						"contrailMinSeg":1, # min segment length, in pixels
-						"contrailMaxSpeedMult":.0f,
-						"contrailAngularVelocityMult":0.5f,
-						"contrailSpawnDistMult":0f, # how far away from engine it starts
-						"contrailColor":[75,75,75,150],
-						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
-					},
-				    "width":5.0,
-				    "length":5.0,
-				    "angle":180.0}]
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":25,
+					 "coreRadius":20, # full damage within core radius
+					 "collisionClass":MISSILE_FF,
+					 "collisionClassByFighter":MISSILE_FF},
+
 }
 
 			

@@ -1,0 +1,22 @@
+{
+  "variantId": "ot_Pz2FLight_Hull_screen",
+  "hullId": "ot_Pz2FLight_Hull",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "TurretRing": "ot_Pz1_7mm_turret"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

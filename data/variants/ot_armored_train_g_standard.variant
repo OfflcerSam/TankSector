@@ -34,7 +34,7 @@
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "Central": "ot_t15mm_turret"
