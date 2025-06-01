@@ -1,6 +1,6 @@
 {
-  "variantId": "ot_Pz4HMedium_Hull_flak",
-  "hullId": "ot_Pz4HMedium_Hull",
+  "variantId": "ot_Pz5PantherAMedium_Hull_flak",
+  "hullId": "ot_Pz5PantherA_Hull",
   "displayName": "Flak",
   "goalVariant": true,
   "fluxCapacitors": 10,
@@ -8,8 +8,8 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "turretgyros",
-    "pointdefenseai"
+    "pointdefenseai",
+    "turretgyros"
   ],
   "weaponGroups": [
     {
@@ -30,7 +30,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "PintleMG": "ot_h792"
+        "RoofMG": "ot_h792"
       }
     }
   ],

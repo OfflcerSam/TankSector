@@ -86,7 +86,7 @@
     "startShipsCarrierSmall":[["ot_supply_truck_g_standard", "ot_supply_truck_g_standard", "ot_supply_truck_g_standard", "ot_supply_truck_g_standard"]],
     "startShipsCarrierLarge":[["ot_armored_train_g_standard", "ot_supply_truck_g_standard", "ot_supply_truck_g_standard", "ot_supply_truck_g_standard"]],
 	
-    "startShipsGrandFleet":[["ot_Pz6KingTiger_Hull_standard", "ot_Pz6TigerE_Hull_standard", "ot_Pz6TigerE_Hull_standard", "ot_Pz6TigerE_Hull_standard", "ot_Pz5Panther2Medium_Hull_standard", "ot_Pz5Panther2Medium_Hull_standard", "ot_Pz5PantherAMedium_Hull_standard", "ot_Pz5PantherAMedium_Hull_standard", "ot_Pz5PantherAMedium_Hull_standard", "ot_Pz4HMedium_Hull_flak", "ot_Pz4HMedium_Hull_aa", "ot_Pz4HMedium_Hull_screen", "ot_Pz4HMedium_Hull_screen", "ot_Pz4HMedium_Hull_standard", "ot_Pz4HMedium_Hull_standard", "ot_fuel_truck_g_standard", "ot_fuel_truck_g_standard", "ot_supply_truck_g_standard"]],
+    "startShipsGrandFleet":[["ot_Pz6KingTiger_Hull_standard", "ot_Pz6TigerE_Hull_standard", "ot_Pz6TigerE_Hull_standard", "ot_Pz6TigerE_Hull_standard", "ot_Pz5Panther2Medium_Hull_standard", "ot_Pz5Panther2Medium_Hull_standard", "ot_Pz5PantherAMedium_Hull_standard", "ot_Pz5PantherAMedium_Hull_standard", "ot_Pz5PantherAMedium_Hull_standard", "ot_Pz5PantherAMedium_Hull_flak", "ot_Pz4HMedium_Hull_aa", "ot_Pz4HMedium_Hull_screen", "ot_Pz4HMedium_Hull_screen", "ot_Pz4HMedium_Hull_standard", "ot_Pz4HMedium_Hull_standard", "ot_fuel_truck_g_standard", "ot_fuel_truck_g_standard", "ot_supply_truck_g_standard"]],
     
 	"startSpecialItems":[
         [["gerwe_package",""]],
