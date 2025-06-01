@@ -7,7 +7,6 @@
   "turretSprite": "graphics/weapons/Flak_88mm_turret_body_alt.png",
   "turretGunSprite": "graphics/weapons/Flak_88mm_turret_gun_alt.png",
   "turretUnderSprite": "graphics/weapons/Flak_base_alt.png",
-  "renderHints":[RENDER_BARREL_BELOW],
   "hardpointSprite": "",
   "visualRecoil": 15,
   "renderHints": [
