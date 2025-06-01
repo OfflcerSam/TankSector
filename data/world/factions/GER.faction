@@ -46,6 +46,7 @@
   "knownShips": {
     "tags": ["gersh_bp","GER"],
 		"hulls":[
+			"ot_VOMAGWaffen_Hull",
 			"ot_Pz2FLight_Hull",
 			"ot_Pz3EMedium_Hull",
 			"ot_Pz5PantherA_Hull",
@@ -56,12 +57,15 @@
 			"ot_train_g",
 			"ot_supply_truck_g",
 			"ot_fuel_truck_g",
+			"ot_VOMAG_bus",
+			
 	],
   },
   # listing ships here will make the faction mostly use them even if other hulls become available
   "priorityShips": {
     "tags": ["gersh_bp","GER"],
     "hulls": [
+			"ot_VOMAGWaffen_Hull",
 			"ot_Pz2FLight_Hull",
 			"ot_Pz3EMedium_Hull",
 			"ot_Pz5PantherAMedium_Hull",
@@ -72,6 +76,7 @@
 			"ot_train_g",
 			"ot_supply_truck_g",
 			"ot_fuel_truck_g",
+			"ot_VOMAG_bus",
       ],		
   },
 	"knownFighters":{
@@ -101,6 +106,7 @@
 			"ot_Pz4_Long75mm_turret",
 			"ot_Pz5_Longer75mm_turret",
 			"ot_Pz5_88mm_turret",
+			"ot_Flak_88mm_turret",
 			"ot_Pz6_Short88mm_turret",
 			"ot_Pz6_105mm_turret",
 
@@ -140,7 +146,7 @@
 		],
 	},
 	"weaponSellFrequency":{
-			"ot_Pz1_7mm_turret":10,
+			"ot_Pz1_7mm_turret":15,
 			"ot_Pz2_20mm_turret":20,
 			"ot_Pz3_37mm_turret":15,
 			"ot_Pz3_50mm_turret":10,
@@ -150,6 +156,7 @@
 			"ot_Pz4_Long75mm_turret":10,
 			"ot_Pz5_Longer75mm_turret":5,
 			"ot_Pz5_88mm_turret":5,
+			"ot_Flak_88mm_turret":5,
 			"ot_Pz6_Short88mm_turret":5,
 			"ot_Pz6_105mm_turret":5,
 			
@@ -175,7 +182,7 @@
 		
 		"shipSize":3,
 		
-		"aggression":4,
+		"aggression":2,
 		
 		"combatFreighterProbability":0.5,     				# instead of some portion of the freighters in a fleet
 		"combatFreighterCombatUseFraction":0.2,				# as part of the normal combat lineup

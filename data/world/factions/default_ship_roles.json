@@ -19,6 +19,7 @@
 			"ot_M3Lee_Hull_standard":15,
 			"ot_M4Sherman_Hull_standard":5,
 			
+			"ot_VOMAGWaffen_Hull_flak":10,
 			"ot_Pz2FLight_Hull_standard":20,
 			"ot_Pz2FLight_Hull_screen":15,
 			"ot_Pz3EMedium_Hull_standard":20,
@@ -29,11 +30,13 @@
 			"ot_Pz4HMedium_Hull_standard":10,
 	},
 	"combatMedium":{
+			"ot_M3Lee_Hull_standard":10,
 			"ot_M4Sherman_Hull_standard":30,
 			"ot_M4Sherman_Hull_upgun":10,
 			"ot_M4Sherman_Hull_aa":10,
 			"ot_M4Jumbo_Hull_standard":10,
 			
+			"ot_VOMAGWaffen_Hull_flak":10,
 			"ot_Pz4HMedium_Hull_aa":10,
 			"ot_Pz4HMedium_Hull_screen":10,
 			"ot_Pz4HMedium_Hull_standard":30,
@@ -86,6 +89,7 @@
 	"carrierMedium":{
 			"ot_armored_train_standard":10,
 			
+			"ot_VOMAG_bus_standard":15,
 			"ot_armored_train_g_standard":10,
 	},
 	"carrierLarge":{
@@ -115,6 +119,7 @@
 			"ot_train_g_standard":10,
 			"ot_supply_truck_g_standard":20,
 			"ot_fuel_truck_g_standard":20,
+			"ot_VOMAG_bus_standard":15,
 	},
 	
 	# freighters and such

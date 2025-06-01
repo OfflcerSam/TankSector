@@ -1,13 +1,16 @@
 {
-  "variantId": "ot_supply_truck_g_standard",
-  "hullId": "ot_supply_truck_g",
+  "variantId": "ot_VOMAG_bus_standard",
+  "hullId": "ot_VOMAG_bus",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 5,
-  "fluxVents": 2,
+  "fluxCapacitors": 2,
+  "fluxVents": 1,
   "quality": 1,
   "permaMods": [],
-  "hullMods": ["expanded_cargo_holds"],
+  "hullMods": [
+    "expanded_cargo_holds",
+    "additional_berthing"
+  ],
   "weaponGroups": [],
   "modules": [],
   "wings": [

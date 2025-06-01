@@ -1,0 +1,49 @@
+{
+  "hullName": "VOMAG Bus",
+  "hullId": "ot_VOMAG_bus",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/SuperVOMAGbus.png",
+  "style": "LOW_TECH",
+  "height": 167,
+  "width": 38,
+  "center": [19, 83.5],
+  "collisionRadius": 90,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 90,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rugged",
+    "civgrade"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [
+    {
+      "location": [-82.5, -10.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-82.5, 10.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -80.5, 14,
+    -74.5, 18,
+    45.5, 18,
+    47.5, 11,
+    80.5, 8,
+    80.5, -8,
+    47.5, -11,
+    45.5, -18,
+    -74.5, -18,
+    -80.5, -14
+  ]
+}

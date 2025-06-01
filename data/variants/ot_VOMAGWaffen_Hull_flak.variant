@@ -1,0 +1,40 @@
+{
+  "variantId": "ot_VOMAGWaffen_Hull_flak",
+  "hullId": "ot_VOMAGWaffen_Hull",
+  "displayName": "Flak",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 1,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Turret": "ot_Flak_88mm_turret"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ot_h792"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "FrontMG": "ot_h792"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "ot_man_german"
+  ]
+}

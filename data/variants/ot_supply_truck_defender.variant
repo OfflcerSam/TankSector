@@ -7,7 +7,7 @@
   "fluxVents": 2,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": ["additional_berthing"],
   "weaponGroups": [],
   "modules": [],
   "wings": [
