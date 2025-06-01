@@ -4,13 +4,16 @@
   "projectileSpecId": "ot_bigHEFlak",
   "type": "BALLISTIC",
   "size": "LARGE",
-  "turretSprite": "graphics/weapons/Pz6_88mm_turret.png",
-  "turretGunSprite": "graphics/weapons/Pz6_88mm_turret_gun.png",
-  "renderHints":[RENDER_BARREL_BELOW],
+  "turretSprite": "graphics/weapons/Flak_88mm_turret_body_alt.png",
+  "turretGunSprite": "graphics/weapons/Flak_88mm_turret_gun_alt.png",
+  "turretUnderSprite": "graphics/weapons/Flak_base_alt.png",
   "hardpointSprite": "",
-  "visualRecoil": 8,
+  "visualRecoil": 15,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
   "turretOffsets": [
-    115,
+    95,
     0
   ],
   "turretAngleOffsets": [

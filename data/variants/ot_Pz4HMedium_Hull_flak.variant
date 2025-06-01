@@ -1,0 +1,39 @@
+{
+  "variantId": "ot_Pz4HMedium_Hull_flak",
+  "hullId": "ot_Pz4HMedium_Hull",
+  "displayName": "Flak",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "turretgyros",
+    "pointdefenseai"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "TurretRing": "ot_Flak_88mm_turret"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "HullMG": "ot_h792"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "PintleMG": "ot_h792"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
