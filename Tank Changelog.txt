@@ -1,3 +1,47 @@
+V1.4.8 - Save Compatible(?): Built-in Hullmod change, probably won't take affect in old vehicles.
+[Additions]
+Ships:	
+	Frigates -
+		Puma Puma (sprite sucks)
+		Vomag Flakbus
+		Vomag Peoplebus
+		
+Weapons:
+	Small Turrets -
+		Rocket Launcher for American and German Assualters (may or may not be balanced)
+		Defensive grenade for Defensive Infantry (may or may not be balanced)
+		Anti-Tank grenades for Infantry (may or may not be balanced)
+		Panzer 1 Turret #reskin of Pz2 turret
+		
+	Medium Turrets -
+		Puma 50mm Turret
+		Triple 15mm Turret
+		
+	Large Turrets -
+		88mm Flak turret
+		90mm Flak turret (green version of the 88mm flak)
+
+Misc:
+	Added custom projectiles, tracers for mgs, cannon rounds that maybe stick out idk
+	Added some hullmods to some of the variants, just so random stuff isnt chosen (still have some thinking to do on all of them)
+	
+[Changes]
+Modified soldier wing stuff
+Upped all turn rates to feel a bit more arcade like
+Tweaked MG damages
+Tweaked Infantry fighter wing roles/role description
+Tweaked Infantry fighter wing stats
+Changed out some hullmods, I think
+Changed a couple hull mgs to the correct one for the faction
+Changed out the german train and armored train turrets for dual mgs and 15mm.
+Changed shield arcs to be aligned with vanilla
+Changed impact numbers to be closer to vanilla
+
+[Fixes]
+7.92 supposed to have 250 rounds in reserve, not 150
+Unbackwards the 50cals on a couple tanks
+
+
 V1.3.8 - Not Save Compatible: Renamed fighter wings
 [Additions]
 	Ships:

@@ -1,5 +1,5 @@
 {
-  "id": "ot_Puma_50_turret",
+  "id": "ot_Puma_50mm_turret",
   "specClass": "projectile",
   "projectileSpecId": "ot_mediumCannon_shot",
   "type": "BALLISTIC",
