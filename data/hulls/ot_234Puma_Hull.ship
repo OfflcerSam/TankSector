@@ -1,0 +1,58 @@
+{
+  "hullName": "Puma",
+  "hullId": "ot_234Puma_Hull",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Puma_Hull.png",
+  "style": "LOW_TECH",
+  "height": 105,
+  "width": 44,
+  "center": [22, 52.5],
+  "collisionRadius": 65.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 65.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hiressensors",
+	"rugged",
+    "surveying_equipment"
+  ],
+  "weaponSlots": [
+    {
+      "id": "TurretRing",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [11.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-45.5, -16.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-45.5, 16.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -47.5, 12,
+    -7.5, 13,
+    26.5, 13,
+    50.5, 11,
+    50.5, -11,
+    26.5, -13,
+    -7.5, -13,
+    -47.5, -12
+  ]
+}

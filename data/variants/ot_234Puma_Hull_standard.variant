@@ -1,0 +1,22 @@
+{
+  "variantId": "ot_234Puma_Hull_standard",
+  "hullId": "ot_234Puma_Hull",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 1,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "TurretRing": "ot_Puma_50mm_turret"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

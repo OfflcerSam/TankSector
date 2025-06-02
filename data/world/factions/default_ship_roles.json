@@ -7,6 +7,11 @@
 			"ot_M3Lee_Hull_standard":20,
 			"ot_M4Sherman_Hull_standard":10,
 			"ot_M4Sherman_Hull_upgun":5,
+			
+			"ot_Pz3EMedium_Hull_standard":20,
+			"ot_Pz3EMedium_Hull_upgun":10,
+			"ot_Pz4HMedium_Hull_standard":10,
+			"ot_Pz4HMedium_Hull_support":5,
 	},
 	"combatSmall":{
 			"ot_M2a2Light_Hull_standard":20,
@@ -20,6 +25,7 @@
 			"ot_M4Sherman_Hull_standard":5,
 			
 			"ot_VOMAGWaffen_Hull_flak":10,
+			"ot_234Puma_Hull_standard":10,
 			"ot_Pz2FLight_Hull_standard":20,
 			"ot_Pz2FLight_Hull_screen":15,
 			"ot_Pz3EMedium_Hull_standard":20,

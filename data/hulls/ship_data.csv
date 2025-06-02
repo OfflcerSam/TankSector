@@ -1,6 +1,6 @@
 name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,c/s,c/f,f/s,f/f,crew/s,crew/f,hints,tags,rarity,breakProb,minPieces,maxPieces,travel drive,number
 #US Tanks,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-M8 Greyhound,ot_M8Greyhound_Hull,Armored Car,USA,,2,200,60,500,,100,25,,400,200,300,90,160,60,OMNI,,45,0.5,1,,,2,4,10,20,1,20,9,4500,15,15,240,0.25,2,2,,,,,,,,"usash_bp, USA",,0.7,1,3,,1941
+M8 Greyhound,ot_M8Greyhound_Hull,Armored Car,USA,,2,200,60,500,,100,30,,400,200,300,90,160,60,OMNI,,45,0.5,1,,,2,4,10,20,1,20,9,4500,15,15,240,0.25,2,2,,,,,,,,"usash_bp, USA",,0.7,1,3,,1941
 M2a2 Light,ot_M2a2Light_Hull,Light Tank,USA,,2,350,75,500,,100,35,,350,150,250,90,160,100,FRONT,,45,0.5,1,,,2,4,10,25,1,20,8,5000,15,15,240,0.25,2,2,,,,,,,,"usash_bp, USA",,0.7,1,3,,1935
 M2a4 Light,ot_M2a4Light_Hull,Light Tank,USA,,2,450,90,500,,100,40,,325,150,225,90,160,100,FRONT,,45,0.5,1,,,2,4,15,25,1,25,8,6000,15,15,240,0.25,2,2,,,,,,,,"usash_bp, USA",,0.7,1,3,,1940
 M2 Medium,ot_M2Medium_Hull,Medium Tank,USA,,5,650,150,500,,150,45,,225,120,150,60,120,200,FRONT,,45,0.5,1,,,2,6,20,40,1,30,8,7500,10,20,325,0.25,4,4,,,,,,,,"usash_bp, USA",,0.6,2,5,,1939
@@ -22,8 +22,8 @@ Soldier,ot_man_american_a,Infantry,USA,,0,15,25,150,,100,20,,300,350,600,360,360
 Soldier,ot_man_american_m,Infantry,USA,,0,30,40,200,,100,20,,300,300,600,360,360,30,FRONT,,0,0,0,,,1,1,,,,,9,200,,,,,,,,,,,,,,,,1,3,8,,1937
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # German Tanks,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-#Sd.Kfz. 234/2 Puma,ot_234Puma_Hull,Armored Car,GGSR,,2,200,60,500,,100,30,,400,200,300,90,160,60,OMNI,,45,0.5,1,,,2,4,10,20,1,20,9,4500,15,15,240,0.25,2,2,,,,,,,,"gersh_bp, GER",,0.7,1,3,,1943
-VOMAG Waffentrager,ot_VOMAGWaffen_Hull,Gun Carrier,GGSR,,3,200,50,500,,150,35,1,180,90,110,60,120,100,FRONT,,45,0.5,1,,,4,20,15,20,1,40,9,6000,15,15,240,0.25,2,2,,,,,,,CARRIER,"gersh_bp, GER",,0.7,1,3,,1935
+Sd.Kfz. 234/2 Puma,ot_234Puma_Hull,Armored Car,GGSR,,2,200,60,500,,100,30,,400,200,300,90,160,60,OMNI,,45,0.5,1,,,2,4,10,20,1,20,9,4500,15,15,240,0.25,2,2,,,,,,,,"gersh_bp, GER",,0.7,1,3,,1943
+VOMAG Waffentrager,ot_VOMAGWaffen_Hull,Gun Carrier,GGSR,,3,200,50,500,,150,35,1,180,90,110,60,120,100,FRONT,,45,0.5,1,,,2,20,15,20,1,40,9,6000,15,15,240,0.25,2,2,,,,,,,CARRIER,"gersh_bp, GER",,0.7,1,3,,1935
 Pz. II F,ot_Pz2FLight_Hull,Light Tank,GGSR,,2,400,75,500,,100,35,,325,180,200,90,160,100,FRONT,,45,0.5,1,,,2,3,10,20,1,20,8,5000,15,15,240,0.25,2,2,,,,,,,,"gersh_bp, GER",,0.7,1,3,,1941
 Pz. III E,ot_Pz3EMedium_Hull,Medium Tank,GGSR,,4,600,145,500,,150,40,,275,150,170,90,160,150,FRONT,,45,0.5,1,,,2,5,25,40,1,30,8,7500,10,20,300,0.25,4,4,,,,,,,,"gersh_bp, GER",,0.6,2,5,,1938
 Pz. IV H,ot_Pz4HMedium_Hull,Medium Tank,GGSR,,7,1250,350,1000,,150,45,,200,105,135,60,120,250,FRONT,,45,0.5,1,,,2,5,25,50,1,40,8,12500,10,20,325,0.25,4,4,,,,,,,,"gersh_bp, GER",,0.5,2,5,,1943
