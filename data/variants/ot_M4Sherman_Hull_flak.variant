@@ -1,0 +1,36 @@
+{
+  "variantId": "ot_M4Sherman_Hull_flak",
+  "hullId": "ot_M4Sherman_Hull",
+  "displayName": "Flak",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": ["pointdefenseai", "turretgyros"],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "TurretRing": "ot_Flak_90mm_turret"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "RoofPintle": "ot_M2a2_50cal_turret"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "HullMG": "ot_h30cal"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

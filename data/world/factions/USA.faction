@@ -104,6 +104,7 @@
 			"ot_M4_76mm_turret",
 			"ot_M4_105mm_turret",
 			"ot_M26_90mm_turret",
+			"ot_Flak_90mm_turret",
         ],
   },
   "priorityWeapons": {
@@ -150,6 +151,7 @@
 		"ot_M4_76mm_turret":20,
 		"ot_M4_105mm_turret":5,
 		"ot_M26_90mm_turret":5,
+		"ot_Flak_90mm_turret":5,
 
 
 	},
