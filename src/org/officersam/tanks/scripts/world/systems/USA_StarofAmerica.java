@@ -7,12 +7,14 @@ import com.fs.starfarer.api.impl.campaign.DerelictShipEntityPlugin;
 import com.fs.starfarer.api.impl.campaign.ids.*;
 import com.fs.starfarer.api.impl.campaign.procgen.PlanetConditionGenerator;
 import com.fs.starfarer.api.impl.campaign.procgen.StarAge;
+import com.fs.starfarer.api.impl.campaign.procgen.StarSystemGenerator;
 import com.fs.starfarer.api.impl.campaign.procgen.themes.BaseThemeGenerator;
 import com.fs.starfarer.api.impl.campaign.procgen.themes.SalvageSpecialAssigner;
 import com.fs.starfarer.api.impl.campaign.terrain.AsteroidFieldTerrainPlugin;
 import com.fs.starfarer.api.impl.campaign.procgen.themes.DerelictThemeGenerator;
 import com.fs.starfarer.api.impl.campaign.rulecmd.salvage.special.ShipRecoverySpecial;
 import com.fs.starfarer.api.impl.campaign.procgen.DefenderDataOverride;
+import com.fs.starfarer.api.impl.campaign.terrain.DebrisFieldTerrainPlugin;
 import com.fs.starfarer.api.util.Misc;
 import org.lazywizard.lazylib.MathUtils;
 
@@ -107,8 +109,22 @@ public class USA_StarofAmerica {
 
         //asteroid field
         SectorEntityToken americaAF1 = system.addTerrain(Terrain.ASTEROID_FIELD,
-                new AsteroidFieldTerrainPlugin.AsteroidFieldParams(250f, 350f, 15, 40, 5f, 20f, "Asteroids Field"));
-        americaAF1.setCircularOrbit(americaStar, 150, asteroids1Dist, 220);
+                new AsteroidFieldTerrainPlugin.AsteroidFieldParams(250f, 500f, 10, 30, 5f, 20f, "Asteroids Field"));
+        americaAF1.setCircularOrbit(americaStar, 360f * (float) Math.random(), asteroids1Dist, 220);
+
+        // AF1 debris fields.
+        DebrisFieldTerrainPlugin.DebrisFieldParams params1 = new DebrisFieldTerrainPlugin.DebrisFieldParams(
+                300, // field radius - should not go above 1000 for performance reasons
+                1.5f, // density, visual - affects number of debris pieces
+                10000000f, // duration in days
+                0f); // days the field will keep generating glowing pieces
+        params1.source = DebrisFieldTerrainPlugin.DebrisFieldSource.MIXED;
+        params1.baseSalvageXP = 500; // base XP for scavenging in field
+        SectorEntityToken americaAF1Debris1 = Misc.addDebrisField(system, params1, StarSystemGenerator.random);
+        americaAF1Debris1.setSensorProfile(1000f);
+        americaAF1Debris1.setDiscoverable(true);
+        americaAF1Debris1.setCircularOrbit(americaAF1, 360f * (float) Math.random(), 0, 120f);
+        americaAF1Debris1.setId("AF1Debris1");
 
         addDerelict(system, americaAF1, "wolf_d_pirates_Attack", ShipRecoverySpecial.ShipCondition.BATTERED, 270f, (Math.random() < 0.6));
         addDerelict(system, americaAF1, "ot_M4Sherman_Hull_standard", ShipRecoverySpecial.ShipCondition.BATTERED, 200f, (Math.random() < 0.6));
@@ -119,8 +135,22 @@ public class USA_StarofAmerica {
 
         //asteroid field 2
         SectorEntityToken americaAF2 = system.addTerrain(Terrain.ASTEROID_FIELD,
-                new AsteroidFieldTerrainPlugin.AsteroidFieldParams(350, 500f, 30, 60, 5f, 30f, "Asteroids Field"));
-        americaAF2.setCircularOrbit(americaStar, 150, asteroids2Dist, 650);
+                new AsteroidFieldTerrainPlugin.AsteroidFieldParams(300f, 500f, 30, 60, 5f, 30f, "Asteroids Field"));
+        americaAF2.setCircularOrbit(americaStar, 360f * (float) Math.random(), asteroids2Dist, 650);
+
+        // AF2 debris fields.
+        DebrisFieldTerrainPlugin.DebrisFieldParams params2 = new DebrisFieldTerrainPlugin.DebrisFieldParams(
+                300, // field radius - should not go above 1000 for performance reasons
+                1.5f, // density, visual - affects number of debris pieces
+                10000000f, // duration in days
+                0f); // days the field will keep generating glowing pieces
+        params2.source = DebrisFieldTerrainPlugin.DebrisFieldSource.MIXED;
+        params2.baseSalvageXP = 500; // base XP for scavenging in field
+        SectorEntityToken americaAF2Debris1 = Misc.addDebrisField(system, params2, StarSystemGenerator.random);
+        americaAF2Debris1.setSensorProfile(1000f);
+        americaAF2Debris1.setDiscoverable(true);
+        americaAF2Debris1.setCircularOrbit(americaAF2, 360f * (float) Math.random(), 0, 120f);
+        americaAF2Debris1.setId("AF2Debris1");
 
         addDerelict(system, americaAF2, "ot_M2Medium_Hull_standard", ShipRecoverySpecial.ShipCondition.BATTERED, 220f, (Math.random() < 0.6));
         addDerelict(system, americaAF2, "ot_M4Sherman_Hull_standard", ShipRecoverySpecial.ShipCondition.BATTERED, 290f, (Math.random() < 0.6));
@@ -186,6 +216,24 @@ public class USA_StarofAmerica {
         eisen.getMarket().addCondition(Conditions.VOLATILES_TRACE);
         eisen.getMarket().addCondition(Conditions.LOW_GRAVITY);
         eisen.getMarket().addCondition(Conditions.RUINS_VAST);
+
+        SectorEntityToken eF1 = system.addTerrain(Terrain.ASTEROID_FIELD,
+                new AsteroidFieldTerrainPlugin.AsteroidFieldParams(50f, 250f, 15, 40, 2f, 10f, "Asteroids Field"));
+        eF1.setCircularOrbit(eisen, 360f * (float) Math.random(), 1, 45);
+
+        // Eisen debris fields.
+        DebrisFieldTerrainPlugin.DebrisFieldParams params3 = new DebrisFieldTerrainPlugin.DebrisFieldParams(
+                200, // field radius - should not go above 1000 for performance reasons
+                1.5f, // density, visual - affects number of debris pieces
+                10000000f, // duration in days
+                0f); // days the field will keep generating glowing pieces
+        params3.source = DebrisFieldTerrainPlugin.DebrisFieldSource.MIXED;
+        params3.baseSalvageXP = 500; // base XP for scavenging in field
+        SectorEntityToken eisenDebris1 = Misc.addDebrisField(system, params3, StarSystemGenerator.random);
+        eisenDebris1.setSensorProfile(1000f);
+        eisenDebris1.setDiscoverable(true);
+        eisenDebris1.setCircularOrbit(eisen, 360f * (float) Math.random(), 0, 120f);
+        eisenDebris1.setId("eisenDebris1");
 
         SectorEntityToken scrap1 = DerelictThemeGenerator.addSalvageEntity(system, Entities.SUPPLY_CACHE, Factions.DERELICT);
         scrap1.setId("eisen_scrap1");
