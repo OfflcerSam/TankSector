@@ -66,7 +66,7 @@ public class USA_StarofAmerica {
         system.setBackgroundTextureFilename("graphics/backgrounds/StarofAmerica_background.jpg");
 
         //praise the sun
-        PlanetAPI americaStar = system.initStar("StarofAmerica", "star_yellow", 800f, 900, 10, 0.5f, 3f);
+        PlanetAPI americaStar = system.initStar("StarofAmerica", "star_yellow", 850f, 600, 10, 0.5f, 3f);
         system.setLightColor(new Color(255, 245, 225));
         americaStar.setCustomDescriptionId("usa_starofamerica_columbia");
 
