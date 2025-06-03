@@ -2,6 +2,7 @@
 	"designTypeColors":{
 		"USA":[99,107,47,200],
 		"GER":[221,0,0,200],
+		#"SOV":[237,27,36,200],
     	},
 	"graphics":{
 			
@@ -13,6 +14,11 @@
 			"gersh_package":"graphics/icons/cargo/blueprint_ger.png",
 			"gerwi_package":"graphics/icons/cargo/blueprint_ger.png",
 			"gerwe_package":"graphics/icons/cargo/blueprint_ger.png",
+			
+			"sovsh_package":"graphics/icons/cargo/blueprint_sov.png",
+			"sovwi_package":"graphics/icons/cargo/blueprint_sov.png",
+			"sovwe_package":"graphics/icons/cargo/blueprint_sov.png",
+			
 		},
 	}
 }

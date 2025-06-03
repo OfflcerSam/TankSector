@@ -7,3 +7,7 @@ USMJ Weapons BP Package,usawe_package,package_bp,,,25000,1000,1,,graphics/icons/
 GGSR Ships BP Package,gersh_package,package_bp,,,25000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_chip_pickup,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,gersh_bp,"GGSR Blueprints, Ships",1936
 GGSR Wings BP Package,gerwi_package,package_bp,,,25000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_chip_pickup,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,gerwi_bp,"GGSR Blueprints, Wings",1936
 GGSR Weapons BP Package,gerwe_package,package_bp,,,25000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_chip_pickup,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,gerwe_bp,"GGSR Blueprints, Weapons",1936
+,,,,,,,,,,,,,,,
+USSR Ships BP Package,sovsh_package,package_bp,,,25000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_chip_pickup,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,sovsh_bp,"USSR Blueprints, Ships",1941
+USSR Wings BP Package,sovwi_package,package_bp,,,25000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_chip_pickup,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,sovwi_bp,"USSR Blueprints, Wings",1941
+USSR Weapons BP Package,sovwe_package,package_bp,,,25000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_chip_pickup,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,sovwe_bp,"USSR Blueprints, Weapons",1941

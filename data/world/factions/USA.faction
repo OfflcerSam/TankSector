@@ -156,9 +156,9 @@
 
 	},
 	"fighterSellFrequency":{
-			"ot_man_bar":15,
-			"ot_man_30cal":10,
-			"ot_man_garand":20,
+			"ot_man_american":20,
+			"ot_man_american_a":10,
+			"ot_man_american_m":10,
 	},
 	"hullmodSellFrequency":{
 		"heavyarmor":10,
@@ -197,6 +197,7 @@
 	},
 	"illegalCommodities":[
 		"drugs",
+		"organs",
 	],
 		"music":{
 		"theme":"music_usa_market_neutral",

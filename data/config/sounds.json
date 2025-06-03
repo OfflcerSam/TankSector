@@ -92,6 +92,9 @@
 		{"file":"sounds/sfx_wpn_guns/ger/105mm_kwk46_3.ogg","pitch":1,"volume":0.7},
 	],
 
+	#SOVWeapons
+	
+	
 	
 	#Music
 	"music":{
@@ -230,6 +233,75 @@
 				"randomStart":true, 
 			},
 		],
+		
+		#SOV
+		"music_sov_market_neutral":[
+			{
+				"source":"sounds/music",
+				"volume":0.5,
+				"files":[
+					"usa_anthem.ogg",
+					"mychanceto.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		"music_sov_market_hostile":[
+			{
+				"source":"sounds/music",
+				"volume":0.5,
+				"files":[
+					"usa_ambush_waw.ogg",
+					"usa_dogfire_waw.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		"music_sov_market_friendly":[
+			{
+				"source":"sounds/music",
+				"volume":0.5,
+				"files":[
+					"usa_anthem.ogg",
+					"mychanceto.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		"music_sov_encounter_neutral":[
+			{
+				"source":"sounds/music",
+				"volume":0.5,
+				"files":[
+					"usa_americam_waw.ogg",
+					"usa_overthere_instrumental.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		"music_sov_encounter_hostile":[
+			{
+				"source":"sounds/music",
+				"volume":0.5,
+				"files":[
+					"usa_ambush_waw.ogg",
+					"usa_dogfire_waw.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		"music_sov_encounter_friendly":[
+			{
+				"source":"sounds/music",
+				"volume":0.5,
+				"files":[
+					"usa_overthere_instrumental.ogg",
+					"usa_anthem.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		
 	}
 }
 

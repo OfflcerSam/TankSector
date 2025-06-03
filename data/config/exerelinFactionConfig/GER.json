@@ -2,17 +2,18 @@
     "playableFaction":true,
     "corvusCompatible":true,
     
-    "rebelFleetSuffix":"Partisans",
+    "rebelFleetSuffix":"Anti-Facist Partisans",
     
     "marketSpawnWeight":0.8,
 
 	"startRelationships":{
-		"USA":-1.0,
+		"USA":-0.4,
+		#"SOV":-0.6,
 		
-		"independent":0.4,
+		"independent":0.2,
 		"pirates":-1.0,
 		"tritachyon":0.0,
-		"hegemony":-0.5,
+		"hegemony":-0.4,
 		"luddic_church":-0.5,	
 		"luddic_path":-1.0,
 		"persean": 0.0,
@@ -20,11 +21,12 @@
 	    "sindrian_diktat":-0.3,	
 		"remnant":-0.6,		
 	},
-    "maxRelationships":{ "luddic_path":-0.6, "luddic_church":-0.2, "pirates":-0.8, "USA":0.0 },
+    "maxRelationships":{ "luddic_path":-0.6, "luddic_church":-0.2, "pirates":-0.8 },
     "diplomacyPositiveChance":{ "persean":0.5, "hegemony": 0.5 },
-    "diplomacyNegativeChance":{ "USA":1.5, "luddic_path":1.5, "luddic_church":0.9 },
+    "diplomacyNegativeChance":{ "USA":0.5, "luddic_path":1.5, "luddic_church":0.9 },
     "dispositions":{
-        "USA": -10,
+        "USA": -2,
+		#"SOV": -5,
         "luddic_church": -10,
 		"luddic_path": -50,
 		"hegemony": -5,
@@ -32,9 +34,9 @@
     
 	"alignments":{
 		"corporate":0.0,
-		"technocratic":0.5,
+		"technocratic":0.8,
 		"militarist":1.0,
-		"diplomatic":-0.5,
+		"diplomatic":-0.2,
 		"ideological":1.0,
 	},
 	"diplomacyTraits":["paranoid", "envious", "stalwart", "temperamental", "likes_ai", "law_and_order"],

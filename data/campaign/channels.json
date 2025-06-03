@@ -1,6 +1,8 @@
 {
 	"defaultChannels":[
 		"usa_public",
+		"ger_public",
+		#"sov_public",
 	],
 	"usa_public":{
 		"name":"USNews Broadcast",
@@ -26,7 +28,7 @@
 		"name":"State News Broadcast",
 		"logo":"graphics/icons/intel/comms64.png",
 		"icon":"graphics/icons/intel/comms64.png",
-		"image":"graphics/factions/GGSR/GER_flag.png",
+		"image":"graphics/factions/GGSR/GGSR_flag.png",
 		"sound":"ui_channel_news",
 		"faction":"GER",
 		"type":"News Report",
@@ -36,12 +38,32 @@
 		"name":"Abwehr",
 		"logo":"graphics/icons/intel/comms64.png",
 		"icon":"graphics/icons/intel/comms64.png",
-		"image":"graphics/factions/GGSR/GER_flag.png",
+		"image":"graphics/factions/GGSR/GGSR_flag.png",
 		"sound":"ui_channel_comm_secure",
 		"faction":"GER",
 		"type":"Intelligence Report",
 		"shortType":"Intel",
 	},
+	#"sov_public":{
+	#	"name":"State News Broadcast",
+	#	"logo":"graphics/icons/intel/comms64.png",
+	#	"icon":"graphics/icons/intel/comms64.png",
+	#	"image":"graphics/factions/USSR/USSR_flag.png",
+	#	"sound":"ui_channel_news",
+	#	"faction":"SOV",
+	#	"type":"News Report",
+	#	"shortType":"News",
+	#},
+	#"sov_internal":{
+	#	"name":"KGB",
+	#	"logo":"graphics/icons/intel/comms64.png",
+	#	"icon":"graphics/icons/intel/comms64.png",
+	#	"image":"graphics/factions/USSR/USSR_flag.png",
+	#	"sound":"ui_channel_comm_secure",
+	#	"faction":"SOV",
+	#	"type":"Intelligence Report",
+	#	"shortType":"Intel",
+	#},
 }
 
 
