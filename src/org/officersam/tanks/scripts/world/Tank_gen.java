@@ -71,7 +71,7 @@ public class Tank_gen implements SectorGeneratorPlugin {
         ger.setRelationship(hegemony.getId(), -0.4f);
         ger.setRelationship(tritachyon.getId(), 0.0f);
         ger.setRelationship(pirates.getId(), -1.0f);
-        ger.setRelationship(independent.getId(), 0.1f);
+        ger.setRelationship(independent.getId(), 0.0f);
         ger.setRelationship(persean.getId(), 0.0f);
         ger.setRelationship(church.getId(), -0.3f);
         ger.setRelationship(path.getId(), -1.0f);

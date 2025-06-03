@@ -21,8 +21,8 @@
 	    "sindrian_diktat":-0.1,	
 		"remnant":-0.4,		
 	},
-    "maxRelationships":{ "luddic_path":-0.6, "luddic_church":0.0, "pirates":-0.5 },
-    "diplomacyPositiveChance":{ "persean":0.5, "hegemony": 0.5 },
+    "maxRelationships":{ "luddic_path":-0.6, "luddic_church":0.0, "pirates":-0.5, "sindrian_diktat":0.1 },
+    "diplomacyPositiveChance":{ "persean":0.5, "hegemony": 0.2 },
     "diplomacyNegativeChance":{ "GER":0.25, "luddic_path":1.5, "luddic_church":0.9 },
     "dispositions":{
         "GER": -2,
