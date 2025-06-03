@@ -1,0 +1,33 @@
+{
+"names":{
+		"german":1,
+		"russian":1,
+		"eastern_europe":1,
+	},
+"flags":[
+			{
+				"logo":"graphics/factions/USSR/USSR_flag.png",
+				"crest":"graphics/factions/USSR/USSR_crest.png",
+			},
+					{
+				"logo":"graphics/factions/USMJ/USMJ_flag.png",
+				"crest":"graphics/factions/USMJ/USMJ_crest.png",
+			},
+					{
+				"logo":"graphics/factions/GGSR/GGSR_flag.png",
+				"crest":"graphics/factions/GGSR/GGSR_crest.png",
+			},
+		],
+"portraits":{
+		"standard_male":[
+			"graphics/portraits/GGSR.png",
+			"graphics/portraits/USMJ.png",
+			"graphics/portraits/USSR.png",
+		],
+		"standard_female":[
+			"graphics/portraits/GGSR.png",
+			"graphics/portraits/USMJ.png",
+			"graphics/portraits/USSR.png",			
+		],
+	},
+},
