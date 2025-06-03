@@ -54,7 +54,7 @@ public class GER_SonneDeutschlands {
     public void generate(SectorAPI sector) {
 
         StarSystemAPI system = sector.createStarSystem("Wölfram");
-        system.getLocation().set(-5000, -6000);
+        system.getLocation().set(300, -11750);
 
         system.setBackgroundTextureFilename("graphics/backgrounds/StarofAmerica_background.jpg");
 

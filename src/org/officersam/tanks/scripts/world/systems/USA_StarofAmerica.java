@@ -61,7 +61,7 @@ public class USA_StarofAmerica {
     public void generate(SectorAPI sector) {
 
         StarSystemAPI system = sector.createStarSystem("Columbia");
-        system.getLocation().set(-6500, -6000);
+        system.getLocation().set(-18150, 325);
 
         system.setBackgroundTextureFilename("graphics/backgrounds/StarofAmerica_background.jpg");
 
