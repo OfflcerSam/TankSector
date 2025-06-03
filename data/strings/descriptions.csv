@@ -94,13 +94,24 @@ GER,FACTION,"The GGSR aka the Greater German Space Reich, is controlled by a cou
 ,,,,,
 ,,,,,
 # PLANETS,,,,,
-usa_starofamerica_marks,CUSTOM,"I think I left a pizza behind, hopefully it's still warm.",,,
-usa_starofamerica_abadon,CUSTOM,"Less sand, a bit hot.",,,
-usa_starofamerica_vengus,CUSTOM,"Too much sand, it's fine, course, uh... rough?",,,
-usa_starofamerica_planetofamerica,CUSTOM,"Super Earth was taken by copyright, copydown, something.",,,
-usa_starofamerica_martini,CUSTOM,"And I was like, put the industry underwater so the carbon sink would... uh...",,,
-usa_america_usnsf,CUSTOM,Spess Station 13...,,,
+#StarofAmerica,,,,,
+usa_starofamerica_columbia,CUSTOM,"Unifedly named and voted by the people, mostly as a symbol of ambition, exploration, and american idealism.",,,
+usa_starofamerica_providence,CUSTOM,"An ancient and abandoned frozen planet, it was once a vast untouched wilderness. Due to unknown anomalies this planet was slowly knocked into further orbit, resulting in it's abandonment.",,,
+usa_starofamerica_eisenhowar,CUSTOM,"An abandon blacksite, the atmospherewas toxic due to a chain of military incompetences and failed weapons programs, but eventually the atmosphere simply ceased to be. Many ruins scour the surface, old bunkers, hidden technology, and even rumors of rogue droids.",,,
+usa_starofamerica_dustybell,CUSTOM,"A once thriving mining planet, now largely decivilized due to the incompetence of past officials. Some automated mining platforms still function after many years of disrepair, and some say western style bandits roam the deserts.",,,
+usa_starofamerica_franklin,CUSTOM,"""For Liberty and Progress""
+This is the central capital planet of the USMJ, the planet is heavily urbanized and hosts most of the naval operations for the system. The main capital city of the planet is Independence Prime.
+The planet is mainly known for it's good universities, city jobs, and many national monuments echoing the old ones of Washington, D.C.",,,
+usa_starofamerica_liberty,CUSTOM,"""Rooted in freedom, grown in unity.""
+This is the main breadbasket and tourism spot of the USMJ, the planet is decently rural mimicing the traditional farming communities of old America. The main capital city of this planet is Homestead's Gate.
+The planet of course is known for its good export in food and biotech product, and like the tales of old a bit of 'modern' oil fracking.",,,
+usa_starofamerica_appalax,CUSTOM,"""Built by hand, forged in fire.""
+This is the industrial powerhouse of the USMJ, the planet has several factory-like cities scattered amoungst the rocky terrain of the world's surface. The main capital city of the planet is New Pittsburgh.
+The planet has a long history of blue-collar works and strong unions for the many hard labor jobs across the surface, some say the union uses its powers to an annoying degree against the military.",,,
+usa_starofamerica_monroe,CUSTOM,"Central trade hub of the system, has very lax immigration and trade laws.",,,
+usa_starofamerica_eagle,CUSTOM,Small rocky moon that is being used as a small military outpost in the asteroid ring.,,,
 ,,,,,
+#SonneDeutschland,,,,,
 ger_sonnedeutschlands_furk,CUSTOM,Who even named this?,,,
 ger_sonnedeutschlands_doggen,CUSTOM,"Was ist es denn nicht, Hund?",,,
 ger_sonnedeutschlands_vengus,CUSTOM,Wild Spaceland,,,
