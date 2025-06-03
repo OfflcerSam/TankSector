@@ -1,3 +1,7 @@
 faction,system,entityID
-USA,StarofAmerica,PlanetofAmerica
-GER,SonneDeutschlands,PlanetDeutschland
+USA,StarofAmerica,u_franklin
+USA,StarofAmerica,u_appalax
+USA,StarofAmerica,u_liberty
+GER,SonneDeutschlands,g_gotter
+GER,SonneDeutschlands,g_schwarwelt
+GER,SonneDeutschlands,g_eisenmark
