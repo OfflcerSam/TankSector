@@ -117,7 +117,7 @@ ot_h127,WEAPON,,,,
 ot_d15mm_turret,WEAPON,,,,
 ot_BT_45mm_turret,WEAPON,,,,
 ot_T34_57mm_turret,WEAPON,,,,
-ot_T28_Short75mm_turret,WEAPON,,,,
+ot_T28_Short76mm_turret,WEAPON,,,,
 ot_KV_76mm_turret,WEAPON,,,,
 ot_T34_85mm_turret,WEAPON,,,,
 ot_IS_122mm_turret,WEAPON,,,,
@@ -163,4 +163,17 @@ This planet is the research and development sector of the GGSR, the planet is co
 The planet is mainly associated with apparent occult practices, magical technology and many other shrouded tales of mystic wonder weapons.",,,
 ,,,,,
 #ZvezdaRodiny,,,,,
-sov_zvezdarodiny_example,CUSTOM,,,,
+sov_zvezdarodiny_kosmograd,CUSTOM,"The Cosmic City, supposedly the term comes from ancient texts on 'retrofuturism'.",,,
+sov_zvezdarodiny_proletaria,CUSTOM,"""Sila v Yedinstve.""
+This is the central capital planet of the USSR, the planet is heavily urbanized and with major greenhouse projects visible from space. The main capital city of the planet is Gorod Vselenii.
+The planet is mainly known for it's state-sponsored universities, state assigned housing and jobs, and many national monuments dedicated to workers who gave their life to make this planet prosperous.",,,
+sov_zvezdarodiny_volgagrad,CUSTOM,"""Trudom k zvozdam.""
+This is the industrial powerhouse of the USSR, the planet used to be a desert but has slowly undergone numerous terraforming projects, but massive pollution has outpaced the terraformation process. The main capital city of the planet is Krasnometall.
+The planet has a history of propping up labours as heroes of the nation, even training elite brigades of various labourer jobs to work with the military.",,,
+sov_zvezdarodiny_tselina,CUSTOM,"""My seyem budushcheye.""
+This is the main potatoebasket of the USSR, the planet used to be a bit colder, terraforming projects and existing soil quality have made the planet many times better for farming. The main capital city of this planet is Novopole.
+The planet of course is known for its good export in food and biotech products.",,,
+sov_zvezdarodiny_zarnitsa,CUSTOM,"An orbital complex controls access to the surface, the surface is usually reserved for massive wargames using automated or connected pawns. Sometimes real training is authorized on the planet due to it's good diversity of terrain types.",,,
+sov_zvezdarodiny_orzyornaya,CUSTOM,"This planet is known on the surface as a major gulag camp, though there are rumors of hidden labs deep under the surface. Some even say they can pickup ghost voices.",,,
+sov_zvezdarodiny_zvezd,CUSTOM,"This gas giant hosts a massive starbase named ""Cosmodrome"", it is used as a military academy and training center.",,,
+sov_zvezdarodiny_trotskiya,CUSTOM,"A rocky moon where some are sent to work until death at a penal colony, without even the privilege of reeducation.",,,

@@ -1,0 +1,47 @@
+{
+  "hullName": "Fuel Truck",
+  "hullId": "ot_fuel_truck_s",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Fuel_truck.png",
+  "style": "LOW_TECH",
+  "height": 115,
+  "width": 44,
+  "center": [22, 57.5],
+  "collisionRadius": 69.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 69.5,
+  "viewOffset": 0,
+  "weaponSlots": [],
+  "engineSlots": [
+    {
+      "location": [-56.5, -16],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-56.5, 16],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -54.5, 21,
+    8.5, 21,
+    8.5, 17,
+    25.5, 17,
+    27.5, 20,
+    51.5, 20,
+    51.5, -20,
+    27.5, -20,
+    25.5, -17,
+    8.5, -17,
+    8.5, -21,
+    -54.5, -21
+  ]
+}

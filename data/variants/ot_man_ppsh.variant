@@ -1,0 +1,29 @@
+{
+  "variantId": "ot_man_ppsh",
+  "hullId": "ot_man_soviet_a",
+  "displayName": "Shturmoviki",
+  "goalVariant": false,
+  "fluxCapacitors": 5,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Hand": "ot_ppsh"
+      }
+	},
+	{
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "Second": "ot_bazooka"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

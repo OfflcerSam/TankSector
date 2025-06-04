@@ -22,12 +22,17 @@
 		{"file":"sounds/sfx_wpn_guns/pin_4.ogg","pitch":1,"volume":0.3},
 		{"file":"sounds/sfx_wpn_guns/pin_5.ogg","pitch":1,"volume":0.3},
 	],
+		"ot_sound_jap150mm_fire":[
+		{"file":"sounds/sfx_wpn_guns/150mm_type38_1.ogg","pitch":1,"volume":0.7},
+		{"file":"sounds/sfx_wpn_guns/150mm_type38_2.ogg","pitch":1,"volume":0.7},
+		{"file":"sounds/sfx_wpn_guns/150mm_type38_3.ogg","pitch":1,"volume":0.7},
+	],
 	
 	#USAWeapons
 	"ot_sound_us20mm_fire":[
-		{"file":"sounds/sfx_wpn_guns/20mm_oerlikon_1.ogg","pitch":1,"volume":0.5},
-		{"file":"sounds/sfx_wpn_guns/20mm_oerlikon_2.ogg","pitch":1,"volume":0.5},
-		{"file":"sounds/sfx_wpn_guns/20mm_oerlikon_3.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/20mm_oerlikon_1.ogg","pitch":1,"volume":0.4},
+		{"file":"sounds/sfx_wpn_guns/20mm_oerlikon_2.ogg","pitch":1,"volume":0.4},
+		{"file":"sounds/sfx_wpn_guns/20mm_oerlikon_3.ogg","pitch":1,"volume":0.4},
 	],
 	"ot_sound_us37mm_fire":[
 		{"file":"sounds/sfx_wpn_guns/usa/37mm_m5_1.ogg","pitch":1,"volume":0.5},
@@ -57,9 +62,9 @@
 	
 	#GERWeapons
 	"ot_sound_ger20mm_fire":[
-		{"file":"sounds/sfx_wpn_guns/ger/20mm_kwk30_1.ogg","pitch":1,"volume":0.5},
-		{"file":"sounds/sfx_wpn_guns/ger/20mm_kwk30_2.ogg","pitch":1,"volume":0.5},
-		{"file":"sounds/sfx_wpn_guns/ger/20mm_kwk30_3.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/ger/20mm_kwk30_1.ogg","pitch":1,"volume":0.4},
+		{"file":"sounds/sfx_wpn_guns/ger/20mm_kwk30_2.ogg","pitch":1,"volume":0.4},
+		{"file":"sounds/sfx_wpn_guns/ger/20mm_kwk30_3.ogg","pitch":1,"volume":0.4},
 	],
 	"ot_sound_ger37mm_fire":[
 		{"file":"sounds/sfx_wpn_guns/ger/37mm_kwk36_1.ogg","pitch":1,"volume":0.5},
@@ -93,7 +98,42 @@
 	],
 
 	#SOVWeapons
-	
+	"ot_sound_sov20mm_fire":[
+		{"file":"sounds/sfx_wpn_guns/sov/20mm_tnsh_1.ogg","pitch":1,"volume":0.4},
+		{"file":"sounds/sfx_wpn_guns/sov/20mm_tnsh_2.ogg","pitch":1,"volume":0.4},
+		{"file":"sounds/sfx_wpn_guns/sov/20mm_tnsh_3.ogg","pitch":1,"volume":0.4},
+	],
+	"ot_sound_sov25mm_fire":[
+		{"file":"sounds/sfx_wpn_guns/sov/25mm_72k_1.ogg","pitch":1,"volume":0.4},
+		{"file":"sounds/sfx_wpn_guns/sov/25mm_72k_2.ogg","pitch":1,"volume":0.4},
+		{"file":"sounds/sfx_wpn_guns/sov/25mm_72k_3.ogg","pitch":1,"volume":0.4},
+	],
+	"ot_sound_sov45mm_fire":[
+		{"file":"sounds/sfx_wpn_guns/sov/45mm_20k_1.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/sov/45mm_20k_2.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/sov/45mm_20k_3.ogg","pitch":1,"volume":0.5},
+	],
+	"ot_sound_sov57mm_fire":[
+		{"file":"sounds/sfx_wpn_guns/sov/57mm_zis4_1.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/sov/57mm_zis4_2.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/sov/57mm_zis4_3.ogg","pitch":1,"volume":0.5},
+	],
+	"ot_sound_sov76mm_fire":[
+		{"file":"sounds/sfx_wpn_guns/sov/76mm_zis5_1.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/sov/76mm_zis5_2.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/sov/76mm_zis5_3.ogg","pitch":1,"volume":0.5},
+	],
+	"ot_sound_sov85mm_fire":[
+		{"file":"sounds/sfx_wpn_guns/sov/85mm_zisc53_1.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/sov/85mm_zisc53_2.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/sov/85mm_zisc53_3.ogg","pitch":1,"volume":0.5},
+	],
+	"ot_sound_sov122mm_fire":[
+		{"file":"sounds/sfx_wpn_guns/sov/122mm_d25t_1.ogg","pitch":1,"volume":0.7},
+		{"file":"sounds/sfx_wpn_guns/sov/122mm_d25t_2.ogg","pitch":1,"volume":0.7},
+		{"file":"sounds/sfx_wpn_guns/sov/122mm_d25t_3.ogg","pitch":1,"volume":0.7},
+	],
+
 	
 	
 	#Music
@@ -240,8 +280,8 @@
 				"source":"sounds/music",
 				"volume":0.5,
 				"files":[
-					"usa_anthem.ogg",
-					"mychanceto.ogg",
+					"sov_anthem.ogg",
+					"sov_armyofthepeople.ogg",
 				],
 				"randomStart":true, 
 			},
@@ -251,8 +291,8 @@
 				"source":"sounds/music",
 				"volume":0.5,
 				"files":[
-					"usa_ambush_waw.ogg",
-					"usa_dogfire_waw.ogg",
+					"sov_bandit.ogg",
+					"sov_rustheme_waw.ogg",
 				],
 				"randomStart":true, 
 			},
@@ -262,8 +302,8 @@
 				"source":"sounds/music",
 				"volume":0.5,
 				"files":[
-					"usa_anthem.ogg",
-					"mychanceto.ogg",
+					"sov_anthem.ogg",
+					"sov_armyofthepeople.ogg",
 				],
 				"randomStart":true, 
 			},
@@ -273,8 +313,8 @@
 				"source":"sounds/music",
 				"volume":0.5,
 				"files":[
-					"usa_americam_waw.ogg",
-					"usa_overthere_instrumental.ogg",
+					"sov_armyofthepeople.ogg",
+					"sov_anthem.ogg",
 				],
 				"randomStart":true, 
 			},
@@ -284,8 +324,8 @@
 				"source":"sounds/music",
 				"volume":0.5,
 				"files":[
-					"usa_ambush_waw.ogg",
-					"usa_dogfire_waw.ogg",
+					"sov_rustheme_waw.ogg",
+					"sov_sacredwar.ogg",
 				],
 				"randomStart":true, 
 			},
@@ -295,8 +335,8 @@
 				"source":"sounds/music",
 				"volume":0.5,
 				"files":[
-					"usa_overthere_instrumental.ogg",
-					"usa_anthem.ogg",
+					"sov_sacredwar.ogg",
+					"sov_anthem.ogg",
 				],
 				"randomStart":true, 
 			},

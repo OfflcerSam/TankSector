@@ -133,3 +133,71 @@ relLevelHostileGermany,RelationshipLevelDesc,"$faction.rel == HOSTILE
 $faction.id == GER",FireAll RelLevelMoreDescription,The German Party's standing with you is hostile.,,
 relLevelVengefulGermany,RelationshipLevelDesc,"$faction.rel == VENGEFUL
 $faction.id == GER",FireAll RelLevelMoreDescription,The German Party's standing with you is extremely hostile.,,
+,,,,,,
+# Soviet fleet greeting lines,,,,,,
+greetingSovietFriendly,OpenCommLink,"$faction.id == SOV
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Comrade $playerLastName, is that you? Hope everything is alright, $SirOrMadam.""
+OR
+$HeOrShe looks up to the camera,""Ah, a friendly face. Do you need anything comrade?""
+OR
+""This is $PersonRank $personName, I read you loud and clear comrade.""",,
+greetingSovietHostileWeaker,OpenCommLink,"$faction.id == SOV
+$entity.isHostile
+$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"""Disengage now, maybe we both leave alive.""
+OR
+""Death... it is ugly, yes?"" The officer's eyes have trouble steadying.
+OR
+""Go on, pig. Feast. See how fast you can run."" The comms cut out.",cutCommLink:Cut the comm link,
+greetingSovietHostileWeakerDefiant,OpenCommLink,"$faction.id == SOV
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"""I am $PersonRank $PersonName, and I am not intimidated by the likes of you and your $shipOrFleet."" The comm-line cuts out.
+OR
+""How about you go fuck yourself?"" The comm-line cuts out.",cutCommLink:Cut the comm link,
+greetingSovietHostileStronger,OpenCommLink,"$faction.id == SOV
+$entity.isHostile
+$entity.relativeStrength >= 0",$entity.ignorePlayerCommRequests = true 1,"""Give me a challenge or don't, you're dead eitherway."" The comms cut out.
+OR
+""You thought you could fuck with us? I will fuck you, mother fucker."" The $PersonRank cuts the comm with a rude gesture.",cutCommLink:Cut the comm link,
+greetingSovietNeutral,OpenCommLink,"$faction.id == SOV
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""I read you, did you need something comrade?""
+OR
+""This is $PersonRank $personName recieving $shipOrFleet, everything alright comrade?""",,
+,,,,,,
+# Trade panel flavor text,,,,,,
+flavorTextMarketSoviet,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == SOV","AddText ""The port concourse is filled with trader starcraft of every size as the Soviet flags wave from the sidelines. Speculators crowd offloading ship captains with deals and peddlers call out to crew, holding wares and projecting personal ad-holos."" marketFlavorTextColor",,,
+flavorTextMarketSovietSmall,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$marketSize < 4
+$stability > 1
+$faction.id == SOV","AddText ""The humble port concourse has a lone Soviet flag and is filled with small freighters and freelancers down or up on their luck, identifiable by the shine or grime of ship armor and volume of cargo on-loading. A handful of speculators who all seem to know each other crowd offloading ship captains as they arrive while peddlers call out to crew, holding wares and projecting personal ad-holos."" marketFlavorTextColor",,,
+flavorTextMarketSovietUnstable,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$stability == 1
+$faction.id == SOV","AddText ""The port concourse holds only a strew of trader starcraft, the Soviet flag is protected behind a police barrier. A few fidgety-looking speculators seek offloading ship captains with deals. Most peddlers seem to have scurried off - and in a hurry, judging from the detritus, though a few enterprising merchants still do business. The local police appears to have deployed patrols of power-armor units while police drones buzz conspicuously overhead."" marketFlavorTextColor",,,
+flavorTextMarketSovietVeryUnstable,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$stability == 0
+$faction.id == SOV","AddText ""The port concourse contains only a few ships, and half of those look like warcraft, the Soviet flag is protected within a shield projector. Armed gangs of crew huddle around each spacecraft, guarding on- and off-loading cargo. A few brave speculators seem to hurry between spaces which offer what they imagine will provide cover as police drones buzz overhead in a rush to some incident or another."" marketFlavorTextColor",,,
+,,,,,,
+# relationship level descriptions,,,,,,
+relLevelCooperativeSoviet,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == SOV",FireAll RelLevelMoreDescription,Your standing with the Soviet Party is excellent.,,
+relLevelFriendlySoviet,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == SOV",FireAll RelLevelMoreDescription,Your standing with the Soviet Party is decently high.,,
+relLevelWelcomingSoviet,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == SOV",FireAll RelLevelMoreDescription,Your standing with the Soviet Party is good.,,
+relLevelFavorableSoviet,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == SOV",FireAll RelLevelMoreDescription,Your standing with the Soviet Party is more or less entry level.,,
+relLevelNeutralSoviet,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == SOV",FireAll RelLevelMoreDescription,Your standing with the Soviet Party is neutral. ,,
+relLevelSuspiciousSoviet,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == SOV",FireAll RelLevelMoreDescription,The Soviet Party's standing with you is suspicious.,,
+relLevelInhospitableSoviet,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == SOV",FireAll RelLevelMoreDescription,The Soviet Party's standing with you is inhospitable.,,
+relLevelHostileSoviet,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == SOV",FireAll RelLevelMoreDescription,The Soviet Party's standing with you is hostile.,,
+relLevelVengefulSoviet,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == SOV",FireAll RelLevelMoreDescription,The Soviet Party's standing with you is extremely hostile.,,
+#relLevelSovietBaird,RelLevelMoreDescription,"$faction.id == SOV
+$global.gaKA_completed",,You are known to have performed work for Provost Baird of the Galatia Academy.,,

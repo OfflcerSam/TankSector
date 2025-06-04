@@ -1,0 +1,29 @@
+{
+  "variantId": "ot_man_762",
+  "hullId": "ot_man_soviet",
+  "displayName": "Pulemyotchik",
+  "goalVariant": false,
+  "fluxCapacitors": 5,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "Hand": "ot_h762"
+      }
+    },
+	{
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "Second": "ot_dg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

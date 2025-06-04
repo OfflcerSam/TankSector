@@ -1,5 +1,5 @@
 {
-	id:"GER",
+	id:"SOV",
 	"color":[237,27,36,255],
 	"baseUIColor":[237,27,36, 255],
     "darkUIColor":[237,27,36, 175],
@@ -39,14 +39,19 @@
   # ships the faction gets access to when importing S&W out-of-faction
   "shipsWhenImporting": {
     "tags":[],
-    "hulls":[],
+    "hulls":[
+			"ot_supply_truck",
+			"ot_fuel_truck",
+			"ot_M3Lee_Hull",
+			"ot_M4Sherman_Hull",
+	],
   },
   
   "knownShips": {
     "tags": ["sovsh_bp","SOV"],
 		"hulls":[
 			"ot_GAZ_Hull",
-			"ot_BTE152_Hull",
+			"ot_BTR152_Hull",
 			"ot_T-70Light_Hull",
 			"ot_BT-7_Hull",
 			"ot_T-28_Hull",
@@ -67,7 +72,7 @@
     "tags": ["sovsh_bp","SOV"],
     "hulls": [
 			"ot_GAZ_Hull",
-			"ot_BTE152_Hull",
+			"ot_BTR152_Hull",
 			"ot_T-70Light_Hull",
 			"ot_BT-7_Hull",
 			"ot_T-28_Hull",
@@ -99,7 +104,7 @@
   "knownWeapons": {
     "tags": ["sovwe_bp","SOV"],
     "weapons": [
-			"ot_T28MG_turret",
+			"ot_762_turret",
 			"ot_d15mm_turret",
 			"ot_BT_45mm_turret",
 			"ot_T34_57mm_turret",
@@ -145,7 +150,7 @@
 		],
 	},
 	"weaponSellFrequency":{
-			"ot_T28MG_turret":15,
+			"ot_762_turret":15,
 			"ot_d15mm_turret":10,
 			"ot_BT_45mm_turret":10,
 			"ot_T34_57mm_turret":10,
@@ -240,7 +245,7 @@
 		"offersCommissions":true,
 		"engagesInHostilities":true,
 		"buysAICores":true,
-		"AICoreValueMult":2,
+		"AICoreValueMult":1.25,
 		"AICoreRepMult":2,
 		"buysSurveyData":true,
 		"hostilityImpactOnGrowth":true,
@@ -257,119 +262,119 @@
 	},
 	"ranks":{
 		"ranks":{
-			"factionLeader":{"name":"Obermaler"},
+			"factionLeader":{"name":"Generalissimus"},
 
-			"spaceSailor":{"name":"Weltraummann"},
-			"spaceChief":{"name":"Unteroffiziere ohne Portepee"},
-			"spaceEnsign":{"name":"Offiziere"},
-			"spaceLieutenant":{"name":"Oberleutnant zur See"},
-			"spaceCommander":{"name":"Korvettenkapitän"},
-			"spaceCaptain":{"name":"Kapitän zur See"},
-			"spaceAdmiral":{"name":"Vizeadmiral"},
+			"spaceSailor":{"name":"Matros"},
+			"spaceChief":{"name":"Starshina 2. stat’i"},
+			"spaceEnsign":{"name":"Mladshiy Leytenant"},
+			"spaceLieutenant":{"name":"Leytenant"},
+			"spaceCommander":{"name":"Kapitan-Leytenant"},
+			"spaceCaptain":{"name":"Kapitan 1-ogo ranga"},
+			"spaceAdmiral":{"name":"Kontr-Admiral"},
 			"spaceMarshal":{"name":"Admiral"},
 		
-			"groundPrivate":{"name":"Soldat"},
-			"groundSergeant":{"name":"Unterfeldwebel"},
-			"groundLieutenant":{"name":"Oberleutnant"},
-			"groundCaptain":{"name":"Hauptmann"},
+			"groundPrivate":{"name":"Ryadovoy"},
+			"groundSergeant":{"name":"Serzhant"},
+			"groundLieutenant":{"name":"Starshiy Leytenant"},
+			"groundCaptain":{"name":"Mayor"},
 			"groundMajor":{"name":"Major Oberstabsarzt"},
-			"groundColonel":{"name":"Oberst"},
-			"groundGeneral":{"name":"Generaloberst"},
+			"groundColonel":{"name":"Polkovnik"},
+			"groundGeneral":{"name":"General Armii"},
 			
-			"chiefHighInspector":{"name":"Oberführer"},
-			"deputyStarMarshal":{"name":"Standartenführer"},
-			"guardHighDeputyExecutor":{"name":"Obergruppenführer"},
+			"chiefHighInspector":{"name":"Kombrig"},
+			"deputyStarMarshal":{"name":"Politruk Polka"},
+			"guardHighDeputyExecutor":{"name":"NKVD General-Colonel"},
 		
-			"citizen":{"name":"Deutscher Staatsbürger"},
-			"executive":{"name":"Corporate Deputy"},
-			"seniorExecutive":{"name":"Corporate Officer"},
-			"agent":{"name":"Gestapo-Agent"},
-			"specialAgent":{"name":"Operative"},
+			"citizen":{"name":"Sovetskiy Grazhdanin"},
+			"executive":{"name":"Zamestitel Direktora"},
+			"seniorExecutive":{"name":"Direktor Predpriyatiya"},
+			"agent":{"name":"Operupolnomochennyy NKVD"},
+			"specialAgent":{"name":"Razvedchik"},
 			
-			"aristocrat":{name:"Aristocrat"},
+			"aristocrat":{name:"High-ranking Party Member"},
 
 		},
 		"posts":{
-			"factionLeader":{"name":"Obermaler"},
+			"factionLeader":{"name":"Generalissimus"},
 		
-			"patrolCommander":{"name":"Patrouillenführer"},
-			"fleetCommander":{"name":"Flottenkommandant"},
+			"patrolCommander":{"name":"Komandir Dozora"},
+			"fleetCommander":{"name":"Komanduyushchiy Flotom"},
 			
-			"baseCommander":{"name":"Stützpunktkommandant"},
-			"stationCommander":{"name":"Raumstation-Meister"},
-			"outpostCommander":{"name":"Außenpostenleiter"},
-			"portmaster":{"name":"Hafenmeister"},
+			"baseCommander":{"name":"Nachalnik Bazy"},
+			"stationCommander":{"name":"Komandir Kosmicheskoy Stantsii"},
+			"outpostCommander":{"name":"Nachalnik Zastavy"},
+			"portmaster":{"name":"Portovoy Nadziratel"},
 			
-			"intelligenceDirector":{"name":"Obersturmbannführer der Abwehr"},
-			"guardLeader":{"name":"General der Feldjägerkorps"},
+			"intelligenceDirector":{"name":"Nachalnik Razvedki NKVD"},
+			"guardLeader":{"name":"GGeneral Vnutrennikh Voysk"},
 			
-			"supplyOfficer":{"name":"Quartiermeister Offiziere"},
-			"supplyManager":{"name":"Heereswerkmeister"},
-			"medicalSupplier":{"name":"Stabsarzt"},
+			"supplyOfficer":{"name":"Voennyy Kvartirmeyster"},
+			"supplyManager":{"name":"Zaveduyushchiy Snabzheniem"},
+			"medicalSupplier":{"name":"Voyennyy Vrach"},
 			
-			"administrator":{"name":"Ziviler Verwalter"},
-			"militaryAdministrator":{"name":"Militärischer Verwalter"},
-			"freeAdmin":{"name":"Freelance Freiberuflicher Verwalter"},
+			"administrator":{"name":"Grazhdanskiy Upravlyayushchiy"},
+			"militaryAdministrator":{"name":"Voennyy Administrator"},
+			"freeAdmin":{"name":"Freelance Administrator"},
 			
-			"minorCriminal":{"name":"Kleinkrimineller"},
-			"criminal":{"name":"Straftäter"},
-			"spacer":{"name":"Drifter"},
+			"minorCriminal":{"name":"Melkiy Prestupnik"},
+			"criminal":{"name":"Prestupnik"},
+			"spacer":{"name":"Kosmonavt"},
 			
-			"genericMilitary":{"name":"Oberstleutnant"},
-			"marineSquadLeader":{"name":"Unterfeldwebel"},
+			"genericMilitary":{"name":"Podpolkovnik"},
+			"marineSquadLeader":{"name":"Serzhant Morskoy Pekhoty"},
 			
-			"trader":{"name":"Händler"},
-			"merchant":{"name":"Unternehmenshändler"},
+			"trader":{"name":"Torgovets"},
+			"merchant":{"name":"Kommercheskiy Agent"},
 			
-			"shady":{"name":"Zwielichtiger Charakter"},
-			"armsDealer":{"name":"Waffenhändler"},
+			"shady":{"name":"Podezritel’nyy Sub’yekt"},
+			"armsDealer":{"name":"Torgovets Oruzhiem"},
 
-			"citizen":{"name":"Deutscher Staatsbürger"},
+			"citizen":{"name":"Sovetskiy Grazhdanin"},
 			
-			"mercenary":{"name":"Söldneroffizier"},
-			"officer":{"name":"Offiziere"},
-			"officer_for_hire":{"name":"Unteroffiziere (available for hire)"}, 
+			"mercenary":{"name":"Naemnik-Komandir"},
+			"officer":{"name":"Ofitser"},
+			"officer_for_hire":{"name":"Naemnyy Mladshiy Ofitser (available for hire)"}, 
 			
-			"investigator":{"name":"Gesapto-Ermittler"},
-			"agent":{"name":"Gestapo-Agent"},
-			"specialAgent":{"name":"Operative"},
+			"investigator":{"name":"Sledovatel NKVD"},
+			"agent":{"name":"Operupolnomochennyy NKVD"},
+			"specialAgent":{"name":"Osobyy Razvedchik"},
 			
 			
-			"securityChief":{name:"Sicherheitsdirektor"},
-			"aristocrat":{name:"Aristocrat"},
+			"securityChief":{name:"Direktor Bezopasnosti"},
+			"aristocrat":{name:"High-ranking Party Member"},
 		},
 	},
 	"fleetTypeNames":{
 
-	"trade": "Handelsflotte",
-	"tradeLiner": "Passagierflotte",
-	"tradeSmuggler":"Schmuggler",
-	"smallTrader": "Handelsgruppe",
+	"trade": "Torgovyy Flot",
+	"tradeLiner": "Passazhirskiy Konvoy",
+	"tradeSmuggler":"Kontrabandisty",
+	"smallTrader": "Gruppa Torgovykh Sudov",
 	
-    "patrolSmall": "Kriegsmarinepatrouille",
-    "patrolMedium": "Kriegsflotten-Einsatzgruppe",
-    "patrolLarge": "Kriegmarineunterstützungseinheit",
+    "patrolSmall": "Morskoy Dozor",
+    "patrolMedium": "Flotovaya Udarno-Patrul’naya Gruppa",
+    "patrolLarge": "Eskadra Podderzhki VMF",
 
-	"supplyFleet":"Kriegsflottenlogistik",
+	"supplyFleet":"Voenno-Morskaya Logistika",
 	
-	"investigators":"Forschungsflotte",
+	"investigators":"Razvedyvatel’naya Ekspeditsiya",
 	
-    "inspectionFleet": "Inspektionsflotte",
-    "taskForce": "Kriegsmarine-Angriffstruppe",		
+    "inspectionFleet": "Inspektsionnaya Flotiliya",
+    "taskForce": "Udarno-Desantnaya Gruppa VMF",		
 	
-	"scavengerSmall":"Aasfresser-Gruppe",
-	"scavengerMedium":"Wiederherstellungsflotte",
-	"scavengerLarge":"Logistik-Wiederherstellungsflotte",
+	"scavengerSmall":"Gruppa Evakuatsii",
+	"scavengerMedium":"Flot Vosstanovleniya",
+	"scavengerLarge":"Logisticheskiy Vozvratnyy Konvoy",
 	
-	"foodReliefFleet":"Lebensmittelhilfskonvoi",
+	"foodReliefFleet":"Gumanitarno-Pishchevoy Konvoy",
 	
-	"mercScout":"PMC Scouting Party",
-	"mercBountyHunter":"Bounty Hunter",
-	"mercPrivateer":"PMC Group",
-	"mercPatrol":"PMC Patrol Group",
-	"mercArmada":"PMC Strike Fleet",
+	"mercScout":"Razvedgruppa ChVK",
+	"mercBountyHunter":"Likvidatory",
+	"mercPrivateer":"Chastnaya Voyennaya Gruppa",
+	"mercPatrol":"Dozornaya Gruppa ChVK",
+	"mercArmada":"Udarnoe Soedinenie ChVK",
 	
-	"battlestation":"Sternfestung",
+	"battlestation":"Zvezdnaya Krepost",
 		
 	},
 		

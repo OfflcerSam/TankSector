@@ -293,7 +293,7 @@
 			"agent":{"name":"Gestapo-Agent"},
 			"specialAgent":{"name":"Operative"},
 			
-			"aristocrat":{name:"Aristocrat"},
+			"aristocrat":{name:"High-ranking Party Member"},
 
 		},
 		"posts":{
@@ -343,7 +343,7 @@
 			
 			
 			"securityChief":{name:"Sicherheitsdirektor"},
-			"aristocrat":{name:"Aristocrat"},
+			"aristocrat":{name:"High-ranking Party Member"},
 		},
 	},
 	"fleetTypeNames":{
@@ -370,11 +370,11 @@
 	
 	"foodReliefFleet":"Lebensmittelhilfskonvoi",
 	
-	"mercScout":"PMC Scouting Party",
-	"mercBountyHunter":"Bounty Hunter",
-	"mercPrivateer":"PMC Group",
-	"mercPatrol":"PMC Patrol Group",
-	"mercArmada":"PMC Strike Fleet",
+	"mercScout":"PMC-Aufklärungsgruppe",
+	"mercBountyHunter":"Kopfgeldjäger",
+	"mercPrivateer":"PMC-Einheit",
+	"mercPatrol":"PMC-Patrouillengruppe",
+	"mercArmada":"PMC-Schlagflotte",
 	
 	"battlestation":"Sternfestung",
 		

@@ -1,0 +1,60 @@
+{
+  "hullName": "KV1",
+  "hullId": "ot_KV1_Hull",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/icons/placeholder.png",
+  "style": "LOW_TECH",
+  "height": 16,
+  "width": 16,
+  "center": [8, 8],
+  "collisionRadius": 10,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 10,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "Hand",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 40,
+      "angle": 0,
+      "locations": [-2, -0]
+    },
+	{
+      "id": "Second",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 25,
+      "angle": 0,
+      "locations": [-2, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-8, -2.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-8, 2.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    0.5, 4.5,
+    -2, 7,
+    -6.5, 4.5,
+    -6.5, -4.5,
+    -2, -7,
+    0.5, -4.5
+  ]
+}

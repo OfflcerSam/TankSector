@@ -160,16 +160,16 @@ public class USA_StarofAmerica {
         addDerelict(system, americaAF2, "ot_M4Sherman_Hull_standard", ShipRecoverySpecial.ShipCondition.BATTERED, 125f, (Math.random() < 0.6));
 
         //asteroid belt1 ring
-        system.addAsteroidBelt(americaStar, 800, asteroidBelt1Dist, 800, 250, 250, Terrain.ASTEROID_BELT, "Inner Band");
-        system.addRingBand(americaStar, "misc", "rings_asteroids0", 256f, 3, Color.gray, 256f, asteroidBelt1Dist - 200, 250f);
-        system.addRingBand(americaStar, "misc", "rings_asteroids0", 256f, 0, Color.gray, 256f, asteroidBelt1Dist, 350f);
-        system.addRingBand(americaStar, "misc", "rings_asteroids0", 256f, 2, Color.gray, 256f, asteroidBelt1Dist + 200, 400f);
+        system.addAsteroidBelt(americaStar, 1250, asteroidBelt1Dist, 800f, 250f, 250f, Terrain.ASTEROID_BELT, "Columbus's Belt");
+        system.addRingBand(americaStar, "misc", "rings_asteroids0", 256f, 1, Color.gray, 256f, asteroidBelt1Dist - 200, 250f);
+        system.addRingBand(americaStar, "misc", "rings_asteroids0", 256f, 2, Color.gray, 256f, asteroidBelt1Dist, 350f);
+        system.addRingBand(americaStar, "misc", "rings_asteroids0", 256f, 0, Color.gray, 256f, asteroidBelt1Dist + 200, 400f);
 
         //asteroid belt2 ring
-        system.addAsteroidBelt(americaStar, 1250, asteroidBelt2Dist, 800, 300, 600, Terrain.ASTEROID_BELT, "Outer Band");
-        system.addRingBand(americaStar, "misc", "rings_asteroids0", 256f, 3, Color.gray, 256f, asteroidBelt2Dist - 200, 300f);
-        system.addRingBand(americaStar, "misc", "rings_asteroids0", 256f, 0, Color.gray, 256f, asteroidBelt2Dist, 450f);
-        system.addRingBand(americaStar, "misc", "rings_asteroids0", 256f, 1, Color.gray, 256f, asteroidBelt2Dist + 200, 500f);
+        system.addAsteroidBelt(americaStar, 1000, asteroidBelt2Dist, 700f, 300f, 600f, Terrain.ASTEROID_BELT, "Strip Belt");
+        system.addRingBand(americaStar, "misc", "rings_asteroids0", 220f, 3, Color.gray, 220f, asteroidBelt2Dist - 180, 300f);
+        system.addRingBand(americaStar, "misc", "rings_asteroids0", 220f, 0, Color.gray, 220f, asteroidBelt2Dist, 450f);
+        system.addRingBand(americaStar, "misc", "rings_asteroids0", 120f, 0, Color.gray, 120f, asteroidBelt2Dist + 120, 500f);
 
         // Relays
         SectorEntityToken americaStar_relay = system.addCustomEntity("americaStar_relay", // unique id
@@ -209,7 +209,7 @@ public class USA_StarofAmerica {
         // Eisenhowar
         PlanetAPI eisen = system.addPlanet("u_eisenhowar", americaStar, "Blacksite Eisenhowar", "barren-bombarded", 360f * (float) Math.random(), 115f, eisenDist, 620f);
         eisen.setCustomDescriptionId("usa_starofamerica_eisenhowar"); //reference descriptions.csv
-        PlanetConditionGenerator.generateConditionsForPlanet(eisen, StarAge.AVERAGE);
+       // PlanetConditionGenerator.generateConditionsForPlanet(eisen, StarAge.AVERAGE);
         eisen.getMarket().addCondition(Conditions.NO_ATMOSPHERE);
         eisen.getMarket().addCondition(Conditions.VERY_COLD);
         eisen.getMarket().addCondition(Conditions.DARK);
@@ -255,7 +255,7 @@ public class USA_StarofAmerica {
         // Dustybell
         PlanetAPI dusty = system.addPlanet("u_dusty", americaStar, "Dustybell", "desert", 360f * (float) Math.random(), 120f, dustyDist, 200f);
         dusty.setCustomDescriptionId("usa_starofamerica_dustybell"); //reference descriptions.csv
-        PlanetConditionGenerator.generateConditionsForPlanet(dusty, StarAge.AVERAGE);
+        //PlanetConditionGenerator.generateConditionsForPlanet(dusty, StarAge.AVERAGE);
         dusty.getMarket().addCondition(Conditions.HABITABLE);
         dusty.getMarket().addCondition(Conditions.HOT);
         dusty.getMarket().addCondition(Conditions.DECIVILIZED_SUBPOP);
