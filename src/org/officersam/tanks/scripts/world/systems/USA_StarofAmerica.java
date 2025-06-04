@@ -167,9 +167,9 @@ public class USA_StarofAmerica {
 
         //asteroid belt2 ring
         system.addAsteroidBelt(americaStar, 1000, asteroidBelt2Dist, 700f, 300f, 600f, Terrain.ASTEROID_BELT, "Strip Belt");
-        system.addRingBand(americaStar, "misc", "rings_asteroids0", 220f, 3, Color.gray, 220f, asteroidBelt2Dist - 180, 300f);
-        system.addRingBand(americaStar, "misc", "rings_asteroids0", 220f, 0, Color.gray, 220f, asteroidBelt2Dist, 450f);
-        system.addRingBand(americaStar, "misc", "rings_asteroids0", 120f, 0, Color.gray, 120f, asteroidBelt2Dist + 120, 500f);
+        system.addRingBand(americaStar, "misc", "rings_asteroids0", 256f, 3, Color.gray, 220f, asteroidBelt2Dist - 180, 300f);
+        system.addRingBand(americaStar, "misc", "rings_asteroids0", 256f, 0, Color.gray, 220f, asteroidBelt2Dist, 450f);
+        system.addRingBand(americaStar, "misc", "rings_asteroids0", 256f, 0, Color.gray, 120f, asteroidBelt2Dist + 120, 500f);
 
         // Relays
         SectorEntityToken americaStar_relay = system.addCustomEntity("americaStar_relay", // unique id

@@ -101,9 +101,9 @@ public class GER_SonneDeutschlands {
 
         //asteroid belt2 ring
         system.addAsteroidBelt(germanStar, 1250, asteroidBelt2Dist, 800f, 300f, 600f, Terrain.ASTEROID_BELT, "DE_Belt");
-        system.addRingBand(germanStar, "misc", "rings_asteroids0", 250f, 3, Color.gray, 250f, asteroidBelt2Dist - 190, 300f);
+        system.addRingBand(germanStar, "misc", "rings_asteroids0", 256f, 3, Color.gray, 230f, asteroidBelt2Dist - 190, 300f);
         system.addRingBand(germanStar, "misc", "rings_asteroids0", 256f, 1, Color.gray, 256f, asteroidBelt2Dist, 450f);
-        system.addRingBand(germanStar, "misc", "rings_asteroids0", 250f, 2, Color.gray, 250f, asteroidBelt2Dist + 190, 500f);
+        system.addRingBand(germanStar, "misc", "rings_asteroids0", 256f, 2, Color.gray, 230f, asteroidBelt2Dist + 190, 500f);
 
         // Relays
         SectorEntityToken germanStar_relay = system.addCustomEntity("germanStar_relay", // unique id

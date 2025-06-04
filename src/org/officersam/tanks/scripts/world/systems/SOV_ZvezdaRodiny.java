@@ -103,14 +103,14 @@ public class SOV_ZvezdaRodiny {
 
         //asteroid belt1 ring
         system.addAsteroidBelt(sovietStar, 950, asteroidBelt1Dist, 550f, 300f, 600f, Terrain.ASTEROID_BELT, "Solntseten");
-        system.addRingBand(sovietStar, "misc", "rings_asteroids0", 256f, 1, Color.gray, 256f, asteroidBelt1Dist - 190, 300f);
+        system.addRingBand(sovietStar, "misc", "rings_asteroids0", 256f, 1, Color.gray, 240f, asteroidBelt1Dist - 190, 300f);
         system.addRingBand(sovietStar, "misc", "rings_asteroids0", 256f, 0, Color.gray, 256f, asteroidBelt1Dist, 450f);
 
         //asteroid belt2 ring
         system.addAsteroidBelt(sovietStar, 1250, asteroidBelt2Dist, 750f, 300f, 600f, Terrain.ASTEROID_BELT, "KomIntern");
-        system.addRingBand(sovietStar, "misc", "rings_asteroids0", 220f, 3, Color.gray, 220f, asteroidBelt2Dist - 180, 300f);
+        system.addRingBand(sovietStar, "misc", "rings_asteroids0", 256f, 3, Color.gray, 250f, asteroidBelt2Dist - 180, 300f);
         system.addRingBand(sovietStar, "misc", "rings_asteroids0", 256f, 1, Color.gray, 256f, asteroidBelt2Dist, 450f);
-        system.addRingBand(sovietStar, "misc", "rings_asteroids0", 220f, 3, Color.gray, 220f, asteroidBelt2Dist + 1800, 500f);
+        system.addRingBand(sovietStar, "misc", "rings_asteroids0", 256f, 3, Color.gray, 250f, asteroidBelt2Dist + 180, 500f);
 
         // Relays
         SectorEntityToken americaStar_relay = system.addCustomEntity("sovietStar_relay", // unique id
