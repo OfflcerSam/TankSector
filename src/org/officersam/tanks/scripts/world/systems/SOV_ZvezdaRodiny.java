@@ -240,7 +240,7 @@ public class SOV_ZvezdaRodiny {
         addDerelict(system, zarnitsa, "ot_Pz4HMedium_Hull_standard", ShipRecoverySpecial.ShipCondition.WRECKED, 60f, (Math.random() < 0.6));
 
         // Mir Zvezd
-        PlanetAPI zvezd = system.addPlanet("s_zvezd", sovietStar, "Mir Zvezd", "gas_giant", 360f * (float) Math.random(), 400f, zvezdDist, 550f);
+        PlanetAPI zvezd = system.addPlanet("s_zvezd", sovietStar, "Mir Zvezd", "ice_giant", 360f * (float) Math.random(), 400f, zvezdDist, 550f);
         zvezd.setCustomDescriptionId("ger_sonnedeutschlands_sonnenrad"); //reference descriptions.csv
         //PlanetConditionGenerator.generateConditionsForPlanet(sonnen, StarAge.AVERAGE);
 
