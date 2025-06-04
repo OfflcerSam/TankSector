@@ -12,5 +12,5 @@
 	"coreColor":[245,245,245,80],
 	"textureScrollSpeed":64.0,
 	"pixelsPerTexel":5.0,
-	"bulletSprite":"graphics/missiles/shell_small_red.png"
+	"bulletSprite":"graphics/missiles/shell_medium_red.png"
 }
