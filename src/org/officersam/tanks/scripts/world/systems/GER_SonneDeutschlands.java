@@ -129,7 +129,6 @@ public class GER_SonneDeutschlands {
         PlanetAPI kriegheim = system.addPlanet("u_kriegheim ", germanStar, "Kriegheim Testgelände", "barren-bombarded", 360f * (float) Math.random(), 115f, kriegheimDist, 220f);
         kriegheim.setCustomDescriptionId("ger_sonnedeutschlands_kriegheim"); //reference descriptions.csv
         //PlanetConditionGenerator.generateConditionsForPlanet(kriegheim, StarAge.AVERAGE);
-        kriegheim.getMarket().addCondition(Conditions.TOXIC_ATMOSPHERE);
         kriegheim.getMarket().addCondition(Conditions.THIN_ATMOSPHERE);
         kriegheim.getMarket().addCondition(Conditions.IRRADIATED);
         kriegheim.getMarket().addCondition(Conditions.VERY_HOT);
