@@ -26,7 +26,7 @@
   "hardpointAngleOffsets": [
     0
   ],
-  "barrelMode": "DUAL",
+  "barrelMode": "LINKED",
   "animationType": "MUZZLE_FLASH",
    "muzzleFlashSpec": {
     "length": 40,
