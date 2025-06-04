@@ -22,7 +22,7 @@
 		"remnant":-0.4,		
 	},
     "maxRelationships":{ "luddic_path":-0.6, "luddic_church":0.0, "pirates":-0.5, "GER":0.0 },
-    "diplomacyPositiveChance":{ "USA":0.2, "persean":0.8, "hegemony": 0.4 },
+    "diplomacyPositiveChance":{ "USA":0.4, "persean":0.8, "hegemony": 0.4 },
     "diplomacyNegativeChance":{ "GER":1.2, "luddic_path":1.5, "luddic_church":0.9 },
     "dispositions":{
         "GER": -10,

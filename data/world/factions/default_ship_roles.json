@@ -26,6 +26,7 @@
 			
 			"ot_VOMAGWaffen_Hull_flak":10,
 			"ot_234Puma_Hull_standard":10,
+			"ot_234Puma_Hull_screen":5,
 			"ot_Pz2FLight_Hull_standard":20,
 			"ot_Pz2FLight_Hull_screen":15,
 			"ot_Pz3EMedium_Hull_standard":20,

@@ -8,7 +8,7 @@
 
 	"startRelationships":{
 		"USA":-0.4,
-		#"SOV":-0.6,
+		"SOV":-0.6,
 		
 		"independent":0.2,
 		"pirates":-1.0,
@@ -23,10 +23,10 @@
 	},
     "maxRelationships":{ "luddic_path":-0.6, "luddic_church":-0.2, "pirates":-0.8 },
     "diplomacyPositiveChance":{ "persean":0.5, "hegemony": 0.5 },
-    "diplomacyNegativeChance":{ "USA":0.5, "luddic_path":1.5, "luddic_church":0.9, "hegemony": 0.5, "tritachyon":0.2 },
+    "diplomacyNegativeChance":{ "SOV":1.5, "USA":0.9, "luddic_path":1.5, "luddic_church":0.9, "hegemony": 0.5, "tritachyon":0.2 },
     "dispositions":{
         "USA": -2,
-		#"SOV": -5,
+		"SOV": -5,
         "luddic_church": -10,
 		"luddic_path": -50,
 		"hegemony": -5,
