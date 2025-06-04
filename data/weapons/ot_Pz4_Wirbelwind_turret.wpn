@@ -6,20 +6,24 @@
   "size": "LARGE",
   "turretSprite": "graphics/weapons/Pz4_ost37mm_turret.png",
   "turretGunSprite": "graphics/weapons/Pz4_ost37mm_turret_gun.png",
-  "renderHints":[RENDER_BARREL_BELOW],
   "hardpointSprite": "",
   "visualRecoil": 8,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
   "turretOffsets": [
     45,
-    4,
-    45,
     -4,
-	44,
-    3,
-    44,
-    -3
+    44.5,
+    -4,
+    45,
+    4,
+    44.5,
+    4
   ],
   "turretAngleOffsets": [
+    0,
+    0,
     0,
     0
   ],
@@ -32,7 +36,7 @@
   ],
   "barrelMode": "LINKED",
   "animationType": "MUZZLE_FLASH",
-   "muzzleFlashSpec": {
+  "muzzleFlashSpec": {
     "length": 40,
     "spread": 8,
     "particleSizeMin": 8,
