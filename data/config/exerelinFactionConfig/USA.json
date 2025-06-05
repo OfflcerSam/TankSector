@@ -52,7 +52,7 @@
 	"vengeanceLevelNames":["Local Warrant", "Federal Warrant", "National Security Threat"],
 	"vengeanceFleetNamesSingle":["Police Apprehension group", "Federal Marshal group", "Naval Strike group"],
 	"vengeanceFleetNames":["Police Apprehension fleet", "Federal Marshal fleet", "Naval Strike fleet"],
-	"vengeanceFleetSizeMult":1.5,
+	"vengeanceFleetSizeMult":1.4,
 	
 	
 	"asteroidMiningFleetName":"Commercial Mining Fleet",

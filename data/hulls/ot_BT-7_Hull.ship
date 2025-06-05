@@ -2,59 +2,65 @@
   "hullName": "BT-7",
   "hullId": "ot_BT-7_Hull",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/icons/placeholder.png",
+  "spriteName": "graphics/ships/BT7_Hull.png",
   "style": "LOW_TECH",
-  "height": 16,
-  "width": 16,
-  "center": [8, 8],
-  "collisionRadius": 10,
+  "height": 99,
+  "width": 40,
+  "center": [20, 49.5],
+  "collisionRadius": 56,
   "shieldCenter": [0, 0],
-  "shieldRadius": 10,
+  "shieldRadius": 56,
   "viewOffset": 0,
+  "builtInMods": [
+    "rugged"
+  ],
+  "builtInWeapons": {
+    "RoofMG": "ot_h762"
+  },
   "weaponSlots": [
     {
-      "id": "Hand",
-      "size": "SMALL",
-      "type": "UNIVERSAL",
-      "mount": "HIDDEN",
-      "arc": 40,
+      "id": "TurretRing",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
       "angle": 0,
-      "locations": [-2, -0]
+      "locations": [8.5, -0]
     },
-	{
-      "id": "Second",
+    {
+      "id": "RoofMG",
       "size": "SMALL",
-      "type": "UNIVERSAL",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
-      "arc": 25,
+      "arc": 360,
       "angle": 0,
-      "locations": [-2, -0]
+      "locations": [3, -0]
     }
   ],
   "engineSlots": [
     {
-      "location": [-8, -2.5],
-      "length": 30,
-      "width": 10,
-      "angle": -180,
-      "contrailSize": 30,
-      "style": "LOW_TECH"
-    },
-    {
-      "location": [-8, 2.5],
+      "location": [-47.5, -16.5],
       "length": 30,
       "width": 10,
       "angle": 180,
       "contrailSize": 30,
       "style": "LOW_TECH"
+    },
+    {
+      "location": [-47.5, 16.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
     }
   ],
   "bounds": [
-    0.5, 4.5,
-    -2, 7,
-    -6.5, 4.5,
-    -6.5, -4.5,
-    -2, -7,
-    0.5, -4.5
+    -47.5, 14,
+    20.5, 14,
+    41.5, 3,
+    41.5, -3,
+    20.5, -14,
+    -47.5, -14
   ]
 }

@@ -53,18 +53,18 @@
     #"specialForcesFlagshipVariants":{ "paragon_Elite":1, "astral_Strike":0.5 },
     
 	# Number of entries must equal number of vengeance tiers (0-3)
-	"vengeanceLevelNames":["Local Warrant", "Military Warrant", "National Threat"],
-	"vengeanceFleetNamesSingle":["Gestapo Apprehension group", "Kriegsmarine Strike group", "Schutzstaffel Elite group"],
-	"vengeanceFleetNames":["Gestapo Apprehension fleet", "Kriegsmarine Strike fleet", "Schutzstaffel Elite fleet"],
+	"vengeanceLevelNames":["Municipal Arrest Mandate", "Reich Detention Directive", "State Security Priority Target"],
+	"vengeanceFleetNamesSingle":["Einsatzgruppe der Ordnungspolizei", "Vollstreckungsabteilung des Reichs", "Abfangverband der Kriegsmarine"],
+	"vengeanceFleetNames":["Taktisches Verband der Ordnungspolizei", "Vollstreckungsflotte der Reichssicherheit", "Offensivverband der Kriegsmarine"],
 	"vengeanceFleetSizeMult":1.25,
 	
 	
-	"asteroidMiningFleetName":"State Mining Fleet",
-	"invasionFleetname":"Kriegsmarine Invasion Command Fleet",
-	"invasionSupportFleetname":"Kriegsmarine Invasion Support Fleet",
-	"responseFleetname":"Kriegsmarine Task Force Fleet",
-	"defenceFleetname":"Kriegsmarine Defence Fleet",
-	"suppressionFleetname":"Gestapo Suppression Fleet",
+	"asteroidMiningFleetName": "Kommerzielle Bergbauflotte",
+	"invasionFleetname": "Kommandoflotte für Invasionsoperationen",
+	"invasionSupportFleetname": "Unterstützungsflotte für Invasionsoperationen",
+	"responseFleetname": "Marine-Einsatzflotte",
+	"defenceFleetname": "Marine-Verteidigungsflotte",
+	"suppressionFleetname": "Marineunterstützungsflotte der Ordnungskräfte",
 
 	
     "startShipsSolo":[

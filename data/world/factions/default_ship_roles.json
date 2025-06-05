@@ -35,6 +35,8 @@
 			"ot_Pz4HMedium_Hull_screen":5,
 			"ot_Pz4HMedium_Hull_support":5,
 			"ot_Pz4HMedium_Hull_standard":10,
+			
+			"ot_BT-7_Hull_standard":15,
 	},
 	"combatMedium":{
 			"ot_M3Lee_Hull_standard":10,

@@ -1,0 +1,29 @@
+{
+  "variantId": "ot_BT-7_Hull_standard",
+  "hullId": "ot_BT-7_Hull",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 2,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "TurretRing": "ot_BT_45mm_turret"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "RoofMG": "ot_h762"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
