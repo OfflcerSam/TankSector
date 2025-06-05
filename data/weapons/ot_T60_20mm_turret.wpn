@@ -8,6 +8,9 @@
   "turretGunSprite": "graphics/weapons/T-60_20mm_Turret_gun.png",
   "hardpointSprite": "",
   "visualRecoil": 8,
+   "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
   "turretOffsets": [
     33,
     -2.5
