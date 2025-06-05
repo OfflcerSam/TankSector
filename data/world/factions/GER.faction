@@ -40,7 +40,10 @@
   # ships the faction gets access to when importing S&W out-of-faction
   "shipsWhenImporting": {
     "tags":[],
-    "hulls":[],
+    "hulls":[
+			"ot_Pz3EMedium_Hull",
+			"ot_Pz4HMedium_Hull",
+	],
   },
   
   "knownShips": {
@@ -50,6 +53,7 @@
 			"ot_234Puma_Hull",
 			"ot_Pz2FLight_Hull",
 			"ot_Pz3EMedium_Hull",
+			"ot_Pz4HMedium_Hull",
 			"ot_Pz5PantherA_Hull",
 			"ot_Pz5Panther2_Hull",
 			"ot_Pz6TigerE_Hull",
@@ -70,6 +74,7 @@
 			"ot_234Puma_Hull",
 			"ot_Pz2FLight_Hull",
 			"ot_Pz3EMedium_Hull",
+			"ot_Pz4HMedium_Hull",
 			"ot_Pz5PantherAMedium_Hull",
 			"ot_Pz5Panther2Medium_Hull",
 			"ot_Pz6TigerE_Hull",

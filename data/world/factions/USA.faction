@@ -39,7 +39,11 @@
   # ships the faction gets access to when importing S&W out-of-faction
   "shipsWhenImporting": {
     "tags":[],
-    "hulls":[],
+    "hulls":[
+			"ot_M2Medium_Hull",
+			"ot_M3Lee_Hull",
+			"ot_M4Sherman_Hull",
+	],
   },
   
   "knownShips": {
