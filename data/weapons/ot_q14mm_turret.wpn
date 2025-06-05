@@ -1,5 +1,5 @@
 {
-  "id": "ot_q15mm_turret",
+  "id": "ot_q14mm_turret",
   "specClass": "projectile",
   "projectileSpecId": "ot_smallCannon_shot",
   "type": "BALLISTIC",
