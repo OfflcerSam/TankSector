@@ -1,0 +1,17 @@
+{
+  "variantId": "ot_supply_truck_s_defender",
+  "hullId": "ot_supply_truck_s",
+  "displayName": "Defender",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 2,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": ["additional_berthing"],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": [
+    "ot_man_soviet_a",
+    "ot_man_soviet_m"
+  ]
+}

@@ -2,7 +2,7 @@
   "hullName": "Supply Truck",
   "hullId": "ot_supply_truck_s",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/Supply_truck.png",
+  "spriteName": "graphics/ships/Supply_truck_s.png",
   "style": "LOW_TECH",
   "height": 115,
   "width": 44,

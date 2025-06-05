@@ -84,6 +84,8 @@
 			"ot_armored_train_standard":10,
 			
 			"ot_armored_train_g_standard":10,
+			
+			"ot_armored_train_s_standard":10,
 	},
 	"combatFreighterLarge":{
 
@@ -96,12 +98,17 @@
 			
 			"ot_supply_truck_g_standard":20,
 			"ot_supply_truck_g_defender":10,
+			
+			"ot_supply_truck_s_standard":20,
+			"ot_supply_truck_s_defender":10,
 	},
 	"carrierMedium":{
 			"ot_armored_train_standard":10,
 			
 			"ot_VOMAG_bus_standard":15,
 			"ot_armored_train_g_standard":10,
+			
+			"ot_armored_train_s_standard":10,
 	},
 	"carrierLarge":{
 	
@@ -131,6 +138,10 @@
 			"ot_supply_truck_g_standard":20,
 			"ot_fuel_truck_g_standard":20,
 			"ot_VOMAG_bus_standard":15,
+			
+			"ot_train_s_standard":10,
+			"ot_supply_truck_s_standard":20,
+			"ot_fuel_truck_s_standard":20,
 	},
 	
 	# freighters and such
@@ -138,6 +149,8 @@
 			"ot_supply_truck_standard":20,
 			
 			"ot_supply_truck_g_standard":20,
+			
+			"ot_supply_truck_s_standard":20,
 	},
 	"freighterMedium":{
 			"ot_armored_train_standard":10,
@@ -145,6 +158,10 @@
 			
 			"ot_train_g_standard":20,
 			"ot_armored_train_g_standard":10,
+			
+			"ot_train_s_standard":20,
+			"ot_armored_train_s_standard":10,
+
 
 	},
 	"freighterLarge":{
@@ -155,6 +172,8 @@
 			"ot_fuel_truck_standard":20,
 			
 			"ot_fuel_truck_g_standard":20,
+			
+			"ot_fuel_truck_s_standard":20,
 	},
 	"tankerMedium":{
 			"ot_armored_train_standard":10,
@@ -162,6 +181,9 @@
 			
 			"ot_train_g_standard":20,
 			"ot_armored_train_g_standard":10,
+			
+			"ot_train_s_standard":20,
+			"ot_armored_train_s_standard":10,
 	},
 	"tankerLarge":{
 		

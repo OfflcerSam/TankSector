@@ -1,0 +1,50 @@
+{
+  "variantId": "ot_armored_train_s_standard",
+  "hullId": "ot_armored_train_s",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "F30L": "ot_h762",
+        "F30R": "ot_h762",
+        "FSL30": "ot_h762",
+        "FSR30": "ot_h762",
+        "RearL30": "ot_h762",
+        "RearR30": "ot_h762",
+        "WS0003": "ot_h762"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "FrontL": "ot_762_turret",
+        "FrontR": "ot_762_turret",
+        "RearC": "ot_762_turret",
+        "WS0001": "ot_762_turret",
+        "WS0002": "ot_762_turret"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Central": "ot_d15mm_turret"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "ot_man_soviet_a",
+    "ot_man_soviet_a",
+    "ot_man_soviet"
+  ]
+}

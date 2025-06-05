@@ -1,0 +1,45 @@
+{
+  "variantId": "ot_train_s_standard",
+  "hullId": "ot_train_s",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliary_fuel_tanks",
+    "expanded_cargo_holds",
+    "additional_berthing"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "F30L": "ot_h762",
+        "F30R": "ot_h762",
+        "FSL30": "ot_h762",
+        "FSR30": "ot_h762"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Central": "ot_762_turret"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "RearC": "ot_762_turret"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "ot_man_german"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "variantId": "ot_supply_truck_s_standard",
+  "hullId": "ot_supply_truck_s",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 2,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": ["expanded_cargo_holds"],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": [
+    "ot_man_soviet",
+    "ot_man_soviet"
+  ]
+}
