@@ -1,8 +1,14 @@
 {
 	"designTypeColors":{
 		"USMJ":[99,107,47,200],
-		"GGSR":[221,0,0,200],
+		"Army Ordnance Department":[161,201,106,200],
+		"Liberty Forge & Electrics Co.":[108,160,220,200],
+		"GGSR":[155,198,167,200],
+		"ReichStahl Kriegswerke":[204,204,204,200],
+		"VolksMaschinenbau GmbH":[213,221,224,200],
 		"USSR":[237,27,36,200],
+		"StalProm Defense Combine":[255,76,76,200],
+		"NarTech Sovnash":[255,133,82,200],
     	},
 	"graphics":{
 			

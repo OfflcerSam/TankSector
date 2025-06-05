@@ -1,43 +1,43 @@
 name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,c/s,c/f,f/s,f/f,crew/s,crew/f,hints,tags,rarity,breakProb,minPieces,maxPieces,travel drive,number
 #US Tanks,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-M8 Greyhound,ot_M8Greyhound_Hull,Armored Car,Ford Motor Company,,2,250,95,500,,100,30,,300,200,300,90,160,60,OMNI,,45,0.5,1,,,2,4,10,20,1,20,9,4500,15,15,240,0.25,2,2,,,,,,,,"usash_bp, USA",,0.7,1,3,,1941
-M2a2 Light,ot_M2a2Light_Hull,Light Tank,Rock Island Arsenal,,2,300,135,500,,100,35,,350,150,250,90,160,100,FRONT,,45,0.5,1,,,2,4,10,25,1,20,8,5000,15,15,240,0.25,2,2,,,,,,,,"usash_bp, USA",,0.7,1,3,,1935
-M2a4 Light,ot_M2a4Light_Hull,Light Tank,American Car & Foundry Co.,,2,450,170,500,,100,40,,325,150,225,90,160,100,FRONT,,45,0.5,1,,,2,4,15,25,1,25,8,6000,15,15,240,0.25,2,2,,,,,,,,"usash_bp, USA",,0.7,1,3,,1940
-M2 Medium,ot_M2Medium_Hull,Medium Tank,Rock Island Arsenal,,5,500,200,500,,150,45,,225,120,150,60,120,200,FRONT,,45,0.5,1,,,2,6,20,40,1,30,8,7500,10,20,325,0.25,4,4,,,,,,,,"usash_bp, USA",,0.6,2,5,,1939
-M3 Lee,ot_M3Lee_Hull,Medium Tank,American Locomotive Co.,,6,650,260,1000,,150,45,,225,120,150,60,120,250,FRONT,,45,0.5,1,,,2,6,20,40,1,30,8,8000,10,20,325,0.25,4,4,,,,,,,,"usash_bp, USA",,0.6,2,5,,1941
-M4a2 Sherman,ot_M4Sherman_Hull,Medium Tank,Fisher Body,,8,1500,305,1000,,150,55,,200,110,150,60,120,300,FRONT,,45,0.4,1,,,2,5,25,50,1,45,8,15000,10,20,360,0.25,5,5,,,,,,,,"usash_bp, USA",,0.5,2,5,,1942
-M4a3E2 Jumbo,ot_M4Jumbo_Hull,Heavy Tank,Fisher Body,,15,1800,520,1500,,150,60,,180,90,125,60,120,500,FRONT,,60,0.4,0.9,,,2,5,20,50,1,45,7,25000,10,25,360,0.25,8,8,,,,,,,,"usash_bp, USA",,0.5,2,5,,1944
-M26 Pershing,ot_M26Pershing_Hull,Heavy Tank,Fisher Tank Arsenal,,20,2700,495,2000,,200,65,,190,110,125,60,120,650,FRONT,,60,0.4,0.9,,,2,5,20,60,1,45,7,40000,10,25,380,0.25,9,9,,,,,,,,"usash_bp, USA",,0.5,2,6,,1944
-T26E5 Jumbo Pershing,ot_T26Jumbo_Hull,Heavy Tank,Detroit Arsenal,,25,3200,650,2000,,250,70,,180,90,125,50,100,900,FRONT,,60,0.4,0.9,,,2,5,20,60,1,40,7,45000,10,25,380,0.25,10,10,,,,,,,,"usash_bp, USA",,0.5,2,6,,1944
+M8 Greyhound,ot_M8Greyhound_Hull,Armored Car,Army Ordnance Department,,2,250,95,500,,100,30,,300,200,300,90,160,60,OMNI,,45,0.5,1,,,2,4,10,20,1,20,9,4500,15,15,240,0.25,2,2,,,,,,,,"usash_bp, USA",,0.7,1,3,,1941
+M2a2 Light,ot_M2a2Light_Hull,Light Tank,Army Ordnance Department,,2,300,135,500,,100,35,,350,150,250,90,160,100,FRONT,,45,0.5,1,,,2,4,10,25,1,20,8,5000,15,15,240,0.25,2,2,,,,,,,,"usash_bp, USA",,0.7,1,3,,1935
+M2a4 Light,ot_M2a4Light_Hull,Light Tank,Army Ordnance Department,,2,450,170,500,,100,40,,325,150,225,90,160,100,FRONT,,45,0.5,1,,,2,4,15,25,1,25,8,6000,15,15,240,0.25,2,2,,,,,,,,"usash_bp, USA",,0.7,1,3,,1940
+M2 Medium,ot_M2Medium_Hull,Medium Tank,Army Ordnance Department,,5,500,200,500,,150,45,,225,120,150,60,120,200,FRONT,,45,0.5,1,,,2,6,20,40,1,30,8,7500,10,20,325,0.25,4,4,,,,,,,,"usash_bp, USA",,0.6,2,5,,1939
+M3 Lee,ot_M3Lee_Hull,Medium Tank,Army Ordnance Department,,6,650,260,1000,,150,45,,225,120,150,60,120,250,FRONT,,45,0.5,1,,,2,6,20,40,1,30,8,8000,10,20,325,0.25,4,4,,,,,,,,"usash_bp, USA",,0.6,2,5,,1941
+M4a2 Sherman,ot_M4Sherman_Hull,Medium Tank,Army Ordnance Department,,8,1500,305,1000,,150,55,,200,110,150,60,120,300,FRONT,,45,0.4,1,,,2,5,25,50,1,45,8,15000,10,20,360,0.25,5,5,,,,,,,,"usash_bp, USA",,0.5,2,5,,1942
+M4a3E2 Jumbo,ot_M4Jumbo_Hull,Heavy Tank,Army Ordnance Department,,15,1800,520,1500,,150,60,,180,90,125,60,120,500,FRONT,,60,0.4,0.9,,,2,5,20,50,1,45,7,25000,10,25,360,0.25,8,8,,,,,,,,"usash_bp, USA",,0.5,2,5,,1944
+M26 Pershing,ot_M26Pershing_Hull,Heavy Tank,Army Ordnance Department,,20,2700,495,2000,,200,65,,190,110,125,60,120,650,FRONT,,60,0.4,0.9,,,2,5,20,60,1,45,7,40000,10,25,380,0.25,9,9,,,,,,,,"usash_bp, USA",,0.5,2,6,,1944
+T26E5 Jumbo Pershing,ot_T26Jumbo_Hull,Heavy Tank,Army Ordnance Department,,25,3200,650,2000,,250,70,,180,90,125,50,100,900,FRONT,,60,0.4,0.9,,,2,5,20,60,1,40,7,45000,10,25,380,0.25,10,10,,,,,,,,"usash_bp, USA",,0.5,2,6,,1944
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #US Logistics,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GMC Supply Truck,ot_supply_truck,Freighter Truck,General Motors,,2,150,50,500,,100,30,2,225,100,150,60,120,50,FRONT,,45,0.4,1,,,1,25,250,50,1,60,9,7250,20,10,240,0.25,2,2,,,,,,,"CARRIER, FREIGHTER","usash_bp, USA",,0.7,1,5,,1935
-GMC Fuel Truck,ot_fuel_truck,Tanker Truck,General Motors,,1,150,50,500,,100,20,,225,100,150,60,120,50,FRONT,,45,0.4,1,,,1,10,50,300,1,125,9,7000,20,10,180,0.25,2,2,,,,,,,"CIVILIAN, TANKER","usash_bp, USA",,0.7,1,5,,1935
-Armored Train,ot_armored_train,Armored Freighter Train,American Locomotive Co.,canister_flak,30,5000,850,3000,,300,100,3,250,90,100,90,100,2500,FRONT,,90,0.4,0.9,,,15,40,500,100,1,150,9,65000,25,30,380,0.25,20,20,,,,,,,"CARRIER, FREIGHTER","usash_bp, USA",,0.4,2,8,,1938
-Train,ot_train,Freighter Train,American Locomotive Co.,,15,3000,200,1500,,250,70,1,350,120,200,90,100,1200,FRONT,,90,0.4,0.9,,,8,90,600,250,1,250,10,45000,15,20,260,0.25,10,10,,,,,,,"CIVILIAN, FREIGHTER, TANKER","usash_bp, USA",,0.5,2,8,,1935
+GMC Supply Truck,ot_supply_truck,Freighter Truck,Liberty Forge & Electrics Co.,,2,150,50,500,,100,30,2,225,100,150,60,120,50,FRONT,,45,0.4,1,,,1,25,250,50,1,60,9,7250,20,10,240,0.25,2,2,,,,,,,"CARRIER, FREIGHTER","usash_bp, USA",,0.7,1,5,,1935
+GMC Fuel Truck,ot_fuel_truck,Tanker Truck,Liberty Forge & Electrics Co.,,1,150,50,500,,100,20,,225,100,150,60,120,50,FRONT,,45,0.4,1,,,1,10,50,300,1,125,9,7000,20,10,180,0.25,2,2,,,,,,,"CIVILIAN, TANKER","usash_bp, USA",,0.7,1,5,,1935
+Armored Train,ot_armored_train,Armored Freighter Train,Army Ordnance Department,canister_flak,30,5000,850,3000,,300,100,3,250,90,100,90,100,2500,FRONT,,90,0.4,0.9,,,15,40,500,100,1,150,9,65000,25,30,380,0.25,20,20,,,,,,,"CARRIER, FREIGHTER","usash_bp, USA",,0.4,2,8,,1938
+Train,ot_train,Freighter Train,Liberty Forge & Electrics Co.,,15,3000,200,1500,,250,70,1,350,120,200,90,100,1200,FRONT,,90,0.4,0.9,,,8,90,600,250,1,250,10,45000,15,20,260,0.25,10,10,,,,,,,"CIVILIAN, FREIGHTER, TANKER","usash_bp, USA",,0.5,2,8,,1935
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #US Wings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Soldiers,ot_man_american,Infantry,USA,,0,10,15,100,,50,20,,250,300,600,360,360,20,FRONT,,0,0,0,,,1,1,,,,,9,100,,,,,,,,,,,,,,,,1,3,8,,1937
-Soldiers,ot_man_american_a,Infantry,USA,,0,15,25,150,,100,20,,300,350,600,360,360,25,FRONT,,0,0,0,,,1,1,,,,,9,150,,,,,,,,,,,,,,,,1,3,8,,1937
-Soldiers,ot_man_american_m,Infantry,USA,,0,30,40,200,,100,20,,300,300,600,360,360,30,FRONT,,0,0,0,,,1,1,,,,,9,200,,,,,,,,,,,,,,,,1,3,8,,1937
+Soldiers,ot_man_american,Infantry,USMJ,,0,10,15,100,,50,20,,250,300,600,360,360,20,FRONT,,0,0,0,,,1,1,,,,,9,100,,,,,,,,,,,,,,,,1,3,8,,1937
+Soldiers,ot_man_american_a,Infantry,USMJ,,0,15,25,150,,100,20,,300,350,600,360,360,25,FRONT,,0,0,0,,,1,1,,,,,9,150,,,,,,,,,,,,,,,,1,3,8,,1937
+Soldiers,ot_man_american_m,Infantry,USMJ,,0,30,40,200,,100,20,,300,300,600,360,360,30,FRONT,,0,0,0,,,1,1,,,,,9,200,,,,,,,,,,,,,,,,1,3,8,,1937
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # German Tanks,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sd.Kfz. 234/2 Puma,ot_234Puma_Hull,Armored Car,Büssing-NAG,,2,250,105,500,,100,30,,400,200,300,90,160,60,OMNI,,45,0.5,1,,,2,4,10,20,1,20,9,4500,15,15,240,0.25,2,2,,,,,,,,"gersh_bp, GER",,0.7,1,3,,1943
-VOMAG Waffentrager,ot_VOMAGWaffen_Hull,Gun Carrier,Vogtländische Maschinenfabrik AG,,3,200,80,500,,150,35,1,180,90,110,60,120,100,FRONT,,45,0.5,1,,,2,20,15,20,1,40,9,6000,15,15,240,0.25,2,2,,,,,,,CARRIER,"gersh_bp, GER",,0.7,1,3,,1935
-Pz. II F,ot_Pz2FLight_Hull,Light Tank,Daimler-Benz,,2,500,140,500,,100,35,,325,180,200,90,160,100,FRONT,,45,0.5,1,,,2,3,10,20,1,20,8,5000,15,15,240,0.25,2,2,,,,,,,,"gersh_bp, GER",,0.7,1,3,,1941
-Pz. III E,ot_Pz3EMedium_Hull,Medium Tank,Daimler-Benz,,4,660,170,500,,150,40,,275,150,170,90,160,150,FRONT,,45,0.5,1,,,2,5,25,40,1,30,8,7500,10,20,300,0.25,4,4,,,,,,,,"gersh_bp, GER",,0.6,2,5,,1938
-Pz. IV H,ot_Pz4HMedium_Hull,Medium Tank,Krupp,,7,1250,250,1000,,150,45,,200,105,135,60,120,250,FRONT,,45,0.5,1,,,2,5,25,50,1,40,8,12500,10,20,325,0.25,4,4,,,,,,,,"gersh_bp, GER",,0.5,2,5,,1943
-Pz. V Panther A,ot_Pz5PantherA_Hull,Medium Tank,Maschinenfabrik Augsburg-Nürnberg AG,,15,2400,400,1500,,200,60,,180,90,110,60,120,500,FRONT,,45,0.4,0.9,,,2,5,20,50,1,45,7,22500,10,25,360,0.25,8,8,,,,,,,,"gersh_bp, GER",,0.5,2,5,,1943
-Pz. V Panther II,ot_Pz5Panther2_Hull,Medium Tank,Maschinenfabrik Augsburg-Nürnberg AG,,20,2800,450,2000,,200,65,,180,90,110,60,120,700,FRONT,,45,0.4,0.9,,,2,5,20,50,1,45,7,45000,10,25,360,0.25,9,9,,,,,,,,"gersh_bp, GER",,0.5,2,5,,1946
-Pz. VI Tiger E,ot_Pz6TigerE_Hull,Heavy Tank,Henschel,,25,3000,550,2000,,200,70,,150,90,110,50,100,900,FRONT,,60,0.4,0.9,,,2,5,20,50,1,40,6,45000,10,25,380,0.25,10,10,,,,,,,,"gersh_bp, GER",,0.5,2,5,,1942
-Pz. VI Königstiger,ot_Pz6KingTiger_Hull,Heavy Tank,Henschel,,35,3500,700,2500,,250,70,,150,90,110,50,100,1000,FRONT,,60,0.4,0.9,,,2,5,25,50,1,40,6,60000,10,30,380,0.25,15,15,,,,,,,,"gersh_bp, GER",,0.5,2,5,,1946
+Sd.Kfz. 234/2 Puma,ot_234Puma_Hull,Armored Car,ReichStahl Kriegswerke,,2,250,105,500,,100,30,,400,200,300,90,160,60,OMNI,,45,0.5,1,,,2,4,10,20,1,20,9,4500,15,15,240,0.25,2,2,,,,,,,,"gersh_bp, GER",,0.7,1,3,,1943
+VOMAG Waffentrager,ot_VOMAGWaffen_Hull,Gun Carrier,ReichStahl Kriegswerke,,3,200,80,500,,150,35,1,180,90,110,60,120,100,FRONT,,45,0.5,1,,,2,20,15,20,1,40,9,6000,15,15,240,0.25,2,2,,,,,,,CARRIER,"gersh_bp, GER",,0.7,1,3,,1935
+Pz. II F,ot_Pz2FLight_Hull,Light Tank,ReichStahl Kriegswerke,,2,500,140,500,,100,35,,325,180,200,90,160,100,FRONT,,45,0.5,1,,,2,3,10,20,1,20,8,5000,15,15,240,0.25,2,2,,,,,,,,"gersh_bp, GER",,0.7,1,3,,1941
+Pz. III E,ot_Pz3EMedium_Hull,Medium Tank,ReichStahl Kriegswerke,,4,660,170,500,,150,40,,275,150,170,90,160,150,FRONT,,45,0.5,1,,,2,5,25,40,1,30,8,7500,10,20,300,0.25,4,4,,,,,,,,"gersh_bp, GER",,0.6,2,5,,1938
+Pz. IV H,ot_Pz4HMedium_Hull,Medium Tank,ReichStahl Kriegswerke,,7,1250,250,1000,,150,45,,200,105,135,60,120,250,FRONT,,45,0.5,1,,,2,5,25,50,1,40,8,12500,10,20,325,0.25,4,4,,,,,,,,"gersh_bp, GER",,0.5,2,5,,1943
+Pz. V Panther A,ot_Pz5PantherA_Hull,Medium Tank,ReichStahl Kriegswerke,,15,2400,400,1500,,200,60,,180,90,110,60,120,500,FRONT,,45,0.4,0.9,,,2,5,20,50,1,45,7,22500,10,25,360,0.25,8,8,,,,,,,,"gersh_bp, GER",,0.5,2,5,,1943
+Pz. V Panther II,ot_Pz5Panther2_Hull,Medium Tank,ReichStahl Kriegswerke,,20,2800,450,2000,,200,65,,180,90,110,60,120,700,FRONT,,45,0.4,0.9,,,2,5,20,50,1,45,7,45000,10,25,360,0.25,9,9,,,,,,,,"gersh_bp, GER",,0.5,2,5,,1946
+Pz. VI Tiger E,ot_Pz6TigerE_Hull,Heavy Tank,ReichStahl Kriegswerke,,25,3000,550,2000,,200,70,,150,90,110,50,100,900,FRONT,,60,0.4,0.9,,,2,5,20,50,1,40,6,45000,10,25,380,0.25,10,10,,,,,,,,"gersh_bp, GER",,0.5,2,5,,1942
+Pz. VI Königstiger,ot_Pz6KingTiger_Hull,Heavy Tank,ReichStahl Kriegswerke,,35,3500,700,2500,,250,70,,150,90,110,50,100,1000,FRONT,,60,0.4,0.9,,,2,5,25,50,1,40,6,60000,10,30,380,0.25,15,15,,,,,,,,"gersh_bp, GER",,0.5,2,5,,1946
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #German Logistics,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-VOMAG Bus,ot_VOMAG_bus,Civilian Transport Bus,Vogtländische Maschinenfabrik AG,,2,200,50,250,,50,20,2,180,90,110,60,120,100,FRONT,,45,0.5,1,,,1,120,50,20,1,40,9,6000,15,15,240,0.25,2,2,,,,,,,"CARRIER, CIVILIAN, LINER","gersh_bp, GER",,0.7,1,3,,1935
-Opel Supply Truck,ot_supply_truck_g,Freighter Truck,Opel,,2,150,50,500,,100,30,2,225,100,150,60,120,50,FRONT,,45,0.4,1,,,1,25,250,50,1,60,9,7250,20,10,240,0.25,2,2,,,,,,,"CARRIER, FREIGHTER","gersh_bp, GER",,0.7,1,5,,1935
-Opel Fuel Truck,ot_fuel_truck_g,Tanker Truck,Opel,,1,150,50,500,,100,20,,225,100,150,60,120,50,FRONT,,45,0.4,1,,,1,10,50,300,1,125,9,7000,20,10,180,0.25,2,2,,,,,,,"CIVILIAN, TANKER","gersh_bp, GER",,0.7,1,5,,1935
-Armored Train,ot_armored_train_g,Armored Freighter Train,Deutsche Reichsbahn,canister_flak,30,5000,850,3000,,300,100,3,250,90,100,90,100,2500,FRONT,,90,0.4,0.9,,,15,40,500,100,1,150,9,65000,25,30,380,0.25,20,20,,,,,,,"CARRIER, FREIGHTER","gersh_bp, GER",,0.4,2,8,,1938
-Train,ot_train_g,Freighter Train,Deutsche Reichsbahn,,15,3000,200,1500,,200,70,1,350,120,200,90,100,1200,FRONT,,90,0.4,0.9,,,8,90,600,250,1,250,10,45000,15,20,260,0.25,10,10,,,,,,,"CIVILIAN, FREIGHTER, TANKER","gersh_bp, GER",,0.5,2,8,,1935
+VOMAG Bus,ot_VOMAG_bus,Civilian Transport Bus,VolksMaschinenbau GmbH,,2,200,50,250,,50,20,2,180,90,110,60,120,100,FRONT,,45,0.5,1,,,1,120,50,20,1,40,9,6000,15,15,240,0.25,2,2,,,,,,,"CARRIER, CIVILIAN, LINER","gersh_bp, GER",,0.7,1,3,,1935
+Opel Supply Truck,ot_supply_truck_g,Freighter Truck,VolksMaschinenbau GmbH,,2,150,50,500,,100,30,2,225,100,150,60,120,50,FRONT,,45,0.4,1,,,1,25,250,50,1,60,9,7250,20,10,240,0.25,2,2,,,,,,,"CARRIER, FREIGHTER","gersh_bp, GER",,0.7,1,5,,1935
+Opel Fuel Truck,ot_fuel_truck_g,Tanker Truck,VolksMaschinenbau GmbH,,1,150,50,500,,100,20,,225,100,150,60,120,50,FRONT,,45,0.4,1,,,1,10,50,300,1,125,9,7000,20,10,180,0.25,2,2,,,,,,,"CIVILIAN, TANKER","gersh_bp, GER",,0.7,1,5,,1935
+Armored Train,ot_armored_train_g,Armored Freighter Train,ReichStahl Kriegswerke,canister_flak,30,5000,850,3000,,300,100,3,250,90,100,90,100,2500,FRONT,,90,0.4,0.9,,,15,40,500,100,1,150,9,65000,25,30,380,0.25,20,20,,,,,,,"CARRIER, FREIGHTER","gersh_bp, GER",,0.4,2,8,,1938
+Train,ot_train_g,Freighter Train,VolksMaschinenbau GmbH,,15,3000,200,1500,,200,70,1,350,120,200,90,100,1200,FRONT,,90,0.4,0.9,,,8,90,600,250,1,250,10,45000,15,20,260,0.25,10,10,,,,,,,"CIVILIAN, FREIGHTER, TANKER","gersh_bp, GER",,0.5,2,8,,1935
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #German Wings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Soldaten,ot_man_german,Infanterie,GGSR,,0,10,15,100,,50,20,,250,300,600,360,360,20,FRONT,,0,0,0,,,1,1,,,,,9,100,,,,,,,,,,,,,,,,1,3,8,,1937
@@ -45,23 +45,23 @@ Soldaten,ot_man_german_a,Infanterie,GGSR,,0,15,25,150,,100,20,,300,350,600,360,3
 Soldaten,ot_man_german_m,Infanterie,GGSR,,0,30,40,200,,100,20,,300,300,600,360,360,30,FRONT,,0,0,0,,,1,1,,,,,9,200,,,,,,,,,,,,,,,,1,3,8,,1937
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Soviet Tanks,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GAZ Truck,ot_GAZ_Hull,Gun Carrier,Gorkovsky Avtomobilny Zavod,,3,200,50,500,,150,35,1,200,100,110,60,120,100,FRONT,,45,0.5,1,,,2,20,15,20,1,40,9,5000,15,15,240,0.25,2,2,,,,,,,CARRIER,"sovsh_bp, SOV",,0.7,1,3,,1935
-BTR-152,ot_BTR152_Hull,Armored Car,Zavod imeni Stalina,,2,250,50,500,,100,30,,300,200,300,90,160,60,OMNI,,45,0.5,1,,,2,4,10,20,1,20,9,4500,15,15,240,0.25,2,2,,,,,,,,"sovsh_bp, SOV",,0.7,1,3,,1941
-T-70,ot_T-70Light_Hull,Light Tank,Gorkovsky Avtomobilny Zavod,,2,850,265,500,,100,35,,350,150,250,90,160,100,FRONT,,45,0.5,1,,,2,2,10,25,1,20,8,5000,15,15,240,0.25,2,2,,,,,,,,"sovsh_bp, SOV",,0.7,1,3,,1935
-BT-7,ot_BT-7_Hull,Light Tank,Kharkov Locomotive Factory,,2,900,130,500,,100,40,,325,150,225,90,160,100,FRONT,,45,0.5,1,,,2,3,15,25,1,25,8,6000,15,15,240,0.25,2,2,,,,,,,,"sovsh_bp, SOV",,0.7,1,3,,1940
-T-28E,ot_T-28_Hull,Medium Tank,Stalingrad Tractor Factory,,5,1000,275,500,,150,45,,225,120,150,60,120,200,FRONT,,45,0.5,1,,,2,6,20,40,1,30,8,8500,10,20,325,0.25,4,4,,,,,,,,"sovsh_bp, SOV",,0.6,2,5,,1939
-T-34,ot_T-34_Hull,Medium Tank,UralVagonZavod,,6,1250,270,1000,,150,45,,225,120,150,60,120,250,FRONT,,45,0.5,1,,,2,5,20,40,1,30,8,10000,10,20,325,0.25,4,4,,,,,,,,"sovsh_bp, SOV",,0.6,2,5,,1941
-T-34E STZ,ot_T-34E_Hull,Medium Tank,Stalingrad Tractor Factory,,8,1300,320,1000,,150,55,,200,110,150,60,120,300,FRONT,,45,0.4,1,,,2,5,25,50,1,45,8,15000,10,20,360,0.25,5,5,,,,,,,,"sovsh_bp, SOV",,0.5,2,5,,1942
-KV-1,ot_KV1_Hull,Heavy Tank,Kirov Plant,,15,1600,465,1500,,150,60,,180,90,125,60,120,500,FRONT,,60,0.4,0.9,,,2,5,20,50,1,45,7,25000,10,25,360,0.25,8,8,,,,,,,,"sovsh_bp, SOV",,0.5,2,5,,1944
-T-35,ot_T-35_Hull,Heavy Tank,Kharkov Locomotive Factory,,15,2000,205,1500,,150,60,,180,90,125,60,120,500,FRONT,,60,0.4,0.9,,,2,10,20,50,1,45,7,30000,10,25,380,0.25,9,9,,,,,,,,"sovsh_bp, SOV",,0.5,2,5,,1944
-IS-2,ot_IS-2_Hull,Heavy Tank,Kirov Plant,,20,2600,550,2000,,200,65,,190,110,125,60,120,650,FRONT,,60,0.4,0.9,,,2,4,20,60,1,45,7,45000,10,25,380,0.25,9,9,,,,,,,,"sovsh_bp, SOV",,0.5,2,6,,1944
-IS-3,ot_IS-3_Hull,Heavy Tank,Kirov Plant,,25,3000,700,2000,,250,70,,180,90,125,50,100,900,FRONT,,60,0.4,0.9,,,2,4,20,60,1,40,7,60000,10,25,380,0.25,10,10,,,,,,,,"sovsh_bp, SOV",,0.5,2,6,,1944
+GAZ Truck,ot_GAZ_Hull,Gun Carrier,StalProm Defense Combine,,3,200,50,500,,150,35,1,200,100,110,60,120,100,FRONT,,45,0.5,1,,,2,20,15,20,1,40,9,5000,15,15,240,0.25,2,2,,,,,,,CARRIER,"sovsh_bp, SOV",,0.7,1,3,,1935
+BTR-152,ot_BTR152_Hull,Armored Car,StalProm Defense Combine,,2,250,50,500,,100,30,,300,200,300,90,160,60,OMNI,,45,0.5,1,,,2,4,10,20,1,20,9,4500,15,15,240,0.25,2,2,,,,,,,,"sovsh_bp, SOV",,0.7,1,3,,1941
+T-70,ot_T-70Light_Hull,Light Tank,StalProm Defense Combine,,2,850,265,500,,100,35,,350,150,250,90,160,100,FRONT,,45,0.5,1,,,2,2,10,25,1,20,8,5000,15,15,240,0.25,2,2,,,,,,,,"sovsh_bp, SOV",,0.7,1,3,,1935
+BT-7,ot_BT-7_Hull,Light Tank,StalProm Defense Combine,,2,900,130,500,,100,40,,325,150,225,90,160,100,FRONT,,45,0.5,1,,,2,3,15,25,1,25,8,6000,15,15,240,0.25,2,2,,,,,,,,"sovsh_bp, SOV",,0.7,1,3,,1940
+T-28E,ot_T-28_Hull,Medium Tank,StalProm Defense Combine,,5,1000,275,500,,150,45,,225,120,150,60,120,200,FRONT,,45,0.5,1,,,2,6,20,40,1,30,8,8500,10,20,325,0.25,4,4,,,,,,,,"sovsh_bp, SOV",,0.6,2,5,,1939
+T-34,ot_T-34_Hull,Medium Tank,StalProm Defense Combine,,6,1250,270,1000,,150,45,,225,120,150,60,120,250,FRONT,,45,0.5,1,,,2,5,20,40,1,30,8,10000,10,20,325,0.25,4,4,,,,,,,,"sovsh_bp, SOV",,0.6,2,5,,1941
+T-34E STZ,ot_T-34E_Hull,Medium Tank,StalProm Defense Combine,,8,1300,320,1000,,150,55,,200,110,150,60,120,300,FRONT,,45,0.4,1,,,2,5,25,50,1,45,8,15000,10,20,360,0.25,5,5,,,,,,,,"sovsh_bp, SOV",,0.5,2,5,,1942
+KV-1,ot_KV1_Hull,Heavy Tank,StalProm Defense Combine,,15,1600,465,1500,,150,60,,180,90,125,60,120,500,FRONT,,60,0.4,0.9,,,2,5,20,50,1,45,7,25000,10,25,360,0.25,8,8,,,,,,,,"sovsh_bp, SOV",,0.5,2,5,,1944
+T-35,ot_T-35_Hull,Heavy Tank,StalProm Defense Combine,,15,2000,205,1500,,150,60,,180,90,125,60,120,500,FRONT,,60,0.4,0.9,,,2,10,20,50,1,45,7,30000,10,25,380,0.25,9,9,,,,,,,,"sovsh_bp, SOV",,0.5,2,5,,1944
+IS-2,ot_IS-2_Hull,Heavy Tank,StalProm Defense Combine,,20,2600,550,2000,,200,65,,190,110,125,60,120,650,FRONT,,60,0.4,0.9,,,2,4,20,60,1,45,7,45000,10,25,380,0.25,9,9,,,,,,,,"sovsh_bp, SOV",,0.5,2,6,,1944
+IS-3,ot_IS-3_Hull,Heavy Tank,StalProm Defense Combine,,25,3000,700,2000,,250,70,,180,90,125,50,100,900,FRONT,,60,0.4,0.9,,,2,4,20,60,1,40,7,60000,10,25,380,0.25,10,10,,,,,,,,"sovsh_bp, SOV",,0.5,2,6,,1944
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Soviet Logistics,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GAZ Supply Truck,ot_supply_truck_s,Freighter Truck,Gorkovsky Avtomobilny Zavod,,2,150,50,500,,100,30,2,225,100,150,60,120,50,FRONT,,45,0.4,1,,,1,25,250,50,1,60,9,7250,20,10,240,0.25,2,2,,,,,,,"CARRIER, FREIGHTER","sovsh_bp, SOV",,0.7,1,5,,1935
-GAZ Fuel Truck,ot_fuel_truck_s,Tanker Truck,Gorkovsky Avtomobilny Zavod,,1,150,50,500,,100,20,,225,100,150,60,120,50,FRONT,,45,0.4,1,,,1,10,50,300,1,125,9,7000,20,10,180,0.25,2,2,,,,,,,"CIVILIAN, TANKER","sovsh_bp, SOV",,0.7,1,5,,1935
-Armored Train,ot_armored_train_s,Armored Freighter Train,Kharkov Locomotive Factory,canister_flak,30,5000,850,3000,,300,100,3,250,90,100,90,100,2500,FRONT,,90,0.4,0.9,,,15,40,500,100,1,150,9,65000,25,30,380,0.25,20,20,,,,,,,"CARRIER, FREIGHTER","sovsh_bp, SOV",,0.4,2,8,,1938
-Train,ot_train_s,Freighter Train,Kharkov Locomotive Factory,,15,3000,200,1500,,250,70,1,350,120,200,90,100,1200,FRONT,,90,0.4,0.9,,,8,90,600,250,1,250,10,45000,15,20,260,0.25,10,10,,,,,,,"CIVILIAN, FREIGHTER, TANKER","sovsh_bp, SOV",,0.5,2,8,,1935
+GAZ Supply Truck,ot_supply_truck_s,Freighter Truck,NarTech Sovnash,,2,150,50,500,,100,30,2,225,100,150,60,120,50,FRONT,,45,0.4,1,,,1,25,250,50,1,60,9,7250,20,10,240,0.25,2,2,,,,,,,"CARRIER, FREIGHTER","sovsh_bp, SOV",,0.7,1,5,,1935
+GAZ Fuel Truck,ot_fuel_truck_s,Tanker Truck,NarTech Sovnash,,1,150,50,500,,100,20,,225,100,150,60,120,50,FRONT,,45,0.4,1,,,1,10,50,300,1,125,9,7000,20,10,180,0.25,2,2,,,,,,,"CIVILIAN, TANKER","sovsh_bp, SOV",,0.7,1,5,,1935
+Armored Train,ot_armored_train_s,Armored Freighter Train,StalProm Defense Combine,canister_flak,30,5000,850,3000,,300,100,3,250,90,100,90,100,2500,FRONT,,90,0.4,0.9,,,15,40,500,100,1,150,9,65000,25,30,380,0.25,20,20,,,,,,,"CARRIER, FREIGHTER","sovsh_bp, SOV",,0.4,2,8,,1938
+Train,ot_train_s,Freighter Train,NarTech Sovnash,,15,3000,200,1500,,250,70,1,350,120,200,90,100,1200,FRONT,,90,0.4,0.9,,,8,90,600,250,1,250,10,45000,15,20,260,0.25,10,10,,,,,,,"CIVILIAN, FREIGHTER, TANKER","sovsh_bp, SOV",,0.5,2,8,,1935
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Soviet Wings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Soldaty,ot_man_soviet,Pekhota,USSR,,0,10,15,100,,50,20,,250,300,600,360,360,20,FRONT,,0,0,0,,,1,1,,,,,9,100,,,,,,,,,,,,,,,,1,3,8,,1937
