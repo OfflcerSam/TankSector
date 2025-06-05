@@ -31,18 +31,18 @@
 	"alignments":{
 		"corporate":-0.5,
 		"technocratic":0.1,
-		"militarist":0.4,
+		"militarist":0.5,
 		"diplomatic":0.2,
 		"ideological":1.0,
 	},
-	"diplomacyTraits":["paranoid", "stalwart", "likes_ai", "law_and_order", "neutralist"],
+	"diplomacyTraits":["paranoid", "stalwart", "hates_ai", "law_and_order", "selfrighteous", "helps_allies"],
     
     # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
-    "colonyExpeditionChance":1,	# baseline expansion behaviour
+    "colonyExpeditionChance":1.5,	# baseline expansion behaviour
     "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
     
     "groundBattleSettings":{
-        "moraleDamageTakenMult":0.85,
+        "moraleDamageTakenMult":0.8,
     },
     
     #"specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.PlanetNamer",
@@ -55,12 +55,12 @@
 	"vengeanceFleetSizeMult":1.8,
 	
 	
-	"asteroidMiningFleetName": "Promyslovaya Gorno-Dobyvayushchaya Flotiliya",
-	"invasionFleetname": "Komandnaya Flotiliya Morskogo Vtorzheniya",
-	"invasionSupportFleetname": "Flotiliya Podderzhki Morskogo Vtorzheniya",
-	"responseFleetname": "Operativnaya Udarnaya Flotiliya VMF",
-	"defenceFleetname": "Oboronitel'naya Flotiliya VMF",
-	"suppressionFleetname": "Flotiliya Podderzhki Morskoy Militsii",
+	"asteroidMiningFleetName":"Promyslovaya Gorno-Dobyvayushchaya Flotiliya",
+	"invasionFleetname":"Komandnaya Flotiliya Morskogo Vtorzheniya",
+	"invasionSupportFleetname":"Flotiliya Podderzhki Morskogo Vtorzheniya",
+	"responseFleetname":"Operativnaya Udarnaya Flotiliya VMF",
+	"defenceFleetname":"Oboronitel'naya Flotiliya VMF",
+	"suppressionFleetname":"Flotiliya Podderzhki Morskoy Militsii",
 
 	
     "startShipsSolo":[

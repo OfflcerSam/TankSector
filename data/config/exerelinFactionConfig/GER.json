@@ -39,7 +39,7 @@
 		"diplomatic":-0.2,
 		"ideological":1.0,
 	},
-	"diplomacyTraits":["paranoid", "envious", "stalwart", "temperamental", "likes_ai", "law_and_order"],
+	"diplomacyTraits":["paranoid", "envious", "stalwart", "selfrighteous", "likes_ai", "law_and_order", "monstrous"],
     
     # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
     "colonyExpeditionChance":1,	# baseline expansion behaviour
@@ -59,12 +59,12 @@
 	"vengeanceFleetSizeMult":1.25,
 	
 	
-	"asteroidMiningFleetName": "Kommerzielle Bergbauflotte",
-	"invasionFleetname": "Kommandoflotte für Invasionsoperationen",
-	"invasionSupportFleetname": "Unterstützungsflotte für Invasionsoperationen",
-	"responseFleetname": "Marine-Einsatzflotte",
-	"defenceFleetname": "Marine-Verteidigungsflotte",
-	"suppressionFleetname": "Marineunterstützungsflotte der Ordnungskräfte",
+	"asteroidMiningFleetName":"Kommerzielle Bergbauflotte",
+	"invasionFleetname":"Kommandoflotte für Invasionsoperationen",
+	"invasionSupportFleetname":"Unterstützungsflotte für Invasionsoperationen",
+	"responseFleetname":"Marine-Einsatzflotte",
+	"defenceFleetname":"Marine-Verteidigungsflotte",
+	"suppressionFleetname":"Marineunterstützungsflotte der Ordnungskräfte",
 
 	
     "startShipsSolo":[
