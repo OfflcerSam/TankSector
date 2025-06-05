@@ -1,9 +1,9 @@
 {
 	id:"USA",
-	"color":[99,107,47,255],
-	"baseUIColor":[99,107,47,255],
-    "darkUIColor":[99,107,47,175],
-    "gridUIColor":[99,107,47,75],
+	"color":[161,201,106,255],
+	"baseUIColor":[161,201,106,255],
+    "darkUIColor":[161,201,106,175],
+    "gridUIColor":[161,201,106,75],
 	
 	"secondaryUIColor":[255,255,255,255],
     "secondarySegments":4,

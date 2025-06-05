@@ -1,11 +1,11 @@
 {
 	id:"GER",
-	"color":[86,84,77,255],
-	"baseUIColor":[86,84,77, 255],
-    "darkUIColor":[86,84,77, 175],
-    "gridUIColor":[86,84,77,75],
+	"color":[155,198,167,255],
+	"baseUIColor":[155,198,167, 255],
+    "darkUIColor":[155,198,167, 175],
+    "gridUIColor":[155,198,167,75],
 	
-	"secondaryUIColor":[221,0,0,255],
+	"secondaryUIColor":[204,204,204,255],
     "secondarySegments":4,
 
 	
