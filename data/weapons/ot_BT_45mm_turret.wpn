@@ -6,11 +6,13 @@
   "size": "MEDIUM",
   "turretSprite": "graphics/weapons/BT7_45mm_Turret.png",
   "turretGunSprite": "graphics/weapons/BT7_45mm_Turret_gun.png",
-  "renderHints":[RENDER_BARREL_BELOW],
   "hardpointSprite": "",
   "visualRecoil": 8,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
   "turretOffsets": [
-    0,
+    37,
     0
   ],
   "turretAngleOffsets": [

@@ -9,8 +9,8 @@
   "hardpointSprite": "",
   "visualRecoil": 8,
   "turretOffsets": [
-    0,
-    0
+    33,
+    -2.5
   ],
   "turretAngleOffsets": [
     0
