@@ -40,9 +40,10 @@
   "shipsWhenImporting": {
     "tags":[],
     "hulls":[
-			"ot_M2Medium_Hull",
 			"ot_M3Lee_Hull",
 			"ot_M4Sherman_Hull",
+			"ot_supply_truck",
+			"ot_fuel_truck",
 	],
   },
   

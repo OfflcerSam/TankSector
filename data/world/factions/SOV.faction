@@ -42,6 +42,8 @@
     "hulls":[
 			"ot_BT-7_Hull",
 			"ot_T-34_Hull",
+			"ot_supply_truck_s",
+			"ot_fuel_truck_s",
 	],
   },
   

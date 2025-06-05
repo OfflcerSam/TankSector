@@ -43,6 +43,8 @@
     "hulls":[
 			"ot_Pz3EMedium_Hull",
 			"ot_Pz4HMedium_Hull",
+			"ot_supply_truck_g",
+			"ot_fuel_truck_g",
 	],
   },
   

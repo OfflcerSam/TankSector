@@ -2,74 +2,74 @@
 	# should be a copy of "combatSmall", minus standards that are annoying to fight in low numbers
 	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
 	"combatSmallForSmallFleet":{
-			"ot_M2Medium_Hull_screen":10,
-			"ot_M2Medium_Hull_standard":20,
-			"ot_M3Lee_Hull_standard":20,
-			"ot_M4Sherman_Hull_standard":10,
-			"ot_M4Sherman_Hull_upgun":5,
+			"ot_M2Medium_Hull_screen":3,
+			"ot_M2Medium_Hull_standard":6,
+			"ot_M3Lee_Hull_standard":6,
+			"ot_M4Sherman_Hull_standard":8,
+			"ot_M4Sherman_Hull_upgun":2,
 			
-			"ot_Pz3EMedium_Hull_standard":20,
-			"ot_Pz3EMedium_Hull_upgun":10,
-			"ot_Pz4HMedium_Hull_standard":10,
+			"ot_Pz3EMedium_Hull_standard":10,
+			"ot_Pz3EMedium_Hull_upgun":8,
+			"ot_Pz4HMedium_Hull_standard":8,
 			"ot_Pz4HMedium_Hull_support":5,
 	},
 	"combatSmall":{
-			"ot_M2a2Light_Hull_standard":20,
-			"ot_M8Greyhound_Hull_standard":10,
-			"ot_M2a2Light_Hull_screen":10,
-			"ot_M2a4Light_Hull_standard":20,
-			"ot_M2a4Light_Hull_screen":10,
-			"ot_M2Medium_Hull_standard":20,
-			"ot_M2Medium_Hull_screen":10,
-			"ot_M3Lee_Hull_standard":15,
+			"ot_M2a2Light_Hull_standard":4,
+			"ot_M8Greyhound_Hull_standard":6,
+			"ot_M2a2Light_Hull_screen":3,
+			"ot_M2a4Light_Hull_standard":6,
+			"ot_M2a4Light_Hull_screen":5,
+			"ot_M2Medium_Hull_standard":10,
+			"ot_M2Medium_Hull_screen":5,
+			"ot_M3Lee_Hull_standard":10,
 			"ot_M4Sherman_Hull_standard":5,
 			
-			"ot_VOMAGWaffen_Hull_flak":10,
-			"ot_234Puma_Hull_standard":10,
-			"ot_234Puma_Hull_screen":5,
-			"ot_Pz2FLight_Hull_standard":20,
-			"ot_Pz2FLight_Hull_screen":15,
-			"ot_Pz3EMedium_Hull_standard":20,
-			"ot_Pz3EMedium_Hull_upgun":10,
-			"ot_Pz4HMedium_Hull_aa":5,
+			"ot_VOMAGWaffen_Hull_flak":4,
+			"ot_234Puma_Hull_standard":6,
+			"ot_234Puma_Hull_screen":3,
+			"ot_Pz2FLight_Hull_standard":8,
+			"ot_Pz2FLight_Hull_screen":3,
+			"ot_Pz3EMedium_Hull_standard":10,
+			"ot_Pz3EMedium_Hull_upgun":8,
+			"ot_Pz4HMedium_Hull_aa":4,
 			"ot_Pz4HMedium_Hull_screen":5,
 			"ot_Pz4HMedium_Hull_support":5,
-			"ot_Pz4HMedium_Hull_standard":10,
+			"ot_Pz4HMedium_Hull_standard":6,
 			
-			"ot_BT-7_Hull_standard":15,
+			"ot_BT-7_Hull_standard":10,
 	},
 	"combatMedium":{
-			"ot_M3Lee_Hull_standard":10,
-			"ot_M4Sherman_Hull_standard":30,
-			"ot_M4Sherman_Hull_upgun":10,
-			"ot_M4Sherman_Hull_aa":10,
-			"ot_M4Sherman_Hull_flak":5,
-			"ot_M4Jumbo_Hull_standard":10,
+			"ot_M3Lee_Hull_standard":6,
+			"ot_M4Sherman_Hull_standard":10,
+			"ot_M4Sherman_Hull_upgun":5,
+			"ot_M4Sherman_Hull_aa":5,
+			"ot_M4Sherman_Hull_flak":4,
+			"ot_M4Jumbo_Hull_standard":3,
 			
-			"ot_VOMAGWaffen_Hull_flak":10,
-			"ot_Pz4HMedium_Hull_aa":10,
-			"ot_Pz4HMedium_Hull_screen":10,
-			"ot_Pz4HMedium_Hull_standard":30,
-			"ot_Pz4HMedium_Hull_support":10,
+			"ot_VOMAGWaffen_Hull_flak":5,
+			"ot_Pz4HMedium_Hull_aa":5,
+			"ot_Pz4HMedium_Hull_screen":5,
+			"ot_Pz4HMedium_Hull_standard":10,
+			"ot_Pz4HMedium_Hull_support":6,
 			"ot_Pz5PantherAMedium_Hull_flak":5,
-			"ot_Pz5PantherAMedium_Hull_standard":10,
-			"ot_Pz5Panther2Medium_Hull_standard":5,
-			"ot_Pz6TigerE_Hull_standard":5,
+			"ot_Pz5PantherAMedium_Hull_standard":7,
+			"ot_Pz5Panther2Medium_Hull_standard":4,
+			"ot_Pz6TigerE_Hull_standard":2,
 			
 	},
 	"combatLarge":{
-			"ot_M4Jumbo_Hull_standard":15,
-			"ot_M4Jumbo_Hull_upgun":20,
-			"ot_M4Jumbo_Hull_support": 10,
-			"ot_M4Sherman_Hull_flak":10,
-			"ot_M26Pershing_Hull_standard":15,
-			"ot_T26Jumbo_Hull_standard":10,
+			"ot_M4Jumbo_Hull_standard":8,
+			"ot_M4Jumbo_Hull_upgun":8,
+			"ot_M4Jumbo_Hull_support": 5,
+			"ot_M4Sherman_Hull_flak":5,
+			"ot_M26Pershing_Hull_standard":10,
+			"ot_T26Jumbo_Hull_standard":6,
 			
-			"ot_Pz5PantherAMedium_Hull_flak":10,
-			"ot_Pz5PantherAMedium_Hull_standard":20,
-			"ot_Pz5Panther2Medium_Hull_standard":10,
-			"ot_Pz6TigerE_Hull_standard":15,
-			"ot_Pz6KingTiger_Hull_standard":10,
+			"ot_Pz5PantherAMedium_Hull_flak":5,
+			"ot_Pz5PantherAMedium_Hull_standard":10,
+			"ot_Pz5Panther2Medium_Hull_standard":8,
+			"ot_Pz6TigerE_Hull_standard":7,
+			"ot_Pz6KingTiger_Hull_standard":5,
 	},
 	"combatCapital":{
 	
@@ -93,19 +93,19 @@
 
 	# carriers
 	"carrierSmall":{
-			"ot_supply_truck_standard":20,
-			"ot_supply_truck_defender":10,
+			"ot_supply_truck_standard":10,
+			"ot_supply_truck_defender":8,
 			
-			"ot_supply_truck_g_standard":20,
-			"ot_supply_truck_g_defender":10,
+			"ot_supply_truck_g_standard":10,
+			"ot_supply_truck_g_defender":8,
+			"ot_VOMAG_bus_standard":5,
 			
-			"ot_supply_truck_s_standard":20,
-			"ot_supply_truck_s_defender":10,
+			"ot_supply_truck_s_standard":10,
+			"ot_supply_truck_s_defender":8,
 	},
 	"carrierMedium":{
 			"ot_armored_train_standard":10,
 			
-			"ot_VOMAG_bus_standard":15,
 			"ot_armored_train_g_standard":10,
 			
 			"ot_armored_train_s_standard":10,
@@ -130,37 +130,38 @@
 	"utility":{
 	},
 	"civilianRandom":{
-			"ot_train_standard":10,
-			"ot_supply_truck_standard":20,
-			"ot_fuel_truck_standard":20,
+			"ot_train_standard":7,
+			"ot_supply_truck_standard":10,
+			"ot_fuel_truck_standard":10,
 			
-			"ot_train_g_standard":10,
-			"ot_supply_truck_g_standard":20,
-			"ot_fuel_truck_g_standard":20,
-			"ot_VOMAG_bus_standard":15,
+			"ot_train_g_standard":6,
+			"ot_supply_truck_g_standard":10,
+			"ot_fuel_truck_g_standard":10,
+			"ot_VOMAG_bus_standard":8,
 			
-			"ot_train_s_standard":10,
-			"ot_supply_truck_s_standard":20,
-			"ot_fuel_truck_s_standard":20,
+			"ot_train_s_standard":7,
+			"ot_supply_truck_s_standard":10,
+			"ot_fuel_truck_s_standard":10,
 	},
 	
 	# freighters and such
 	"freighterSmall":{
-			"ot_supply_truck_standard":20,
+			"ot_supply_truck_standard":10,
 			
-			"ot_supply_truck_g_standard":20,
+			"ot_supply_truck_g_standard":10,
 			
-			"ot_supply_truck_s_standard":20,
+			"ot_supply_truck_s_standard":10,
 	},
 	"freighterMedium":{
-			"ot_armored_train_standard":10,
-			"ot_train_standard":20,
+			"ot_train_standard":10,
+			"ot_armored_train_standard":7,
+
 			
-			"ot_train_g_standard":20,
-			"ot_armored_train_g_standard":10,
+			"ot_train_g_standard":10,
+			"ot_armored_train_g_standard":7,
 			
-			"ot_train_s_standard":20,
-			"ot_armored_train_s_standard":10,
+			"ot_train_s_standard":10,
+			"ot_armored_train_s_standard":7,
 
 
 	},
@@ -169,21 +170,22 @@
 	},
 	
 	"tankerSmall":{
-			"ot_fuel_truck_standard":20,
+			"ot_fuel_truck_standard":10,
 			
-			"ot_fuel_truck_g_standard":20,
+			"ot_fuel_truck_g_standard":10,
 			
-			"ot_fuel_truck_s_standard":20,
+			"ot_fuel_truck_s_standard":10,
 	},
 	"tankerMedium":{
-			"ot_armored_train_standard":10,
-			"ot_train_standard":20,
+			"ot_train_standard":10,
+			"ot_armored_train_standard":6,
+
 			
-			"ot_train_g_standard":20,
-			"ot_armored_train_g_standard":10,
+			"ot_train_g_standard":10,
+			"ot_armored_train_g_standard":6,
 			
-			"ot_train_s_standard":20,
-			"ot_armored_train_s_standard":10,
+			"ot_train_s_standard":10,
+			"ot_armored_train_s_standard":6,
 	},
 	"tankerLarge":{
 		

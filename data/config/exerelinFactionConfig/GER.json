@@ -74,7 +74,7 @@
 	],
     "startShipsCombatSmall":[
       ["ot_Pz3EMedium_Hull_upgun", "ot_Pz3EMedium_Hull_standard", "ot_Pz4HMedium_Hull_aa", "ot_234Puma_Hull_standard", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard", "ot_supply_truck_g_standard"],
-      ["ot_Pz3EMedium_Hull_standard", "ot_VOMAGWaffen_Hull_flak", "ot_Pz4HMedium_Hull_screen", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard", "ot_supply_truck_g_standard"]
+      ["ot_Pz4HMedium_Hull_support", "ot_Pz3EMedium_Hull_standard", "ot_VOMAGWaffen_Hull_flak", "ot_Pz4HMedium_Hull_screen", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard", "ot_supply_truck_g_standard"]
     ],
     "startShipsCombatLarge":[
       ["ot_Pz5Panther2Medium_Hull_standard", "ot_Pz4HMedium_Hull_standard", "ot_Pz4HMedium_Hull_screen", "ot_Pz4HMedium_Hull_standard", "ot_Pz3EMedium_Hull_upgun", "ot_Pz3EMedium_Hull_upgun", "ot_Pz3EMedium_Hull_upgun", "ot_Pz3EMedium_Hull_standard", "ot_Pz4HMedium_Hull_aa", "ot_fuel_truck_g_standard", "ot_supply_truck_g_standard", "ot_Pz2FLight_Hull_standard", "ot_Pz2FLight_Hull_standard", "ot_supply_g_truck_standard", "ot_VOMAGWaffen_Hull_flak"],

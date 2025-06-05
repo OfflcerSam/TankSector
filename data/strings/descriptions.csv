@@ -114,7 +114,7 @@ ot_mosin,WEAPON,"Standard surplus rifle of choice for most, and for you too comr
 ot_ppsh,WEAPON,It fires fast and only comes in the drum mag.,,,
 ot_h762,WEAPON,"Standard Hull 7.92mm, you might see this for many built-in weapons.  The loading mechanism has been automated, it reloads in of 50 round belts at a time while keeping 250 rounds in reserve total.",,,
 ot_h127,WEAPON,"Standard Hull 12.7mm, you might see this for many built-in weapons. The loading mechanism has been automated, it feeds in one 45 round belt at a time while holding 105 rounds in reserve total.",,,
-ot_d15mm_turret,WEAPON,,,,
+ot_q15mm_turret,WEAPON,,,,
 ot_BT_45mm_turret,WEAPON,"Standard BT-7 turret, equipped with a 45mm. The loading mechanism has been semi-automated, it has a ready rack of 4 rounds that is reloaded manually one at a time.",,,
 ot_T34_57mm_turret,WEAPON,,,,
 ot_T28_Short76mm_turret,WEAPON,,,,
