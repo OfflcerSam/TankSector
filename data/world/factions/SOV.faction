@@ -110,7 +110,7 @@
     "tags": ["sovwe_bp","SOV"],
     "weapons": [
 			"ot_762_turret",
-			"ot_d14mm_turret",
+			"ot_q14mm_turret",
 			"ot_T60_20mm_turret",
 			"ot_BT_45mm_turret",
 			"ot_T34_57mm_turret",
@@ -157,7 +157,7 @@
 	},
 	"weaponSellFrequency":{
 			"ot_762_turret":15,
-			"ot_d14mm_turret":10,
+			"ot_q14mm_turret":10,
 			"ot_T60_20mm_turret":10,
 			"ot_BT_45mm_turret":10,
 			"ot_T34_57mm_turret":10,
