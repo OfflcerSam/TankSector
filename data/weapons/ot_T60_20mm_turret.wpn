@@ -1,0 +1,42 @@
+{
+  "id": "ot_T60_20mm_turret",
+  "specClass": "projectile",
+  "projectileSpecId": "ot_smallCannon_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/T-60_20mm_Turret.png",
+  "turretGunSprite": "graphics/weapons/T-60_20mm_Turret_gun.png",
+  "hardpointSprite": "",
+  "visualRecoil": 8,
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 40,
+    "spread": 8,
+    "particleSizeMin": 8,
+    "particleSizeRange": 15,
+    "particleDuration": 0.05,
+    "particleCount": 30,
+    "particleColor": [
+      255,
+      120,
+      50,
+      245
+    ]
+  },
+  "fireSoundTwo": "ot_sound_sov20mm_fire"
+}

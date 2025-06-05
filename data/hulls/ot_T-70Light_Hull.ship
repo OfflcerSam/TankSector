@@ -2,59 +2,51 @@
   "hullName": "T-70",
   "hullId": "ot_T-70Light_Hull",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/icons/placeholder.png",
+  "spriteName": "graphics/ships/T-70Light_Hull.png",
   "style": "LOW_TECH",
-  "height": 16,
-  "width": 16,
-  "center": [8, 8],
-  "collisionRadius": 10,
+  "height": 78,
+  "width": 44,
+  "center": [22, 39],
+  "collisionRadius": 47.5,
   "shieldCenter": [0, 0],
-  "shieldRadius": 10,
+  "shieldRadius": 47.5,
   "viewOffset": 0,
+  "builtInMods": [
+    "rugged"
+  ],
   "weaponSlots": [
     {
-      "id": "Hand",
-      "size": "SMALL",
-      "type": "UNIVERSAL",
-      "mount": "HIDDEN",
-      "arc": 40,
+      "id": "Turret",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
       "angle": 0,
-      "locations": [-2, -0]
-    },
-	{
-      "id": "Second",
-      "size": "SMALL",
-      "type": "UNIVERSAL",
-      "mount": "HIDDEN",
-      "arc": 25,
-      "angle": 0,
-      "locations": [-2, -0]
+      "locations": [-1, 4]
     }
   ],
   "engineSlots": [
     {
-      "location": [-8, -2.5],
-      "length": 30,
-      "width": 10,
-      "angle": -180,
-      "contrailSize": 30,
-      "style": "LOW_TECH"
-    },
-    {
-      "location": [-8, 2.5],
+      "location": [-37, -17.5],
       "length": 30,
       "width": 10,
       "angle": 180,
       "contrailSize": 30,
       "style": "LOW_TECH"
+    },
+    {
+      "location": [-37, 17.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
     }
   ],
   "bounds": [
-    0.5, 4.5,
-    -2, 7,
-    -6.5, 4.5,
-    -6.5, -4.5,
-    -2, -7,
-    0.5, -4.5
+    -36, 15,
+    34, 15,
+    34, -15,
+    -36, -15
   ]
 }
