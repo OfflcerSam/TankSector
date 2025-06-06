@@ -288,7 +288,7 @@
 			"agent":{"name":"Federal Agent"},
 			"specialAgent":{"name":"CIA Operative"},
 			
-			"aristocrat":{name:"Chief Executive Officer"},
+			"aristocrat":{"name":"Chief Executive Officer"},
 
 		},
 		"posts":{
